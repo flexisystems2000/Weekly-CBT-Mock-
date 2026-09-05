@@ -1,795 +1,2618 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexi Educational Consult - CBT Exam Simulator</title>
-    <!-- MathJax for rendering LaTeX formulas -->
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <style>
-        :root {
-            --primary-green: #1b5e20;
-            --light-green: #e8f5e9;
-            --accent-green: #2e7d32;
-            --dark-gray: #2c3e50;
-            --light-bg: #f1f8f1;
-            --border-color: #c8e6c9;
-        }
-
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
-
-        body {
-            background-color: var(--light-bg);
-            color: var(--dark-gray);
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            user-select: none;
-        }
-
-        header {
-            background-color: var(--primary-green);
-            color: white;
-            padding: 15px 30px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 15px;
-            box-shadow: 0 3px 8px rgba(0,0,0,0.15);
-        }
-
-        header h1 {
-            font-size: 1.3rem;
-            font-weight: 700;
-        }
-
-        header p {
-            font-size: 0.75rem;
-            color: #c8e6c9;
-        }
-
-        .header-meta {
-            display: flex;
-            align-items: center;
-            gap: 15px;
-            flex-wrap: wrap;
-        }
-
-        #subject-display {
-            background-color: var(--accent-green);
-            padding: 6px 14px;
-            border-radius: 4px;
-            font-size: 0.9rem;
-            font-weight: 600;
-        }
-
-        #timer {
-            background-color: #2e7d32;
-            border: 1px solid #81c784;
-            color: white;
-            padding: 6px 14px;
-            border-radius: 4px;
-            font-family: monospace;
-            font-size: 1.1rem;
-            font-weight: bold;
-            letter-spacing: 1px;
-            white-space: nowrap;
-        }
-
-        main {
-            flex-grow: 1;
-            max-width: 1450px;
-            width: 100%;
-            margin: 25px auto;
-            padding: 0 20px;
-            display: grid;
-            grid-template-columns: 3fr 1fr;
-            gap: 25px;
-        }
-
-        .question-card {
-            background: white;
-            padding: 35px;
-            border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(27,94,32,0.06);
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            border-top: 5px solid var(--primary-green);
-        }
-
-        .question-top-bar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 14px;
-            margin-bottom: 25px;
-        }
-
-        #question-counter {
-            font-weight: 700;
-            color: var(--primary-green);
-            font-size: 1.05rem;
-        }
-
-        .calc-toggle-btn {
-            background: var(--light-green);
-            color: var(--primary-green);
-            border: 1px solid var(--border-color);
-            padding: 6px 14px;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 0.85rem;
-            font-weight: 600;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            transition: background 0.2s;
-        }
-
-        .calc-toggle-btn:hover {
-            background: #dcedc8;
-        }
-
-        .calc-toggle-btn svg {
-            width: 16px;
-            height: 16px;
-            fill: var(--primary-green);
-        }
-
-        #question-text {
-            font-size: 1.2rem;
-            line-height: 1.6;
-            color: #1a1a1a;
-            margin-bottom: 30px;
-            min-height: 100px;
-        }
-
-        #options-container {
-            display: flex;
-            flex-direction: column;
-            gap: 14px;
-        }
-
-        .option-label {
-            display: flex;
-            align-items: center;
-            gap: 14px;
-            padding: 15px 18px;
-            border: 1px solid #dcdcdc;
-            border-radius: 6px;
-            cursor: pointer;
-            transition: all 0.2s;
-            background: white;
-        }
-
-        .option-label:hover {
-            background: var(--light-green);
-            border-color: var(--accent-green);
-        }
-
-        .option-label.selected {
-            background: var(--light-green);
-            border-color: var(--primary-green);
-            box-shadow: inset 0 0 0 1px var(--primary-green);
-        }
-
-        .option-label input {
-            accent-color: var(--primary-green);
-            width: 18px;
-            height: 18px;
-        }
-
-        .nav-buttons {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-top: 1px solid var(--border-color);
-            padding-top: 20px;
-            margin-top: 35px;
-        }
-
-        .btn {
-            padding: 10px 28px;
-            border-radius: 4px;
-            font-weight: 600;
-            cursor: pointer;
-            border: none;
-            transition: opacity 0.2s;
-        }
-
-        .btn:disabled {
-            opacity: 0.35;
-            cursor: not-allowed;
-        }
-
-        .btn-prev {
-            background: #e0e0e0;
-            color: #333;
-        }
-
-        .btn-next {
-            background: var(--primary-green);
-            color: white;
-        }
-
-        .btn-next:hover {
-            background: var(--accent-green);
-        }
-
-        .sidebar-panel {
-            background: white;
-            padding: 22px;
-            border-radius: 10px;
-            box-shadow: 0 4px 15px rgba(27,94,32,0.06);
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            border-top: 5px solid var(--accent-green);
-        }
-
-        .sidebar-title {
-            font-weight: 700;
-            color: var(--primary-green);
-            margin-bottom: 12px;
-            border-bottom: 1px solid var(--border-color);
-            padding-bottom: 8px;
-            font-size: 1.05rem;
-        }
-
-        #palette-grid {
-            display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            gap: 8px;
-            max-height: 320px;
-            overflow-y: auto;
-            padding: 4px;
-            margin-bottom: 15px;
-        }
-
-        .palette-btn {
-            height: 38px;
-            border-radius: 4px;
-            border: 1px solid #ccc;
-            font-weight: 600;
-            font-size: 0.85rem;
-            background: #f9f9f9;
-            color: #444;
-            cursor: pointer;
-            transition: all 0.1s;
-        }
-
-        .palette-btn:hover {
-            background: var(--light-green);
-        }
-
-        .palette-btn.answered {
-            background: var(--primary-green);
-            color: white;
-            border-color: var(--primary-green);
-        }
-
-        .palette-btn.current {
-            outline: 2px solid var(--primary-green);
-            outline-offset: 1px;
-        }
-
-        .btn-submit {
-            background: var(--primary-green);
-            color: white;
-            width: 100%;
-            padding: 12px;
-            border-radius: 6px;
-            font-weight: bold;
-            font-size: 1rem;
-            cursor: pointer;
-            border: none;
-            transition: background 0.2s;
-            margin-top: 10px;
-        }
-
-        .btn-submit:hover {
-            background: var(--accent-green);
-        }
-
-        #submission-modal {
-            display: none;
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.5);
-            z-index: 2000;
-            justify-content: center;
-            align-items: center;
-        }
-
-        #submission-modal.active {
-            display: flex;
-        }
-
-        .submission-modal-content {
-            background: white;
-            padding: 25px;
-            border-radius: 8px;
-            width: 420px;
-            box-shadow: 0 15px 35px rgba(0,0,0,0.25);
-            border-top: 5px solid var(--primary-green);
-        }
-
-        .submission-modal-content h3 {
-            color: var(--primary-green);
-            margin-bottom: 8px;
-            font-size: 1.1rem;
-        }
-
-        #submission-status-frame {
-            width: 100%;
-            height: 110px;
-            border: 1px solid var(--border-color);
-            border-radius: 4px;
-            background: var(--light-bg);
-            margin-top: 12px;
-        }
-
-        #calculator-modal {
-            display: none;
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            background: white;
-            border: 1px solid var(--border-color);
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 15px 35px rgba(0,0,0,0.25);
-            z-index: 1000;
-            width: 290px;
-        }
-
-        #calculator-modal.active {
-            display: block;
-        }
-
-        .calc-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 12px;
-            font-size: 0.9rem;
-            font-weight: bold;
-            color: var(--primary-green);
-        }
-
-        .calc-close {
-            background: none;
-            border: none;
-            cursor: pointer;
-            font-size: 1.1rem;
-            color: #555;
-        }
-
-        #calc-screen {
-            width: 100%;
-            background: var(--light-bg);
-            border: 1px solid var(--border-color);
-            padding: 10px;
-            margin-bottom: 12px;
-            text-align: right;
-            font-family: monospace;
-            font-size: 1.25rem;
-            border-radius: 4px;
-            color: var(--dark-gray);
-        }
-
-        .calc-keypad {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 6px;
-        }
-
-        .calc-btn {
-            background: var(--light-green);
-            border: 1px solid var(--border-color);
-            padding: 12px;
-            font-weight: 600;
-            border-radius: 4px;
-            cursor: pointer;
-            text-align: center;
-            font-size: 0.95rem;
-            color: var(--primary-green);
-        }
-
-        .calc-btn:hover {
-            background: #dcedc8;
-        }
-
-        .calc-btn.op {
-            background: #c8e6c9;
-        }
-
-        .calc-btn.eq {
-            background: var(--primary-green);
-            color: white;
-        }
-
-        footer {
-            text-align: center;
-            padding: 15px;
-            font-size: 0.75rem;
-            color: #555;
-            background: white;
-            border-top: 1px solid var(--border-color);
-        }
-
-        @media(max-width: 950px) {
-            main {
-                grid-template-columns: 1fr;
-            }
-        }
-    </style>
-</head>
-<body>
-
-    <header>
-        <div>
-            <h1>Flexi Educational Consult</h1>
-            <p>CBT Mock Assessment Portal</p>
-        </div>
-        <div class="header-meta">
-            <div id="subject-display">Loading Subject...</div>
-            <div id="timer">10:00</div>
-        </div>
-    </header>
-
-    <main>
-        <section class="question-card">
-            <div>
-                <div class="question-top-bar">
-                    <span id="question-counter">Question 1 of 40</span>
-                    <button onclick="toggleCalculator()" class="calc-toggle-btn">
-                        <svg viewBox="0 0 24 24"><path d="M19,3H5C3.89,3 3,3.89 3,5V19C3,20.1 3.89,21 5,21H19C20.1,21 21,20.1 21,19V5C21,3.89 20.1,3 19,3M19,5V7H5V5H19M5,19V9H19V19H5M7,11H9V13H7V11M11,11H13V13H11V11M15,11H17V13H15V11M7,15H9V17H7V15M11,15H13V17H11V15M15,15H17V17H15V15Z"/></svg>
-                        Calculator
-                    </button>
-                </div>
-                
-                <div id="question-text">
-                    Loading question text...
-                </div>
-
-                <div id="options-container">
-                    <!-- Dynamically injected options -->
-                </div>
-            </div>
-
-            <div class="nav-buttons">
-                <button onclick="prevQuestion()" id="prev-btn" class="btn btn-prev">Previous</button>
-                <button onclick="nextQuestion()" id="next-btn" class="btn btn-next">Next</button>
-            </div>
-        </section>
-
-        <aside class="sidebar-panel">
-            <div>
-                <h3 class="sidebar-title">Question Palette</h3>
-                <div id="palette-grid">
-                    <!-- Dynamically injected palette boxes -->
-                </div>
-            </div>
-            
-            <div>
-                <button onclick="confirmSubmit()" class="btn-submit">Submit Exam</button>
-            </div>
-        </aside>
-    </main>
-
-    <!-- Submission Modal -->
-    <div id="submission-modal">
-        <div class="submission-modal-content">
-            <h3>Cloud Database Transmission</h3>
-            <p style="font-size: 0.85rem; color: #555;">Transmitting assessment data securely to Firestore...</p>
-            <iframe id="submission-status-frame" srcdoc="<body style='font-family:sans-serif; font-size:12px; color:#1b5e20; padding:8px; margin:0;'><b>Status:</b> Initializing secure connection...</body>"></iframe>
-        </div>
-    </div>
-
-    <!-- Calculator Modal -->
-    <div id="calculator-modal">
-        <div class="calc-header">
-            <span>Quick Calculator</span>
-            <button onclick="toggleCalculator()" class="calc-close">✕</button>
-        </div>
-        <input type="text" id="calc-screen" readonly>
-        <div class="calc-keypad">
-            <button onclick="calcNum('7')" class="calc-btn">7</button>
-            <button onclick="calcNum('8')" class="calc-btn">8</button>
-            <button onclick="calcNum('9')" class="calc-btn">9</button>
-            <button onclick="calcOp('/')" class="calc-btn op">/</button>
-            <button onclick="calcNum('4')" class="calc-btn">4</button>
-            <button onclick="calcNum('5')" class="calc-btn">5</button>
-            <button onclick="calcNum('6')" class="calc-btn">6</button>
-            <button onclick="calcOp('*')" class="calc-btn op">*</button>
-            <button onclick="calcNum('1')" class="calc-btn">1</button>
-            <button onclick="calcNum('2')" class="calc-btn">2</button>
-            <button onclick="calcNum('3')" class="calc-btn">3</button>
-            <button onclick="calcOp('-')" class="calc-btn op">-</button>
-            <button onclick="calcNum('0')" class="calc-btn">0</button>
-            <button onclick="calcClear()" class="calc-btn" style="color: #c62828;">C</button>
-            <button onclick="calcEquals()" class="calc-btn eq">=</button>
-            <button onclick="calcOp('+')" class="calc-btn op">+</button>
-        </div>
-    </div>
-
-    <footer>
-        Flexi Educational Consult CBT Environment &copy; 2026. All rights reserved.
-    </footer>
-
-    <!-- Firebase -->
-    <script type="module">
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
-        import { getFirestore, collection, addDoc } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
-
-        const firebaseConfig = {
-            apiKey: "AIzaSyDIzP6OB7uLm5bn4js0C6b-4Ll10gV80-o",
-            authDomain: "jambotron-ze1fo.firebaseapp.com",
-            projectId: "jambotron-ze1fo",
-            storageBucket: "jambotron-ze1fo.firebasestorage.app",
-            messagingSenderId: "722311662864",
-            appId: "1:722311662864:web:bad3d8e03d34a4602be995"
-        };
-
-        const app = initializeApp(firebaseConfig);
-        const db = getFirestore(app);
-
-        window.executeFirestoreSubmission = async function(submissionPayload) {
-            try {
-                const docRef = await addDoc(collection(db, "exam_results"), submissionPayload);
-                return { success: true, id: docRef.id };
-            } catch (error) {
-                console.error("Firestore Error:", error);
-                return { success: false, error: error.message };
-            }
-        };
-    </script>
-
-    <!-- Core Exam Script -->
-    <script>
-        let examQuestions = [];
-        let currentIndex = 0;
-        let userAnswers = {};
-        let timeLeft = 600;
-        let timerInterval;
-        let warningCount = 0;
-
-        const subjectFileMap = {
-            "Mathematics": "01_Mathematics_Module_1-3.json",
-            "Physics": "02_Physics_Module_1-3.json",
-            "Chemistry": "03_Chemistry_Module_1-3.json",
-            "Biology": "04_Biology_Module_1-3.json",
-            "Commerce": "05_Commerce_Module_1-3.json",
-            "Financial Accounting": "06_Financial_Accounting_Module_1-3.json",
-            "Literature in English": "07_Literature_in_English_Module_1-3.json",
-            "Government": "08_Government_Module_1-3.json",
-            "Christian Religious Knowledge": "09_Crk_Module_1-3.json",
-            "Economics": "10_Economics_Module_1-3.json",
-            "Civic Education": "11_Civic_Education_Module_1-3.json",
-            "Use of English": "12_Use_of_English_and_The_Lekki_Headmaster_Module_1-3.json"
-        };
-
-        window.addEventListener("DOMContentLoaded", async () => {
-            requestFullscreenMode();
-            document.addEventListener("visibilitychange", handleVisibilityChange);
-
-            const activeSubject = localStorage.getItem("flexi_active_subject");
-            if (!activeSubject || !subjectFileMap[activeSubject]) {
-                alert("No active subject selected. Redirecting back to dashboard.");
-                window.location.href = "index.html";
-                return;
-            }
-
-            document.getElementById("subject-display").innerText = activeSubject;
-            await loadQuestions(activeSubject);
-            startTimer();
-        });
-
-        function requestFullscreenMode() {
-            const elem = document.documentElement;
-            if (elem.requestFullscreen) elem.requestFullscreen().catch(() => {});
-        }
-
-        function handleVisibilityChange() {
-            if (document.hidden) {
-                warningCount++;
-                if (warningCount >= 2) submitExamToCloud();
-            }
-        }
-
-        function updateIframeStatus(message, color = "#1b5e20") {
-            const iframe = document.getElementById("submission-status-frame");
-            if (iframe && iframe.contentDocument) {
-                iframe.srcdoc = `<body style="font-family:sans-serif; font-size:12px; color:${color}; padding:8px; margin:0;"><b>Status:</b> ${message}</body>`;
-            }
-        }
-
-        async function loadQuestions(subjectName) {
-    const fileName = `./${subjectFileMap[subjectName]}`;
-    try {
-        const response = await fetch(fileName);
-        if (!response.ok) throw new Error("Failed to load local asset file.");
-        
-        const questionsData = await response.json();
-        examQuestions = questionsData;                    // FIXED
-        
-        console.log(`✅ Loaded ${examQuestions.length} questions for ${subjectName}`);
-        
-        if (examQuestions.length > 0) {
-            initPalette();
-            renderQuestion();
-        } else {
-            document.getElementById("question-text").innerText = "No questions found in this bank.";
-        }
-    } catch (error) {
-        console.error("Error loading local question file:", error);
-        document.getElementById("question-text").innerText = "Error loading question bank. Ensure local server is running.";
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flexi Educational Consult - CBT Exam</title>
+
+<link
+    rel="icon"
+    type="image/png"
+    href="https://i.postimg.cc/0Qm3PLw5/1771700279759-2.jpg"
+>
+
+<script
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+    async
+></script>
+
+<style>
+:root {
+    --primary-green: #1b5e20;
+    --light-green: #e8f5e9;
+    --accent-green: #2e7d32;
+    --dark-gray: #2c3e50;
+    --light-bg: #f1f8f1;
+    --border-color: #c8e6c9;
+    --danger: #c62828;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: var(--light-bg);
+    color: var(--dark-gray);
+    min-height: 100vh;
+}
+
+button {
+    font-family: inherit;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+header {
+    background: var(--primary-green);
+    color: white;
+    padding: 12px 20px;
+    box-shadow: 0 3px 8px rgba(0,0,0,.15);
+}
+
+.header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.brand h1 {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.brand p {
+    font-size: .72rem;
+    color: #c8e6c9;
+    margin-top: 2px;
+}
+
+.header-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#timer {
+    background: #2e7d32;
+    border: 1px solid #81c784;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-family: monospace;
+    font-size: 1.15rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    min-width: 82px;
+    text-align: center;
+}
+
+#timer.warning {
+    background: #b71c1c;
+    border-color: #ef9a9a;
+}
+
+/* =========================
+   SUBJECT TABS
+========================= */
+
+.subject-tabs {
+    display: flex;
+    gap: 6px;
+    overflow-x: auto;
+    padding-top: 12px;
+    scrollbar-width: thin;
+}
+
+.subject-tab {
+    flex: 1 0 auto;
+    min-width: 150px;
+    padding: 9px 12px;
+    border: 1px solid rgba(255,255,255,.35);
+    background: rgba(255,255,255,.08);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: .82rem;
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.subject-tab:hover {
+    background: rgba(255,255,255,.16);
+}
+
+.subject-tab.active {
+    background: white;
+    color: var(--primary-green);
+}
+
+.subject-tab.completed {
+    border-color: #a5d6a7;
+}
+
+/* =========================
+   MAIN
+========================= */
+
+main {
+    max-width: 1450px;
+    width: 100%;
+    margin: 20px auto;
+    padding: 0 18px;
+    display: grid;
+    grid-template-columns: minmax(0, 3fr) minmax(260px, 1fr);
+    gap: 20px;
+}
+
+.question-card {
+    background: white;
+    padding: 28px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(27,94,32,.06);
+    border-top: 5px solid var(--primary-green);
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.question-top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 12px;
+    margin-bottom: 22px;
+}
+
+#question-counter {
+    font-weight: 700;
+    color: var(--primary-green);
+    font-size: 1rem;
+}
+
+#subject-question-label {
+    font-size: .8rem;
+    color: #666;
+}
+
+/* =========================
+   QUESTION
+========================= */
+
+#question-text {
+    font-size: 1.15rem;
+    line-height: 1.65;
+    color: #1a1a1a;
+    margin-bottom: 25px;
+    min-height: 100px;
+}
+
+#options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.option-label {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 14px 16px;
+    border: 1px solid #dcdcdc;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all .2s;
+    background: white;
+}
+
+.option-label:hover {
+    background: var(--light-green);
+    border-color: var(--accent-green);
+}
+
+.option-label.selected {
+    background: var(--light-green);
+    border-color: var(--primary-green);
+    box-shadow: inset 0 0 0 1px var(--primary-green);
+}
+
+.option-label input {
+    accent-color: var(--primary-green);
+    width: 18px;
+    height: 18px;
+    margin-top: 2px;
+    flex-shrink: 0;
+}
+
+.option-letter {
+    font-weight: 700;
+    color: var(--primary-green);
+}
+
+.option-text {
+    color: #333;
+    line-height: 1.5;
+}
+
+/* =========================
+   NAVIGATION
+========================= */
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--border-color);
+    padding-top: 18px;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.btn {
+    padding: 10px 24px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-prev {
+    background: #e0e0e0;
+    color: #333;
+}
+
+.btn-next {
+    background: var(--primary-green);
+    color: white;
+}
+
+.btn:disabled {
+    opacity: .35;
+    cursor: not-allowed;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+
+.sidebar-panel {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(27,94,32,.06);
+    border-top: 5px solid var(--accent-green);
+}
+
+.sidebar-title {
+    font-weight: 700;
+    color: var(--primary-green);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 9px;
+    margin-bottom: 12px;
+}
+
+.palette-info {
+    font-size: .78rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+#palette-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 7px;
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 3px;
+}
+
+.palette-btn {
+    height: 36px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-weight: 600;
+    font-size: .78rem;
+    background: #f9f9f9;
+    color: #444;
+    cursor: pointer;
+}
+
+.palette-btn:hover {
+    background: var(--light-green);
+}
+
+.palette-btn.answered {
+    background: var(--primary-green);
+    color: white;
+    border-color: var(--primary-green);
+}
+
+.palette-btn.current {
+    outline: 2px solid #000;
+    outline-offset: 1px;
+}
+
+.palette-btn.subject-current {
+    box-shadow: inset 0 0 0 2px #81c784;
+}
+
+/* =========================
+   SUBMIT
+========================= */
+
+.btn-submit {
+    background: var(--primary-green);
+    color: white;
+    width: 100%;
+    padding: 13px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    margin-top: 18px;
+}
+
+.btn-submit:hover {
+    background: var(--accent-green);
+}
+
+/* =========================
+   CALCULATOR
+========================= */
+
+.calc-toggle-btn {
+    background: var(--light-green);
+    color: var(--primary-green);
+    border: 1px solid var(--border-color);
+    padding: 7px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+#calculator-modal {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border: 1px solid var(--border-color);
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 15px 35px rgba(0,0,0,.25);
+    z-index: 1000;
+    width: 290px;
+}
+
+#calculator-modal.active {
+    display: block;
+}
+
+.calc-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: var(--primary-green);
+}
+
+.calc-close {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+#calc-screen {
+    width: 100%;
+    background: var(--light-bg);
+    border: 1px solid var(--border-color);
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+    font-family: monospace;
+    font-size: 1.2rem;
+    border-radius: 4px;
+}
+
+.calc-keypad {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+}
+
+.calc-btn {
+    background: var(--light-green);
+    border: 1px solid var(--border-color);
+    padding: 11px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    color: var(--primary-green);
+}
+
+.calc-btn.op {
+    background: #c8e6c9;
+}
+
+.calc-btn.eq {
+    background: var(--primary-green);
+    color: white;
+}
+
+/* =========================
+   SUBMISSION MODAL
+========================= */
+
+#submission-modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,.55);
+    z-index: 2000;
+    justify-content: center;
+    align-items: center;
+}
+
+#submission-modal.active {
+    display: flex;
+}
+
+.submission-content {
+    background: white;
+    padding: 28px;
+    border-radius: 10px;
+    width: min(420px, 90%);
+    text-align: center;
+    border-top: 5px solid var(--primary-green);
+}
+
+.submission-content h3 {
+    color: var(--primary-green);
+    margin-bottom: 10px;
+}
+
+#submission-message {
+    color: #555;
+    font-size: .9rem;
+    line-height: 1.5;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    text-align: center;
+    padding: 15px;
+    font-size: .75rem;
+    color: #555;
+    background: white;
+    border-top: 1px solid var(--border-color);
+    margin-top: 20px;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width: 950px) {
+
+    main {
+        grid-template-columns: 1fr;
+    }
+
+    .question-card {
+        min-height: auto;
+    }
+
+    .sidebar-panel {
+        order: 2;
     }
 }
 
-        function startTimer() {
-            timerInterval = setInterval(() => {
-                if (timeLeft <= 0) {
-                    clearInterval(timerInterval);
-                    submitExamToCloud();
-                    return;
-                }
-                timeLeft--;
-                let mins = Math.floor(timeLeft / 60);
-                let secs = timeLeft % 60;
-                document.getElementById("timer").innerText = `\( {mins.toString().padStart(2, '0')}: \){secs.toString().padStart(2, '0')}`;
-            }, 1000);
-        }
+@media(max-width: 600px) {
 
-        function renderQuestion() {
-            if (examQuestions.length === 0) return;
-            const q = examQuestions[currentIndex];
-            document.getElementById("question-counter").innerText = `Question ${currentIndex + 1} of ${examQuestions.length}`;
-            document.getElementById("question-text").innerHTML = q.question;
+    header {
+        padding: 10px;
+    }
 
-            let optionsHtml = "";
-            const optionLabels = ["A", "B", "C", "D"];
-            q.options.forEach((opt, idx) => {
-                const label = optionLabels[idx];
-                const isChecked = userAnswers[currentIndex] === label ? "checked" : "";
-                const selectedClass = isChecked ? "selected" : "";
+    .header-main {
+        align-items: flex-start;
+    }
 
-                optionsHtml += `
-                    <label class="option-label ${selectedClass}">
-                        <input type="radio" name="exam-option" value="${label}" \( {isChecked} onclick="selectAnswer(' \){label}')">
-                        <span style="font-weight:700; color:var(--primary-green);">${label}.</span>
-                        <span style="color: #333;">${opt}</span>
-                    </label>
-                `;
-            });
+    .brand h1 {
+        font-size: 1rem;
+    }
 
-            document.getElementById("options-container").innerHTML = optionsHtml;
-            document.getElementById("prev-btn").disabled = currentIndex === 0;
-            document.getElementById("next-btn").innerText = currentIndex === examQuestions.length - 1 ? "Finish" : "Next";
+    .header-meta {
+        gap: 5px;
+    }
 
-            if (window.MathJax) MathJax.typeset();
-            updatePaletteState();
-        }
+    #timer {
+        font-size: 1rem;
+        padding: 7px 9px;
+        min-width: 70px;
+    }
 
-        function selectAnswer(optionLabel) {
-            userAnswers[currentIndex] = optionLabel;
-            updatePaletteState();
-            renderQuestion();
-        }
+    .subject-tab {
+        min-width: 130px;
+        font-size: .75rem;
+    }
 
-        function nextQuestion() {
-            if (currentIndex < examQuestions.length - 1) {
-                currentIndex++;
-                renderQuestion();
-            } else {
-                confirmSubmit();
-            }
-        }
+    main {
+        padding: 0 10px;
+        margin-top: 12px;
+    }
 
-        function prevQuestion() {
-            if (currentIndex > 0) currentIndex--;
-            renderQuestion();
-        }
+    .question-card {
+        padding: 18px;
+    }
 
-        function initPalette() {
-            const paletteGrid = document.getElementById("palette-grid");
-            paletteGrid.innerHTML = "";
-            examQuestions.forEach((_, idx) => {
-                paletteGrid.innerHTML += `
-                    <button id="palette-\( {idx}" onclick="jumpToQuestion( \){idx})" class="palette-btn">${idx + 1}</button>
-                `;
-            });
-        }
+    #question-text {
+        font-size: 1rem;
+    }
 
-        function jumpToQuestion(idx) {
-            currentIndex = idx;
-            renderQuestion();
-        }
+    .nav-buttons {
+        margin-top: 20px;
+    }
 
-        function updatePaletteState() {
-            examQuestions.forEach((_, idx) => {
-                const btn = document.getElementById(`palette-${idx}`);
-                if (!btn) return;
-                btn.className = "palette-btn";
-                if (userAnswers[idx]) btn.classList.add("answered");
-                if (idx === currentIndex) btn.classList.add("current");
-            });
-        }
+    #palette-grid {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+</style>
+</head>
 
-        function confirmSubmit() {
-            if (confirm("Are you sure you want to submit your exam responses directly to Firestore?")) {
-                submitExamToCloud();
-            }
-        }
+<body>
 
-        async function submitExamToCloud() {
-            clearInterval(timerInterval);
-            document.getElementById("submission-modal").classList.add("active");
-            updateIframeStatus("Connecting to Firestore database...", "#1b5e20");
+<header>
 
-            let score = 0;
-            examQuestions.forEach((q, idx) => {
-                if (userAnswers[idx] && userAnswers[idx] === q.answer) score++;
-            });
+    <div class="header-main">
 
-            const submissionPayload = {
-                candidateId: localStorage.getItem("flexi_candidate_id") || "guest_candidate",
-                subject: localStorage.getItem("flexi_active_subject"),
-                score: score,
-                total: examQuestions.length,
-                submittedAt: new Date().toISOString()
+        <div class="brand">
+            <h1>Flexi Educational Consult</h1>
+            <p>CBT Mock Assessment Portal</p>
+        </div>
+
+        <div class="header-meta">
+            <div id="timer">10:00</div>
+        </div>
+
+    </div>
+
+    <!-- FOUR SUBJECT TABS GENERATED FROM flexi_exam_session -->
+    <div
+        id="subject-tabs"
+        class="subject-tabs"
+    ></div>
+
+</header>
+
+
+<main>
+
+    <section class="question-card">
+
+        <div>
+
+            <div class="question-top-bar">
+
+                <div>
+                    <div id="question-counter">
+                        Question 1 of 60
+                    </div>
+
+                    <div id="subject-question-label">
+                        Loading...
+                    </div>
+                </div>
+
+                <button
+                    type="button"
+                    onclick="toggleCalculator()"
+                    class="calc-toggle-btn"
+                >
+                    Calculator
+                </button>
+
+            </div>
+
+
+            <div id="question-text">
+                Loading question...
+            </div>
+
+
+            <div id="options-container"></div>
+
+        </div>
+
+
+        <div class="nav-buttons">
+
+            <button
+                onclick="prevQuestion()"
+                id="prev-btn"
+                class="btn btn-prev"
+            >
+                Previous
+            </button>
+
+            <button
+                onclick="nextQuestion()"
+                id="next-btn"
+                class="btn btn-next"
+            >
+                Next
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <aside class="sidebar-panel">
+
+        <h3 class="sidebar-title">
+            Question Palette
+        </h3>
+
+        <div class="palette-info">
+            60 questions — 15 per subject
+        </div>
+
+        <div id="palette-grid"></div>
+
+        <button
+            onclick="confirmSubmit()"
+            class="btn-submit"
+        >
+            Submit Exam
+        </button>
+
+    </aside>
+
+</main>
+
+
+<!-- CALCULATOR -->
+
+<div id="calculator-modal">
+
+    <div class="calc-header">
+
+        <span>Quick Calculator</span>
+
+        <button
+            onclick="toggleCalculator()"
+            class="calc-close"
+        >
+            ✕
+        </button>
+
+    </div>
+
+    <input
+        type="text"
+        id="calc-screen"
+        readonly
+    >
+
+    <div class="calc-keypad">
+
+        <button onclick="calcInput('7')" class="calc-btn">7</button>
+        <button onclick="calcInput('8')" class="calc-btn">8</button>
+        <button onclick="calcInput('9')" class="calc-btn">9</button>
+        <button onclick="calcInput('/')" class="calc-btn op">÷</button>
+
+        <button onclick="calcInput('4')" class="calc-btn">4</button>
+        <button onclick="calcInput('5')" class="calc-btn">5</button>
+        <button onclick="calcInput('6')" class="calc-btn">6</button>
+        <button onclick="calcInput('*')" class="calc-btn op">×</button>
+
+        <button onclick="calcInput('1')" class="calc-btn">1</button>
+        <button onclick="calcInput('2')" class="calc-btn">2</button>
+        <button onclick="calcInput('3')" class="calc-btn">3</button>
+        <button onclick="calcInput('-')" class="calc-btn op">−</button>
+
+        <button onclick="calcInput('0')" class="calc-btn">0</button>
+        <button onclick="calcClear()" class="calc-btn">C</button>
+        <button onclick="calcEquals()" class="calc-btn eq">=</button>
+        <button onclick="calcInput('+')" class="calc-btn op">+</button>
+
+    </div>
+
+</div>
+
+
+<!-- SUBMISSION -->
+
+<div id="submission-modal">
+
+    <div class="submission-content">
+
+        <h3>Submitting Examination</h3>
+
+        <p id="submission-message">
+            Saving your responses securely...
+        </p>
+
+    </div>
+
+</div>
+
+
+<footer>
+    Flexi Educational Consult CBT Environment &copy; 2026.
+    All rights reserved.
+</footer>
+
+
+<!-- FIREBASE -->
+
+<script type="module">
+
+import {
+    initializeApp
+} from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+
+import {
+    getFirestore,
+    collection,
+    addDoc,
+    query,
+    where,
+    getDocs
+} from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
+
+
+const firebaseConfig = {
+
+    apiKey:
+        "AIzaSyDIzP6OB7uLm5bn4js0C6b-4Ll10gV80-o",
+
+    authDomain:
+        "jambotron-ze1fo.firebaseapp.com",
+
+    projectId:
+        "jambotron-ze1fo",
+
+    storageBucket:
+        "jambotron-ze1fo.firebasestorage.app",
+
+    messagingSenderId:
+        "722311662864",
+
+    appId:
+        "1:722311662864:web:bad3d8e03d34a4602be995"
+};
+
+
+const app = initializeApp(firebaseConfig);
+
+const db = getFirestore(app);
+
+
+/*
+ * Firestore submission function.
+ *
+ * IMPORTANT:
+ * The new exam uses cbt_submissions,
+ * matching index.html.
+ */
+window.submitToFirestore = async function(payload) {
+
+    try {
+
+        /*
+         * Idempotency check using sessionId.
+         *
+         * This prevents the same exam session from
+         * being submitted multiple times.
+         */
+        const existingQuery = query(
+            collection(db, "cbt_submissions"),
+            where("sessionId", "==", payload.sessionId)
+        );
+
+        const existingSnapshot =
+            await getDocs(existingQuery);
+
+        if (!existingSnapshot.empty) {
+
+            return {
+                success: true,
+                duplicate: true,
+                id: existingSnapshot.docs[0].id
             };
 
-            if (window.executeFirestoreSubmission) {
-                const result = await window.executeFirestoreSubmission(submissionPayload);
-                if (result.success) {
-                    updateIframeStatus("Success! Responses securely synchronized to Firestore.", "#2e7d32");
-                    setTimeout(() => window.location.href = "index.html", 2500);
-                } else {
-                    updateIframeStatus(`Submission Failed: ${result.error}`, "#c62828");
+        }
+
+
+        const docRef = await addDoc(
+            collection(db, "cbt_submissions"),
+            payload
+        );
+
+
+        return {
+            success: true,
+            id: docRef.id
+        };
+
+    } catch (error) {
+
+        console.error(
+            "Firestore submission error:",
+            error
+        );
+
+        return {
+            success: false,
+            error: error.message
+        };
+
+    }
+
+};
+
+</script>
+
+
+<script>
+
+/* =========================================================
+   FLEXI CBT EXAM ENGINE
+   ========================================================= */
+
+const SESSION_KEY = "flexi_exam_session";
+
+const QUESTIONS_PER_SUBJECT = 15;
+
+const TOTAL_SUBJECTS = 4;
+
+const TOTAL_QUESTIONS = 60;
+
+const TOTAL_DURATION_SECONDS = 600;
+
+
+/*
+ * Question-bank mapping.
+ */
+const subjectFileMap = {
+
+    "Mathematics":
+        "01_Mathematics_Module_1-3.json",
+
+    "Physics":
+        "02_Physics_Module_1-3.json",
+
+    "Chemistry":
+        "03_Chemistry_Module_1-3.json",
+
+    "Biology":
+        "04_Biology_Module_1-3.json",
+
+    "Commerce":
+        "05_Commerce_Module_1-3.json",
+
+    "Financial Accounting":
+        "06_Financial_Accounting_Module_1-3.json",
+
+    "Literature in English":
+        "07_Literature_in_English_Module_1-3.json",
+
+    "Government":
+        "08_Government_Module_1-3.json",
+
+    "Christian Religious Knowledge":
+        "09_Crk_Module_1-3.json",
+
+    "Economics":
+        "10_Economics_Module_1-3.json",
+
+    "Civic Education":
+        "11_Civic_Education_Module_1-3.json",
+
+    "Use of English":
+        "12_Use_of_English_and_The_Lekki_Headmaster_Module_1-3.json"
+
+};
+
+
+/*
+ * Unified session.
+ */
+let session = null;
+
+
+/*
+ * All 60 questions.
+ *
+ * Each question gets:
+ *
+ * - subject
+ * - subjectIndex
+ * - globalIndex
+ * - localIndex
+ * - original question data
+ */
+let examQuestions = [];
+
+
+/*
+ * Current global question.
+ */
+let currentIndex = 0;
+
+
+/*
+ * Answers are keyed by GLOBAL QUESTION INDEX.
+ *
+ * This prevents answers from different subjects
+ * overwriting each other.
+ */
+let userAnswers = {};
+
+
+/*
+ * Timer.
+ */
+let timerInterval = null;
+
+
+/*
+ * Submission lock.
+ */
+let submissionStarted = false;
+
+
+/*
+ * Warning counter.
+ */
+let warningCount = 0;
+
+
+/* =========================================================
+   SESSION
+   ========================================================= */
+
+function getSession() {
+
+    try {
+
+        return JSON.parse(
+            localStorage.getItem(SESSION_KEY) || "null"
+        );
+
+    } catch (error) {
+
+        console.error(
+            "Session parse error:",
+            error
+        );
+
+        return null;
+
+    }
+
+}
+
+
+function saveSession() {
+
+    localStorage.setItem(
+        SESSION_KEY,
+        JSON.stringify(session)
+    );
+
+}
+
+
+/*
+ * Save answers into the unified session.
+ */
+function persistAnswers() {
+
+    session.answers = userAnswers;
+
+    session.currentQuestionIndex = currentIndex;
+
+    /*
+     * Determine the subject containing the
+     * current question.
+     */
+    if (examQuestions[currentIndex]) {
+
+        session.currentSubjectIndex =
+            examQuestions[currentIndex].subjectIndex;
+
+    }
+
+    saveSession();
+
+}
+
+
+/* =========================================================
+   INITIALIZATION
+   ========================================================= */
+
+window.addEventListener(
+    "DOMContentLoaded",
+    initializeExam
+);
+
+
+async function initializeExam() {
+
+    session = getSession();
+
+
+    /*
+     * No session = no exam.
+     */
+    if (
+        !session ||
+        !session.candidate ||
+        !Array.isArray(session.subjects)
+    ) {
+
+        alert(
+            "Your examination session could not be found."
+        );
+
+        window.location.href =
+            "index.html";
+
+        return;
+
+    }
+
+
+    /*
+     * Exactly four subjects are required.
+     */
+    if (session.subjects.length !== TOTAL_SUBJECTS) {
+
+        alert(
+            "Your subject combination is incomplete. Please select four subjects."
+        );
+
+        window.location.href =
+            "subjects.html";
+
+        return;
+
+    }
+
+
+    /*
+     * Every selected subject must have
+     * a corresponding question bank.
+     */
+    for (const subject of session.subjects) {
+
+        if (!subjectFileMap[subject]) {
+
+            alert(
+                `Question bank not found for ${subject}.`
+            );
+
+            window.location.href =
+                "subjects.html";
+
+            return;
+
+        }
+
+    }
+
+
+    /*
+     * Make sure this exam is actually in progress.
+     */
+    if (session.stage !== "exam") {
+
+        if (session.status === "setup") {
+
+            window.location.href =
+                "instructions.html";
+
+            return;
+
+        }
+
+    }
+
+
+    /*
+     * Enforce the Weekly CBT Mock duration.
+     *
+     * 600 seconds = 10 minutes.
+     */
+    session.durationSeconds =
+        TOTAL_DURATION_SECONDS;
+
+
+    /*
+     * If an old session had a 90-minute duration,
+     * rebuild its deadline to the correct 10-minute
+     * duration.
+     *
+     * This protects the exam from old session data.
+     */
+    if (
+        session.startedAt &&
+        session.endTime
+    ) {
+
+        const expectedEnd =
+            new Date(session.startedAt).getTime()
+            +
+            TOTAL_DURATION_SECONDS * 1000;
+
+        const existingEnd =
+            new Date(session.endTime).getTime();
+
+        /*
+         * If the stored deadline does not correspond
+         * to 10 minutes from startedAt, correct it.
+         */
+        if (
+            !Number.isFinite(existingEnd) ||
+            Math.abs(existingEnd - expectedEnd) > 2000
+        ) {
+
+            session.endTime =
+                new Date(expectedEnd).toISOString();
+
+        }
+
+    } else {
+
+        /*
+         * Exam should normally arrive here from
+         * instructions.html with startedAt/endTime.
+         *
+         * If missing, create them now as a safeguard.
+         */
+        const now = Date.now();
+
+        session.startedAt =
+            new Date(now).toISOString();
+
+        session.endTime =
+            new Date(
+                now + TOTAL_DURATION_SECONDS * 1000
+            ).toISOString();
+
+    }
+
+
+    /*
+     * Restore answers from the session.
+     */
+    if (
+        session.answers &&
+        typeof session.answers === "object"
+    ) {
+
+        userAnswers =
+            session.answers;
+
+    }
+
+
+    /*
+     * Restore current position.
+     */
+    if (
+        Number.isInteger(
+            session.currentQuestionIndex
+        )
+    ) {
+
+        currentIndex =
+            session.currentQuestionIndex;
+
+    }
+
+
+    saveSession();
+
+
+    /*
+     * Build all 60 questions.
+     */
+    await buildExam();
+
+
+    /*
+     * Build four subject tabs.
+     */
+    renderSubjectTabs();
+
+
+    /*
+     * Build 60-question palette.
+     */
+    initPalette();
+
+
+    /*
+     * Render current question.
+     */
+    renderQuestion();
+
+
+    /*
+     * Start universal timer.
+     */
+    startUniversalTimer();
+
+
+    /*
+     * Fullscreen is attempted after page load.
+     */
+    requestFullscreenMode();
+
+}
+
+
+/* =========================================================
+   BUILD EXAM
+   ========================================================= */
+
+async function buildExam() {
+
+    examQuestions = [];
+
+
+    for (
+        let subjectIndex = 0;
+        subjectIndex < session.subjects.length;
+        subjectIndex++
+    ) {
+
+        const subject =
+            session.subjects[subjectIndex];
+
+        const fileName =
+            `./${subjectFileMap[subject]}`;
+
+
+        try {
+
+            const response =
+                await fetch(fileName);
+
+
+            if (!response.ok) {
+
+                throw new Error(
+                    `HTTP ${response.status}`
+                );
+
+            }
+
+
+            const data =
+                await response.json();
+
+
+            if (!Array.isArray(data)) {
+
+                throw new Error(
+                    "Question bank is not an array."
+                );
+
+            }
+
+
+            if (data.length < QUESTIONS_PER_SUBJECT) {
+
+                throw new Error(
+                    `${subject} contains only ${data.length} questions. 15 are required.`
+                );
+
+            }
+
+
+            /*
+             * Take exactly 15 questions.
+             */
+            const selectedQuestions =
+                data.slice(
+                    0,
+                    QUESTIONS_PER_SUBJECT
+                );
+
+
+            selectedQuestions.forEach(
+                (question, localIndex) => {
+
+                    examQuestions.push({
+
+                        ...question,
+
+                        subject,
+
+                        subjectIndex,
+
+                        localIndex,
+
+                        globalIndex:
+                            examQuestions.length
+
+                    });
+
                 }
+            );
+
+
+        } catch (error) {
+
+            console.error(
+                `Failed to load ${subject}:`,
+                error
+            );
+
+
+            document.getElementById(
+                "question-text"
+            ).innerText =
+                `Unable to load ${subject} question bank.`;
+
+            throw error;
+
+        }
+
+    }
+
+
+    /*
+     * Final safety check.
+     */
+    if (
+        examQuestions.length !== TOTAL_QUESTIONS
+    ) {
+
+        throw new Error(
+            `Expected ${TOTAL_QUESTIONS} questions but loaded ${examQuestions.length}.`
+        );
+
+    }
+
+}
+
+
+/* =========================================================
+   SUBJECT TABS
+   ========================================================= */
+
+function renderSubjectTabs() {
+
+    const container =
+        document.getElementById(
+            "subject-tabs"
+        );
+
+
+    container.innerHTML = "";
+
+
+    session.subjects.forEach(
+        (subject, subjectIndex) => {
+
+            const button =
+                document.createElement("button");
+
+
+            button.type = "button";
+
+            button.className =
+                "subject-tab";
+
+
+            button.textContent =
+                subject;
+
+
+            button.dataset.subjectIndex =
+                subjectIndex;
+
+
+            button.addEventListener(
+                "click",
+                () => {
+
+                    goToSubject(
+                        subjectIndex
+                    );
+
+                }
+            );
+
+
+            container.appendChild(button);
+
+        }
+    );
+
+
+    updateSubjectTabs();
+
+}
+
+
+function updateSubjectTabs() {
+
+    const tabs =
+        document.querySelectorAll(
+            ".subject-tab"
+        );
+
+
+    tabs.forEach(tab => {
+
+        const subjectIndex =
+            Number(
+                tab.dataset.subjectIndex
+            );
+
+
+        const isCurrent =
+            examQuestions[currentIndex] &&
+            examQuestions[currentIndex].subjectIndex
+                === subjectIndex;
+
+
+        const start =
+            subjectIndex *
+            QUESTIONS_PER_SUBJECT;
+
+
+        const end =
+            start +
+            QUESTIONS_PER_SUBJECT;
+
+
+        const completed =
+            examQuestions
+                .slice(start, end)
+                .every(
+                    q =>
+                        userAnswers[q.globalIndex]
+                );
+
+
+        tab.classList.toggle(
+            "active",
+            isCurrent
+        );
+
+
+        tab.classList.toggle(
+            "completed",
+            completed
+        );
+
+    });
+
+}
+
+
+/*
+ * Jump to first question of a subject.
+ */
+function goToSubject(subjectIndex) {
+
+    const targetIndex =
+        subjectIndex *
+        QUESTIONS_PER_SUBJECT;
+
+
+    currentIndex =
+        targetIndex;
+
+
+    persistAnswers();
+
+    renderQuestion();
+
+}
+
+
+/* =========================================================
+   QUESTION RENDERING
+   ========================================================= */
+
+function renderQuestion() {
+
+    if (!examQuestions.length) {
+        return;
+    }
+
+
+    const question =
+        examQuestions[currentIndex];
+
+
+    if (!question) {
+        return;
+    }
+
+
+    const subject =
+        question.subject;
+
+
+    const localQuestionNumber =
+        question.localIndex + 1;
+
+
+    /*
+     * Global question number.
+     */
+    document.getElementById(
+        "question-counter"
+    ).innerText =
+        `Question ${currentIndex + 1} of ${TOTAL_QUESTIONS}`;
+
+
+    /*
+     * Subject-specific position.
+     */
+    document.getElementById(
+        "subject-question-label"
+    ).innerText =
+        `${subject} — Question ${localQuestionNumber} of ${QUESTIONS_PER_SUBJECT}`;
+
+
+    /*
+     * Subject display.
+     */
+    document.title =
+        `${subject} | Flexi CBT`;
+
+
+    /*
+     * Question text.
+     */
+    document.getElementById(
+        "question-text"
+    ).innerHTML =
+        question.question || "";
+
+
+    /*
+     * Options.
+     */
+    const optionsContainer =
+        document.getElementById(
+            "options-container"
+        );
+
+
+    optionsContainer.innerHTML = "";
+
+
+    const optionLabels =
+        ["A", "B", "C", "D"];
+
+
+    (question.options || []).forEach(
+        (option, index) => {
+
+            const label =
+                optionLabels[index];
+
+
+            const isSelected =
+                userAnswers[
+                    question.globalIndex
+                ] === label;
+
+
+            const wrapper =
+                document.createElement("label");
+
+
+            wrapper.className =
+                "option-label" +
+                (
+                    isSelected
+                        ? " selected"
+                        : ""
+                );
+
+
+            const radio =
+                document.createElement("input");
+
+
+            radio.type =
+                "radio";
+
+            radio.name =
+                "exam-option";
+
+            radio.value =
+                label;
+
+            radio.checked =
+                isSelected;
+
+
+            radio.addEventListener(
+                "change",
+                () => {
+
+                    selectAnswer(
+                        question.globalIndex,
+                        label
+                    );
+
+                }
+            );
+
+
+            const letter =
+                document.createElement("span");
+
+
+            letter.className =
+                "option-letter";
+
+
+            letter.textContent =
+                `${label}.`;
+
+
+            const text =
+                document.createElement("span");
+
+
+            text.className =
+                "option-text";
+
+
+            text.innerHTML =
+                option;
+
+
+            wrapper.appendChild(
+                radio
+            );
+
+            wrapper.appendChild(
+                letter
+            );
+
+            wrapper.appendChild(
+                text
+            );
+
+
+            optionsContainer.appendChild(
+                wrapper
+            );
+
+        }
+    );
+
+
+    /*
+     * Navigation buttons.
+     */
+    document.getElementById(
+        "prev-btn"
+    ).disabled =
+        currentIndex === 0;
+
+
+    document.getElementById(
+        "next-btn"
+    ).innerText =
+        currentIndex === TOTAL_QUESTIONS - 1
+            ? "Finish"
+            : "Next";
+
+
+    updatePaletteState();
+
+    updateSubjectTabs();
+
+
+    /*
+     * MathJax.
+     */
+    if (window.MathJax) {
+
+        if (MathJax.typesetPromise) {
+
+            MathJax.typesetPromise([
+                document.getElementById(
+                    "question-text"
+                ),
+                document.getElementById(
+                    "options-container"
+                )
+            ]).catch(() => {});
+
+        }
+
+    }
+
+}
+
+
+/* =========================================================
+   ANSWERS
+   ========================================================= */
+
+function selectAnswer(
+    globalIndex,
+    optionLabel
+) {
+
+    userAnswers[
+        globalIndex
+    ] =
+        optionLabel;
+
+
+    persistAnswers();
+
+
+    /*
+     * Update visual state without changing
+     * the current question.
+     */
+    renderQuestion();
+
+}
+
+
+/* =========================================================
+   NAVIGATION
+   ========================================================= */
+
+function nextQuestion() {
+
+    if (
+        currentIndex <
+        TOTAL_QUESTIONS - 1
+    ) {
+
+        currentIndex++;
+
+        persistAnswers();
+
+        renderQuestion();
+
+    } else {
+
+        confirmSubmit();
+
+    }
+
+}
+
+
+function prevQuestion() {
+
+    if (currentIndex > 0) {
+
+        currentIndex--;
+
+        persistAnswers();
+
+        renderQuestion();
+
+    }
+
+}
+
+
+/* =========================================================
+   PALETTE
+   ========================================================= */
+
+function initPalette() {
+
+    const palette =
+        document.getElementById(
+            "palette-grid"
+        );
+
+
+    palette.innerHTML = "";
+
+
+    examQuestions.forEach(
+        question => {
+
+            const button =
+                document.createElement("button");
+
+
+            button.type =
+                "button";
+
+
+            button.className =
+                "palette-btn";
+
+
+            button.id =
+                `palette-${question.globalIndex}`;
+
+
+            button.textContent =
+                question.globalIndex + 1;
+
+
+            button.addEventListener(
+                "click",
+                () => {
+
+                    jumpToQuestion(
+                        question.globalIndex
+                    );
+
+                }
+            );
+
+
+            palette.appendChild(
+                button
+            );
+
+        }
+    );
+
+
+    updatePaletteState();
+
+}
+
+
+function jumpToQuestion(index) {
+
+    if (
+        index < 0 ||
+        index >= examQuestions.length
+    ) {
+
+        return;
+
+    }
+
+
+    currentIndex =
+        index;
+
+
+    persistAnswers();
+
+    renderQuestion();
+
+}
+
+
+function updatePaletteState() {
+
+    examQuestions.forEach(
+        question => {
+
+            const button =
+                document.getElementById(
+                    `palette-${question.globalIndex}`
+                );
+
+
+            if (!button) {
+                return;
             }
-        }
 
-        function toggleCalculator() {
-            const modal = document.getElementById("calculator-modal");
-            modal.classList.toggle("active");
-        }
 
-        function calcNum(val) {
-            document.getElementById("calc-screen").value += val;
-        }
+            button.className =
+                "palette-btn";
 
-        function calcOp(op) {
-            document.getElementById("calc-screen").value += ` ${op} `;
-        }
 
-        function calcClear() {
-            document.getElementById("calc-screen").value = "";
-        }
+            if (
+                userAnswers[
+                    question.globalIndex
+                ]
+            ) {
 
-        function calcEquals() {
-            try {
-                let result = eval(document.getElementById("calc-screen").value);
-                document.getElementById("calc-screen").value = result;
-            } catch (e) {
-                document.getElementById("calc-screen").value = "Error";
+                button.classList.add(
+                    "answered"
+                );
+
             }
+
+
+            if (
+                question.globalIndex ===
+                currentIndex
+            ) {
+
+                button.classList.add(
+                    "current"
+                );
+
+            }
+
+
+            if (
+                examQuestions[currentIndex] &&
+                question.subjectIndex ===
+                    examQuestions[currentIndex].subjectIndex
+            ) {
+
+                button.classList.add(
+                    "subject-current"
+                );
+
+            }
+
         }
-    </script>
+    );
+
+}
+
+
+/* =========================================================
+   UNIVERSAL 10-MINUTE TIMER
+   ========================================================= */
+
+function startUniversalTimer() {
+
+    clearInterval(
+        timerInterval
+    );
+
+
+    updateTimerDisplay();
+
+
+    timerInterval =
+        setInterval(
+            updateTimerDisplay,
+            250
+        );
+
+}
+
+
+function updateTimerDisplay() {
+
+    if (
+        !session ||
+        !session.endTime
+    ) {
+
+        return;
+
+    }
+
+
+    const endTime =
+        new Date(
+            session.endTime
+        ).getTime();
+
+
+    const remainingMilliseconds =
+        endTime - Date.now();
+
+
+    let remainingSeconds =
+        Math.ceil(
+            remainingMilliseconds / 1000
+        );
+
+
+    if (
+        !Number.isFinite(
+            remainingSeconds
+        )
+    ) {
+
+        remainingSeconds =
+            TOTAL_DURATION_SECONDS;
+
+    }
+
+
+    remainingSeconds =
+        Math.max(
+            0,
+            remainingSeconds
+        );
+
+
+    const minutes =
+        Math.floor(
+            remainingSeconds / 60
+        );
+
+
+    const seconds =
+        remainingSeconds % 60;
+
+
+    document.getElementById(
+        "timer"
+    ).innerText =
+        `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+
+
+    /*
+     * Warning state for final minute.
+     */
+    document.getElementById(
+        "timer"
+    ).classList.toggle(
+        "warning",
+        remainingSeconds <= 60
+    );
+
+
+    /*
+     * Time has expired.
+     */
+    if (
+        remainingSeconds <= 0
+    ) {
+
+        clearInterval(
+            timerInterval
+        );
+
+
+        autoSubmitExam();
+
+    }
+
+}
+
+
+/* =========================================================
+   SUBMISSION
+   ========================================================= */
+
+function confirmSubmit() {
+
+    if (submissionStarted) {
+        return;
+    }
+
+
+    const answered =
+        Object.keys(
+            userAnswers
+        ).length;
+
+
+    const unanswered =
+        TOTAL_QUESTIONS -
+        answered;
+
+
+    let message =
+        `You have answered ${answered} of ${TOTAL_QUESTIONS} questions.`;
+
+
+    if (unanswered > 0) {
+
+        message +=
+            `\n\n${unanswered} question(s) remain unanswered.`;
+
+    }
+
+
+    message +=
+        "\n\nAre you sure you want to submit?";
+
+
+    if (
+        confirm(message)
+    ) {
+
+        submitExamToCloud(
+            "manual"
+        );
+
+    }
+
+}
+
+
+function autoSubmitExam() {
+
+    if (submissionStarted) {
+        return;
+    }
+
+
+    submitExamToCloud(
+        "time_expired"
+    );
+
+}
+
+
+async function submitExamToCloud(
+    submissionReason = "manual"
+) {
+
+    if (submissionStarted) {
+        return;
+    }
+
+
+    submissionStarted =
+        true;
+
+
+    clearInterval(
+        timerInterval
+    );
+
+
+    /*
+     * Save final state before submission.
+     */
+    persistAnswers();
+
+
+    const modal =
+        document.getElementById(
+            "submission-modal"
+        );
+
+
+    const message =
+        document.getElementById(
+            "submission-message"
+        );
+
+
+    modal.classList.add(
+        "active"
+    );
+
+
+    message.innerText =
+        "Preparing your examination results...";
+
+
+    /*
+     * Calculate subject scores.
+     */
+    const subjectResults = {};
+
+
+    session.subjects.forEach(
+        subject => {
+
+            subjectResults[subject] = {
+                score: 0,
+                total: QUESTIONS_PER_SUBJECT
+            };
+
+        }
+    );
+
+
+    let totalScore = 0;
+
+
+    examQuestions.forEach(
+        question => {
+
+            const selected =
+                userAnswers[
+                    question.globalIndex
+                ];
+
+
+            const correct =
+                String(
+                    question.answer || ""
+                ).trim().toUpperCase();
+
+
+            if (
+                selected &&
+                selected.toUpperCase() ===
+                    correct
+            ) {
+
+                totalScore++;
+
+
+                if (
+                    subjectResults[
+                        question.subject
+                    ]
+                ) {
+
+                    subjectResults[
+                        question.subject
+                    ].score++;
+
+                }
+
+            }
+
+        }
+    );
+
+
+    /*
+     * Build answer record.
+     */
+    const answers = {};
+
+
+    examQuestions.forEach(
+        question => {
+
+            answers[
+                question.globalIndex
+            ] = {
+
+                subject:
+                    question.subject,
+
+                questionNumber:
+                    question.localIndex + 1,
+
+                answer:
+                    userAnswers[
+                        question.globalIndex
+                    ] || null
+
+            };
+
+        }
+    );
+
+
+    const submissionPayload = {
+
+        sessionId:
+            session.sessionId,
+
+        candidateId:
+            session.candidateId,
+
+        examType:
+            session.examType || "JAMB",
+
+        candidate:
+            session.candidate,
+
+        deviceFingerprint:
+            session.deviceFingerprint || null,
+
+        subjects:
+            session.subjects,
+
+        totalQuestions:
+            TOTAL_QUESTIONS,
+
+        questionsPerSubject:
+            QUESTIONS_PER_SUBJECT,
+
+        durationSeconds:
+            TOTAL_DURATION_SECONDS,
+
+        score:
+            totalScore,
+
+        total:
+            TOTAL_QUESTIONS,
+
+        subjectResults,
+
+        answers,
+
+        warnings:
+            session.warnings || warningCount || 0,
+
+        submissionReason,
+
+        startedAt:
+            session.startedAt,
+
+        examEndTime:
+            session.endTime,
+
+        submittedAt:
+            new Date().toISOString(),
+
+        status:
+            "submitted"
+
+    };
+
+
+    message.innerText =
+        "Transmitting your responses securely...";
+
+
+    try {
+
+        const result =
+            await window.submitToFirestore(
+                submissionPayload
+            );
+
+
+        if (!result.success) {
+
+            submissionStarted =
+                false;
+
+
+            message.innerText =
+                `Submission failed: ${result.error}. Please try again.`;
+
+            return;
+
+        }
+
+
+        /*
+         * Mark session as submitted.
+         */
+        session.status =
+            "submitted";
+
+        session.stage =
+            "completed";
+
+        session.submittedAt =
+            submissionPayload.submittedAt;
+
+        saveSession();
+
+
+        message.innerText =
+            "Submission successful. Redirecting...";
+
+
+        setTimeout(
+            () => {
+
+                window.location.href =
+                    "index.html";
+
+            },
+            1800
+        );
+
+
+    } catch (error) {
+
+        console.error(
+            "Submission error:",
+            error
+        );
+
+
+        submissionStarted =
+            false;
+
+
+        message.innerText =
+            "An unexpected error occurred during submission. Please try again.";
+
+    }
+
+}
+
+
+/* =========================================================
+   FULLSCREEN / VISIBILITY
+   ========================================================= */
+
+function requestFullscreenMode() {
+
+    /*
+     * Browsers may reject automatic fullscreen because
+     * fullscreen normally requires a user gesture.
+     *
+     * Failure is intentionally ignored.
+     */
+    const element =
+        document.documentElement;
+
+
+    if (
+        element.requestFullscreen
+    ) {
+
+        element
+            .requestFullscreen()
+            .catch(() => {});
+
+    }
+
+}
+
+
+/*
+ * Visibility monitoring.
+ *
+ * We DO NOT automatically submit merely because the
+ * candidate changes tabs once.
+ *
+ * The timer continues based on endTime.
+ */
+document.addEventListener(
+    "visibilitychange",
+    () => {
+
+        if (
+            document.hidden
+        ) {
+
+            warningCount++;
+
+            session.warnings =
+                warningCount;
+
+            saveSession();
+
+        }
+
+    }
+);
+
+
+/* =========================================================
+   CALCULATOR
+   ========================================================= */
+
+function toggleCalculator() {
+
+    document
+        .getElementById(
+            "calculator-modal"
+        )
+        .classList.toggle(
+            "active"
+        );
+
+}
+
+
+function calcInput(value) {
+
+    const screen =
+        document.getElementById(
+            "calc-screen"
+        );
+
+
+    /*
+     * Only permit calculator characters.
+     */
+    const allowed =
+        /^[0-9+\-*/(). ]+$/;
+
+
+    if (
+        allowed.test(value)
+    ) {
+
+        screen.value += value;
+
+    }
+
+}
+
+
+function calcClear() {
+
+    document.getElementById(
+        "calc-screen"
+    ).value = "";
+
+}
+
+
+function calcEquals() {
+
+    const screen =
+        document.getElementById(
+            "calc-screen"
+        );
+
+
+    const expression =
+        screen.value.trim();
+
+
+    if (!expression) {
+        return;
+    }
+
+
+    /*
+     * Calculator-only expression validation.
+     */
+    if (
+        !/^[0-9+\-*/(). ]+$/.test(
+            expression
+        )
+    ) {
+
+        screen.value =
+            "Error";
+
+        return;
+
+    }
+
+
+    try {
+
+        /*
+         * Function is used only after strict
+         * character validation above.
+         */
+        const result =
+            Function(
+                `"use strict"; return (${expression})`
+            )();
+
+
+        if (
+            !Number.isFinite(result)
+        ) {
+
+            throw new Error(
+                "Invalid calculation"
+            );
+
+        }
+
+
+        screen.value =
+            String(result);
+
+    } catch {
+
+        screen.value =
+            "Error";
+
+    }
+
+}
+
+</script>
+
 </body>
 </html>
