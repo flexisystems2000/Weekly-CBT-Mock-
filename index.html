@@ -4,10 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Flexi CBT | Candidate Verification</title>
+
 <link rel="icon" type="image/png" href="https://i.postimg.cc/0Qm3PLw5/1771700279759-2.jpg">
+
 <script type="module">
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
-import { getFirestore, collection, query, where, getDocs } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
+import { getFirestore, collection, query, where, getDocs} from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
 
 const firebaseConfig = {
     apiKey: "AIzaSyDIzP6OB7uLm5bn4js0C6b-4Ll10gV80-o",
@@ -24,28 +26,49 @@ const db = getFirestore(app);
 const SESSION_KEY = "flexi_exam_session";
 
 function getSession() {
-    try { return JSON.parse(localStorage.getItem(SESSION_KEY) || "null"); }
-    catch { return null; }
+    try {
+        return JSON.parse(localStorage.getItem(SESSION_KEY) || "null");
+    } catch {
+        return null;
+    }
 }
 
 function clearOldSession() {
     localStorage.removeItem(SESSION_KEY);
+
     [
-        "candidateName", "whatsappNumber", "deviceFingerprint",
-        "flexi_candidate_id", "flexi_exam_session_id",
-        "userSubjectKeys", "userSubjectLabels", "selectedExamType",
+        "candidateName",
+        "whatsappNumber",
+        "deviceFingerprint",
+        "flexi_candidate_id",
+        "flexi_exam_session_id",
+        "userSubjectKeys",
+        "userSubjectLabels",
+        "selectedExamType",
         "flexi_active_subject"
     ].forEach(k => localStorage.removeItem(k));
 }
 
 function createId() {
-    if (window.crypto && crypto.randomUUID) return crypto.randomUUID();
+    if (window.crypto && crypto.randomUUID) {
+        return crypto.randomUUID();
+    }
+
     return "flexi-" + Date.now() + "-" + Math.random().toString(36).slice(2);
 }
 
 window.verifyCandidateInFirestore = async function() {
-    const name = document.getElementById("candidateName").value.trim();
-    const whatsapp = document.getElementById("whatsappNumber").value.trim();
+
+    const name = document
+        .getElementById("candidateName")
+        .value
+        .trim();
+
+    const whatsapp = document
+        .getElementById("whatsappNumber")
+        .value
+        .trim();
+
     const errorDiv = document.getElementById("errorMsg");
     const btn = document.getElementById("submitBtn");
 
@@ -62,6 +85,7 @@ window.verifyCandidateInFirestore = async function() {
     }
 
     const normalizedWhatsApp = whatsapp.replace(/\s+/g, "");
+
     if (!/^[0-9+()-]{7,20}$/.test(normalizedWhatsApp)) {
         errorDiv.innerText = "Please enter a valid WhatsApp phone number.";
         return;
@@ -69,17 +93,31 @@ window.verifyCandidateInFirestore = async function() {
 
     const now = new Date();
     const hours = now.getHours();
+
     if (hours < 12) {
-        errorDiv.innerText = "Portal Locked: The CBT simulation is only accessible between 12:00 PM and 12:00 AM.";
+        errorDiv.innerText =
+            "Portal Locked: The CBT simulation is only accessible between 12:00 PM and 12:00 AM.";
         return;
     }
 
-    // If a valid unfinished session exists, do not create a second session.
+    /*
+     * If a valid unfinished session already exists,
+     * resume that session instead of creating another one.
+     */
     const existing = getSession();
-    if (existing && existing.status === "in_progress" && existing.candidate?.whatsapp === normalizedWhatsApp) {
-        window.location.href = existing.stage === "exam" ? "exam.html" :
-                               existing.stage === "instructions" ? "instructions.html" :
-                               "subjects.html";
+
+    if (
+        existing &&
+        existing.status === "in_progress" &&
+        existing.candidate?.whatsapp === normalizedWhatsApp
+    ) {
+        window.location.href =
+            existing.stage === "exam"
+                ? "exam.html"
+                : existing.stage === "instructions"
+                    ? "instructions.html"
+                    : "subjects.html";
+
         return;
     }
 
@@ -87,6 +125,7 @@ window.verifyCandidateInFirestore = async function() {
     btn.innerText = "Verifying Database...";
 
     try {
+
         const fingerprint = [
             navigator.userAgent,
             screen.width + "x" + screen.height,
@@ -94,151 +133,472 @@ window.verifyCandidateInFirestore = async function() {
         ].join("_");
 
         const submissionsRef = collection(db, "cbt_submissions");
-        const qWhatsApp = query(submissionsRef, where("candidate.whatsapp", "==", normalizedWhatsApp));
-        const qFingerprint = query(submissionsRef, where("deviceFingerprint", "==", fingerprint));
 
-        // Also support older records created by the previous version.
-        const oldWhatsAppQuery = query(submissionsRef, where("whatsapp", "==", normalizedWhatsApp));
-        const oldFingerprintQuery = query(submissionsRef, where("fingerprint", "==", fingerprint));
+        const qWhatsApp = query(
+            submissionsRef,
+            where("candidate.whatsapp", "==", normalizedWhatsApp)
+        );
 
-        const [whatsappSnap, fingerprintSnap, oldWhatsappSnap, oldFingerprintSnap] =
-            await Promise.all([
-                getDocs(qWhatsApp),
-                getDocs(qFingerprint),
-                getDocs(oldWhatsAppQuery),
-                getDocs(oldFingerprintQuery)
-            ]);
+        const qFingerprint = query(
+            submissionsRef,
+            where("deviceFingerprint", "==", fingerprint)
+        );
 
-        if (!whatsappSnap.empty || !fingerprintSnap.empty || !oldWhatsappSnap.empty || !oldFingerprintSnap.empty) {
-            errorDiv.innerText = "Access Denied: Our database shows a previous exam submission associated with this WhatsApp number or device.";
+        /*
+         * Support older records created by previous versions.
+         */
+        const oldWhatsAppQuery = query(
+            submissionsRef,
+            where("whatsapp", "==", normalizedWhatsApp)
+        );
+
+        const oldFingerprintQuery = query(
+            submissionsRef,
+            where("fingerprint", "==", fingerprint)
+        );
+
+        const [
+            whatsappSnap,
+            fingerprintSnap,
+            oldWhatsappSnap,
+            oldFingerprintSnap
+        ] = await Promise.all([
+            getDocs(qWhatsApp),
+            getDocs(qFingerprint),
+            getDocs(oldWhatsAppQuery),
+            getDocs(oldFingerprintQuery)
+        ]);
+
+        if (
+            !whatsappSnap.empty ||
+            !fingerprintSnap.empty ||
+            !oldWhatsappSnap.empty ||
+            !oldFingerprintSnap.empty
+        ) {
+            errorDiv.innerText =
+                "Access Denied: Our database shows a previous exam submission associated with this WhatsApp number or device.";
+
             btn.disabled = false;
             btn.innerText = "Proceed to Exam Setup";
+
             return;
         }
 
         const candidateId = createId();
         const sessionId = createId();
 
+        /*
+         * FLEXI WEEKLY CBT MOCK
+         *
+         * 4 subjects
+         * 15 questions per subject
+         * 60 questions total
+         * 10 MINUTES TOTAL
+         *
+         * 600 seconds = 10 minutes.
+         *
+         * This is the single source of truth for the
+         * exam duration used by the following pages.
+         */
         const session = {
             sessionId,
             candidateId,
+
             examType: "JAMB",
+
             candidate: {
                 name,
                 whatsapp: normalizedWhatsApp
             },
+
             deviceFingerprint: fingerprint,
+
             subjects: [],
+
             currentSubjectIndex: 0,
             currentQuestionIndex: 0,
+
             answers: {},
+
             warnings: 0,
-            durationSeconds: 5400,
+
+            // 10 MINUTES TOTAL FOR THE ENTIRE EXAM
+            durationSeconds: 600,
+
             startedAt: null,
             endTime: null,
+
             status: "setup",
             stage: "subjects",
+
             createdAt: new Date().toISOString()
         };
 
-        localStorage.setItem(SESSION_KEY, JSON.stringify(session));
+        localStorage.setItem(
+            SESSION_KEY,
+            JSON.stringify(session)
+        );
 
-        // Keep these legacy keys temporarily for compatibility with any surrounding pages.
-        localStorage.setItem("candidateName", name);
-        localStorage.setItem("whatsappNumber", normalizedWhatsApp);
-        localStorage.setItem("deviceFingerprint", fingerprint);
-        localStorage.setItem("flexi_candidate_id", candidateId);
-        localStorage.setItem("flexi_exam_session_id", sessionId);
-        localStorage.setItem("selectedExamType", "JAMB");
+        /*
+         * Keep legacy keys temporarily for compatibility
+         * with surrounding pages.
+         */
+        localStorage.setItem(
+            "candidateName",
+            name
+        );
+
+        localStorage.setItem(
+            "whatsappNumber",
+            normalizedWhatsApp
+        );
+
+        localStorage.setItem(
+            "deviceFingerprint",
+            fingerprint
+        );
+
+        localStorage.setItem(
+            "flexi_candidate_id",
+            candidateId
+        );
+
+        localStorage.setItem(
+            "flexi_exam_session_id",
+            sessionId
+        );
+
+        localStorage.setItem(
+            "selectedExamType",
+            "JAMB"
+        );
 
         window.location.href = "subjects.html";
+
     } catch (err) {
-        console.error("Firestore verification error:", err);
-        errorDiv.innerText = "Network error during verification. Please check your connection and try again.";
+
+        console.error(
+            "Firestore verification error:",
+            err
+        );
+
+        errorDiv.innerText =
+            "Network error during verification. Please check your connection and try again.";
+
         btn.disabled = false;
         btn.innerText = "Proceed to Exam Setup";
     }
 };
 
+
 window.addEventListener("DOMContentLoaded", () => {
+
     const session = getSession();
+
     if (session?.status === "in_progress") {
+
         document.getElementById("resumeBox").style.display = "block";
-        document.getElementById("resumeName").innerText = session.candidate?.name || "Candidate";
+
+        document.getElementById("resumeName").innerText =
+            session.candidate?.name || "Candidate";
     }
 });
 
+
 window.resumeExistingExam = function() {
+
     const session = getSession();
-    if (!session || session.status !== "in_progress") return;
-    window.location.href = session.stage === "exam" ? "exam.html" :
-                           session.stage === "instructions" ? "instructions.html" :
-                           "subjects.html";
+
+    if (!session || session.status !== "in_progress") {
+        return;
+    }
+
+    window.location.href =
+        session.stage === "exam"
+            ? "exam.html"
+            : session.stage === "instructions"
+                ? "instructions.html"
+                : "subjects.html";
 };
 
+
 window.startFreshVerification = function() {
+
     clearOldSession();
+
     document.getElementById("resumeBox").style.display = "none";
 };
 </script>
+
+
 <style>
-:root { --blue:#003366; --green:#2E8B57; --j-green:#228B22; --j-red:#cc0000; }
-* { box-sizing:border-box; font-family:Arial,Helvetica,sans-serif; }
-body { margin:0; background:#f8fafc; display:flex; flex-direction:column; min-height:100vh; justify-content:space-between; }
-.site-header { background:var(--blue); color:white; padding:12px 10px; border-bottom:8px solid var(--green); text-align:center; }
-.header-container { display:flex; align-items:center; justify-content:center; gap:10px; }
-.header-logo { width:45px; height:45px; border-radius:50%; object-fit:cover; border:2px solid white; }
-.site-header h1 { margin:0; font-size:.95rem; text-transform:uppercase; }
-.main-wrapper { display:flex; justify-content:center; align-items:center; flex:1; padding:20px; }
-.card { background:white; padding:30px; border-radius:8px; box-shadow:0 4px 15px rgba(0,0,0,.08); width:100%; max-width:450px; border-top:4px solid var(--j-green); }
-.card h2 { color:var(--blue); margin-top:0; font-size:1.25rem; text-align:center; }
-.card p { color:#555; font-size:.9rem; text-align:center; margin-bottom:20px; }
-.form-group { margin-bottom:15px; }
-label { display:block; font-weight:bold; font-size:.85rem; color:#333; margin-bottom:5px; }
-input { width:100%; padding:12px; border:1px solid #ccc; border-radius:6px; font-size:.95rem; }
-input:focus { border-color:var(--blue); outline:none; box-shadow:0 0 4px rgba(0,51,102,.2); }
-button { background:var(--j-green); color:white; border:none; padding:14px; width:100%; border-radius:6px; font-weight:bold; font-size:1rem; cursor:pointer; transition:.2s; }
-button:hover { background:#1b6e1b; }
-button:disabled { background:#94a3b8; cursor:not-allowed; }
-.error { color:var(--j-red); font-size:.85rem; margin-top:15px; text-align:center; font-weight:bold; }
-.resume-box { display:none; background:#fff8e1; border:1px solid #f0c36d; border-radius:6px; padding:12px; margin-bottom:15px; font-size:.85rem; color:#5d4700; }
-.resume-box button { margin-top:8px; }
-.resume-box .secondary { background:#64748b; }
+
+:root {
+    --blue: #003366;
+    --green: #2E8B57;
+    --j-green: #228B22;
+    --j-red: #cc0000;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: #f8fafc;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: space-between;
+}
+
+.site-header {
+    background: var(--blue);
+    color: white;
+    padding: 12px 10px;
+    border-bottom: 8px solid var(--green);
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header-logo {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+}
+
+.site-header h1 {
+    margin: 0;
+    font-size: .95rem;
+    text-transform: uppercase;
+}
+
+.main-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,.08);
+    width: 100%;
+    max-width: 450px;
+    border-top: 4px solid var(--j-green);
+}
+
+.card h2 {
+    color: var(--blue);
+    margin-top: 0;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.card p {
+    color: #555;
+    font-size: .9rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    font-size: .85rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: .95rem;
+}
+
+input:focus {
+    border-color: var(--blue);
+    outline: none;
+    box-shadow: 0 0 4px rgba(0,51,102,.2);
+}
+
+button {
+    background: var(--j-green);
+    color: white;
+    border: none;
+    padding: 14px;
+    width: 100%;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button:hover {
+    background: #1b6e1b;
+}
+
+button:disabled {
+    background: #94a3b8;
+    cursor: not-allowed;
+}
+
+.error {
+    color: var(--j-red);
+    font-size: .85rem;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.resume-box {
+    display: none;
+    background: #fff8e1;
+    border: 1px solid #f0c36d;
+    border-radius: 6px;
+    padding: 12px;
+    margin-bottom: 15px;
+    font-size: .85rem;
+    color: #5d4700;
+}
+
+.resume-box button {
+    margin-top: 8px;
+}
+
+.resume-box .secondary {
+    background: #64748b;
+}
+
 </style>
+
 </head>
+
+
 <body>
+
 <header class="site-header">
-<div class="header-container">
-<img src="https://i.postimg.cc/0Qm3PLw5/1771700279759-2.jpg" alt="Logo" class="header-logo">
-<h1>FLEXI EDUCATIONAL CONSULT</h1>
-</div>
+
+    <div class="header-container">
+
+        <img
+            src="https://i.postimg.cc/0Qm3PLw5/1771700279759-2.jpg"
+            alt="Logo"
+            class="header-logo"
+        >
+
+        <h1>FLEXI EDUCATIONAL CONSULT</h1>
+
+    </div>
+
 </header>
 
+
 <div class="main-wrapper">
-<div class="card">
-<h2>Weekly CBT Mock Portal</h2>
-<p>Please enter your legal credentials to verify your exam eligibility.</p>
 
-<div id="resumeBox" class="resume-box">
-<b>Unfinished exam detected.</b><br>
-Candidate: <span id="resumeName"></span>
-<button type="button" onclick="resumeExistingExam()">Resume Current Exam</button>
-<button type="button" class="secondary" onclick="startFreshVerification()">Start New Verification</button>
+    <div class="card">
+
+        <h2>Weekly CBT Mock Portal</h2>
+
+        <p>
+            Please enter your legal credentials to verify your exam eligibility.
+        </p>
+
+
+        <div id="resumeBox" class="resume-box">
+
+            <b>Unfinished exam detected.</b>
+            <br>
+
+            Candidate:
+            <span id="resumeName"></span>
+
+            <button
+                type="button"
+                onclick="resumeExistingExam()"
+            >
+                Resume Current Exam
+            </button>
+
+            <button
+                type="button"
+                class="secondary"
+                onclick="startFreshVerification()"
+            >
+                Start New Verification
+            </button>
+
+        </div>
+
+
+        <div class="form-group">
+
+            <label for="candidateName">
+                Full Name (Surname First)
+            </label>
+
+            <input
+                type="text"
+                id="candidateName"
+                placeholder="e.g. Adebayo John Oluwaseun"
+                autocomplete="name"
+            >
+
+        </div>
+
+
+        <div class="form-group">
+
+            <label for="whatsappNumber">
+                WhatsApp Phone Number
+            </label>
+
+            <input
+                type="tel"
+                id="whatsappNumber"
+                placeholder="e.g. 09034159839"
+                autocomplete="tel"
+            >
+
+        </div>
+
+
+        <button
+            id="submitBtn"
+            onclick="verifyCandidateInFirestore()"
+        >
+            Proceed to Exam Setup
+        </button>
+
+
+        <div
+            id="errorMsg"
+            class="error"
+        ></div>
+
+    </div>
+
 </div>
 
-<div class="form-group">
-<label for="candidateName">Full Name (Surname First)</label>
-<input type="text" id="candidateName" placeholder="e.g. Adebayo John Oluwaseun" autocomplete="name">
-</div>
-
-<div class="form-group">
-<label for="whatsappNumber">WhatsApp Phone Number</label>
-<input type="tel" id="whatsappNumber" placeholder="e.g. 09034159839" autocomplete="tel">
-</div>
-
-<button id="submitBtn" onclick="verifyCandidateInFirestore()">Proceed to Exam Setup</button>
-<div id="errorMsg" class="error"></div>
-</div>
-</div>
 </body>
 </html>
