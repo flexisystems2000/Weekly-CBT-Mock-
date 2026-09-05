@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Select Subjects | Flexi CBT</title>
+<link rel="icon" type="image/png" href="https://i.postimg.cc/0Qm3PLw5/1771700279759-2.jpg">
+<style>
+:root { --blue:#003366; --green:#2E8B57; --j-green:#228B22; --j-red:#cc0000; }
+* { box-sizing:border-box; font-family:Arial,Helvetica,sans-serif; }
+body { margin:0; background:#f8fafc; display:flex; flex-direction:column; min-height:100vh; }
+.site-header { background:var(--blue); color:white; padding:12px 10px; border-bottom:8px solid var(--green); text-align:center; }
+.header-container { display:flex; align-items:center; justify-content:center; gap:10px; }
+.header-logo { width:45px; height:45px; border-radius:50%; object-fit:cover; border:2px solid white; }
+.site-header h1 { margin:0; font-size:.95rem; text-transform:uppercase; }
+.main-wrapper { display:flex; justify-content:center; align-items:center; flex:1; padding:20px; }
+.card { background:white; padding:25px; border-radius:8px; box-shadow:0 4px 15px rgba(0,0,0,.08); width:100%; max-width:500px; border-top:4px solid var(--j-green); }
+.card h2 { color:var(--blue); margin-top:0; font-size:1.2rem; text-align:center; }
+.candidate-line { text-align:center; color:#555; font-size:.82rem; margin:-5px 0 14px; }
+.instruction-box { background:#f0f7f4; border-left:4px solid var(--j-green); padding:10px 14px; font-size:.85rem; color:#333; margin-bottom:15px; }
+.subjects-grid { display:flex; flex-direction:column; gap:8px; max-height:280px; overflow-y:auto; padding-right:4px; }
+.subject-option { display:flex; align-items:center; padding:12px; border:1px solid #e2e8f0; border-radius:6px; cursor:pointer; transition:.2s; background:#fff; }
+.subject-option:hover { background:#f8fafc; border-color:var(--j-green); }
+.subject-option input { width:18px; height:18px; accent-color:var(--j-green); cursor:pointer; }
+.subject-option label { margin-left:12px; font-size:.9rem; cursor:pointer; flex-grow:1; font-weight:500; color:#333; }
+.compulsory { background:#edf2f7; opacity:.85; border-color:#cbd5e0; }
+button { background:var(--j-green); color:white; border:none; padding:14px; width:100%; border-radius:6px; font-weight:bold; font-size:1rem; cursor:pointer; margin-top:20px; transition:.2s; }
+button:hover { background:#1b6e1b; }
+.error { color:var(--j-red); font-size:.85rem; margin-top:10px; text-align:center; font-weight:bold; }
+</style>
+</head>
+<body>
+<header class="site-header">
+<div class="header-container">
+<img src="https://i.postimg.cc/0Qm3PLw5/1771700279759-2.jpg" alt="Logo" class="header-logo">
+<h1>FLEXI EDUCATIONAL CONSULT</h1>
+</div>
+</header>
+
+<div class="main-wrapper">
+<div class="card">
+<h2>Subject Combination Setup</h2>
+<div id="candidateLine" class="candidate-line"></div>
+<div class="instruction-box">
+<b>Use of English</b> is compulsory. Please check exactly <b>3 additional subjects</b> matching your JAMB profile.
+</div>
+
+<div class="subjects-grid">
+<div class="subject-option compulsory">
+<input type="checkbox" checked disabled id="eng">
+<label for="eng">Use of English (Compulsory)</label>
+</div>
+<div id="electives-container"></div>
+</div>
+
+<button onclick="saveSubjects()">Confirm Subjects & Continue</button>
+<div id="errorMsg" class="error"></div>
+</div>
+</div>
+
+<script>
+const SESSION_KEY = "flexi_exam_session";
+const availableElectives = [
+    "Mathematics","Physics","Chemistry","Biology","Commerce",
+    "Financial Accounting","Literature in English","Government",
+    "Christian Religious Knowledge","Economics","Civic Education"
+];
+
+function getSession() {
+    try { return JSON.parse(localStorage.getItem(SESSION_KEY) || "null"); }
+    catch { return null; }
+}
+
+function saveSession(session) {
+    localStorage.setItem(SESSION_KEY, JSON.stringify(session));
+}
+
+const session = getSession();
+if (!session || !session.candidate?.name) {
+    alert("Candidate verification is required before subject selection.");
+    window.location.href = "index.html";
+} else if (session.status === "submitted") {
+    alert("This exam session has already been submitted.");
+    window.location.href = "index.html";
+} else {
+    document.getElementById("candidateLine").innerText = `Candidate: ${session.candidate.name}`;
+}
+
+const container = document.getElementById("electives-container");
+container.innerHTML = availableElectives.map((sub, idx) => `
+<div class="subject-option" onclick="toggleCheckbox('sub_${idx}')">
+<input type="checkbox" name="elective" value="${sub}" id="sub_${idx}" onclick="event.stopPropagation();">
+<label for="sub_${idx}">${sub}</label>
+</div>
+`).join("");
+
+function toggleCheckbox(id) {
+    const cb = document.getElementById(id);
+    if (!cb) return;
+
+    if (!cb.checked && document.querySelectorAll('input[name="elective"]:checked').length >= 3) {
+        document.getElementById("errorMsg").innerText = "You can only choose 3 elective subjects.";
+        return;
+    }
+
+    cb.checked = !cb.checked;
+    document.getElementById("errorMsg").innerText = "";
+}
+
+document.querySelectorAll('input[name="elective"]').forEach(cb => {
+    cb.addEventListener("change", () => {
+        const selected = document.querySelectorAll('input[name="elective"]:checked');
+        if (selected.length > 3) {
+            cb.checked = false;
+            document.getElementById("errorMsg").innerText = "You can only choose 3 elective subjects.";
+        } else {
+            document.getElementById("errorMsg").innerText = "";
+        }
+    });
+});
+
+function saveSubjects() {
+    const selectedElectives = Array.from(document.querySelectorAll('input[name="elective"]:checked'))
+        .map(el => el.value);
+
+    const errorDiv = document.getElementById("errorMsg");
+
+    if (selectedElectives.length !== 3) {
+        errorDiv.innerText = "Please select precisely 3 elective subjects.";
+        return;
+    }
+
+    const finalSubjects = ["Use of English", ...selectedElectives];
+
+    session.subjects = finalSubjects;
+    session.currentSubjectIndex = 0;
+    session.currentQuestionIndex = 0;
+    session.answers = {};
+    session.status = "setup";
+    session.stage = "instructions";
+    saveSession(session);
+
+    // Compatibility keys for other surrounding Flexi pages.
+    localStorage.setItem("userSubjectKeys", JSON.stringify(finalSubjects));
+    localStorage.setItem("userSubjectLabels", JSON.stringify(finalSubjects));
+    localStorage.setItem("selectedExamType", "JAMB");
+
+    window.location.href = "instructions.html";
+}
+</script>
+</body>
+</html>

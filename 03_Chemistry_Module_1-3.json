@@ -1,0 +1,152 @@
+[
+  {
+    "question": "A mixture contains ammonium chloride, sand and sodium chloride. Which sequence best separates all three components?",
+    "options": [
+      "Filtration, sublimation, evaporation",
+      "Sublimation, dissolution and filtration, evaporation",
+      "Evaporation, filtration, sublimation",
+      "Distillation, filtration, crystallization"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which method is most appropriate for obtaining pure water from seawater?",
+    "options": [
+      "Filtration",
+      "Decantation",
+      "Simple distillation",
+      "Fractional crystallization"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A solid changes directly to vapour and back to solid without passing through the liquid state. This process is called",
+    "options": [
+      "Evaporation",
+      "Sublimation",
+      "Condensation",
+      "Diffusion"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which observation provides the strongest evidence that matter is particulate?",
+    "options": [
+      "A metal is shiny",
+      "Perfume spreads through a room",
+      "Water is colourless",
+      "Glass is transparent"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Brownian motion is primarily evidence of",
+    "options": [
+      "chemical bonding",
+      "continuous random motion of particles",
+      "radioactive decay",
+      "conservation of mass"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "At constant temperature, a gas is compressed to half its original volume. Its pressure becomes",
+    "options": [
+      "half",
+      "unchanged",
+      "twice",
+      "four times"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which statement about diffusion is correct?",
+    "options": [
+      "It occurs only in gases",
+      "It requires an external pump",
+      "It results from random particle motion",
+      "It stops completely in liquids"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "An atom has 17 protons and 18 electrons. The species is",
+    "options": [
+      "a neutral chlorine atom",
+      "a chloride ion",
+      "an argon ion",
+      "a potassium ion"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "An isotope has mass number 37 and atomic number 17. The number of neutrons is",
+    "options": [
+      "17",
+      "18",
+      "20",
+      "54"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which pair represents isotopes of the same element?",
+    "options": [
+      "¹²C and ¹⁴N",
+      "³⁵Cl and ³⁷Cl",
+      "²³Na and ²⁴Mg",
+      "¹⁶O and ¹⁷F"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "An element with electronic configuration 2,8,1 is most likely to",
+    "options": [
+      "gain one electron",
+      "lose one electron",
+      "gain seven electrons",
+      "share eight electrons"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Across a period of the periodic table, atomic radius generally decreases because",
+    "options": [
+      "electron shells disappear",
+      "nuclear charge increases while shielding changes little",
+      "atomic mass decreases",
+      "neutrons repel electrons"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which particle determines the identity of an element?",
+    "options": [
+      "Neutron",
+      "Electron",
+      "Proton",
+      "Nucleon"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "An element has two electrons in its outermost shell and belongs to Period 3. Its likely group is",
+    "options": [
+      "1",
+      "2",
+      "13",
+      "18"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which statement distinguishes a cation from its parent atom?",
+    "options": [
+      "It has more protons",
+      "It has fewer electrons",
+      "It has more neutrons",
+      "It has a different atomic number"
+    ],
+    "answer": "B"
+  }
+]

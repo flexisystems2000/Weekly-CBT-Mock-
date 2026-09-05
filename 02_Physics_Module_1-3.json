@@ -1,0 +1,152 @@
+[
+  {
+    "question": "A length is measured as 12.40 cm using an instrument whose smallest division is 0.1 cm. Which value best represents the measurement with its implied precision?",
+    "options": [
+      "12 cm",
+      "12.4 cm",
+      "12.40 cm",
+      "12.400 cm"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Two vectors of magnitudes 6 N and 8 N act at right angles. Their resultant magnitude is",
+    "options": [
+      "2 N",
+      "10 N",
+      "14 N",
+      "48 N"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A displacement vector has components 12 m east and 5 m north. Its magnitude is",
+    "options": [
+      "7 m",
+      "13 m",
+      "17 m",
+      "60 m"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A car travels 120 m in 8 s and then 80 m in 4 s. Its average speed for the entire journey is",
+    "options": [
+      "16.7 m/s",
+      "20 m/s",
+      "25 m/s",
+      "30 m/s"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A body starts from rest and accelerates uniformly at 3 m/s² for 8 s. Its displacement is",
+    "options": [
+      "24 m",
+      "48 m",
+      "96 m",
+      "192 m"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A particle moving at 20 m/s is brought uniformly to rest in 5 s. Its acceleration is",
+    "options": [
+      "−4 m/s²",
+      "−5 m/s²",
+      "4 m/s²",
+      "5 m/s²"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A stone is thrown vertically upward with speed 20 m/s. Taking g = 10 m/s², its maximum height is",
+    "options": [
+      "10 m",
+      "20 m",
+      "30 m",
+      "40 m"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A velocity-time graph is a straight line rising from 0 to 12 m/s in 4 s. The distance travelled in those 4 s is",
+    "options": [
+      "12 m",
+      "24 m",
+      "36 m",
+      "48 m"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A 2 kg object moving at 6 m/s collides head-on with a 4 kg object at rest. If they stick together, their common velocity is",
+    "options": [
+      "1 m/s",
+      "2 m/s",
+      "3 m/s",
+      "6 m/s"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A 0.5 kg ball changes velocity from +8 m/s to −4 m/s. The magnitude of its change in momentum is",
+    "options": [
+      "2 kg·m/s",
+      "4 kg·m/s",
+      "6 kg·m/s",
+      "12 kg·m/s"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A constant force of 15 N acts on a 3 kg body initially at rest for 4 s. Its final momentum is",
+    "options": [
+      "20 kg·m/s",
+      "45 kg·m/s",
+      "60 kg·m/s",
+      "180 kg·m/s"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A projectile is launched horizontally from a cliff. Neglecting air resistance, its horizontal acceleration is",
+    "options": [
+      "g",
+      "g/2",
+      "0",
+      "−g"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which pair contains one scalar and one vector quantity respectively?",
+    "options": [
+      "Speed and velocity",
+      "Velocity and displacement",
+      "Force and acceleration",
+      "Momentum and speed"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A 5 kg trolley moving at 4 m/s has the same momentum as a 2 kg trolley. The speed of the second trolley is",
+    "options": [
+      "2 m/s",
+      "5 m/s",
+      "8 m/s",
+      "10 m/s"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Two forces of 10 N each act on a body at an angle of 120° to each other. The resultant force is",
+    "options": [
+      "0 N",
+      "10 N",
+      "10√2 N",
+      "20 N"
+    ],
+    "answer": "B"
+  }
+]
