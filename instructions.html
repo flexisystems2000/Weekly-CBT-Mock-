@@ -4,119 +4,215 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Examination Rules | Flexi CBT</title>
+
 <link rel="icon" type="image/png" href="https://i.postimg.cc/0Qm3PLw5/1771700279759-2.jpg">
+
 <style>
-:root { --blue:#003366; --green:#2E8B57; --j-green:#228B22; --j-red:#cc0000; }
-* { box-sizing:border-box; font-family:Arial,Helvetica,sans-serif; }
-body { margin:0; background:#f8fafc; display:flex; flex-direction:column; min-height:100vh; }
-.site-header { background:var(--blue); color:white; padding:12px 10px; border-bottom:8px solid var(--green); text-align:center; }
-.header-container { display:flex; align-items:center; justify-content:center; gap:10px; }
-.header-logo { width:45px; height:45px; border-radius:50%; object-fit:cover; border:2px solid white; }
-.site-header h1 { margin:0; font-size:.95rem; text-transform:uppercase; }
-.main-wrapper { display:flex; justify-content:center; align-items:center; flex:1; padding:20px; }
-.card { background:white; padding:25px; border-radius:8px; box-shadow:0 4px 15px rgba(0,0,0,.08); width:100%; max-width:550px; border-top:4px solid var(--j-green); }
-.card h2 { color:var(--blue); margin-top:0; font-size:1.2rem; text-align:center; }
-.candidate-line { text-align:center; color:#555; font-size:.85rem; margin-bottom:16px; }
-.rules-list { padding-left:20px; color:#444; font-size:.9rem; line-height:1.6; margin-bottom:20px; }
-.rules-list li { margin-bottom:10px; }
-.subject-summary { background:#f0f7f4; border-left:4px solid var(--j-green); padding:12px 14px; margin-bottom:18px; font-size:.88rem; }
-.subject-summary ul { margin:8px 0 0 18px; padding:0; }
-button { background:var(--j-green); color:white; border:none; padding:14px; width:100%; border-radius:6px; font-weight:bold; font-size:1rem; cursor:pointer; transition:.2s; }
-button:hover { background:#1b6e1b; }
-.error { color:var(--j-red); text-align:center; font-weight:bold; font-size:.85rem; margin-top:12px; }
+:root{
+    --blue:#003366;
+    --green:#2E8B57;
+    --j-green:#228B22;
+    --j-red:#cc0000;
+}
+*{box-sizing:border-box;font-family:Arial,Helvetica,sans-serif;}
+body{
+    margin:0;
+    background:#f8fafc;
+    display:flex;
+    flex-direction:column;
+    min-height:100vh;
+}
+.site-header{
+    background:var(--blue);
+    color:white;
+    padding:12px 10px;
+    border-bottom:8px solid var(--green);
+    text-align:center;
+}
+.header-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+}
+.header-logo{
+    width:45px;
+    height:45px;
+    border-radius:50%;
+    object-fit:cover;
+    border:2px solid white;
+}
+.site-header h1{
+    margin:0;
+    font-size:.95rem;
+    text-transform:uppercase;
+}
+.main-wrapper{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex:1;
+    padding:20px;
+}
+.card{
+    background:white;
+    padding:25px;
+    border-radius:8px;
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+    width:100%;
+    max-width:560px;
+    border-top:4px solid var(--j-green);
+}
+.card h2{
+    color:var(--blue);
+    margin-top:0;
+    text-align:center;
+}
+.candidate-box{
+    background:#f0f7f4;
+    border-left:4px solid var(--j-green);
+    padding:12px;
+    margin-bottom:18px;
+    border-radius:4px;
+}
+.candidate-box p{
+    margin:6px 0;
+    font-size:.9rem;
+}
+.subject-list{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:8px;
+    margin-top:8px;
+}
+.subject-pill{
+    background:#edf2f7;
+    border:1px solid #d1d5db;
+    padding:8px;
+    border-radius:6px;
+    text-align:center;
+    font-size:.85rem;
+    font-weight:bold;
+}
+.rules-list{
+    padding-left:20px;
+    color:#444;
+    font-size:.9rem;
+    line-height:1.6;
+    margin-bottom:20px;
+}
+.rules-list li{margin-bottom:10px;}
+button{
+    background:var(--j-green);
+    color:white;
+    border:none;
+    padding:14px;
+    width:100%;
+    border-radius:6px;
+    font-weight:bold;
+    font-size:1rem;
+    cursor:pointer;
+}
+button:hover{background:#1b6e1b;}
+.error{
+    color:var(--j-red);
+    text-align:center;
+    margin-top:15px;
+    font-weight:bold;
+}
 </style>
 </head>
 <body>
+
 <header class="site-header">
-<div class="header-container">
-<img src="https://i.postimg.cc/0Qm3PLw5/1771700279759-2.jpg" alt="Logo" class="header-logo">
-<h1>FLEXI EDUCATIONAL CONSULT</h1>
-</div>
+    <div class="header-container">
+        <img src="https://i.postimg.cc/0Qm3PLw5/1771700279759-2.jpg" class="header-logo">
+        <h1>FLEXI EDUCATIONAL CONSULT</h1>
+    </div>
 </header>
 
 <div class="main-wrapper">
 <div class="card">
-<h2>Mock Examination Instructions</h2>
-<div id="candidateLine" class="candidate-line"></div>
 
-<div id="subjectSummary" class="subject-summary"></div>
+<h2>Mock Examination Instructions</h2>
+
+<div class="candidate-box">
+    <p><b>Candidate:</b> <span id="candidateName"></span></p>
+    <p><b>Exam:</b> JAMB Weekly CBT Mock</p>
+    <p><b>Questions:</b> 60 (15 per subject)</p>
+    <p><b>Time Allowed:</b> 10 Minutes</p>
+
+    <div id="subjectsBox" class="subject-list"></div>
+</div>
 
 <ul class="rules-list">
-<li>The test comprises <b>180 multiple-choice questions</b>: 60 questions in Use of English and 40 questions in each of your 3 selected electives.</li>
-<li>The countdown timer is <b>1 hour 30 minutes for the entire examination</b>. It does not reset when you move between subjects.</li>
-<li>Your answers are preserved while you navigate through the 180 questions. You may use the question palette to move directly to any question.</li>
-<li>Do not attempt to switch tabs, refresh the screen, or minimize the browser. Automated monitoring records suspicious visibility changes.</li>
-<li>When all questions have been attempted or you are ready to finish, use the <b>Submit Exam</b> button. Scores are not displayed on this page immediately after submission.</li>
+<li>There are <b>60 questions</b> across your four selected subjects.</li>
+<li>The countdown timer is locked at exactly <b>10 minutes</b>.</li>
+<li>Do not refresh, switch tabs repeatedly or minimise the browser during the examination.</li>
+<li>Your answers remain saved while moving between subjects.</li>
+<li>The exam submits automatically when the timer reaches zero.</li>
 </ul>
 
 <button onclick="launchExam()">I Understand, Launch Exam Now</button>
+
 <div id="errorMsg" class="error"></div>
+
 </div>
 </div>
 
 <script>
-const SESSION_KEY = "flexi_exam_session";
+const SESSION_KEY="flexi_exam_session";
 
-function getSession() {
-    try { return JSON.parse(localStorage.getItem(SESSION_KEY) || "null"); }
-    catch { return null; }
+function getSession(){
+    try{
+        return JSON.parse(localStorage.getItem(SESSION_KEY)||"null");
+    }catch{
+        return null;
+    }
 }
 
-function saveSession(session) {
-    localStorage.setItem(SESSION_KEY, JSON.stringify(session));
+function saveSession(session){
+    localStorage.setItem(SESSION_KEY,JSON.stringify(session));
 }
 
-const session = getSession();
-const candidateLine = document.getElementById("candidateLine");
-const summary = document.getElementById("subjectSummary");
+const session=getSession();
 
-if (!session || !session.candidate?.name || !Array.isArray(session.subjects) || session.subjects.length !== 4) {
-    document.getElementById("errorMsg").innerText = "Your exam setup is incomplete. Please return to candidate verification.";
-    setTimeout(() => window.location.href = "index.html", 1800);
-} else {
-    candidateLine.innerText = `Candidate: ${session.candidate.name}`;
-
-    summary.innerHTML = `
-        <b>Selected subjects:</b>
-        <ul>${session.subjects.map(s => `<li>${escapeHtml(s)}</li>`).join("")}</ul>
-    `;
+if(
+    !session ||
+    !session.candidate ||
+    !Array.isArray(session.subjects) ||
+    session.subjects.length!==4
+){
+    alert("Subject selection is incomplete.");
+    window.location.href="subjects.html";
 }
 
-function escapeHtml(value) {
-    return String(value).replace(/[&<>"']/g, c => ({
-        "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
-    }[c]));
-}
+document.getElementById("candidateName").textContent=session.candidate.name;
 
-function launchExam() {
-    const current = getSession();
-    const error = document.getElementById("errorMsg");
+const box=document.getElementById("subjectsBox");
+box.innerHTML=session.subjects.map(subject=>
+    `<div class="subject-pill">${subject}</div>`
+).join("");
 
-    if (!current || current.subjects?.length !== 4) {
-        error.innerText = "Exam setup is invalid. Please restart the setup.";
-        return;
+function launchExam(){
+
+    if(!session.startedAt){
+
+        session.startedAt=new Date().toISOString();
+
+        session.endTime=new Date(
+            Date.now()+session.durationSeconds*1000
+        ).toISOString();
     }
 
-    if (current.status === "submitted") {
-        error.innerText = "This exam has already been submitted.";
-        return;
-    }
+    session.status="in_progress";
+    session.stage="exam";
 
-    // The 90-minute clock starts exactly once, here.
-    if (!current.startedAt || !current.endTime) {
-        const now = Date.now();
-        current.startedAt = new Date(now).toISOString();
-        current.endTime = new Date(now + current.durationSeconds * 1000).toISOString();
-    }
+    saveSession(session);
 
-    current.status = "in_progress";
-    current.stage = "exam";
-    current.currentSubjectIndex = Number.isInteger(current.currentSubjectIndex) ? current.currentSubjectIndex : 0;
-    current.currentQuestionIndex = Number.isInteger(current.currentQuestionIndex) ? current.currentQuestionIndex : 0;
-    saveSession(current);
-
-    window.location.href = "exam.html";
+    window.location.href="exam.html";
 }
 </script>
+
 </body>
 </html>
