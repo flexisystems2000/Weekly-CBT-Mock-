@@ -145,6 +145,10 @@ function saveSubjects() {
     localStorage.setItem("userSubjectLabels", JSON.stringify(finalSubjects));
     localStorage.setItem("selectedExamType", "JAMB");
 
+    // IMPORTANT: exam.html reads `flexi_active_subject`. Set it here to the first subject in the list.
+    // You can change this to another subject if you want the exam to start on a different subject.
+    localStorage.setItem("flexi_active_subject", finalSubjects[0]);
+
     window.location.href = "instructions.html";
 }
 </script>
