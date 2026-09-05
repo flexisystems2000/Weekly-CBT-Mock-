@@ -1,0 +1,152 @@
+[
+  {
+    "question": "The accounting concept that assumes a business will continue operating for the foreseeable future is",
+    "options": [
+      "Prudence",
+      "Going concern",
+      "Consistency",
+      "Materiality"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The principle requiring transactions to be recorded when they occur rather than only when cash changes hands is closely associated with",
+    "options": [
+      "Accrual",
+      "Money measurement",
+      "Dual aspect",
+      "Business entity"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "If the owner introduces cash into the business, the correct double-entry is",
+    "options": [
+      "Debit Capital, Credit Cash",
+      "Debit Cash, Credit Capital",
+      "Debit Purchases, Credit Cash",
+      "Debit Cash, Credit Sales"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A credit purchase of goods for resale is recorded by",
+    "options": [
+      "Debit Purchases, Credit Payables",
+      "Debit Payables, Credit Purchases",
+      "Debit Cash, Credit Purchases",
+      "Debit Sales, Credit Payables"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which account is debited when a business pays a supplier by bank transfer?",
+    "options": [
+      "Bank",
+      "Supplier's account",
+      "Purchases",
+      "Capital"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A document issued by a seller showing details of goods supplied and the amount due is a",
+    "options": [
+      "Receipt",
+      "Invoice",
+      "Debit note",
+      "Statement of account"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A customer returns goods previously bought on credit. The seller normally issues a",
+    "options": [
+      "Credit note",
+      "Debit note",
+      "Receipt",
+      "Purchase order"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The journal used to record credit purchases of goods for resale is the",
+    "options": [
+      "Sales journal",
+      "Purchases journal",
+      "Cash book",
+      "General journal"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The journal used to record credit sales of goods is the",
+    "options": [
+      "Purchases journal",
+      "Sales journal",
+      "Returns inward journal",
+      "Petty cash book"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which transaction is most appropriately entered in the general journal?",
+    "options": [
+      "Routine credit sales",
+      "Routine credit purchases",
+      "Opening entries and unusual adjustments",
+      "Cash sales"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A debit balance in a customer's personal account normally represents",
+    "options": [
+      "an amount owed by the customer",
+      "an amount owed to the customer",
+      "capital introduced",
+      "cash in hand"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The accounting equation is Assets =",
+    "options": [
+      "Capital − Liabilities",
+      "Capital + Liabilities",
+      "Revenue + Expenses",
+      "Purchases + Sales"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "If assets are ₦900,000 and liabilities are ₦260,000, the owner's equity is",
+    "options": [
+      "₦640,000",
+      "₦1,160,000",
+      "₦260,000",
+      "₦900,000"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which source document provides evidence that cash has been received?",
+    "options": [
+      "Receipt",
+      "Invoice",
+      "Purchase order",
+      "Quotation"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A credit note issued by a supplier to a business will normally be entered in the business's",
+    "options": [
+      "Returns outward journal",
+      "Returns inward journal",
+      "Sales journal",
+      "Cash book"
+    ],
+    "answer": "A"
+  }
+]

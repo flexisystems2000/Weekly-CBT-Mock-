@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Opportunity cost is best defined as the",
+    "options": [
+      "money paid for a good",
+      "next best alternative forgone when a choice is made",
+      "total cost of production",
+      "cost of all rejected alternatives"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The fundamental economic problem arises because resources are",
+    "options": [
+      "unlimited while wants are limited",
+      "scarce relative to unlimited wants",
+      "equally distributed",
+      "owned only by governments"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A market economy relies primarily on",
+    "options": [
+      "central planning by government",
+      "price signals and decentralized decisions",
+      "traditional rulers",
+      "military commands"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "In a command economy, major decisions about production and allocation are largely made by",
+    "options": [
+      "market forces alone",
+      "a central authority",
+      "individual consumers only",
+      "foreign traders"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A mixed economy combines features of",
+    "options": [
+      "market and planned systems",
+      "barter and subsistence only",
+      "monarchy and democracy",
+      "agriculture and mining only"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "If the price of a normal good rises, ceteris paribus, quantity demanded will generally",
+    "options": [
+      "rise",
+      "fall",
+      "remain exactly constant",
+      "become infinite"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A movement along a demand curve is caused primarily by a change in",
+    "options": [
+      "the good's own price",
+      "consumer income",
+      "taste",
+      "population"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A shift of the demand curve to the right may result from",
+    "options": [
+      "a fall in consumer income for a normal good",
+      "an increase in consumer income for a normal good",
+      "a rise in the good's own price",
+      "an increase in production cost"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "If supply increases while demand remains unchanged, equilibrium price tends to",
+    "options": [
+      "rise",
+      "fall",
+      "remain necessarily unchanged",
+      "become zero"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A shortage occurs when, at the prevailing price,",
+    "options": [
+      "quantity supplied exceeds quantity demanded",
+      "quantity demanded exceeds quantity supplied",
+      "demand is zero",
+      "supply is zero"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A price ceiling set below equilibrium price is likely to create",
+    "options": [
+      "surplus",
+      "shortage",
+      "higher equilibrium supply",
+      "no effect"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A price floor set above equilibrium price tends to create",
+    "options": [
+      "a shortage",
+      "a surplus",
+      "zero production",
+      "automatic market clearance"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Demand is said to be elastic when the percentage change in quantity demanded is",
+    "options": [
+      "less than the percentage change in price",
+      "greater than the percentage change in price",
+      "equal to zero",
+      "always equal to one"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "If a 10% fall in price causes quantity demanded to rise by 30%, demand is",
+    "options": [
+      "inelastic",
+      "unit elastic",
+      "elastic",
+      "perfectly inelastic"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "An increase in the supply of a commodity caused by improved production technology will, ceteris paribus, shift the supply curve",
+    "options": [
+      "leftward",
+      "rightward",
+      "vertically upward only",
+      "nowhere"
+    ],
+    "answer": "B"
+  }
+]

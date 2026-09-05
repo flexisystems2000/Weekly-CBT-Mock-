@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Which feature most reliably distinguishes living organisms from non-living matter?",
+    "options": [
+      "They contain water",
+      "They respond to stimuli",
+      "They occupy space",
+      "They possess minerals"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A dichotomous key is primarily used to",
+    "options": [
+      "measure population size",
+      "identify organisms using paired contrasting features",
+      "determine blood groups",
+      "classify tissues by age"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which taxonomic rank contains the greatest number of organisms?",
+    "options": [
+      "Species",
+      "Genus",
+      "Family",
+      "Kingdom"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Two organisms belong to the same genus but different species. They therefore",
+    "options": [
+      "must be identical",
+      "share a more recent common classification than organisms in different genera",
+      "cannot be related",
+      "must have different kingdoms"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which organelle is directly associated with ATP production in aerobic respiration?",
+    "options": [
+      "Ribosome",
+      "Mitochondrion",
+      "Golgi apparatus",
+      "Lysosome"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A cell placed in a hypotonic solution is most likely to",
+    "options": [
+      "lose water by osmosis",
+      "gain water by osmosis",
+      "lose solutes by diffusion only",
+      "remain unchanged in all cases"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which structure controls movement of substances into and out of the cell?",
+    "options": [
+      "Cell wall",
+      "Cell membrane",
+      "Cytoplasm",
+      "Nucleolus"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The selective permeability of the cell membrane is chiefly associated with its",
+    "options": [
+      "phospholipid bilayer and membrane proteins",
+      "cellulose fibres",
+      "DNA molecules only",
+      "ribosomes"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which organelle modifies, sorts and packages proteins for secretion?",
+    "options": [
+      "Golgi apparatus",
+      "Mitochondrion",
+      "Centriole",
+      "Vacuole"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A tissue is best described as",
+    "options": [
+      "a group of similar cells performing a common function",
+      "all organs in an organism",
+      "a single specialized cell",
+      "a group of unrelated organisms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which sequence shows increasing biological organization?",
+    "options": [
+      "Organ → tissue → cell → system",
+      "Cell → tissue → organ → organ system",
+      "Tissue → cell → organ system → organ",
+      "Cell → organ → tissue → organism"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "In a multicellular organism, specialization of cells primarily permits",
+    "options": [
+      "all cells to perform exactly the same function",
+      "division of labour",
+      "loss of genetic material",
+      "elimination of tissues"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which structure is present in plant cells but absent from typical animal cells?",
+    "options": [
+      "Cell membrane",
+      "Cytoplasm",
+      "Chloroplast",
+      "Mitochondrion"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A prokaryotic cell differs from a eukaryotic cell mainly because the prokaryotic cell",
+    "options": [
+      "lacks a membrane-bound nucleus",
+      "lacks DNA",
+      "cannot respire",
+      "has no ribosomes"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The maintenance of a stable internal environment in an organism is called",
+    "options": [
+      "locomotion",
+      "homeostasis",
+      "classification",
+      "fertilization"
+    ],
+    "answer": "B"
+  }
+]

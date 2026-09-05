@@ -1,0 +1,152 @@
+[
+  {
+    "question": "If 2ⁿ⁺¹ + 2ⁿ⁻¹ = 40, what is the value of n?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A number N leaves remainder 5 when divided by 8 and remainder 3 when divided by 6. What is the least possible positive value of N?",
+    "options": [
+      "11",
+      "21",
+      "27",
+      "35"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "If a:b = 3:5 and b:c = 10:7, what is a:c?",
+    "options": [
+      "3:7",
+      "6:7",
+      "7:6",
+      "5:7"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Simplify (3⁴ × 9⁻¹) ÷ 27⁻¹.",
+    "options": [
+      "3",
+      "9",
+      "27",
+      "81"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A quantity is increased by 20% and subsequently decreased by 20%. The final value is what percentage of the original?",
+    "options": [
+      "96%",
+      "100%",
+      "104%",
+      "98%"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "If log₂(x) + log₂(x − 2) = 3, the positive value of x is",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Simplify √48 − √27 + √12.",
+    "options": [
+      "√3",
+      "2√3",
+      "3√3",
+      "5√3"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Rationalize 5/(√7 + √2).",
+    "options": [
+      "(5√7 + 5√2)/5",
+      "√7 − √2",
+      "√7 + √2",
+      "5√7 − 5√2"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "If logₐ81 = 4, then logₐ27 is",
+    "options": [
+      "3",
+      "9/4",
+      "4/3",
+      "2"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Let U = {1,2,...,20}, A be the multiples of 3 and B the multiples of 4. How many elements are in A ∪ B?",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "In a class of 60 students, 38 study Mathematics, 31 study Physics and 12 study neither. How many study both subjects?",
+    "options": [
+      "9",
+      "19",
+      "21",
+      "31"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which statement is logically equivalent to 'If p, then q'?",
+    "options": [
+      "If q, then p",
+      "If not p, then not q",
+      "If not q, then not p",
+      "p and q"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "If A ⊂ B, which statement must be true?",
+    "options": [
+      "A ∩ B = ∅",
+      "A ∪ B = A",
+      "A ∩ B = A",
+      "B ⊂ A"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "The binary number 101101₂ is equal to",
+    "options": [
+      "41",
+      "43",
+      "45",
+      "47"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "If x = √5 + 2, find x + 1/x.",
+    "options": [
+      "4√5/5",
+      "9√5/5",
+      "3√5",
+      "√5"
+    ],
+    "answer": "B"
+  }
+]
