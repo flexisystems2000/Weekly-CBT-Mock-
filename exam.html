@@ -11,12 +11,1553 @@
     href="https://i.postimg.cc/0Qm3PLw5/1771700279759-2.jpg"
 >
 
-<script
-    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
-    async
-></script>
+<script type="module">
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+import {
+    getFirestore,
+    collection,
+    addDoc,
+    query,
+    where,
+    getDocs,
+    serverTimestamp
+} from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
+
+const firebaseConfig = {
+    apiKey: "AIzaSyDIzP6OB7uLm5bn4js0C6b-4Ll10gV80-o",
+    authDomain: "jambotron-ze1fo.firebaseapp.com",
+    projectId: "jambotron-ze1fo",
+    storageBucket: "jambotron-ze1fo.firebasestorage.app",
+    messagingSenderId: "722311662864",
+    appId: "1:722311662864:web:bad3d8e03d34a4602be995"
+};
+
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+
+const SESSION_KEY = "flexi_exam_session";
+
+const MAX_WARNINGS = 3;
+const EXAM_DURATION_SECONDS = 600;
+const QUESTIONS_PER_SUBJECT = 15;
+const TOTAL_QUESTIONS = 60;
+
+let session = null;
+let examQuestions = [];
+let currentIndex = 0;
+let timerInterval = null;
+let warningCount = 0;
+let submitting = false;
+let examLoaded = false;
+
+/*
+=========================================================
+SESSION HELPERS
+=========================================================
+*/
+
+function getSession() {
+    try {
+        return JSON.parse(
+            localStorage.getItem(SESSION_KEY) || "null"
+        );
+    } catch (error) {
+        console.error("Session read error:", error);
+        return null;
+    }
+}
+
+function saveSession() {
+    if (!session) return;
+
+    localStorage.setItem(
+        SESSION_KEY,
+        JSON.stringify(session)
+    );
+}
+
+/*
+=========================================================
+QUESTION BANK
+=========================================================
+*/
+
+const subjectFileMap = {
+    "Mathematics": "01_Mathematics_Module_1-3.json",
+    "Physics": "02_Physics_Module_1-3.json",
+    "Chemistry": "03_Chemistry_Module_1-3.json",
+    "Biology": "04_Biology_Module_1-3.json",
+    "Commerce": "05_Commerce_Module_1-3.json",
+    "Financial Accounting": "06_Financial_Accounting_Module_1-3.json",
+    "Literature in English": "07_Literature_in_English_Module_1-3.json",
+    "Government": "08_Government_Module_1-3.json",
+    "Christian Religious Knowledge": "09_Crk_Module_1-3.json",
+    "Economics": "10_Economics_Module_1-3.json",
+    "Civic Education": "11_Civic_Education_Module_1-3.json",
+    "Use of English": "12_Use_of_English_and_The_Lekki_Headmaster_Module_1-3.json"
+};
+
+/*
+=========================================================
+DOM
+=========================================================
+*/
+
+const timerEl = document.getElementById("timer");
+const warningDisplay = document.getElementById("warning-display");
+const warningBox = document.getElementById("warning-box");
+const warningMessage = document.getElementById("warning-message");
+
+/*
+=========================================================
+WARNING DISPLAY
+=========================================================
+*/
+
+function updateWarningDisplay() {
+
+    const count = Number(session?.warnings || 0);
+
+    warningCount = count;
+
+    if (warningDisplay) {
+        warningDisplay.textContent =
+            `Warnings: ${count}/${MAX_WARNINGS}`;
+
+        warningDisplay.classList.remove(
+            "warning-low",
+            "warning-medium",
+            "warning-high"
+        );
+
+        if (count === 0) {
+            warningDisplay.classList.add("warning-low");
+        } else if (count === 1) {
+            warningDisplay.classList.add("warning-medium");
+        } else {
+            warningDisplay.classList.add("warning-high");
+        }
+    }
+}
+
+function showWarning(message) {
+
+    if (!warningBox || !warningMessage) return;
+
+    warningMessage.textContent = message;
+
+    warningBox.classList.add("active");
+
+    setTimeout(() => {
+        warningBox.classList.remove("active");
+    }, 5000);
+}
+
+/*
+=========================================================
+ANTI APP-SWITCH / VISIBILITY MONITOR
+=========================================================
+*/
+
+function registerVisibilityWarning() {
+
+    if (!session || submitting) return;
+
+    const currentStatus = session.status;
+
+    if (
+        currentStatus !== "in_progress" ||
+        !examLoaded
+    ) {
+        return;
+    }
+
+    warningCount = Number(session.warnings || 0);
+
+    /*
+     * Prevent duplicate visibility events while the
+     * page remains hidden.
+     */
+    if (document.hidden) {
+
+        if (session.visibilityHidden === true) {
+            return;
+        }
+
+        session.visibilityHidden = true;
+
+        warningCount++;
+
+        session.warnings = warningCount;
+
+        if (!Array.isArray(session.warningEvents)) {
+            session.warningEvents = [];
+        }
+
+        const warningEvent = {
+            warningNumber: warningCount,
+            reason: "Student left the CBT page or switched application/tab",
+            timestamp: new Date().toISOString()
+        };
+
+        session.warningEvents.push(warningEvent);
+
+        session.lastWarningAt = warningEvent.timestamp;
+        session.lastWarningReason = warningEvent.reason;
+
+        saveSession();
+
+        updateWarningDisplay();
+
+        console.warn(
+            `Flexi CBT visibility warning ${warningCount}/${MAX_WARNINGS}`
+        );
+
+        /*
+         * Three warnings = automatic submission.
+         */
+        if (warningCount >= MAX_WARNINGS) {
+
+            autoSubmitExam(
+                "Auto-submitted after 3 visibility/app-switch warnings"
+            );
+
+            return;
+        }
+
+        /*
+         * We don't display the return message yet because
+         * the page is currently hidden.
+         */
+
+    } else {
+
+        /*
+         * Candidate has returned to the CBT page.
+         */
+        if (session.visibilityHidden === true) {
+
+            session.visibilityHidden = false;
+
+            saveSession();
+
+            updateWarningDisplay();
+
+            showWarning(
+                `Warning ${warningCount}/${MAX_WARNINGS}: You left the CBT page. Please remain on the exam screen.`
+            );
+        }
+    }
+}
+
+document.addEventListener(
+    "visibilitychange",
+    registerVisibilityWarning
+);
+
+/*
+=========================================================
+OPTIONAL EXTRA FOCUS MONITOR
+=========================================================
+*/
+
+window.addEventListener("blur", () => {
+
+    /*
+     * We deliberately don't count blur separately.
+     *
+     * This prevents one app switch from generating
+     * multiple warnings through both blur and
+     * visibilitychange.
+     */
+});
+
+window.addEventListener("focus", () => {
+    /*
+     * visibilitychange remains the authoritative
+     * anti-switch event.
+     */
+});
+
+/*
+=========================================================
+LOAD SUBJECT TABS
+=========================================================
+*/
+
+function renderSubjectTabs() {
+
+    const tabsContainer =
+        document.getElementById("subject-tabs");
+
+    if (!tabsContainer) return;
+
+    tabsContainer.innerHTML = "";
+
+    session.subjects.forEach((subject, subjectIndex) => {
+
+        const button = document.createElement("button");
+
+        button.type = "button";
+        button.className = "subject-tab";
+
+        button.textContent = subject;
+
+        button.dataset.subjectIndex =
+            subjectIndex;
+
+        button.addEventListener(
+            "click",
+            () => {
+
+                if (submitting) return;
+
+                const firstQuestion =
+                    subjectIndex * QUESTIONS_PER_SUBJECT;
+
+                currentIndex = firstQuestion;
+
+                session.currentQuestionIndex =
+                    currentIndex;
+
+                session.currentSubjectIndex =
+                    subjectIndex;
+
+                saveSession();
+
+                renderQuestion();
+            }
+        );
+
+        tabsContainer.appendChild(button);
+    });
+
+    updateSubjectTabs();
+}
+
+function updateSubjectTabs() {
+
+    const tabs =
+        document.querySelectorAll(".subject-tab");
+
+    tabs.forEach((tab, index) => {
+
+        const start =
+            index * QUESTIONS_PER_SUBJECT;
+
+        const end =
+            start + QUESTIONS_PER_SUBJECT;
+
+        const active =
+            currentIndex >= start &&
+            currentIndex < end;
+
+        tab.classList.toggle(
+            "active",
+            active
+        );
+
+        let completed = true;
+
+        for (let i = start; i < end; i++) {
+
+            if (
+                !session.answers ||
+                session.answers[i] === undefined ||
+                session.answers[i] === null
+            ) {
+                completed = false;
+                break;
+            }
+        }
+
+        tab.classList.toggle(
+            "completed",
+            completed
+        );
+    });
+}
+
+/*
+=========================================================
+LOAD QUESTION BANKS
+=========================================================
+*/
+
+async function loadQuestionBanks() {
+
+    if (!session) {
+        alert("Exam session not found.");
+        window.location.href = "index.html";
+        return;
+    }
+
+    if (
+        !Array.isArray(session.subjects) ||
+        session.subjects.length !== 4
+    ) {
+        alert(
+            "Invalid exam setup. Four subjects are required."
+        );
+
+        window.location.href = "subjects.html";
+        return;
+    }
+
+    examQuestions = [];
+
+    for (
+        let subjectIndex = 0;
+        subjectIndex < session.subjects.length;
+        subjectIndex++
+    ) {
+
+        const subject =
+            session.subjects[subjectIndex];
+
+        const filename =
+            subjectFileMap[subject];
+
+        if (!filename) {
+            throw new Error(
+                `Question bank not found for ${subject}`
+            );
+        }
+
+        const response =
+            await fetch(`./${filename}`, {
+                cache: "no-store"
+            });
+
+        if (!response.ok) {
+            throw new Error(
+                `Unable to load ${filename}`
+            );
+        }
+
+        const bank = await response.json();
+
+        if (!Array.isArray(bank)) {
+            throw new Error(
+                `${filename} does not contain a question array`
+            );
+        }
+
+        const questions =
+            bank.slice(
+                0,
+                QUESTIONS_PER_SUBJECT
+            );
+
+        if (
+            questions.length !==
+            QUESTIONS_PER_SUBJECT
+        ) {
+            throw new Error(
+                `${subject} contains only ${questions.length} questions. Exactly 15 are required.`
+            );
+        }
+
+        questions.forEach(
+            (question, localIndex) => {
+
+                examQuestions.push({
+
+                    ...question,
+
+                    subject,
+
+                    subjectIndex,
+
+                    questionInSubject:
+                        localIndex + 1,
+
+                    globalIndex:
+                        subjectIndex *
+                            QUESTIONS_PER_SUBJECT +
+                        localIndex
+                });
+            }
+        );
+    }
+
+    if (
+        examQuestions.length !==
+        TOTAL_QUESTIONS
+    ) {
+        throw new Error(
+            `Exam contains ${examQuestions.length} questions instead of ${TOTAL_QUESTIONS}.`
+        );
+    }
+}
+
+/*
+=========================================================
+RENDER QUESTION
+=========================================================
+*/
+
+function renderQuestion() {
+
+    if (!examQuestions.length) return;
+
+    const question =
+        examQuestions[currentIndex];
+
+    if (!question) return;
+
+    const questionCounter =
+        document.getElementById(
+            "question-counter"
+        );
+
+    const subjectLabel =
+        document.getElementById(
+            "subject-question-label"
+        );
+
+    const questionText =
+        document.getElementById(
+            "question-text"
+        );
+
+    const optionsContainer =
+        document.getElementById(
+            "options-container"
+        );
+
+    questionCounter.textContent =
+        `Question ${currentIndex + 1} of ${TOTAL_QUESTIONS}`;
+
+    subjectLabel.textContent =
+        `${question.subject} • Question ${question.questionInSubject} of ${QUESTIONS_PER_SUBJECT}`;
+
+    questionText.innerHTML =
+        question.question || "";
+
+    optionsContainer.innerHTML = "";
+
+    const options =
+        Array.isArray(question.options)
+            ? question.options
+            : [];
+
+    options.forEach(
+        (option, optionIndex) => {
+
+            const label =
+                document.createElement("label");
+
+            label.className =
+                "option-label";
+
+            const radio =
+                document.createElement("input");
+
+            radio.type = "radio";
+            radio.name = "answer";
+            radio.value =
+                String(optionIndex);
+
+            const savedAnswer =
+                session.answers?.[
+                    currentIndex
+                ];
+
+            if (
+                savedAnswer !== undefined &&
+                Number(savedAnswer) === optionIndex
+            ) {
+                radio.checked = true;
+                label.classList.add("selected");
+            }
+
+            radio.addEventListener(
+                "change",
+                () => {
+
+                    session.answers[
+                        currentIndex
+                    ] = optionIndex;
+
+                    saveSession();
+
+                    document
+                        .querySelectorAll(
+                            ".option-label"
+                        )
+                        .forEach(
+                            item =>
+                                item.classList.remove(
+                                    "selected"
+                                )
+                        );
+
+                    label.classList.add(
+                        "selected"
+                    );
+
+                    updatePalette();
+                    updateSubjectTabs();
+                }
+            );
+
+            const letter =
+                document.createElement("span");
+
+            letter.className =
+                "option-letter";
+
+            letter.textContent =
+                String.fromCharCode(
+                    65 + optionIndex
+                ) + ".";
+
+            const text =
+                document.createElement("span");
+
+            text.className =
+                "option-text";
+
+            text.innerHTML =
+                option;
+
+            label.appendChild(radio);
+            label.appendChild(letter);
+            label.appendChild(text);
+
+            optionsContainer.appendChild(
+                label
+            );
+        }
+    );
+
+    document.getElementById(
+        "prev-btn"
+    ).disabled =
+        currentIndex === 0;
+
+    document.getElementById(
+        "next-btn"
+    ).textContent =
+        currentIndex ===
+        TOTAL_QUESTIONS - 1
+            ? "Submit Exam"
+            : "Next";
+
+    updatePalette();
+    updateSubjectTabs();
+
+    if (
+        window.MathJax &&
+        typeof MathJax.typesetPromise ===
+            "function"
+    ) {
+        MathJax.typesetPromise();
+    }
+}
+
+/*
+=========================================================
+NAVIGATION
+=========================================================
+*/
+
+window.nextQuestion = function() {
+
+    if (submitting) return;
+
+    if (
+        currentIndex ===
+        TOTAL_QUESTIONS - 1
+    ) {
+
+        showSubmitConfirmation();
+
+        return;
+    }
+
+    currentIndex++;
+
+    persistPosition();
+
+    renderQuestion();
+};
+
+window.prevQuestion = function() {
+
+    if (
+        submitting ||
+        currentIndex <= 0
+    ) {
+        return;
+    }
+
+    currentIndex--;
+
+    persistPosition();
+
+    renderQuestion();
+};
+
+function persistPosition() {
+
+    session.currentQuestionIndex =
+        currentIndex;
+
+    session.currentSubjectIndex =
+        Math.floor(
+            currentIndex /
+            QUESTIONS_PER_SUBJECT
+        );
+
+    saveSession();
+};
+
+/*
+=========================================================
+QUESTION PALETTE
+=========================================================
+*/
+
+function renderPalette() {
+
+    const grid =
+        document.getElementById(
+            "palette-grid"
+        );
+
+    if (!grid) return;
+
+    grid.innerHTML = "";
+
+    examQuestions.forEach(
+        (question, index) => {
+
+            const button =
+                document.createElement("button");
+
+            button.type = "button";
+
+            button.className =
+                "palette-btn";
+
+            button.textContent =
+                index + 1;
+
+            if (
+                session.answers &&
+                session.answers[index] !==
+                    undefined
+            ) {
+                button.classList.add(
+                    "answered"
+                );
+            }
+
+            if (index === currentIndex) {
+                button.classList.add(
+                    "current"
+                );
+            }
+
+            const subjectStart =
+                question.subjectIndex *
+                QUESTIONS_PER_SUBJECT;
+
+            const subjectEnd =
+                subjectStart +
+                QUESTIONS_PER_SUBJECT;
+
+            if (
+                index >= subjectStart &&
+                index < subjectEnd
+            ) {
+                button.classList.add(
+                    "subject-current"
+                );
+            }
+
+            button.addEventListener(
+                "click",
+                () => {
+
+                    if (submitting) return;
+
+                    currentIndex = index;
+
+                    persistPosition();
+
+                    renderQuestion();
+                }
+            );
+
+            grid.appendChild(button);
+        }
+    );
+}
+
+function updatePalette() {
+    renderPalette();
+}
+
+/*
+=========================================================
+TIMER
+=========================================================
+*/
+
+function startTimer() {
+
+    if (!session.endTime) {
+
+        const start =
+            session.startedAt
+                ? new Date(
+                    session.startedAt
+                ).getTime()
+                : Date.now();
+
+        if (!session.startedAt) {
+            session.startedAt =
+                new Date(start).toISOString();
+        }
+
+        session.endTime =
+            new Date(
+                start +
+                EXAM_DURATION_SECONDS * 1000
+            ).toISOString();
+
+        session.durationSeconds =
+            EXAM_DURATION_SECONDS;
+
+        saveSession();
+    }
+
+    clearInterval(timerInterval);
+
+    function tick() {
+
+        const remaining =
+            Math.max(
+                0,
+                Math.ceil(
+                    (
+                        new Date(
+                            session.endTime
+                        ).getTime() -
+                        Date.now()
+                    ) / 1000
+                )
+            );
+
+        const minutes =
+            Math.floor(
+                remaining / 60
+            );
+
+        const seconds =
+            remaining % 60;
+
+        timerEl.textContent =
+            `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+
+        if (remaining <= 60) {
+            timerEl.classList.add(
+                "warning"
+            );
+        } else {
+            timerEl.classList.remove(
+                "warning"
+            );
+        }
+
+        if (remaining <= 0) {
+
+            clearInterval(timerInterval);
+
+            autoSubmitExam(
+                "Auto-submitted because the 10-minute exam time expired"
+            );
+        }
+    }
+
+    tick();
+
+    timerInterval =
+        setInterval(tick, 500);
+}
+
+/*
+=========================================================
+SUBMISSION
+=========================================================
+*/
+
+function showSubmitConfirmation() {
+
+    const modal =
+        document.getElementById(
+            "submission-modal"
+        );
+
+    const message =
+        document.getElementById(
+            "submission-message"
+        );
+
+    message.textContent =
+        "Are you sure you want to submit your exam? You will not be able to return to it.";
+
+    modal.classList.add("active");
+
+    document.getElementById(
+        "confirm-submit-btn"
+    ).style.display = "inline-block";
+
+    document.getElementById(
+        "cancel-submit-btn"
+    ).style.display = "inline-block";
+}
+
+window.cancelSubmission = function() {
+
+    document.getElementById(
+        "submission-modal"
+    ).classList.remove("active");
+};
+
+window.confirmSubmission = function() {
+
+    if (submitting) return;
+
+    autoSubmitExam(
+        "Candidate manually submitted the examination"
+    );
+};
+
+async function autoSubmitExam(reason) {
+
+    if (submitting) return;
+
+    submitting = true;
+
+    clearInterval(timerInterval);
+
+    /*
+     * Mark session as submitted locally BEFORE
+     * sending to Firestore.
+     */
+    session.status = "submitted";
+    session.stage = "submitted";
+
+    session.submittedAt =
+        new Date().toISOString();
+
+    session.submissionReason =
+        reason;
+
+    session.reasonForSubmission =
+        reason;
+
+    session.autoSubmitted =
+        reason.startsWith("Auto-submitted");
+
+    session.warningCount =
+        Number(session.warnings || 0);
+
+    saveSession();
+
+    /*
+     * Lock the UI.
+     */
+    document
+        .querySelectorAll("button, input")
+        .forEach(element => {
+            element.disabled = true;
+        });
+
+    const modal =
+        document.getElementById(
+            "submission-modal"
+        );
+
+    const message =
+        document.getElementById(
+            "submission-message"
+        );
+
+    modal.classList.add("active");
+
+    message.textContent =
+        "Submitting your examination. Please wait...";
+
+    try {
+
+        /*
+         * Idempotency check.
+         *
+         * Prevents duplicate Firestore records if
+         * the browser fires submission more than once.
+         */
+        const submissionsRef =
+            collection(
+                db,
+                "cbt_submissions"
+            );
+
+        const existingQuery =
+            query(
+                submissionsRef,
+                where(
+                    "sessionId",
+                    "==",
+                    session.sessionId
+                )
+            );
+
+        const existingSnapshot =
+            await getDocs(existingQuery);
+
+        if (existingSnapshot.empty) {
+
+            const score =
+                calculateScore();
+
+            await addDoc(
+                submissionsRef,
+                {
+
+                    /*
+                     * Candidate
+                     */
+                    candidateId:
+                        session.candidateId,
+
+                    sessionId:
+                        session.sessionId,
+
+                    candidate:
+                        session.candidate,
+
+                    deviceFingerprint:
+                        session.deviceFingerprint,
+
+                    examType:
+                        session.examType,
+
+                    /*
+                     * Exam structure
+                     */
+                    subjects:
+                        session.subjects,
+
+                    totalQuestions:
+                        TOTAL_QUESTIONS,
+
+                    questionsPerSubject:
+                        QUESTIONS_PER_SUBJECT,
+
+                    durationSeconds:
+                        EXAM_DURATION_SECONDS,
+
+                    /*
+                     * Answers / score
+                     */
+                    answers:
+                        session.answers || {},
+
+                    answeredCount:
+                        Object.keys(
+                            session.answers || {}
+                        ).length,
+
+                    score:
+                        score,
+
+                    /*
+                     * Anti-switch records
+                     */
+                    warningCount:
+                        Number(
+                            session.warnings || 0
+                        ),
+
+                    warnings:
+                        Number(
+                            session.warnings || 0
+                        ),
+
+                    warningEvents:
+                        session.warningEvents || [],
+
+                    lastWarningAt:
+                        session.lastWarningAt ||
+                        null,
+
+                    lastWarningReason:
+                        session.lastWarningReason ||
+                        null,
+
+                    /*
+                     * Submission information
+                     */
+                    autoSubmitted:
+                        Boolean(
+                            session.autoSubmitted
+                        ),
+
+                    submissionReason:
+                        reason,
+
+                    reasonForSubmission:
+                        reason,
+
+                    startedAt:
+                        session.startedAt
+                            ? new Date(
+                                session.startedAt
+                            )
+                            : null,
+
+                    endTime:
+                        session.endTime
+                            ? new Date(
+                                session.endTime
+                            )
+                            : null,
+
+                    submittedAt:
+                        serverTimestamp()
+                }
+            );
+        }
+
+        /*
+         * Clear the modal and show final message.
+         */
+        message.innerHTML =
+            `
+            <strong>Examination Submitted Successfully.</strong>
+            <br><br>
+            ${escapeHTML(reason)}
+            <br><br>
+            Score: ${score}/${TOTAL_QUESTIONS}
+            `;
+
+        document.getElementById(
+            "confirm-submit-btn"
+        ).style.display = "none";
+
+        document.getElementById(
+            "cancel-submit-btn"
+        ).style.display = "none";
+
+        /*
+         * Give the candidate a short delay before
+         * returning to the landing page.
+         */
+        setTimeout(() => {
+            window.location.href =
+                "index.html";
+        }, 5000);
+
+    } catch (error) {
+
+        console.error(
+            "Firestore submission error:",
+            error
+        );
+
+        /*
+         * Keep the local submitted state.
+         * This prevents the candidate from continuing
+         * the exam after submission failed.
+         */
+        message.innerHTML =
+            `
+            <strong>Submission could not be completed.</strong>
+            <br><br>
+            Your exam has been locked locally.
+            Please check your internet connection and try again.
+            `;
+
+        submitting = false;
+
+        /*
+         * Re-enable only the submission button.
+         */
+        document
+            .querySelectorAll("button, input")
+            .forEach(element => {
+                element.disabled = false;
+            });
+    }
+}
+
+/*
+=========================================================
+SCORE
+=========================================================
+*/
+
+function calculateScore() {
+
+    let score = 0;
+
+    examQuestions.forEach(
+        (question, index) => {
+
+            const selected =
+                session.answers?.[index];
+
+            if (
+                selected === undefined ||
+                selected === null
+            ) {
+                return;
+            }
+
+            let correctIndex = -1;
+
+            /*
+             * Supports either numeric answer indexes
+             * or A/B/C/D answer values.
+             */
+            if (
+                typeof question.answer ===
+                "number"
+            ) {
+
+                correctIndex =
+                    question.answer;
+
+            } else if (
+                typeof question.answer ===
+                "string"
+            ) {
+
+                const answer =
+                    question.answer
+                        .trim()
+                        .toUpperCase();
+
+                if (
+                    /^[A-D]$/.test(answer)
+                ) {
+                    correctIndex =
+                        answer.charCodeAt(0) -
+                        65;
+                } else {
+
+                    correctIndex =
+                        question.options
+                            ?.findIndex(
+                                option =>
+                                    String(option)
+                                        .trim() ===
+                                    String(
+                                        question.answer
+                                    ).trim()
+                            ) ?? -1;
+                }
+            }
+
+            if (
+                Number(selected) ===
+                Number(correctIndex)
+            ) {
+                score++;
+            }
+        }
+    );
+
+    return score;
+}
+
+/*
+=========================================================
+ESCAPE HTML
+=========================================================
+*/
+
+function escapeHTML(value) {
+
+    return String(value)
+        .replaceAll("&", "&amp;")
+        .replaceAll("<", "&lt;")
+        .replaceAll(">", "&gt;")
+        .replaceAll('"', "&quot;")
+        .replaceAll("'", "&#039;");
+}
+
+/*
+=========================================================
+CALCULATOR
+=========================================================
+*/
+
+window.toggleCalculator = function() {
+
+    const calculator =
+        document.getElementById(
+            "calculator-modal"
+        );
+
+    calculator.classList.toggle(
+        "active"
+    );
+};
+
+window.closeCalculator = function() {
+
+    document.getElementById(
+        "calculator-modal"
+    ).classList.remove("active");
+};
+
+window.calcInput = function(value) {
+
+    const screen =
+        document.getElementById(
+            "calc-screen"
+        );
+
+    screen.value += value;
+};
+
+window.calcClear = function() {
+
+    document.getElementById(
+        "calc-screen"
+    ).value = "";
+};
+
+window.calcDelete = function() {
+
+    const screen =
+        document.getElementById(
+            "calc-screen"
+        );
+
+    screen.value =
+        screen.value.slice(0, -1);
+};
+
+window.calcEquals = function() {
+
+    const screen =
+        document.getElementById(
+            "calc-screen"
+        );
+
+    try {
+
+        const expression =
+            screen.value;
+
+        /*
+         * Only allow calculator-safe characters.
+         */
+        if (
+            !/^[0-9+\-*/().%\s]+$/.test(
+                expression
+            )
+        ) {
+            throw new Error(
+                "Invalid expression"
+            );
+        }
+
+        screen.value =
+            Function(
+                `"use strict"; return (${expression})`
+            )();
+
+    } catch {
+
+        screen.value =
+            "Error";
+    }
+};
+
+/*
+=========================================================
+FULLSCREEN
+=========================================================
+*/
+
+async function requestFullscreen() {
+
+    try {
+
+        if (
+            !document.fullscreenElement &&
+            document.documentElement.requestFullscreen
+        ) {
+            await document.documentElement
+                .requestFullscreen();
+        }
+
+    } catch (error) {
+
+        console.warn(
+            "Fullscreen request unavailable:",
+            error
+        );
+    }
+}
+
+/*
+=========================================================
+INITIALIZATION
+=========================================================
+*/
+
+async function initializeExam() {
+
+    session = getSession();
+
+    if (!session) {
+
+        alert(
+            "Your exam session could not be found."
+        );
+
+        window.location.href =
+            "index.html";
+
+        return;
+    }
+
+    if (
+        session.status !== "in_progress"
+    ) {
+
+        alert(
+            "This exam session is no longer active."
+        );
+
+        window.location.href =
+            "index.html";
+
+        return;
+    }
+
+    if (
+        !Array.isArray(session.subjects) ||
+        session.subjects.length !== 4
+    ) {
+
+        alert(
+            "Invalid exam session. Four subjects are required."
+        );
+
+        window.location.href =
+            "subjects.html";
+
+        return;
+    }
+
+    /*
+     * Universal exam duration.
+     */
+    session.durationSeconds =
+        EXAM_DURATION_SECONDS;
+
+    warningCount =
+        Number(session.warnings || 0);
+
+    /*
+     * Restore current question.
+     */
+    currentIndex =
+        Number(
+            session.currentQuestionIndex || 0
+        );
+
+    if (
+        currentIndex < 0 ||
+        currentIndex >= TOTAL_QUESTIONS
+    ) {
+        currentIndex = 0;
+    }
+
+    /*
+     * Make sure the timer has a valid deadline.
+     */
+    if (
+        !session.startedAt ||
+        !session.endTime
+    ) {
+
+        const now = Date.now();
+
+        session.startedAt =
+            new Date(now).toISOString();
+
+        session.endTime =
+            new Date(
+                now +
+                EXAM_DURATION_SECONDS * 1000
+            ).toISOString();
+    }
+
+    if (!Array.isArray(session.warningEvents)) {
+        session.warningEvents = [];
+    }
+
+    if (!session.answers) {
+        session.answers = {};
+    }
+
+    saveSession();
+
+    updateWarningDisplay();
+
+    await loadQuestionBanks();
+
+    renderSubjectTabs();
+
+    renderPalette();
+
+    renderQuestion();
+
+    /*
+     * Only activate visibility monitoring after
+     * the exam is completely loaded.
+     */
+    examLoaded = true;
+
+    startTimer();
+
+    requestFullscreen();
+}
+
+window.addEventListener(
+    "DOMContentLoaded",
+    () => {
+
+        initializeExam()
+            .catch(error => {
+
+                console.error(
+                    "Exam initialization error:",
+                    error
+                );
+
+                alert(
+                    "Unable to load the examination. Please refresh and try again."
+                );
+            });
+    }
+);
+
+</script>
 
 <style>
+
 :root {
     --primary-green: #1b5e20;
     --light-green: #e8f5e9;
@@ -25,13 +1566,19 @@
     --light-bg: #f1f8f1;
     --border-color: #c8e6c9;
     --danger: #c62828;
+    --warning: #f57c00;
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:
+        'Segoe UI',
+        Tahoma,
+        Geneva,
+        Verdana,
+        sans-serif;
 }
 
 body {
@@ -44,15 +1591,16 @@ button {
     font-family: inherit;
 }
 
-/* =========================
+/* =========================================
    HEADER
-========================= */
+========================================= */
 
 header {
     background: var(--primary-green);
     color: white;
     padding: 12px 20px;
-    box-shadow: 0 3px 8px rgba(0,0,0,.15);
+    box-shadow:
+        0 3px 8px rgba(0,0,0,.15);
 }
 
 .header-main {
@@ -76,8 +1624,12 @@ header {
 .header-meta {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
 }
+
+/* =========================================
+   TIMER
+========================================= */
 
 #timer {
     background: #2e7d32;
@@ -98,9 +1650,77 @@ header {
     border-color: #ef9a9a;
 }
 
-/* =========================
+/* =========================================
+   WARNING COUNTER
+========================================= */
+
+#warning-display {
+    padding: 8px 11px;
+    border-radius: 5px;
+    font-size: .78rem;
+    font-weight: 800;
+    white-space: nowrap;
+    border: 1px solid rgba(255,255,255,.4);
+}
+
+#warning-display.warning-low {
+    background: #2e7d32;
+}
+
+#warning-display.warning-medium {
+    background: #ef6c00;
+}
+
+#warning-display.warning-high {
+    background: #b71c1c;
+}
+
+/* =========================================
+   WARNING ALERT
+========================================= */
+
+#warning-box {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform:
+        translate(-50%, -150px);
+
+    width: min(520px, 92%);
+    background: #fff3cd;
+    color: #664d03;
+    border: 2px solid #ffca28;
+    border-radius: 8px;
+    padding: 15px 18px;
+    box-shadow:
+        0 8px 25px rgba(0,0,0,.2);
+
+    z-index: 5000;
+
+    opacity: 0;
+
+    transition:
+        transform .3s ease,
+        opacity .3s ease;
+
+    text-align: center;
+    font-weight: 700;
+}
+
+#warning-box.active {
+    transform:
+        translate(-50%, 0);
+
+    opacity: 1;
+}
+
+#warning-message {
+    line-height: 1.45;
+}
+
+/* =========================================
    SUBJECT TABS
-========================= */
+========================================= */
 
 .subject-tabs {
     display: flex;
@@ -114,8 +1734,10 @@ header {
     flex: 1 0 auto;
     min-width: 150px;
     padding: 9px 12px;
-    border: 1px solid rgba(255,255,255,.35);
-    background: rgba(255,255,255,.08);
+    border: 1px solid
+        rgba(255,255,255,.35);
+    background:
+        rgba(255,255,255,.08);
     color: white;
     border-radius: 5px;
     cursor: pointer;
@@ -125,7 +1747,8 @@ header {
 }
 
 .subject-tab:hover {
-    background: rgba(255,255,255,.16);
+    background:
+        rgba(255,255,255,.16);
 }
 
 .subject-tab.active {
@@ -137,17 +1760,22 @@ header {
     border-color: #a5d6a7;
 }
 
-/* =========================
+/* =========================================
    MAIN
-========================= */
+========================================= */
 
 main {
     max-width: 1450px;
     width: 100%;
     margin: 20px auto;
     padding: 0 18px;
+
     display: grid;
-    grid-template-columns: minmax(0, 3fr) minmax(260px, 1fr);
+
+    grid-template-columns:
+        minmax(0, 3fr)
+        minmax(260px, 1fr);
+
     gap: 20px;
 }
 
@@ -155,9 +1783,17 @@ main {
     background: white;
     padding: 28px;
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(27,94,32,.06);
-    border-top: 5px solid var(--primary-green);
+
+    box-shadow:
+        0 4px 15px
+        rgba(27,94,32,.06);
+
+    border-top:
+        5px solid
+        var(--primary-green);
+
     min-height: 600px;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -167,8 +1803,13 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
     gap: 10px;
-    border-bottom: 1px solid var(--border-color);
+
+    border-bottom:
+        1px solid
+        var(--border-color);
+
     padding-bottom: 12px;
     margin-bottom: 22px;
 }
@@ -184,15 +1825,17 @@ main {
     color: #666;
 }
 
-/* =========================
+/* =========================================
    QUESTION
-========================= */
+========================================= */
 
 #question-text {
     font-size: 1.15rem;
     line-height: 1.65;
     color: #1a1a1a;
+
     margin-bottom: 25px;
+
     min-height: 100px;
 }
 
@@ -205,31 +1848,53 @@ main {
 .option-label {
     display: flex;
     align-items: flex-start;
+
     gap: 12px;
+
     padding: 14px 16px;
-    border: 1px solid #dcdcdc;
+
+    border:
+        1px solid
+        #dcdcdc;
+
     border-radius: 6px;
+
     cursor: pointer;
+
     transition: all .2s;
+
     background: white;
 }
 
 .option-label:hover {
-    background: var(--light-green);
-    border-color: var(--accent-green);
+    background:
+        var(--light-green);
+
+    border-color:
+        var(--accent-green);
 }
 
 .option-label.selected {
-    background: var(--light-green);
-    border-color: var(--primary-green);
-    box-shadow: inset 0 0 0 1px var(--primary-green);
+    background:
+        var(--light-green);
+
+    border-color:
+        var(--primary-green);
+
+    box-shadow:
+        inset 0 0 0 1px
+        var(--primary-green);
 }
 
 .option-label input {
-    accent-color: var(--primary-green);
+    accent-color:
+        var(--primary-green);
+
     width: 18px;
     height: 18px;
+
     margin-top: 2px;
+
     flex-shrink: 0;
 }
 
@@ -243,17 +1908,22 @@ main {
     line-height: 1.5;
 }
 
-/* =========================
+/* =========================================
    NAVIGATION
-========================= */
+========================================= */
 
 .nav-buttons {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-top: 1px solid var(--border-color);
+
+    border-top:
+        1px solid
+        var(--border-color);
+
     padding-top: 18px;
     margin-top: 30px;
+
     gap: 10px;
 }
 
@@ -280,119 +1950,195 @@ main {
     cursor: not-allowed;
 }
 
-/* =========================
+/* =========================================
    SIDEBAR
-========================= */
+========================================= */
 
 .sidebar-panel {
     background: white;
+
     padding: 20px;
+
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(27,94,32,.06);
-    border-top: 5px solid var(--accent-green);
+
+    box-shadow:
+        0 4px 15px
+        rgba(27,94,32,.06);
+
+    border-top:
+        5px solid
+        var(--accent-green);
 }
 
 .sidebar-title {
     font-weight: 700;
     color: var(--primary-green);
-    border-bottom: 1px solid var(--border-color);
+
+    border-bottom:
+        1px solid
+        var(--border-color);
+
     padding-bottom: 9px;
+
     margin-bottom: 12px;
 }
 
 .palette-info {
     font-size: .78rem;
     color: #666;
+
     margin-bottom: 10px;
 }
 
 #palette-grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+
+    grid-template-columns:
+        repeat(5, 1fr);
+
     gap: 7px;
+
     max-height: 400px;
+
     overflow-y: auto;
+
     padding: 3px;
 }
 
 .palette-btn {
     height: 36px;
+
     border-radius: 4px;
-    border: 1px solid #ccc;
+
+    border:
+        1px solid
+        #ccc;
+
     font-weight: 600;
+
     font-size: .78rem;
+
     background: #f9f9f9;
+
     color: #444;
+
     cursor: pointer;
 }
 
 .palette-btn:hover {
-    background: var(--light-green);
+    background:
+        var(--light-green);
 }
 
 .palette-btn.answered {
-    background: var(--primary-green);
+    background:
+        var(--primary-green);
+
     color: white;
-    border-color: var(--primary-green);
+
+    border-color:
+        var(--primary-green);
 }
 
 .palette-btn.current {
-    outline: 2px solid #000;
+    outline:
+        2px solid #000;
+
     outline-offset: 1px;
 }
 
 .palette-btn.subject-current {
-    box-shadow: inset 0 0 0 2px #81c784;
+    box-shadow:
+        inset 0 0 0 2px
+        #81c784;
 }
 
-/* =========================
+/* =========================================
    SUBMIT
-========================= */
+========================================= */
 
 .btn-submit {
-    background: var(--primary-green);
+    background:
+        var(--primary-green);
+
     color: white;
+
     width: 100%;
+
     padding: 13px;
+
     border-radius: 6px;
+
     font-weight: bold;
+
     font-size: 1rem;
+
     cursor: pointer;
+
     border: none;
+
     margin-top: 18px;
 }
 
 .btn-submit:hover {
-    background: var(--accent-green);
+    background:
+        var(--accent-green);
 }
 
-/* =========================
+/* =========================================
    CALCULATOR
-========================= */
+========================================= */
 
 .calc-toggle-btn {
-    background: var(--light-green);
-    color: var(--primary-green);
-    border: 1px solid var(--border-color);
-    padding: 7px 12px;
+    background:
+        var(--light-green);
+
+    color:
+        var(--primary-green);
+
+    border:
+        1px solid
+        var(--border-color);
+
+    padding:
+        7px 12px;
+
     border-radius: 4px;
+
     cursor: pointer;
+
     font-size: .8rem;
+
     font-weight: 600;
 }
 
 #calculator-modal {
     display: none;
+
     position: fixed;
+
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+
+    transform:
+        translate(-50%, -50%);
+
     background: white;
-    border: 1px solid var(--border-color);
+
+    border:
+        1px solid
+        var(--border-color);
+
     padding: 18px;
+
     border-radius: 10px;
-    box-shadow: 0 15px 35px rgba(0,0,0,.25);
+
+    box-shadow:
+        0 15px 35px
+        rgba(0,0,0,.25);
+
     z-index: 1000;
+
     width: 290px;
 }
 
@@ -402,67 +2148,107 @@ main {
 
 .calc-header {
     display: flex;
+
     justify-content: space-between;
     align-items: center;
+
     margin-bottom: 10px;
+
     font-weight: bold;
-    color: var(--primary-green);
+
+    color:
+        var(--primary-green);
 }
 
 .calc-close {
     border: none;
     background: none;
+
     cursor: pointer;
+
     font-size: 1.1rem;
 }
 
 #calc-screen {
     width: 100%;
-    background: var(--light-bg);
-    border: 1px solid var(--border-color);
+
+    background:
+        var(--light-bg);
+
+    border:
+        1px solid
+        var(--border-color);
+
     padding: 10px;
+
     margin-bottom: 10px;
+
     text-align: right;
+
     font-family: monospace;
+
     font-size: 1.2rem;
+
     border-radius: 4px;
 }
 
 .calc-keypad {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+
+    grid-template-columns:
+        repeat(4, 1fr);
+
     gap: 6px;
 }
 
 .calc-btn {
-    background: var(--light-green);
-    border: 1px solid var(--border-color);
+    background:
+        var(--light-green);
+
+    border:
+        1px solid
+        var(--border-color);
+
     padding: 11px;
+
     font-weight: 600;
+
     border-radius: 4px;
+
     cursor: pointer;
-    color: var(--primary-green);
+
+    color:
+        var(--primary-green);
 }
 
 .calc-btn.op {
-    background: #c8e6c9;
+    background:
+        #c8e6c9;
 }
 
 .calc-btn.eq {
-    background: var(--primary-green);
+    background:
+        var(--primary-green);
+
     color: white;
 }
 
-/* =========================
+/* =========================================
    SUBMISSION MODAL
-========================= */
+========================================= */
 
 #submission-modal {
     display: none;
+
     position: fixed;
+
     inset: 0;
-    background: rgba(0,0,0,.55);
+
+    background:
+        rgba(0,0,0,.55);
+
     z-index: 2000;
+
     justify-content: center;
     align-items: center;
 }
@@ -473,41 +2259,97 @@ main {
 
 .submission-content {
     background: white;
+
     padding: 28px;
+
     border-radius: 10px;
-    width: min(420px, 90%);
+
+    width:
+        min(420px, 90%);
+
     text-align: center;
-    border-top: 5px solid var(--primary-green);
+
+    border-top:
+        5px solid
+        var(--primary-green);
 }
 
 .submission-content h3 {
-    color: var(--primary-green);
+    color:
+        var(--primary-green);
+
     margin-bottom: 10px;
 }
 
 #submission-message {
     color: #555;
+
     font-size: .9rem;
+
     line-height: 1.5;
 }
 
-/* =========================
-   FOOTER
-========================= */
+.submission-actions {
+    display: flex;
 
-footer {
-    text-align: center;
-    padding: 15px;
-    font-size: .75rem;
-    color: #555;
-    background: white;
-    border-top: 1px solid var(--border-color);
+    gap: 10px;
+
     margin-top: 20px;
 }
 
-/* =========================
+.submission-actions button {
+    flex: 1;
+
+    padding: 10px;
+
+    border: none;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+
+    font-weight: 700;
+}
+
+#confirm-submit-btn {
+    background:
+        var(--primary-green);
+
+    color: white;
+}
+
+#cancel-submit-btn {
+    background:
+        #e0e0e0;
+
+    color: #333;
+}
+
+/* =========================================
+   FOOTER
+========================================= */
+
+footer {
+    text-align: center;
+
+    padding: 15px;
+
+    font-size: .75rem;
+
+    color: #555;
+
+    background: white;
+
+    border-top:
+        1px solid
+        var(--border-color);
+
+    margin-top: 20px;
+}
+
+/* =========================================
    MOBILE
-========================= */
+========================================= */
 
 @media(max-width: 950px) {
 
@@ -539,13 +2381,18 @@ footer {
     }
 
     .header-meta {
-        gap: 5px;
+        gap: 4px;
     }
 
     #timer {
         font-size: 1rem;
         padding: 7px 9px;
         min-width: 70px;
+    }
+
+    #warning-display {
+        font-size: .68rem;
+        padding: 7px 6px;
     }
 
     .subject-tab {
@@ -571,30 +2418,59 @@ footer {
     }
 
     #palette-grid {
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns:
+            repeat(6, 1fr);
     }
 }
+
 </style>
 </head>
 
 <body>
+
+<!-- =========================================
+     WARNING ALERT
+========================================= -->
+
+<div id="warning-box">
+
+    <div id="warning-message"></div>
+
+</div>
 
 <header>
 
     <div class="header-main">
 
         <div class="brand">
-            <h1>Flexi Educational Consult</h1>
-            <p>CBT Mock Assessment Portal</p>
+
+            <h1>
+                Flexi Educational Consult
+            </h1>
+
+            <p>
+                CBT Mock Assessment Portal
+            </p>
+
         </div>
 
         <div class="header-meta">
-            <div id="timer">10:00</div>
+
+            <div
+                id="warning-display"
+                class="warning-low"
+            >
+                Warnings: 0/3
+            </div>
+
+            <div id="timer">
+                10:00
+            </div>
+
         </div>
 
     </div>
 
-    <!-- FOUR SUBJECT TABS GENERATED FROM flexi_exam_session -->
     <div
         id="subject-tabs"
         class="subject-tabs"
@@ -612,6 +2488,7 @@ footer {
             <div class="question-top-bar">
 
                 <div>
+
                     <div id="question-counter">
                         Question 1 of 60
                     </div>
@@ -619,6 +2496,7 @@ footer {
                     <div id="subject-question-label">
                         Loading...
                     </div>
+
                 </div>
 
                 <button
@@ -672,14 +2550,15 @@ footer {
         </h3>
 
         <div class="palette-info">
-            60 questions — 15 per subject
+            60 questions • Green = answered
         </div>
 
         <div id="palette-grid"></div>
 
         <button
-            onclick="confirmSubmit()"
+            type="button"
             class="btn-submit"
+            onclick="showSubmitConfirmation()"
         >
             Submit Exam
         </button>
@@ -689,67 +2568,227 @@ footer {
 </main>
 
 
-<!-- CALCULATOR -->
+<!-- =========================================
+     CALCULATOR
+========================================= -->
 
 <div id="calculator-modal">
 
     <div class="calc-header">
 
-        <span>Quick Calculator</span>
+        <span>
+            Calculator
+        </span>
 
         <button
-            onclick="toggleCalculator()"
+            type="button"
             class="calc-close"
+            onclick="closeCalculator()"
         >
-            ✕
+            ×
         </button>
 
     </div>
 
     <input
-        type="text"
         id="calc-screen"
+        type="text"
         readonly
     >
 
     <div class="calc-keypad">
 
-        <button onclick="calcInput('7')" class="calc-btn">7</button>
-        <button onclick="calcInput('8')" class="calc-btn">8</button>
-        <button onclick="calcInput('9')" class="calc-btn">9</button>
-        <button onclick="calcInput('/')" class="calc-btn op">÷</button>
+        <button
+            class="calc-btn"
+            onclick="calcClear()"
+        >
+            C
+        </button>
 
-        <button onclick="calcInput('4')" class="calc-btn">4</button>
-        <button onclick="calcInput('5')" class="calc-btn">5</button>
-        <button onclick="calcInput('6')" class="calc-btn">6</button>
-        <button onclick="calcInput('*')" class="calc-btn op">×</button>
+        <button
+            class="calc-btn"
+            onclick="calcDelete()"
+        >
+            DEL
+        </button>
 
-        <button onclick="calcInput('1')" class="calc-btn">1</button>
-        <button onclick="calcInput('2')" class="calc-btn">2</button>
-        <button onclick="calcInput('3')" class="calc-btn">3</button>
-        <button onclick="calcInput('-')" class="calc-btn op">−</button>
+        <button
+            class="calc-btn op"
+            onclick="calcInput('%')"
+        >
+            %
+        </button>
 
-        <button onclick="calcInput('0')" class="calc-btn">0</button>
-        <button onclick="calcClear()" class="calc-btn">C</button>
-        <button onclick="calcEquals()" class="calc-btn eq">=</button>
-        <button onclick="calcInput('+')" class="calc-btn op">+</button>
+        <button
+            class="calc-btn op"
+            onclick="calcInput('/')"
+        >
+            ÷
+        </button>
+
+
+        <button
+            class="calc-btn"
+            onclick="calcInput('7')"
+        >
+            7
+        </button>
+
+        <button
+            class="calc-btn"
+            onclick="calcInput('8')"
+        >
+            8
+        </button>
+
+        <button
+            class="calc-btn"
+            onclick="calcInput('9')"
+        >
+            9
+        </button>
+
+        <button
+            class="calc-btn op"
+            onclick="calcInput('*')"
+        >
+            ×
+        </button>
+
+
+        <button
+            class="calc-btn"
+            onclick="calcInput('4')"
+        >
+            4
+        </button>
+
+        <button
+            class="calc-btn"
+            onclick="calcInput('5')"
+        >
+            5
+        </button>
+
+        <button
+            class="calc-btn"
+            onclick="calcInput('6')"
+        >
+            6
+        </button>
+
+        <button
+            class="calc-btn op"
+            onclick="calcInput('-')"
+        >
+            −
+        </button>
+
+
+        <button
+            class="calc-btn"
+            onclick="calcInput('1')"
+        >
+            1
+        </button>
+
+        <button
+            class="calc-btn"
+            onclick="calcInput('2')"
+        >
+            2
+        </button>
+
+        <button
+            class="calc-btn"
+            onclick="calcInput('3')"
+        >
+            3
+        </button>
+
+        <button
+            class="calc-btn op"
+            onclick="calcInput('+')"
+        >
+            +
+        </button>
+
+
+        <button
+            class="calc-btn"
+            onclick="calcInput('0')"
+        >
+            0
+        </button>
+
+        <button
+            class="calc-btn"
+            onclick="calcInput('.')"
+        >
+            .
+        </button>
+
+        <button
+            class="calc-btn"
+            onclick="calcInput('(')"
+        >
+            (
+        </button>
+
+        <button
+            class="calc-btn"
+            onclick="calcInput(')')"
+        >
+            )
+        </button>
+
+
+        <button
+            class="calc-btn eq"
+            onclick="calcEquals()"
+            style="grid-column: span 4;"
+        >
+            =
+        </button>
 
     </div>
 
 </div>
 
 
-<!-- SUBMISSION -->
+<!-- =========================================
+     SUBMISSION MODAL
+========================================= -->
 
 <div id="submission-modal">
 
     <div class="submission-content">
 
-        <h3>Submitting Examination</h3>
+        <h3>
+            Exam Submission
+        </h3>
 
-        <p id="submission-message">
-            Saving your responses securely...
-        </p>
+        <div id="submission-message">
+            Are you sure you want to submit?
+        </div>
+
+        <div class="submission-actions">
+
+            <button
+                id="cancel-submit-btn"
+                onclick="cancelSubmission()"
+            >
+                Cancel
+            </button>
+
+            <button
+                id="confirm-submit-btn"
+                onclick="confirmSubmission()"
+            >
+                Submit
+            </button>
+
+        </div>
 
     </div>
 
@@ -757,1862 +2796,11 @@ footer {
 
 
 <footer>
-    Flexi Educational Consult CBT Environment &copy; 2026.
-    All rights reserved.
+
+    Flexi Educational Consult
+    • Weekly CBT Mock Assessment
+
 </footer>
-
-
-<!-- FIREBASE -->
-
-<script type="module">
-
-import {
-    initializeApp
-} from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
-
-import {
-    getFirestore,
-    collection,
-    addDoc,
-    query,
-    where,
-    getDocs
-} from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
-
-
-const firebaseConfig = {
-
-    apiKey:
-        "AIzaSyDIzP6OB7uLm5bn4js0C6b-4Ll10gV80-o",
-
-    authDomain:
-        "jambotron-ze1fo.firebaseapp.com",
-
-    projectId:
-        "jambotron-ze1fo",
-
-    storageBucket:
-        "jambotron-ze1fo.firebasestorage.app",
-
-    messagingSenderId:
-        "722311662864",
-
-    appId:
-        "1:722311662864:web:bad3d8e03d34a4602be995"
-};
-
-
-const app = initializeApp(firebaseConfig);
-
-const db = getFirestore(app);
-
-
-/*
- * Firestore submission function.
- *
- * IMPORTANT:
- * The new exam uses cbt_submissions,
- * matching index.html.
- */
-window.submitToFirestore = async function(payload) {
-
-    try {
-
-        /*
-         * Idempotency check using sessionId.
-         *
-         * This prevents the same exam session from
-         * being submitted multiple times.
-         */
-        const existingQuery = query(
-            collection(db, "cbt_submissions"),
-            where("sessionId", "==", payload.sessionId)
-        );
-
-        const existingSnapshot =
-            await getDocs(existingQuery);
-
-        if (!existingSnapshot.empty) {
-
-            return {
-                success: true,
-                duplicate: true,
-                id: existingSnapshot.docs[0].id
-            };
-
-        }
-
-
-        const docRef = await addDoc(
-            collection(db, "cbt_submissions"),
-            payload
-        );
-
-
-        return {
-            success: true,
-            id: docRef.id
-        };
-
-    } catch (error) {
-
-        console.error(
-            "Firestore submission error:",
-            error
-        );
-
-        return {
-            success: false,
-            error: error.message
-        };
-
-    }
-
-};
-
-</script>
-
-
-<script>
-
-/* =========================================================
-   FLEXI CBT EXAM ENGINE
-   ========================================================= */
-
-const SESSION_KEY = "flexi_exam_session";
-
-const QUESTIONS_PER_SUBJECT = 15;
-
-const TOTAL_SUBJECTS = 4;
-
-const TOTAL_QUESTIONS = 60;
-
-const TOTAL_DURATION_SECONDS = 600;
-
-
-/*
- * Question-bank mapping.
- */
-const subjectFileMap = {
-
-    "Mathematics":
-        "01_Mathematics_Module_1-3.json",
-
-    "Physics":
-        "02_Physics_Module_1-3.json",
-
-    "Chemistry":
-        "03_Chemistry_Module_1-3.json",
-
-    "Biology":
-        "04_Biology_Module_1-3.json",
-
-    "Commerce":
-        "05_Commerce_Module_1-3.json",
-
-    "Financial Accounting":
-        "06_Financial_Accounting_Module_1-3.json",
-
-    "Literature in English":
-        "07_Literature_in_English_Module_1-3.json",
-
-    "Government":
-        "08_Government_Module_1-3.json",
-
-    "Christian Religious Knowledge":
-        "09_Crk_Module_1-3.json",
-
-    "Economics":
-        "10_Economics_Module_1-3.json",
-
-    "Civic Education":
-        "11_Civic_Education_Module_1-3.json",
-
-    "Use of English":
-        "12_Use_of_English_and_The_Lekki_Headmaster_Module_1-3.json"
-
-};
-
-
-/*
- * Unified session.
- */
-let session = null;
-
-
-/*
- * All 60 questions.
- *
- * Each question gets:
- *
- * - subject
- * - subjectIndex
- * - globalIndex
- * - localIndex
- * - original question data
- */
-let examQuestions = [];
-
-
-/*
- * Current global question.
- */
-let currentIndex = 0;
-
-
-/*
- * Answers are keyed by GLOBAL QUESTION INDEX.
- *
- * This prevents answers from different subjects
- * overwriting each other.
- */
-let userAnswers = {};
-
-
-/*
- * Timer.
- */
-let timerInterval = null;
-
-
-/*
- * Submission lock.
- */
-let submissionStarted = false;
-
-
-/*
- * Warning counter.
- */
-let warningCount = 0;
-
-
-/* =========================================================
-   SESSION
-   ========================================================= */
-
-function getSession() {
-
-    try {
-
-        return JSON.parse(
-            localStorage.getItem(SESSION_KEY) || "null"
-        );
-
-    } catch (error) {
-
-        console.error(
-            "Session parse error:",
-            error
-        );
-
-        return null;
-
-    }
-
-}
-
-
-function saveSession() {
-
-    localStorage.setItem(
-        SESSION_KEY,
-        JSON.stringify(session)
-    );
-
-}
-
-
-/*
- * Save answers into the unified session.
- */
-function persistAnswers() {
-
-    session.answers = userAnswers;
-
-    session.currentQuestionIndex = currentIndex;
-
-    /*
-     * Determine the subject containing the
-     * current question.
-     */
-    if (examQuestions[currentIndex]) {
-
-        session.currentSubjectIndex =
-            examQuestions[currentIndex].subjectIndex;
-
-    }
-
-    saveSession();
-
-}
-
-
-/* =========================================================
-   INITIALIZATION
-   ========================================================= */
-
-window.addEventListener(
-    "DOMContentLoaded",
-    initializeExam
-);
-
-
-async function initializeExam() {
-
-    session = getSession();
-
-
-    /*
-     * No session = no exam.
-     */
-    if (
-        !session ||
-        !session.candidate ||
-        !Array.isArray(session.subjects)
-    ) {
-
-        alert(
-            "Your examination session could not be found."
-        );
-
-        window.location.href =
-            "index.html";
-
-        return;
-
-    }
-
-
-    /*
-     * Exactly four subjects are required.
-     */
-    if (session.subjects.length !== TOTAL_SUBJECTS) {
-
-        alert(
-            "Your subject combination is incomplete. Please select four subjects."
-        );
-
-        window.location.href =
-            "subjects.html";
-
-        return;
-
-    }
-
-
-    /*
-     * Every selected subject must have
-     * a corresponding question bank.
-     */
-    for (const subject of session.subjects) {
-
-        if (!subjectFileMap[subject]) {
-
-            alert(
-                `Question bank not found for ${subject}.`
-            );
-
-            window.location.href =
-                "subjects.html";
-
-            return;
-
-        }
-
-    }
-
-
-    /*
-     * Make sure this exam is actually in progress.
-     */
-    if (session.stage !== "exam") {
-
-        if (session.status === "setup") {
-
-            window.location.href =
-                "instructions.html";
-
-            return;
-
-        }
-
-    }
-
-
-    /*
-     * Enforce the Weekly CBT Mock duration.
-     *
-     * 600 seconds = 10 minutes.
-     */
-    session.durationSeconds =
-        TOTAL_DURATION_SECONDS;
-
-
-    /*
-     * If an old session had a 90-minute duration,
-     * rebuild its deadline to the correct 10-minute
-     * duration.
-     *
-     * This protects the exam from old session data.
-     */
-    if (
-        session.startedAt &&
-        session.endTime
-    ) {
-
-        const expectedEnd =
-            new Date(session.startedAt).getTime()
-            +
-            TOTAL_DURATION_SECONDS * 1000;
-
-        const existingEnd =
-            new Date(session.endTime).getTime();
-
-        /*
-         * If the stored deadline does not correspond
-         * to 10 minutes from startedAt, correct it.
-         */
-        if (
-            !Number.isFinite(existingEnd) ||
-            Math.abs(existingEnd - expectedEnd) > 2000
-        ) {
-
-            session.endTime =
-                new Date(expectedEnd).toISOString();
-
-        }
-
-    } else {
-
-        /*
-         * Exam should normally arrive here from
-         * instructions.html with startedAt/endTime.
-         *
-         * If missing, create them now as a safeguard.
-         */
-        const now = Date.now();
-
-        session.startedAt =
-            new Date(now).toISOString();
-
-        session.endTime =
-            new Date(
-                now + TOTAL_DURATION_SECONDS * 1000
-            ).toISOString();
-
-    }
-
-
-    /*
-     * Restore answers from the session.
-     */
-    if (
-        session.answers &&
-        typeof session.answers === "object"
-    ) {
-
-        userAnswers =
-            session.answers;
-
-    }
-
-
-    /*
-     * Restore current position.
-     */
-    if (
-        Number.isInteger(
-            session.currentQuestionIndex
-        )
-    ) {
-
-        currentIndex =
-            session.currentQuestionIndex;
-
-    }
-
-
-    saveSession();
-
-
-    /*
-     * Build all 60 questions.
-     */
-    await buildExam();
-
-
-    /*
-     * Build four subject tabs.
-     */
-    renderSubjectTabs();
-
-
-    /*
-     * Build 60-question palette.
-     */
-    initPalette();
-
-
-    /*
-     * Render current question.
-     */
-    renderQuestion();
-
-
-    /*
-     * Start universal timer.
-     */
-    startUniversalTimer();
-
-
-    /*
-     * Fullscreen is attempted after page load.
-     */
-    requestFullscreenMode();
-
-}
-
-
-/* =========================================================
-   BUILD EXAM
-   ========================================================= */
-
-async function buildExam() {
-
-    examQuestions = [];
-
-
-    for (
-        let subjectIndex = 0;
-        subjectIndex < session.subjects.length;
-        subjectIndex++
-    ) {
-
-        const subject =
-            session.subjects[subjectIndex];
-
-        const fileName =
-            `./${subjectFileMap[subject]}`;
-
-
-        try {
-
-            const response =
-                await fetch(fileName);
-
-
-            if (!response.ok) {
-
-                throw new Error(
-                    `HTTP ${response.status}`
-                );
-
-            }
-
-
-            const data =
-                await response.json();
-
-
-            if (!Array.isArray(data)) {
-
-                throw new Error(
-                    "Question bank is not an array."
-                );
-
-            }
-
-
-            if (data.length < QUESTIONS_PER_SUBJECT) {
-
-                throw new Error(
-                    `${subject} contains only ${data.length} questions. 15 are required.`
-                );
-
-            }
-
-
-            /*
-             * Take exactly 15 questions.
-             */
-            const selectedQuestions =
-                data.slice(
-                    0,
-                    QUESTIONS_PER_SUBJECT
-                );
-
-
-            selectedQuestions.forEach(
-                (question, localIndex) => {
-
-                    examQuestions.push({
-
-                        ...question,
-
-                        subject,
-
-                        subjectIndex,
-
-                        localIndex,
-
-                        globalIndex:
-                            examQuestions.length
-
-                    });
-
-                }
-            );
-
-
-        } catch (error) {
-
-            console.error(
-                `Failed to load ${subject}:`,
-                error
-            );
-
-
-            document.getElementById(
-                "question-text"
-            ).innerText =
-                `Unable to load ${subject} question bank.`;
-
-            throw error;
-
-        }
-
-    }
-
-
-    /*
-     * Final safety check.
-     */
-    if (
-        examQuestions.length !== TOTAL_QUESTIONS
-    ) {
-
-        throw new Error(
-            `Expected ${TOTAL_QUESTIONS} questions but loaded ${examQuestions.length}.`
-        );
-
-    }
-
-}
-
-
-/* =========================================================
-   SUBJECT TABS
-   ========================================================= */
-
-function renderSubjectTabs() {
-
-    const container =
-        document.getElementById(
-            "subject-tabs"
-        );
-
-
-    container.innerHTML = "";
-
-
-    session.subjects.forEach(
-        (subject, subjectIndex) => {
-
-            const button =
-                document.createElement("button");
-
-
-            button.type = "button";
-
-            button.className =
-                "subject-tab";
-
-
-            button.textContent =
-                subject;
-
-
-            button.dataset.subjectIndex =
-                subjectIndex;
-
-
-            button.addEventListener(
-                "click",
-                () => {
-
-                    goToSubject(
-                        subjectIndex
-                    );
-
-                }
-            );
-
-
-            container.appendChild(button);
-
-        }
-    );
-
-
-    updateSubjectTabs();
-
-}
-
-
-function updateSubjectTabs() {
-
-    const tabs =
-        document.querySelectorAll(
-            ".subject-tab"
-        );
-
-
-    tabs.forEach(tab => {
-
-        const subjectIndex =
-            Number(
-                tab.dataset.subjectIndex
-            );
-
-
-        const isCurrent =
-            examQuestions[currentIndex] &&
-            examQuestions[currentIndex].subjectIndex
-                === subjectIndex;
-
-
-        const start =
-            subjectIndex *
-            QUESTIONS_PER_SUBJECT;
-
-
-        const end =
-            start +
-            QUESTIONS_PER_SUBJECT;
-
-
-        const completed =
-            examQuestions
-                .slice(start, end)
-                .every(
-                    q =>
-                        userAnswers[q.globalIndex]
-                );
-
-
-        tab.classList.toggle(
-            "active",
-            isCurrent
-        );
-
-
-        tab.classList.toggle(
-            "completed",
-            completed
-        );
-
-    });
-
-}
-
-
-/*
- * Jump to first question of a subject.
- */
-function goToSubject(subjectIndex) {
-
-    const targetIndex =
-        subjectIndex *
-        QUESTIONS_PER_SUBJECT;
-
-
-    currentIndex =
-        targetIndex;
-
-
-    persistAnswers();
-
-    renderQuestion();
-
-}
-
-
-/* =========================================================
-   QUESTION RENDERING
-   ========================================================= */
-
-function renderQuestion() {
-
-    if (!examQuestions.length) {
-        return;
-    }
-
-
-    const question =
-        examQuestions[currentIndex];
-
-
-    if (!question) {
-        return;
-    }
-
-
-    const subject =
-        question.subject;
-
-
-    const localQuestionNumber =
-        question.localIndex + 1;
-
-
-    /*
-     * Global question number.
-     */
-    document.getElementById(
-        "question-counter"
-    ).innerText =
-        `Question ${currentIndex + 1} of ${TOTAL_QUESTIONS}`;
-
-
-    /*
-     * Subject-specific position.
-     */
-    document.getElementById(
-        "subject-question-label"
-    ).innerText =
-        `${subject} — Question ${localQuestionNumber} of ${QUESTIONS_PER_SUBJECT}`;
-
-
-    /*
-     * Subject display.
-     */
-    document.title =
-        `${subject} | Flexi CBT`;
-
-
-    /*
-     * Question text.
-     */
-    document.getElementById(
-        "question-text"
-    ).innerHTML =
-        question.question || "";
-
-
-    /*
-     * Options.
-     */
-    const optionsContainer =
-        document.getElementById(
-            "options-container"
-        );
-
-
-    optionsContainer.innerHTML = "";
-
-
-    const optionLabels =
-        ["A", "B", "C", "D"];
-
-
-    (question.options || []).forEach(
-        (option, index) => {
-
-            const label =
-                optionLabels[index];
-
-
-            const isSelected =
-                userAnswers[
-                    question.globalIndex
-                ] === label;
-
-
-            const wrapper =
-                document.createElement("label");
-
-
-            wrapper.className =
-                "option-label" +
-                (
-                    isSelected
-                        ? " selected"
-                        : ""
-                );
-
-
-            const radio =
-                document.createElement("input");
-
-
-            radio.type =
-                "radio";
-
-            radio.name =
-                "exam-option";
-
-            radio.value =
-                label;
-
-            radio.checked =
-                isSelected;
-
-
-            radio.addEventListener(
-                "change",
-                () => {
-
-                    selectAnswer(
-                        question.globalIndex,
-                        label
-                    );
-
-                }
-            );
-
-
-            const letter =
-                document.createElement("span");
-
-
-            letter.className =
-                "option-letter";
-
-
-            letter.textContent =
-                `${label}.`;
-
-
-            const text =
-                document.createElement("span");
-
-
-            text.className =
-                "option-text";
-
-
-            text.innerHTML =
-                option;
-
-
-            wrapper.appendChild(
-                radio
-            );
-
-            wrapper.appendChild(
-                letter
-            );
-
-            wrapper.appendChild(
-                text
-            );
-
-
-            optionsContainer.appendChild(
-                wrapper
-            );
-
-        }
-    );
-
-
-    /*
-     * Navigation buttons.
-     */
-    document.getElementById(
-        "prev-btn"
-    ).disabled =
-        currentIndex === 0;
-
-
-    document.getElementById(
-        "next-btn"
-    ).innerText =
-        currentIndex === TOTAL_QUESTIONS - 1
-            ? "Finish"
-            : "Next";
-
-
-    updatePaletteState();
-
-    updateSubjectTabs();
-
-
-    /*
-     * MathJax.
-     */
-    if (window.MathJax) {
-
-        if (MathJax.typesetPromise) {
-
-            MathJax.typesetPromise([
-                document.getElementById(
-                    "question-text"
-                ),
-                document.getElementById(
-                    "options-container"
-                )
-            ]).catch(() => {});
-
-        }
-
-    }
-
-}
-
-
-/* =========================================================
-   ANSWERS
-   ========================================================= */
-
-function selectAnswer(
-    globalIndex,
-    optionLabel
-) {
-
-    userAnswers[
-        globalIndex
-    ] =
-        optionLabel;
-
-
-    persistAnswers();
-
-
-    /*
-     * Update visual state without changing
-     * the current question.
-     */
-    renderQuestion();
-
-}
-
-
-/* =========================================================
-   NAVIGATION
-   ========================================================= */
-
-function nextQuestion() {
-
-    if (
-        currentIndex <
-        TOTAL_QUESTIONS - 1
-    ) {
-
-        currentIndex++;
-
-        persistAnswers();
-
-        renderQuestion();
-
-    } else {
-
-        confirmSubmit();
-
-    }
-
-}
-
-
-function prevQuestion() {
-
-    if (currentIndex > 0) {
-
-        currentIndex--;
-
-        persistAnswers();
-
-        renderQuestion();
-
-    }
-
-}
-
-
-/* =========================================================
-   PALETTE
-   ========================================================= */
-
-function initPalette() {
-
-    const palette =
-        document.getElementById(
-            "palette-grid"
-        );
-
-
-    palette.innerHTML = "";
-
-
-    examQuestions.forEach(
-        question => {
-
-            const button =
-                document.createElement("button");
-
-
-            button.type =
-                "button";
-
-
-            button.className =
-                "palette-btn";
-
-
-            button.id =
-                `palette-${question.globalIndex}`;
-
-
-            button.textContent =
-                question.globalIndex + 1;
-
-
-            button.addEventListener(
-                "click",
-                () => {
-
-                    jumpToQuestion(
-                        question.globalIndex
-                    );
-
-                }
-            );
-
-
-            palette.appendChild(
-                button
-            );
-
-        }
-    );
-
-
-    updatePaletteState();
-
-}
-
-
-function jumpToQuestion(index) {
-
-    if (
-        index < 0 ||
-        index >= examQuestions.length
-    ) {
-
-        return;
-
-    }
-
-
-    currentIndex =
-        index;
-
-
-    persistAnswers();
-
-    renderQuestion();
-
-}
-
-
-function updatePaletteState() {
-
-    examQuestions.forEach(
-        question => {
-
-            const button =
-                document.getElementById(
-                    `palette-${question.globalIndex}`
-                );
-
-
-            if (!button) {
-                return;
-            }
-
-
-            button.className =
-                "palette-btn";
-
-
-            if (
-                userAnswers[
-                    question.globalIndex
-                ]
-            ) {
-
-                button.classList.add(
-                    "answered"
-                );
-
-            }
-
-
-            if (
-                question.globalIndex ===
-                currentIndex
-            ) {
-
-                button.classList.add(
-                    "current"
-                );
-
-            }
-
-
-            if (
-                examQuestions[currentIndex] &&
-                question.subjectIndex ===
-                    examQuestions[currentIndex].subjectIndex
-            ) {
-
-                button.classList.add(
-                    "subject-current"
-                );
-
-            }
-
-        }
-    );
-
-}
-
-
-/* =========================================================
-   UNIVERSAL 10-MINUTE TIMER
-   ========================================================= */
-
-function startUniversalTimer() {
-
-    clearInterval(
-        timerInterval
-    );
-
-
-    updateTimerDisplay();
-
-
-    timerInterval =
-        setInterval(
-            updateTimerDisplay,
-            250
-        );
-
-}
-
-
-function updateTimerDisplay() {
-
-    if (
-        !session ||
-        !session.endTime
-    ) {
-
-        return;
-
-    }
-
-
-    const endTime =
-        new Date(
-            session.endTime
-        ).getTime();
-
-
-    const remainingMilliseconds =
-        endTime - Date.now();
-
-
-    let remainingSeconds =
-        Math.ceil(
-            remainingMilliseconds / 1000
-        );
-
-
-    if (
-        !Number.isFinite(
-            remainingSeconds
-        )
-    ) {
-
-        remainingSeconds =
-            TOTAL_DURATION_SECONDS;
-
-    }
-
-
-    remainingSeconds =
-        Math.max(
-            0,
-            remainingSeconds
-        );
-
-
-    const minutes =
-        Math.floor(
-            remainingSeconds / 60
-        );
-
-
-    const seconds =
-        remainingSeconds % 60;
-
-
-    document.getElementById(
-        "timer"
-    ).innerText =
-        `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
-
-
-    /*
-     * Warning state for final minute.
-     */
-    document.getElementById(
-        "timer"
-    ).classList.toggle(
-        "warning",
-        remainingSeconds <= 60
-    );
-
-
-    /*
-     * Time has expired.
-     */
-    if (
-        remainingSeconds <= 0
-    ) {
-
-        clearInterval(
-            timerInterval
-        );
-
-
-        autoSubmitExam();
-
-    }
-
-}
-
-
-/* =========================================================
-   SUBMISSION
-   ========================================================= */
-
-function confirmSubmit() {
-
-    if (submissionStarted) {
-        return;
-    }
-
-
-    const answered =
-        Object.keys(
-            userAnswers
-        ).length;
-
-
-    const unanswered =
-        TOTAL_QUESTIONS -
-        answered;
-
-
-    let message =
-        `You have answered ${answered} of ${TOTAL_QUESTIONS} questions.`;
-
-
-    if (unanswered > 0) {
-
-        message +=
-            `\n\n${unanswered} question(s) remain unanswered.`;
-
-    }
-
-
-    message +=
-        "\n\nAre you sure you want to submit?";
-
-
-    if (
-        confirm(message)
-    ) {
-
-        submitExamToCloud(
-            "manual"
-        );
-
-    }
-
-}
-
-
-function autoSubmitExam() {
-
-    if (submissionStarted) {
-        return;
-    }
-
-
-    submitExamToCloud(
-        "time_expired"
-    );
-
-}
-
-
-async function submitExamToCloud(
-    submissionReason = "manual"
-) {
-
-    if (submissionStarted) {
-        return;
-    }
-
-
-    submissionStarted =
-        true;
-
-
-    clearInterval(
-        timerInterval
-    );
-
-
-    /*
-     * Save final state before submission.
-     */
-    persistAnswers();
-
-
-    const modal =
-        document.getElementById(
-            "submission-modal"
-        );
-
-
-    const message =
-        document.getElementById(
-            "submission-message"
-        );
-
-
-    modal.classList.add(
-        "active"
-    );
-
-
-    message.innerText =
-        "Preparing your examination results...";
-
-
-    /*
-     * Calculate subject scores.
-     */
-    const subjectResults = {};
-
-
-    session.subjects.forEach(
-        subject => {
-
-            subjectResults[subject] = {
-                score: 0,
-                total: QUESTIONS_PER_SUBJECT
-            };
-
-        }
-    );
-
-
-    let totalScore = 0;
-
-
-    examQuestions.forEach(
-        question => {
-
-            const selected =
-                userAnswers[
-                    question.globalIndex
-                ];
-
-
-            const correct =
-                String(
-                    question.answer || ""
-                ).trim().toUpperCase();
-
-
-            if (
-                selected &&
-                selected.toUpperCase() ===
-                    correct
-            ) {
-
-                totalScore++;
-
-
-                if (
-                    subjectResults[
-                        question.subject
-                    ]
-                ) {
-
-                    subjectResults[
-                        question.subject
-                    ].score++;
-
-                }
-
-            }
-
-        }
-    );
-
-
-    /*
-     * Build answer record.
-     */
-    const answers = {};
-
-
-    examQuestions.forEach(
-        question => {
-
-            answers[
-                question.globalIndex
-            ] = {
-
-                subject:
-                    question.subject,
-
-                questionNumber:
-                    question.localIndex + 1,
-
-                answer:
-                    userAnswers[
-                        question.globalIndex
-                    ] || null
-
-            };
-
-        }
-    );
-
-
-    const submissionPayload = {
-
-        sessionId:
-            session.sessionId,
-
-        candidateId:
-            session.candidateId,
-
-        examType:
-            session.examType || "JAMB",
-
-        candidate:
-            session.candidate,
-
-        deviceFingerprint:
-            session.deviceFingerprint || null,
-
-        subjects:
-            session.subjects,
-
-        totalQuestions:
-            TOTAL_QUESTIONS,
-
-        questionsPerSubject:
-            QUESTIONS_PER_SUBJECT,
-
-        durationSeconds:
-            TOTAL_DURATION_SECONDS,
-
-        score:
-            totalScore,
-
-        total:
-            TOTAL_QUESTIONS,
-
-        subjectResults,
-
-        answers,
-
-        warnings:
-            session.warnings || warningCount || 0,
-
-        submissionReason,
-
-        startedAt:
-            session.startedAt,
-
-        examEndTime:
-            session.endTime,
-
-        submittedAt:
-            new Date().toISOString(),
-
-        status:
-            "submitted"
-
-    };
-
-
-    message.innerText =
-        "Transmitting your responses securely...";
-
-
-    try {
-
-        const result =
-            await window.submitToFirestore(
-                submissionPayload
-            );
-
-
-        if (!result.success) {
-
-            submissionStarted =
-                false;
-
-
-            message.innerText =
-                `Submission failed: ${result.error}. Please try again.`;
-
-            return;
-
-        }
-
-
-        /*
-         * Mark session as submitted.
-         */
-        session.status =
-            "submitted";
-
-        session.stage =
-            "completed";
-
-        session.submittedAt =
-            submissionPayload.submittedAt;
-
-        saveSession();
-
-
-        message.innerText =
-            "Submission successful. Redirecting...";
-
-
-        setTimeout(
-            () => {
-
-                window.location.href =
-                    "index.html";
-
-            },
-            1800
-        );
-
-
-    } catch (error) {
-
-        console.error(
-            "Submission error:",
-            error
-        );
-
-
-        submissionStarted =
-            false;
-
-
-        message.innerText =
-            "An unexpected error occurred during submission. Please try again.";
-
-    }
-
-}
-
-
-/* =========================================================
-   FULLSCREEN / VISIBILITY
-   ========================================================= */
-
-function requestFullscreenMode() {
-
-    /*
-     * Browsers may reject automatic fullscreen because
-     * fullscreen normally requires a user gesture.
-     *
-     * Failure is intentionally ignored.
-     */
-    const element =
-        document.documentElement;
-
-
-    if (
-        element.requestFullscreen
-    ) {
-
-        element
-            .requestFullscreen()
-            .catch(() => {});
-
-    }
-
-}
-
-
-/*
- * Visibility monitoring.
- *
- * We DO NOT automatically submit merely because the
- * candidate changes tabs once.
- *
- * The timer continues based on endTime.
- */
-document.addEventListener(
-    "visibilitychange",
-    () => {
-
-        if (
-            document.hidden
-        ) {
-
-            warningCount++;
-
-            session.warnings =
-                warningCount;
-
-            saveSession();
-
-        }
-
-    }
-);
-
-
-/* =========================================================
-   CALCULATOR
-   ========================================================= */
-
-function toggleCalculator() {
-
-    document
-        .getElementById(
-            "calculator-modal"
-        )
-        .classList.toggle(
-            "active"
-        );
-
-}
-
-
-function calcInput(value) {
-
-    const screen =
-        document.getElementById(
-            "calc-screen"
-        );
-
-
-    /*
-     * Only permit calculator characters.
-     */
-    const allowed =
-        /^[0-9+\-*/(). ]+$/;
-
-
-    if (
-        allowed.test(value)
-    ) {
-
-        screen.value += value;
-
-    }
-
-}
-
-
-function calcClear() {
-
-    document.getElementById(
-        "calc-screen"
-    ).value = "";
-
-}
-
-
-function calcEquals() {
-
-    const screen =
-        document.getElementById(
-            "calc-screen"
-        );
-
-
-    const expression =
-        screen.value.trim();
-
-
-    if (!expression) {
-        return;
-    }
-
-
-    /*
-     * Calculator-only expression validation.
-     */
-    if (
-        !/^[0-9+\-*/(). ]+$/.test(
-            expression
-        )
-    ) {
-
-        screen.value =
-            "Error";
-
-        return;
-
-    }
-
-
-    try {
-
-        /*
-         * Function is used only after strict
-         * character validation above.
-         */
-        const result =
-            Function(
-                `"use strict"; return (${expression})`
-            )();
-
-
-        if (
-            !Number.isFinite(result)
-        ) {
-
-            throw new Error(
-                "Invalid calculation"
-            );
-
-        }
-
-
-        screen.value =
-            String(result);
-
-    } catch {
-
-        screen.value =
-            "Error";
-
-    }
-
-}
-
-</script>
 
 </body>
 </html>
