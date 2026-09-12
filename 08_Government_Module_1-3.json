@@ -1,151 +1,151 @@
 [
   {
-    "question": "Government may be understood both as the process of governing and as",
+    "question": "The authority of a state to make and enforce laws within its territory without being legally subject to another state is most closely related to",
     "options": [
-      "the machinery through which the state is administered",
-      "a private business association",
-      "a religious doctrine",
-      "a family meeting"
+      "sovereignty",
+      "legitimacy",
+      "franchise",
+      "federalism"
     ],
     "answer": "A"
   },
   {
-    "question": "The defining feature of a sovereign state is its",
+    "question": "A government may be legitimate even when citizens disagree with particular policies because legitimacy primarily concerns",
     "options": [
-      "dependence on another state",
-      "supreme authority within its territory",
-      "absence of laws",
-      "single political party"
+      "acceptance of the right to rule under recognized procedures",
+      "agreement with every government decision",
+      "military strength alone",
+      "the size of the population"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which situation best illustrates separation of powers?",
+    "options": [
+      "One institution makes, executes and interprets every law",
+      "Legislative, executive and judicial powers are distributed among different organs",
+      "Traditional rulers appoint all judges",
+      "The military controls elections"
     ],
     "answer": "B"
   },
   {
-    "question": "A system in which citizens exercise political power directly or through elected representatives is",
+    "question": "The primary purpose of checks and balances is to",
     "options": [
-      "democracy",
-      "monarchy",
-      "oligarchy",
-      "theocracy"
+      "allow one arm to dominate the others",
+      "prevent abuse of power by enabling institutions to restrain one another",
+      "abolish the constitution",
+      "replace elections with appointments"
     ],
-    "answer": "A"
+    "answer": "B"
   },
   {
-    "question": "In a federal system, constitutional powers are divided between",
+    "question": "In a federation, powers are constitutionally divided between",
     "options": [
-      "only the judiciary and legislature",
-      "central and constituent governments",
-      "political parties only",
+      "the legislature and judiciary only",
+      "central and component governments",
+      "political parties and pressure groups",
       "traditional rulers and citizens"
     ],
     "answer": "B"
   },
   {
-    "question": "A government headed by a king or queen is a",
-    "options": [
-      "monarchy",
-      "republic",
-      "confederation",
-      "diarchy"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The principle that government powers should be divided among organs to prevent concentration of power is",
-    "options": [
-      "separation of powers",
-      "collective responsibility",
-      "federal character",
-      "delegated legislation"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Checks and balances are primarily intended to",
-    "options": [
-      "increase executive power without limits",
-      "prevent abuse of power among branches of government",
-      "abolish the judiciary",
-      "replace elections"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A constitution is best described as",
-    "options": [
-      "a collection of newspaper editorials",
-      "the fundamental rules and principles by which a state is governed",
-      "a party manifesto",
-      "a court judgment only"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "The rule of law implies that",
-    "options": [
-      "government officials are above the law",
-      "law is supreme and applies equally within its scope",
-      "judges make laws without limits",
-      "only legislators obey laws"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A constitution that is difficult to amend is described as",
+    "question": "A constitution that is difficult to amend through a special procedure is described as",
     "options": [
       "flexible",
       "rigid",
       "unitary",
-      "customary"
+      "unwritten"
     ],
     "answer": "B"
   },
   {
-    "question": "Judicial review enables courts to",
+    "question": "Rule of law is weakened most directly when",
     "options": [
-      "conduct elections",
-      "examine the legality or constitutionality of governmental actions",
-      "appoint ministers",
-      "collect taxes"
+      "government officials are also subject to law",
+      "laws are applied selectively to favour powerful persons",
+      "courts interpret legislation",
+      "citizens know their legal rights"
     ],
     "answer": "B"
   },
   {
-    "question": "Universal adult suffrage refers to the right of eligible adults to",
+    "question": "A parliamentary system differs from a presidential system chiefly because in a parliamentary system",
     "options": [
-      "own public corporations",
-      "vote in elections without unjustified exclusion",
-      "hold every public office",
-      "ignore electoral laws"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A major weakness of an unwritten constitution is that",
-    "options": [
-      "it can never change",
-      "its rules may be less clearly consolidated in one authoritative document",
-      "it necessarily abolishes courts",
-      "it prevents all conventions"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "In a parliamentary system, the executive is generally drawn from and politically responsible to the",
-    "options": [
-      "legislature",
-      "judiciary",
-      "civil service",
-      "electoral commission"
+      "the executive is normally drawn from and accountable to the legislature",
+      "the judiciary controls cabinet appointments",
+      "there is no legislature",
+      "the head of government must be a monarch"
     ],
     "answer": "A"
   },
   {
-    "question": "The constitutionally protected freedoms of individuals against arbitrary state action are commonly called",
+    "question": "Universal adult suffrage means",
     "options": [
-      "fundamental rights",
-      "party privileges",
-      "cabinet conventions",
-      "economic resources"
+      "only educated adults may vote",
+      "all adult citizens meeting legal requirements have the right to vote",
+      "every resident regardless of citizenship must vote",
+      "only taxpayers may vote"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Judicial review is the power of courts to",
+    "options": [
+      "conduct elections",
+      "examine the legality or constitutionality of governmental actions",
+      "appoint ministers",
+      "write party manifestoes"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A state differs from a government because a state",
+    "options": [
+      "is temporary while government is permanent",
+      "is the enduring political entity, while governments may change",
+      "has no territory",
+      "cannot possess sovereignty"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which is NOT an essential element of a state?",
+    "options": [
+      "Population",
+      "Defined territory",
+      "Sovereign government",
+      "A single political party"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "When citizens remove an elected government through constitutionally provided elections, this demonstrates",
+    "options": [
+      "political accountability",
+      "military dictatorship",
+      "judicial supremacy",
+      "absolute monarchy"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A constitution is described as the supreme law because",
+    "options": [
+      "ordinary laws and governmental actions must conform to it",
+      "only judges may read it",
+      "it cannot ever be amended",
+      "it applies only to citizens"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A government that derives authority through periodic competitive elections is most directly demonstrating",
+    "options": [
+      "democratic government",
+      "absolute monarchy",
+      "military rule",
+      "theocracy"
     ],
     "answer": "A"
   }

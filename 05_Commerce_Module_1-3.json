@@ -1,152 +1,152 @@
 [
   {
-    "question": "Commerce is best described as the study of activities involved in",
-    "options": [
-      "only manufacturing goods",
-      "the exchange and distribution of goods and services",
-      "only agricultural production",
-      "government taxation alone"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which activity is NOT normally classified as an aid to trade?",
+    "question": "Which aid to trade primarily facilitates the movement of goods from producer to consumer?",
     "options": [
       "Banking",
-      "Insurance",
       "Transport",
-      "Manufacturing"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "The extraction of crude oil from underground deposits is an example of",
-    "options": [
-      "tertiary production",
-      "secondary production",
-      "primary production",
-      "direct retailing"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "A person who combines land, labour and capital and bears business risk is the",
-    "options": [
-      "consumer",
-      "entrepreneur",
-      "middleman",
-      "agent"
+      "Insurance",
+      "Advertising"
     ],
     "answer": "B"
   },
   {
-    "question": "Which factor of production receives rent as its reward?",
+    "question": "A wholesaler breaks bulk mainly because retailers generally",
     "options": [
-      "Labour",
-      "Capital",
-      "Land",
-      "Enterprise"
+      "prefer to buy smaller quantities than manufacturers produce",
+      "cannot sell branded goods",
+      "must manufacture the goods themselves",
+      "provide insurance to producers"
     ],
-    "answer": "C"
+    "answer": "A"
   },
   {
-    "question": "The main function of a wholesaler is to",
+    "question": "A trader buys goods on credit and later pays through a bank transfer. Which pair of aids to trade is most directly involved?",
     "options": [
-      "sell mainly in very small quantities to final consumers",
-      "buy in bulk and resell to retailers or other users",
-      "manufacture all goods sold",
-      "provide only banking services"
+      "Warehousing and advertising",
+      "Banking and credit",
+      "Transport and insurance",
+      "Communication and packaging"
     ],
     "answer": "B"
   },
   {
-    "question": "A retailer who buys goods from wholesalers and sells directly to consumers performs a function mainly associated with",
+    "question": "Which activity is most clearly foreign trade?",
     "options": [
-      "trade",
-      "production of raw materials",
-      "mining",
-      "insurance underwriting"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which document is commonly used as evidence of goods sent by a seller to a buyer?",
-    "options": [
-      "Invoice",
-      "Cheque counterfoil",
-      "Receipt voucher",
-      "Share certificate"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A trade discount is usually allowed to",
-    "options": [
-      "encourage bulk purchases and establish resale terms",
-      "replace a cash discount after payment",
-      "constitute a bank loan",
-      "pay transport workers"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which channel represents the shortest normal distribution route?",
-    "options": [
-      "Producer → wholesaler → retailer → consumer",
-      "Producer → agent → wholesaler → retailer → consumer",
-      "Producer → consumer",
-      "Producer → broker → retailer → consumer"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Entrepôt trade refers to",
-    "options": [
-      "selling locally produced goods only",
-      "importing goods for re-export",
-      "bartering within a village",
-      "selling shares on a stock exchange"
+      "A Lagos retailer buying from a Kano wholesaler",
+      "A Nigerian firm importing machinery from Germany",
+      "A farmer selling maize at a local market",
+      "A manufacturer selling to a nearby retailer"
     ],
     "answer": "B"
   },
   {
-    "question": "A retailer is more likely than a wholesaler to",
+    "question": "A document issued by a carrier acknowledging receipt of goods for transport by sea is the",
     "options": [
-      "sell in small quantities",
-      "purchase directly from every producer",
-      "store goods only for export",
-      "avoid contact with consumers"
+      "bill of lading",
+      "cheque",
+      "invoice",
+      "credit note"
     ],
     "answer": "A"
   },
   {
-    "question": "Which is an advantage of division of labour?",
+    "question": "The major commercial advantage of warehousing is that it",
     "options": [
-      "Reduced specialization",
-      "Increased skill and productivity",
-      "Elimination of all unemployment",
-      "Guaranteed equal income"
+      "eliminates all risks of theft",
+      "bridges the time gap between production and consumption",
+      "removes the need for transport",
+      "guarantees higher prices"
     ],
     "answer": "B"
   },
   {
-    "question": "An occupation involving buying and selling goods without materially changing their form is",
+    "question": "Which function of advertising is most directly concerned with introducing an unknown product to potential buyers?",
     "options": [
-      "commerce/trade",
-      "extractive production",
-      "manufacturing",
-      "construction"
+      "Informative function",
+      "Protective function",
+      "Accounting function",
+      "Insurance function"
     ],
     "answer": "A"
   },
   {
-    "question": "The movement of goods from a producer to the final consumer is facilitated most directly by",
+    "question": "A retailer insured against fire suffers a covered fire loss. The principle that requires compensation to reflect the actual loss is",
     "options": [
-      "distribution",
-      "depreciation",
-      "capital formation",
-      "auditing"
+      "utmost good faith",
+      "indemnity",
+      "subrogation",
+      "contribution"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which trade term indicates that the seller bears responsibility for delivering goods to the named destination, subject to the agreed terms?",
+    "options": [
+      "Free on board only",
+      "Delivered terms",
+      "Cash discount",
+      "Trade discount"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A commercial agent differs from a wholesaler mainly because the agent generally",
+    "options": [
+      "takes ownership of the goods before resale",
+      "acts on behalf of another party without necessarily taking ownership",
+      "manufactures the goods",
+      "always sells only to final consumers"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which is an example of visible export?",
+    "options": [
+      "A Nigerian company receives payment for consultancy abroad",
+      "Nigeria exports cocoa beans",
+      "A Nigerian tourist buys a foreign airline ticket",
+      "A foreign investor buys Nigerian shares"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A letter of credit is particularly useful in international trade because it",
+    "options": [
+      "eliminates all transport costs",
+      "provides assurance of payment subject to stated conditions",
+      "replaces customs authorities",
+      "guarantees that goods cannot be damaged"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which combination best represents aids to trade rather than branches of production?",
+    "options": [
+      "Banking, insurance and transport",
+      "Mining, farming and fishing",
+      "Manufacturing, construction and mining",
+      "Agriculture, forestry and fishing"
     ],
     "answer": "A"
+  },
+  {
+    "question": "A retailer receives goods that are damaged and returns them to the supplier. The document commonly issued by the supplier to record the reduction in the customer's account is a",
+    "options": [
+      "debit note",
+      "credit note",
+      "statement of account",
+      "pro-forma invoice"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which factor most directly explains the need for communication as an aid to trade?",
+    "options": [
+      "Goods cannot exist without messages",
+      "Buyers and sellers need information to coordinate commercial decisions",
+      "Communication physically transports goods",
+      "Communication removes all business risk"
+    ],
+    "answer": "B"
   }
 ]
