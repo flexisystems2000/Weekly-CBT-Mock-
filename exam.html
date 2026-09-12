@@ -42,6 +42,19 @@ const EXAM_DURATION_SECONDS = 600;
 const QUESTIONS_PER_SUBJECT = 15;
 const TOTAL_QUESTIONS = 60;
 
+/*
+ * FLEXI CBT JAMB-STYLE SCORING
+ *
+ * Correct answer = +1
+ * Wrong answer   = -0.25
+ * Unanswered     = 0
+ *
+ * Each subject is scaled to /100.
+ * Four subjects give a maximum total of /400.
+ */
+const CORRECT_MARK = 1;
+const WRONG_MARK = -0.25;
+
 let session = null;
 let examQuestions = [];
 let currentIndex = 0;
@@ -49,6 +62,7 @@ let timerInterval = null;
 let warningCount = 0;
 let submitting = false;
 let examLoaded = false;
+
 
 /*
 =========================================================
@@ -76,6 +90,7 @@ function saveSession() {
     );
 }
 
+
 /*
 =========================================================
 QUESTION BANK
@@ -97,6 +112,7 @@ const subjectFileMap = {
     "Use of English": "12_Use_of_English_and_The_Lekki_Headmaster_Module_1-3.json"
 };
 
+
 /*
 =========================================================
 DOM
@@ -107,6 +123,7 @@ const timerEl = document.getElementById("timer");
 const warningDisplay = document.getElementById("warning-display");
 const warningBox = document.getElementById("warning-box");
 const warningMessage = document.getElementById("warning-message");
+
 
 /*
 =========================================================
@@ -153,6 +170,7 @@ function showWarning(message) {
     }, 5000);
 }
 
+
 /*
 =========================================================
 ANTI APP-SWITCH / VISIBILITY MONITOR
@@ -174,10 +192,6 @@ function registerVisibilityWarning() {
 
     warningCount = Number(session.warnings || 0);
 
-    /*
-     * Prevent duplicate visibility events while the
-     * page remains hidden.
-     */
     if (document.hidden) {
 
         if (session.visibilityHidden === true) {
@@ -213,9 +227,6 @@ function registerVisibilityWarning() {
             `Flexi CBT visibility warning ${warningCount}/${MAX_WARNINGS}`
         );
 
-        /*
-         * Three warnings = automatic submission.
-         */
         if (warningCount >= MAX_WARNINGS) {
 
             autoSubmitExam(
@@ -225,16 +236,8 @@ function registerVisibilityWarning() {
             return;
         }
 
-        /*
-         * We don't display the return message yet because
-         * the page is currently hidden.
-         */
-
     } else {
 
-        /*
-         * Candidate has returned to the CBT page.
-         */
         if (session.visibilityHidden === true) {
 
             session.visibilityHidden = false;
@@ -255,6 +258,7 @@ document.addEventListener(
     registerVisibilityWarning
 );
 
+
 /*
 =========================================================
 OPTIONAL EXTRA FOCUS MONITOR
@@ -262,13 +266,8 @@ OPTIONAL EXTRA FOCUS MONITOR
 */
 
 window.addEventListener("blur", () => {
-
     /*
-     * We deliberately don't count blur separately.
-     *
-     * This prevents one app switch from generating
-     * multiple warnings through both blur and
-     * visibilitychange.
+     * Blur is deliberately not counted separately.
      */
 });
 
@@ -278,6 +277,7 @@ window.addEventListener("focus", () => {
      * anti-switch event.
      */
 });
+
 
 /*
 =========================================================
@@ -377,6 +377,7 @@ function updateSubjectTabs() {
         );
     });
 }
+
 
 /*
 =========================================================
@@ -490,6 +491,7 @@ async function loadQuestionBanks() {
         );
     }
 }
+
 
 /*
 =========================================================
@@ -657,6 +659,7 @@ function renderQuestion() {
     }
 }
 
+
 /*
 =========================================================
 NAVIGATION
@@ -712,7 +715,8 @@ function persistPosition() {
         );
 
     saveSession();
-};
+}
+
 
 /*
 =========================================================
@@ -800,6 +804,7 @@ function renderPalette() {
 function updatePalette() {
     renderPalette();
 }
+
 
 /*
 =========================================================
@@ -889,6 +894,7 @@ function startTimer() {
         setInterval(tick, 500);
 }
 
+
 /*
 =========================================================
 SUBMISSION
@@ -936,6 +942,13 @@ window.confirmSubmission = function() {
         "Candidate manually submitted the examination"
     );
 };
+
+
+/*
+=========================================================
+AUTO SUBMIT
+=========================================================
+*/
 
 async function autoSubmitExam(reason) {
 
@@ -997,9 +1010,6 @@ async function autoSubmitExam(reason) {
 
         /*
          * Idempotency check.
-         *
-         * Prevents duplicate Firestore records if
-         * the browser fires submission more than once.
          */
         const submissionsRef =
             collection(
@@ -1020,10 +1030,20 @@ async function autoSubmitExam(reason) {
         const existingSnapshot =
             await getDocs(existingQuery);
 
-        if (existingSnapshot.empty) {
+        /*
+         * Calculate the score ONCE.
+         *
+         * This object contains:
+         * - total /400
+         * - individual subject /100
+         * - correct
+         * - wrong
+         * - unanswered
+         */
+        const scoreResult =
+            calculateScore();
 
-            const score =
-                calculateScore();
+        if (existingSnapshot.empty) {
 
             await addDoc(
                 submissionsRef,
@@ -1063,18 +1083,49 @@ async function autoSubmitExam(reason) {
                         EXAM_DURATION_SECONDS,
 
                     /*
-                     * Answers / score
+                     * Answers
                      */
                     answers:
                         session.answers || {},
 
                     answeredCount:
-                        Object.keys(
-                            session.answers || {}
-                        ).length,
+                        scoreResult.totalAnswered,
 
+                    /*
+                     * JAMB-style score
+                     */
                     score:
-                        score,
+                        scoreResult.totalScore,
+
+                    totalScore:
+                        scoreResult.totalScore,
+
+                    maxScore:
+                        400,
+
+                    correctCount:
+                        scoreResult.totalCorrect,
+
+                    wrongCount:
+                        scoreResult.totalWrong,
+
+                    unansweredCount:
+                        scoreResult.totalUnanswered,
+
+                    /*
+                     * Individual subject scores
+                     */
+                    subjectScores:
+                        scoreResult.subjectScores,
+
+                    /*
+                     * Raw negative-marking data
+                     */
+                    rawTotalScore:
+                        scoreResult.rawTotalScore,
+
+                    scoringMethod:
+                        "Correct +1, Wrong -0.25, Unanswered 0; each subject scaled to /100",
 
                     /*
                      * Anti-switch records
@@ -1135,15 +1186,90 @@ async function autoSubmitExam(reason) {
         }
 
         /*
-         * Clear the modal and show final message.
+         * Show detailed final score.
          */
+        const subjectScoreHTML =
+            scoreResult.subjectScores
+                .map(subject => `
+                    <div style="
+                        display:flex;
+                        justify-content:space-between;
+                        align-items:center;
+                        gap:12px;
+                        padding:8px 0;
+                        border-bottom:1px solid #e0e0e0;
+                    ">
+                        <span>
+                            ${escapeHTML(subject.subject)}
+                        </span>
+                        <strong>
+                            ${subject.score}/100
+                        </strong>
+                    </div>
+                `)
+                .join("");
+
         message.innerHTML =
             `
             <strong>Examination Submitted Successfully.</strong>
+
             <br><br>
+
             ${escapeHTML(reason)}
-            <br><br>
-            Score: ${score}/${TOTAL_QUESTIONS}
+
+            <div style="
+                margin-top:18px;
+                text-align:left;
+                background:#f8fff8;
+                border:1px solid #c8e6c9;
+                border-radius:8px;
+                padding:12px;
+            ">
+
+                <div style="
+                    font-weight:700;
+                    color:#1b5e20;
+                    margin-bottom:8px;
+                ">
+                    Subject Scores
+                </div>
+
+                ${subjectScoreHTML}
+
+            </div>
+
+            <div style="
+                margin-top:15px;
+                padding:12px;
+                background:#1b5e20;
+                color:white;
+                border-radius:8px;
+                font-size:1.15rem;
+                font-weight:800;
+            ">
+                TOTAL SCORE:
+                ${scoreResult.totalScore}/400
+            </div>
+
+            <div style="
+                margin-top:12px;
+                font-size:.82rem;
+                color:#666;
+            ">
+                Correct: ${scoreResult.totalCorrect}
+                &nbsp; • &nbsp;
+                Wrong: ${scoreResult.totalWrong}
+                &nbsp; • &nbsp;
+                Unanswered: ${scoreResult.totalUnanswered}
+            </div>
+
+            <div style="
+                margin-top:7px;
+                font-size:.75rem;
+                color:#777;
+            ">
+                Scoring: +1 correct, −0.25 wrong, 0 unanswered
+            </div>
             `;
 
         document.getElementById(
@@ -1161,7 +1287,7 @@ async function autoSubmitExam(reason) {
         setTimeout(() => {
             window.location.href =
                 "index.html";
-        }, 5000);
+        }, 7000);
 
     } catch (error) {
 
@@ -1172,8 +1298,6 @@ async function autoSubmitExam(reason) {
 
         /*
          * Keep the local submitted state.
-         * This prevents the candidate from continuing
-         * the exam after submission failed.
          */
         message.innerHTML =
             `
@@ -1186,7 +1310,7 @@ async function autoSubmitExam(reason) {
         submitting = false;
 
         /*
-         * Re-enable only the submission button.
+         * Re-enable controls.
          */
         document
             .querySelectorAll("button, input")
@@ -1196,85 +1320,296 @@ async function autoSubmitExam(reason) {
     }
 }
 
+
 /*
 =========================================================
-SCORE
+JAMB-STYLE SCORE CALCULATION
 =========================================================
 */
 
 function calculateScore() {
 
-    let score = 0;
+    /*
+     * We calculate each of the four selected
+     * subjects independently.
+     *
+     * Every subject has 15 questions.
+     *
+     * Raw subject score:
+     *
+     * correct × 1
+     * +
+     * wrong × -0.25
+     *
+     * The raw score is then converted to /100.
+     */
 
-    examQuestions.forEach(
-        (question, index) => {
+    const subjectScores = [];
 
-            const selected =
-                session.answers?.[index];
+    let totalCorrect = 0;
+    let totalWrong = 0;
+    let totalUnanswered = 0;
+    let rawTotalScore = 0;
 
-            if (
-                selected === undefined ||
-                selected === null
+    session.subjects.forEach(
+        (subject, subjectIndex) => {
+
+            let correct = 0;
+            let wrong = 0;
+            let unanswered = 0;
+
+            const start =
+                subjectIndex *
+                QUESTIONS_PER_SUBJECT;
+
+            const end =
+                start +
+                QUESTIONS_PER_SUBJECT;
+
+            for (
+                let index = start;
+                index < end;
+                index++
             ) {
-                return;
-            }
 
-            let correctIndex = -1;
+                const question =
+                    examQuestions[index];
 
-            /*
-             * Supports either numeric answer indexes
-             * or A/B/C/D answer values.
-             */
-            if (
-                typeof question.answer ===
-                "number"
-            ) {
+                const selected =
+                    session.answers?.[index];
 
-                correctIndex =
-                    question.answer;
-
-            } else if (
-                typeof question.answer ===
-                "string"
-            ) {
-
-                const answer =
-                    question.answer
-                        .trim()
-                        .toUpperCase();
-
+                /*
+                 * No answer selected.
+                 */
                 if (
-                    /^[A-D]$/.test(answer)
+                    selected === undefined ||
+                    selected === null ||
+                    selected === ""
                 ) {
-                    correctIndex =
-                        answer.charCodeAt(0) -
-                        65;
-                } else {
+                    unanswered++;
+                    continue;
+                }
+
+                let correctIndex = -1;
+
+                /*
+                 * Support numeric answer indexes.
+                 */
+                if (
+                    typeof question.answer ===
+                    "number"
+                ) {
 
                     correctIndex =
-                        question.options
-                            ?.findIndex(
-                                option =>
-                                    String(option)
-                                        .trim() ===
-                                    String(
-                                        question.answer
-                                    ).trim()
-                            ) ?? -1;
+                        question.answer;
+
+                }
+
+                /*
+                 * Support A/B/C/D answers or
+                 * answer text.
+                 */
+                else if (
+                    typeof question.answer ===
+                    "string"
+                ) {
+
+                    const answer =
+                        question.answer
+                            .trim()
+                            .toUpperCase();
+
+                    if (
+                        /^[A-D]$/.test(answer)
+                    ) {
+
+                        correctIndex =
+                            answer.charCodeAt(0) -
+                            65;
+
+                    } else {
+
+                        correctIndex =
+                            question.options
+                                ?.findIndex(
+                                    option =>
+                                        String(option)
+                                            .trim() ===
+                                        String(
+                                            question.answer
+                                        ).trim()
+                                ) ?? -1;
+                    }
+                }
+
+                /*
+                 * Correct answer.
+                 */
+                if (
+                    Number(selected) ===
+                    Number(correctIndex)
+                ) {
+
+                    correct++;
+
+                }
+
+                /*
+                 * Answered but incorrect.
+                 */
+                else {
+
+                    wrong++;
+
                 }
             }
 
-            if (
-                Number(selected) ===
-                Number(correctIndex)
-            ) {
-                score++;
-            }
+            /*
+             * Raw score before scaling.
+             */
+            const rawScore =
+                (
+                    correct * CORRECT_MARK
+                ) +
+                (
+                    wrong * WRONG_MARK
+                );
+
+            /*
+             * Convert the 15-question subject
+             * to a score out of 100.
+             *
+             * Minimum is clamped to 0.
+             */
+            const scaledScore =
+                Math.max(
+                    0,
+                    Math.min(
+                        100,
+                        (
+                            rawScore /
+                            QUESTIONS_PER_SUBJECT
+                        ) * 100
+                    )
+                );
+
+            /*
+             * Round to 2 decimal places.
+             */
+            const finalScore =
+                Math.round(
+                    scaledScore * 100
+                ) / 100;
+
+            subjectScores.push({
+
+                subject:
+
+                    subject,
+
+                subjectIndex:
+
+                    subjectIndex,
+
+                questions:
+
+                    QUESTIONS_PER_SUBJECT,
+
+                correct:
+
+                    correct,
+
+                wrong:
+
+                    wrong,
+
+                unanswered:
+
+                    unanswered,
+
+                rawScore:
+
+                    Math.round(
+                        rawScore * 100
+                    ) / 100,
+
+                score:
+
+                    finalScore,
+
+                maxScore:
+
+                    100
+            });
+
+            totalCorrect += correct;
+            totalWrong += wrong;
+            totalUnanswered += unanswered;
+
+            rawTotalScore += rawScore;
         }
     );
 
-    return score;
+    /*
+     * Total score is the sum of the four
+     * subject scores.
+     *
+     * Maximum = 400.
+     */
+    const totalScore =
+        subjectScores.reduce(
+            (total, subject) =>
+                total + Number(subject.score || 0),
+            0
+        );
+
+    const roundedTotalScore =
+        Math.round(
+            totalScore * 100
+        ) / 100;
+
+    const totalAnswered =
+        totalCorrect +
+        totalWrong;
+
+    return {
+
+        subjectScores:
+
+            subjectScores,
+
+        totalScore:
+
+            roundedTotalScore,
+
+        maxScore:
+
+            400,
+
+        totalCorrect:
+
+            totalCorrect,
+
+        totalWrong:
+
+            totalWrong,
+
+        totalUnanswered:
+
+            totalUnanswered,
+
+        totalAnswered:
+
+            totalAnswered,
+
+        rawTotalScore:
+
+            Math.round(
+                rawTotalScore * 100
+            ) / 100
+    };
 }
+
 
 /*
 =========================================================
@@ -1291,6 +1626,7 @@ function escapeHTML(value) {
         .replaceAll('"', "&quot;")
         .replaceAll("'", "&#039;");
 }
+
 
 /*
 =========================================================
@@ -1382,6 +1718,7 @@ window.calcEquals = function() {
     }
 };
 
+
 /*
 =========================================================
 FULLSCREEN
@@ -1408,6 +1745,7 @@ async function requestFullscreen() {
         );
     }
 }
+
 
 /*
 =========================================================
@@ -2267,6 +2605,9 @@ main {
     width:
         min(420px, 90%);
 
+    max-height: 90vh;
+    overflow-y: auto;
+
     text-align: center;
 
     border-top:
@@ -2420,6 +2761,10 @@ footer {
     #palette-grid {
         grid-template-columns:
             repeat(6, 1fr);
+    }
+
+    .submission-content {
+        padding: 20px;
     }
 }
 
