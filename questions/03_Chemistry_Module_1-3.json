@@ -1,152 +1,152 @@
 [
   {
-    "question": "A mixture contains ammonium chloride, sand and sodium chloride. Which sequence best separates all three components?",
+    "question": "An atom has 17 protons and 18 neutrons. Which nuclide notation represents it?",
     "options": [
-      "Filtration, sublimation, evaporation",
-      "Sublimation, dissolution and filtration, evaporation",
-      "Evaporation, filtration, sublimation",
-      "Distillation, filtration, crystallization"
+      "³⁵₁₇Cl",
+      "³⁵₁₈Ar",
+      "³⁴₁₇Cl",
+      "³⁶₁₇Cl"
     ],
-    "answer": "B"
+    "answer": "A"
   },
   {
-    "question": "Which method is most appropriate for obtaining pure water from seawater?",
+    "question": "An ion X²⁻ contains 18 electrons. The atomic number of X is",
     "options": [
-      "Filtration",
-      "Decantation",
-      "Simple distillation",
-      "Fractional crystallization"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "A solid changes directly to vapour and back to solid without passing through the liquid state. This process is called",
-    "options": [
-      "Evaporation",
-      "Sublimation",
-      "Condensation",
-      "Diffusion"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which observation provides the strongest evidence that matter is particulate?",
-    "options": [
-      "A metal is shiny",
-      "Perfume spreads through a room",
-      "Water is colourless",
-      "Glass is transparent"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Brownian motion is primarily evidence of",
-    "options": [
-      "chemical bonding",
-      "continuous random motion of particles",
-      "radioactive decay",
-      "conservation of mass"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "At constant temperature, a gas is compressed to half its original volume. Its pressure becomes",
-    "options": [
-      "half",
-      "unchanged",
-      "twice",
-      "four times"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which statement about diffusion is correct?",
-    "options": [
-      "It occurs only in gases",
-      "It requires an external pump",
-      "It results from random particle motion",
-      "It stops completely in liquids"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "An atom has 17 protons and 18 electrons. The species is",
-    "options": [
-      "a neutral chlorine atom",
-      "a chloride ion",
-      "an argon ion",
-      "a potassium ion"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "An isotope has mass number 37 and atomic number 17. The number of neutrons is",
-    "options": [
-      "17",
+      "16",
       "18",
       "20",
-      "54"
+      "36"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which pair consists of isotopes of the same element?",
+    "options": [
+      "¹⁴₆C and ¹⁴₇N",
+      "²³₁₁Na and ²⁴₁₂Mg",
+      "³⁵₁₇Cl and ³⁷₁₇Cl",
+      "⁴⁰₁₈Ar and ⁴⁰₂₀Ca"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which change occurs when a neutral sodium atom forms Na⁺?",
+    "options": [
+      "It gains one proton",
+      "It loses one electron",
+      "It gains one electron",
+      "It loses one neutron"
     ],
     "answer": "B"
   },
   {
-    "question": "Which pair represents isotopes of the same element?",
+    "question": "An ion has 13 protons, 14 neutrons and 10 electrons. Its charge and mass number are",
     "options": [
-      "¹²C and ¹⁴N",
-      "³⁵Cl and ³⁷Cl",
-      "²³Na and ²⁴Mg",
-      "¹⁶O and ¹⁷F"
+      "3+, 27",
+      "3-, 27",
+      "3+, 24",
+      "1+, 27"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which species has the same number of electrons as Ne?",
+    "options": [
+      "Na⁺",
+      "F⁻",
+      "O⁻",
+      "Mg⁺"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The number of neutrons in ³¹₁₅P is",
+    "options": [
+      "15",
+      "16",
+      "31",
+      "46"
     ],
     "answer": "B"
   },
   {
-    "question": "An element with electronic configuration 2,8,1 is most likely to",
+    "question": "Which statement best distinguishes an atom from an ion?",
     "options": [
-      "gain one electron",
-      "lose one electron",
-      "gain seven electrons",
-      "share eight electrons"
+      "An atom always has neutrons but an ion does not",
+      "An ion has unequal numbers of protons and electrons",
+      "An atom has no electrons",
+      "An ion must contain more neutrons than protons"
     ],
     "answer": "B"
   },
   {
-    "question": "Across a period of the periodic table, atomic radius generally decreases because",
+    "question": "A chlorine atom has electron arrangement 2,8,7. The most likely ion it forms is",
     "options": [
-      "electron shells disappear",
-      "nuclear charge increases while shielding changes little",
-      "atomic mass decreases",
-      "neutrons repel electrons"
+      "Cl⁺",
+      "Cl²⁺",
+      "Cl⁻",
+      "Cl²⁻"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which formula correctly represents the polyatomic ion nitrate?",
+    "options": [
+      "NO₂⁻",
+      "NO₃⁻",
+      "NO₃²⁻",
+      "N₂O₃⁻"
     ],
     "answer": "B"
+  },
+  {
+    "question": "An element has two isotopes of mass numbers 35 and 37 in equal abundance. Its relative atomic mass is",
+    "options": [
+      "35.0",
+      "35.5",
+      "36.0",
+      "37.0"
+    ],
+    "answer": "C"
   },
   {
     "question": "Which particle determines the identity of an element?",
     "options": [
-      "Neutron",
       "Electron",
+      "Neutron",
       "Proton",
       "Nucleon"
     ],
     "answer": "C"
   },
   {
-    "question": "An element has two electrons in its outermost shell and belongs to Period 3. Its likely group is",
+    "question": "When Mg forms Mg²⁺, its electron arrangement changes from 2,8,2 to",
     "options": [
-      "1",
-      "2",
-      "13",
-      "18"
+      "2,8",
+      "2,8,1",
+      "2,8,3",
+      "2,6"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A species contains 8 protons, 8 neutrons and 10 electrons. It is best represented as",
+    "options": [
+      "¹⁶₈O",
+      "¹⁶₈O²⁻",
+      "¹⁸₈O²⁻",
+      "¹⁶₁₀Ne²⁻"
     ],
     "answer": "B"
   },
   {
-    "question": "Which statement distinguishes a cation from its parent atom?",
+    "question": "Which statement about polyatomic ions is correct?",
     "options": [
-      "It has more protons",
-      "It has fewer electrons",
-      "It has more neutrons",
-      "It has a different atomic number"
+      "They contain only one atom carrying charge",
+      "They are electrically neutral molecules only",
+      "They are groups of covalently bonded atoms carrying an overall charge",
+      "They are always positively charged"
     ],
-    "answer": "B"
+    "answer": "C"
   }
 ]

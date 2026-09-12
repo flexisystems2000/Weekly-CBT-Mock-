@@ -1,152 +1,152 @@
 [
   {
-    "question": "The accounting concept that assumes a business will continue operating for the foreseeable future is",
+    "question": "A business owner introduces ₦500,000 cash as capital. Which entry is correct?",
     "options": [
-      "Prudence",
-      "Going concern",
-      "Consistency",
-      "Materiality"
+      "Debit Capital; Credit Cash",
+      "Debit Cash; Credit Capital",
+      "Debit Drawings; Credit Cash",
+      "Debit Cash; Credit Sales"
     ],
     "answer": "B"
   },
   {
-    "question": "The principle requiring transactions to be recorded when they occur rather than only when cash changes hands is closely associated with",
+    "question": "Goods worth ₦80,000 are bought on credit from Musa. Which account is credited?",
     "options": [
-      "Accrual",
-      "Money measurement",
-      "Dual aspect",
-      "Business entity"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "If the owner introduces cash into the business, the correct double-entry is",
-    "options": [
-      "Debit Capital, Credit Cash",
-      "Debit Cash, Credit Capital",
-      "Debit Purchases, Credit Cash",
-      "Debit Cash, Credit Sales"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A credit purchase of goods for resale is recorded by",
-    "options": [
-      "Debit Purchases, Credit Payables",
-      "Debit Payables, Credit Purchases",
-      "Debit Cash, Credit Purchases",
-      "Debit Sales, Credit Payables"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which account is debited when a business pays a supplier by bank transfer?",
-    "options": [
-      "Bank",
-      "Supplier's account",
       "Purchases",
+      "Cash",
+      "Musa",
       "Capital"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A document issued by a seller showing details of goods supplied and the amount due is a",
-    "options": [
-      "Receipt",
-      "Invoice",
-      "Debit note",
-      "Statement of account"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A customer returns goods previously bought on credit. The seller normally issues a",
-    "options": [
-      "Credit note",
-      "Debit note",
-      "Receipt",
-      "Purchase order"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The journal used to record credit purchases of goods for resale is the",
-    "options": [
-      "Sales journal",
-      "Purchases journal",
-      "Cash book",
-      "General journal"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "The journal used to record credit sales of goods is the",
-    "options": [
-      "Purchases journal",
-      "Sales journal",
-      "Returns inward journal",
-      "Petty cash book"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which transaction is most appropriately entered in the general journal?",
-    "options": [
-      "Routine credit sales",
-      "Routine credit purchases",
-      "Opening entries and unusual adjustments",
-      "Cash sales"
     ],
     "answer": "C"
   },
   {
-    "question": "A debit balance in a customer's personal account normally represents",
+    "question": "A customer pays ₦30,000 previously owed. The correct double entry is",
     "options": [
-      "an amount owed by the customer",
-      "an amount owed to the customer",
-      "capital introduced",
-      "cash in hand"
+      "Debit Cash, Credit Customer",
+      "Debit Customer, Credit Cash",
+      "Debit Sales, Credit Cash",
+      "Debit Cash, Credit Sales"
     ],
     "answer": "A"
   },
   {
-    "question": "The accounting equation is Assets =",
+    "question": "Which source document is most directly used to support a credit sale of goods by a business?",
     "options": [
-      "Capital − Liabilities",
-      "Capital + Liabilities",
-      "Revenue + Expenses",
-      "Purchases + Sales"
+      "Invoice",
+      "Receipt",
+      "Cheque counterfoil",
+      "Bank statement"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A customer returns goods previously bought on credit. The seller normally issues a",
+    "options": [
+      "debit note",
+      "credit note",
+      "purchase invoice",
+      "receipt"
     ],
     "answer": "B"
   },
   {
-    "question": "If assets are ₦900,000 and liabilities are ₦260,000, the owner's equity is",
+    "question": "If rent of ₦50,000 is paid by cheque, the correct entry is",
     "options": [
-      "₦640,000",
-      "₦1,160,000",
-      "₦260,000",
-      "₦900,000"
+      "Debit Bank; Credit Rent",
+      "Debit Rent; Credit Bank",
+      "Debit Cash; Credit Rent",
+      "Debit Rent; Credit Cash"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which accounting concept requires expenses to be recognized in the period in which the related revenue is earned?",
+    "options": [
+      "Going concern",
+      "Matching",
+      "Prudence",
+      "Consistency"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A business continues to use the same depreciation method from year to year unless there is a justified reason to change it. This reflects",
+    "options": [
+      "consistency",
+      "realisation",
+      "money measurement",
+      "business entity"
     ],
     "answer": "A"
   },
   {
-    "question": "Which source document provides evidence that cash has been received?",
+    "question": "Under the business entity concept, money introduced by the owner into the business is regarded as",
     "options": [
+      "business income",
+      "a liability/capital claim of the owner on the business",
+      "a business expense",
+      "a sales return"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which source document is normally prepared when a buyer sends goods back to a supplier?",
+    "options": [
+      "Debit note",
+      "Credit note",
       "Receipt",
-      "Invoice",
-      "Purchase order",
-      "Quotation"
+      "Statement"
     ],
     "answer": "A"
   },
   {
-    "question": "A credit note issued by a supplier to a business will normally be entered in the business's",
+    "question": "A trial balance balances. Which conclusion is safest?",
     "options": [
-      "Returns outward journal",
-      "Returns inward journal",
-      "Sales journal",
-      "Cash book"
+      "No accounting error exists",
+      "Only errors affecting equal debit and credit totals may remain undetected",
+      "The final accounts must be correct",
+      "Fraud has been ruled out"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A proprietor withdraws ₦20,000 cash for personal use. The correct entry is",
+    "options": [
+      "Debit Drawings; Credit Cash",
+      "Debit Cash; Credit Drawings",
+      "Debit Capital; Credit Cash",
+      "Debit Purchases; Credit Cash"
     ],
     "answer": "A"
+  },
+  {
+    "question": "Which concept cautions accountants against overstating assets and income when uncertainty exists?",
+    "options": [
+      "Prudence",
+      "Duality",
+      "Consistency",
+      "Materiality"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A cash purchase of goods for resale is recorded by",
+    "options": [
+      "Debit Purchases; Credit Cash",
+      "Debit Cash; Credit Purchases",
+      "Debit Sales; Credit Cash",
+      "Debit Cash; Credit Sales"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A business receives ₦100,000 in advance for services to be provided next month. Before the service is provided, the amount is best treated as",
+    "options": [
+      "revenue already earned",
+      "a liability/unearned income",
+      "a capital contribution",
+      "a bad debt"
+    ],
+    "answer": "B"
   }
 ]
