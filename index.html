@@ -91,15 +91,14 @@ window.verifyCandidateInFirestore = async function() {
         return;
     }
 
-    const now = new Date();
-    const hours = now.getHours();
+   const now = new Date();
+const hours = now.getHours();
 
-    if (hours < 12) {
-        errorDiv.innerText =
-            "Portal Locked: The CBT simulation is only accessible between 12:00 PM and 12:00 AM.";
-        return;
-    }
-
+if (hours >= 16) {
+    errorDiv.innerText =
+        "Portal Locked: The CBT simulation is only accessible between 12:00 AM and 4:00 PM.";
+    return;
+}
     /*
      * If a valid unfinished session already exists,
      * resume that session instead of creating another one.
