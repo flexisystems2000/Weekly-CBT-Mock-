@@ -148,5 +148,358 @@
       "the parasite reproduces only in soil"
     ],
     "answer": "B"
+  },
+
+  {
+    "question": "Which nutrient is primarily responsible for growth and repair of worn-out tissues?",
+    "options": [
+      "Carbohydrate",
+      "Protein",
+      "Vitamin",
+      "Water"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A person who consumes very little vitamin C over a prolonged period is most likely to suffer from",
+    "options": [
+      "Rickets",
+      "Scurvy",
+      "Night blindness",
+      "Beriberi"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which food test gives a blue-black colour when starch is present?",
+    "options": [
+      "Biuret test",
+      "Benedict's test",
+      "Iodine test",
+      "Emulsion test"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which enzyme begins the digestion of starch in the mouth?",
+    "options": [
+      "Pepsin",
+      "Amylase",
+      "Lipase",
+      "Trypsin"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Bile assists digestion mainly by",
+    "options": [
+      "converting protein into amino acids",
+      "emulsifying fats and providing an alkaline medium",
+      "converting starch directly into glucose",
+      "digesting cellulose"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A deficiency of iron in the diet is most directly associated with",
+    "options": [
+      "Anaemia",
+      "Goitre",
+      "Scurvy",
+      "Kwashiorkor"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which part of the alimentary canal is the major site of absorption of digested food?",
+    "options": [
+      "Stomach",
+      "Small intestine",
+      "Large intestine",
+      "Oesophagus"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The numerous villi in the small intestine are important because they",
+    "options": [
+      "produce bile",
+      "increase the surface area for absorption",
+      "prevent digestion",
+      "store undigested food"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which enzyme is mainly responsible for the digestion of fats?",
+    "options": [
+      "Amylase",
+      "Lipase",
+      "Pepsin",
+      "Maltase"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A balanced diet is best described as a diet that",
+    "options": [
+      "contains only carbohydrates and proteins",
+      "contains all essential nutrients in appropriate proportions",
+      "contains mostly fats",
+      "contains the same quantity of every nutrient"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which vitamin is particularly important for normal blood clotting?",
+    "options": [
+      "Vitamin A",
+      "Vitamin C",
+      "Vitamin K",
+      "Vitamin D"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A child has swollen legs, poor growth and a diet severely deficient in protein. The condition is most likely",
+    "options": [
+      "Marasmus",
+      "Kwashiorkor",
+      "Rickets",
+      "Scurvy"
+    ],
+    "answer": "B"
+  },
+
+  {
+    "question": "Which organelle is primarily responsible for aerobic respiration in a cell?",
+    "options": [
+      "Ribosome",
+      "Mitochondrion",
+      "Golgi apparatus",
+      "Lysosome"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The selectively permeable structure surrounding the cytoplasm of a cell is the",
+    "options": [
+      "cell wall",
+      "cell membrane",
+      "nuclear membrane",
+      "tonoplast"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which organelle is directly involved in protein synthesis?",
+    "options": [
+      "Ribosome",
+      "Vacuole",
+      "Chloroplast",
+      "Centriole"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The main function of the nucleus is to",
+    "options": [
+      "produce energy",
+      "control cell activities and contain genetic material",
+      "digest worn-out organelles",
+      "store starch"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which structure is present in a typical plant cell but absent in a typical animal cell?",
+    "options": [
+      "Cell membrane",
+      "Cytoplasm",
+      "Cellulose cell wall",
+      "Mitochondrion"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A plant cell placed in a concentrated salt solution loses water and its cytoplasm pulls away from the cell wall. This process is called",
+    "options": [
+      "Turgidity",
+      "Plasmolysis",
+      "Diffusion",
+      "Active transport"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which organelle modifies, sorts and packages proteins for transport?",
+    "options": [
+      "Golgi apparatus",
+      "Ribosome",
+      "Mitochondrion",
+      "Chloroplast"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Lysosomes are particularly important because they contain enzymes that",
+    "options": [
+      "carry out photosynthesis",
+      "digest cellular waste and worn-out structures",
+      "synthesize glucose",
+      "produce chromosomes"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which structure controls movement of substances into and out of the cell?",
+    "options": [
+      "Cell membrane",
+      "Nucleolus",
+      "Ribosome",
+      "Cell wall"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A plant cell is placed in distilled water. What is most likely to happen?",
+    "options": [
+      "It becomes plasmolysed",
+      "It gains water and becomes turgid",
+      "It loses all its solutes",
+      "Its cell wall dissolves"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which organelle contains chlorophyll and is the main site of photosynthesis?",
+    "options": [
+      "Mitochondrion",
+      "Chloroplast",
+      "Ribosome",
+      "Golgi apparatus"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which statement correctly compares a plant cell with an animal cell?",
+    "options": [
+      "Animal cells possess chloroplasts while plant cells do not",
+      "Plant cells generally possess a cellulose cell wall and chloroplasts",
+      "Only animal cells contain mitochondria",
+      "Only plant cells possess cell membranes"
+    ],
+    "answer": "B"
+  },
+
+  {
+    "question": "Which characteristic is most useful in distinguishing living organisms from non-living things?",
+    "options": [
+      "They occupy space",
+      "They carry out life processes",
+      "They have a definite colour",
+      "They possess a fixed shape"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which sequence correctly represents the taxonomic hierarchy from the broadest to the most specific?",
+    "options": [
+      "Kingdom, Phylum, Class, Order, Family, Genus, Species",
+      "Species, Genus, Family, Order, Class, Phylum, Kingdom",
+      "Kingdom, Class, Phylum, Family, Order, Genus, Species",
+      "Phylum, Kingdom, Class, Order, Species, Family, Genus"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Organisms belonging to the same species must be capable of",
+    "options": [
+      "living in exactly the same habitat",
+      "producing fertile offspring under natural conditions",
+      "having identical body sizes",
+      "eating the same food"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which group contains organisms that are generally unicellular, microscopic and lack a true nucleus?",
+    "options": [
+      "Fungi",
+      "Prokaryotes",
+      "Plants",
+      "Animals"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which characteristic is most typical of fungi?",
+    "options": [
+      "They manufacture food using chlorophyll",
+      "They obtain nutrients by absorption",
+      "They have no cell walls",
+      "They are all motile"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which feature distinguishes mammals from other vertebrates?",
+    "options": [
+      "Presence of a backbone",
+      "Presence of lungs",
+      "Presence of mammary glands",
+      "Presence of a closed circulatory system"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which of the following is an example of an arthropod?",
+    "options": [
+      "Earthworm",
+      "Grasshopper",
+      "Snail",
+      "Tilapia"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A major characteristic of insects is the presence of",
+    "options": [
+      "two pairs of legs",
+      "three pairs of jointed legs",
+      "four pairs of wings in all cases",
+      "a vertebral column"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which feature is characteristic of flowering plants?",
+    "options": [
+      "Production of seeds enclosed within fruits",
+      "Absence of vascular tissues",
+      "Dependence entirely on spores",
+      "Absence of reproductive structures"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which of the following organisms belongs to the phylum Mollusca?",
+    "options": [
+      "Earthworm",
+      "Snail",
+      "Grasshopper",
+      "Starfish"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Why is scientific classification important?",
+    "options": [
+      "It makes all organisms identical",
+      "It provides an organized way of identifying and studying relationships among organisms",
+      "It prevents organisms from evolving",
+      "It eliminates variation within species"
+    ],
+    "answer": "B"
   }
 ]
