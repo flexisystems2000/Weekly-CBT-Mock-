@@ -94,7 +94,7 @@ window.verifyCandidateInFirestore = async function() {
    const now = new Date();
 const hours = now.getHours();
 
-if (hours >= 16) {
+if (hours >= 23) {
     errorDiv.innerText =
         "Portal Locked: The CBT simulation is only accessible between 12:00 AM and 4:00 PM.";
     return;
