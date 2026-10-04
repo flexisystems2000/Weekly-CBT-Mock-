@@ -1,152 +1,483 @@
 [
   {
-    "question": "A business owner introduces ₦500,000 cash as capital. Which entry is correct?",
+    "question": "Which aid to trade primarily facilitates the movement of goods from producer to consumer?",
     "options": [
-      "Debit Capital; Credit Cash",
-      "Debit Cash; Credit Capital",
-      "Debit Drawings; Credit Cash",
-      "Debit Cash; Credit Sales"
+      "Banking",
+      "Transport",
+      "Insurance",
+      "Advertising"
     ],
     "answer": "B"
   },
   {
-    "question": "Goods worth ₦80,000 are bought on credit from Musa. Which account is credited?",
+    "question": "A wholesaler breaks bulk mainly because retailers generally",
     "options": [
-      "Purchases",
-      "Cash",
-      "Musa",
-      "Capital"
+      "prefer to buy smaller quantities than manufacturers produce",
+      "cannot sell branded goods",
+      "must manufacture the goods themselves",
+      "provide insurance to producers"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A trader buys goods on credit and later pays through a bank transfer. Which pair of aids to trade is most directly involved?",
+    "options": [
+      "Warehousing and advertising",
+      "Banking and credit",
+      "Transport and insurance",
+      "Communication and packaging"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which activity is most clearly foreign trade?",
+    "options": [
+      "A Lagos retailer buying from a Kano wholesaler",
+      "A Nigerian firm importing machinery from Germany",
+      "A farmer selling maize at a local market",
+      "A manufacturer selling to a nearby retailer"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A document issued by a carrier acknowledging receipt of goods for transport by sea is the",
+    "options": [
+      "bill of lading",
+      "cheque",
+      "invoice",
+      "credit note"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The major commercial advantage of warehousing is that it",
+    "options": [
+      "eliminates all risks of theft",
+      "bridges the time gap between production and consumption",
+      "removes the need for transport",
+      "guarantees higher prices"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which function of advertising is most directly concerned with introducing an unknown product to potential buyers?",
+    "options": [
+      "Informative function",
+      "Protective function",
+      "Accounting function",
+      "Insurance function"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A retailer insured against fire suffers a covered fire loss. The principle that requires compensation to reflect the actual loss is",
+    "options": [
+      "utmost good faith",
+      "indemnity",
+      "subrogation",
+      "contribution"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which trade term indicates that the seller bears responsibility for delivering goods to the named destination, subject to the agreed terms?",
+    "options": [
+      "Free on board only",
+      "Delivered terms",
+      "Cash discount",
+      "Trade discount"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A commercial agent differs from a wholesaler mainly because the agent generally",
+    "options": [
+      "takes ownership of the goods before resale",
+      "acts on behalf of another party without necessarily taking ownership",
+      "manufactures the goods",
+      "always sells only to final consumers"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which is an example of visible export?",
+    "options": [
+      "A Nigerian company receives payment for consultancy abroad",
+      "Nigeria exports cocoa beans",
+      "A Nigerian tourist buys a foreign airline ticket",
+      "A foreign investor buys Nigerian shares"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A letter of credit is particularly useful in international trade because it",
+    "options": [
+      "eliminates all transport costs",
+      "provides assurance of payment subject to stated conditions",
+      "replaces customs authorities",
+      "guarantees that goods cannot be damaged"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which combination best represents aids to trade rather than branches of production?",
+    "options": [
+      "Banking, insurance and transport",
+      "Mining, farming and fishing",
+      "Manufacturing, construction and mining",
+      "Agriculture, forestry and fishing"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A retailer receives goods that are damaged and returns them to the supplier. The document commonly issued by the supplier to record the reduction in the customer's account is a",
+    "options": [
+      "debit note",
+      "credit note",
+      "statement of account",
+      "pro-forma invoice"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which factor most directly explains the need for communication as an aid to trade?",
+    "options": [
+      "Goods cannot exist without messages",
+      "Buyers and sellers need information to coordinate commercial decisions",
+      "Communication physically transports goods",
+      "Communication removes all business risk"
+    ],
+    "answer": "B"
+  },
+
+  {
+    "question": "Commerce is best described as the",
+    "options": [
+      "production of goods only",
+      "exchange and distribution of goods and services together with activities that facilitate trade",
+      "consumption of goods by households",
+      "manufacturing of finished products only"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which of the following is NOT a function of commerce?",
+    "options": [
+      "Facilitating exchange",
+      "Moving goods to consumers",
+      "Providing finance for trade",
+      "Growing crops"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A person who buys goods mainly for personal use is classified as a",
+    "options": [
+      "wholesaler",
+      "retailer",
+      "consumer",
+      "broker"
     ],
     "answer": "C"
   },
   {
-    "question": "A customer pays ₦30,000 previously owed. The correct double entry is",
+    "question": "Which activity belongs directly to trade?",
     "options": [
-      "Debit Cash, Credit Customer",
-      "Debit Customer, Credit Cash",
-      "Debit Sales, Credit Cash",
-      "Debit Cash, Credit Sales"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which source document is most directly used to support a credit sale of goods by a business?",
-    "options": [
-      "Invoice",
-      "Receipt",
-      "Cheque counterfoil",
-      "Bank statement"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A customer returns goods previously bought on credit. The seller normally issues a",
-    "options": [
-      "debit note",
-      "credit note",
-      "purchase invoice",
-      "receipt"
+      "Mining iron ore",
+      "Buying and selling goods",
+      "Manufacturing cement",
+      "Growing rice"
     ],
     "answer": "B"
   },
   {
-    "question": "If rent of ₦50,000 is paid by cheque, the correct entry is",
+    "question": "Home trade takes place",
     "options": [
-      "Debit Bank; Credit Rent",
-      "Debit Rent; Credit Bank",
-      "Debit Cash; Credit Rent",
-      "Debit Rent; Credit Cash"
+      "only between two continents",
+      "within the boundaries of a country",
+      "only through seaports",
+      "only between manufacturers"
     ],
     "answer": "B"
   },
   {
-    "question": "Which accounting concept requires expenses to be recognized in the period in which the related revenue is earned?",
+    "question": "A trader who buys goods in large quantities from producers and sells them in smaller quantities to retailers is a",
     "options": [
-      "Going concern",
-      "Matching",
-      "Prudence",
-      "Consistency"
+      "consumer",
+      "wholesaler",
+      "broker",
+      "manufacturer"
     ],
     "answer": "B"
   },
   {
-    "question": "A business continues to use the same depreciation method from year to year unless there is a justified reason to change it. This reflects",
+    "question": "Which channel of distribution is the shortest?",
     "options": [
-      "consistency",
-      "realisation",
-      "money measurement",
-      "business entity"
+      "Producer → Wholesaler → Retailer → Consumer",
+      "Producer → Agent → Wholesaler → Retailer → Consumer",
+      "Producer → Consumer",
+      "Producer → Retailer → Consumer"
     ],
-    "answer": "A"
+    "answer": "C"
   },
   {
-    "question": "Under the business entity concept, money introduced by the owner into the business is regarded as",
+    "question": "One major disadvantage of a long channel of distribution is that it may",
     "options": [
-      "business income",
-      "a liability/capital claim of the owner on the business",
-      "a business expense",
-      "a sales return"
+      "reduce the number of middlemen",
+      "increase the final price of goods",
+      "eliminate transportation",
+      "make goods available immediately"
     ],
     "answer": "B"
   },
   {
-    "question": "Which source document is normally prepared when a buyer sends goods back to a supplier?",
+    "question": "Which type of retailer normally sells goods directly to final consumers in very small quantities?",
     "options": [
-      "Debit note",
-      "Credit note",
-      "Receipt",
-      "Statement"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A trial balance balances. Which conclusion is safest?",
-    "options": [
-      "No accounting error exists",
-      "Only errors affecting equal debit and credit totals may remain undetected",
-      "The final accounts must be correct",
-      "Fraud has been ruled out"
+      "Wholesaler",
+      "Retailer",
+      "Manufacturer",
+      "Importer"
     ],
     "answer": "B"
   },
   {
-    "question": "A proprietor withdraws ₦20,000 cash for personal use. The correct entry is",
+    "question": "A broker is mainly an intermediary who",
     "options": [
-      "Debit Drawings; Credit Cash",
-      "Debit Cash; Credit Drawings",
-      "Debit Capital; Credit Cash",
-      "Debit Purchases; Credit Cash"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which concept cautions accountants against overstating assets and income when uncertainty exists?",
-    "options": [
-      "Prudence",
-      "Duality",
-      "Consistency",
-      "Materiality"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A cash purchase of goods for resale is recorded by",
-    "options": [
-      "Debit Purchases; Credit Cash",
-      "Debit Cash; Credit Purchases",
-      "Debit Sales; Credit Cash",
-      "Debit Cash; Credit Sales"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A business receives ₦100,000 in advance for services to be provided next month. Before the service is provided, the amount is best treated as",
-    "options": [
-      "revenue already earned",
-      "a liability/unearned income",
-      "a capital contribution",
-      "a bad debt"
+      "takes ownership of goods permanently",
+      "brings buyers and sellers together for a commission",
+      "manufactures goods for retailers",
+      "provides transport free of charge"
     ],
     "answer": "B"
+  },
+  {
+    "question": "Which of the following is a characteristic of a sole proprietorship?",
+    "options": [
+      "It must have at least seven owners",
+      "Ownership and control are usually concentrated in one person",
+      "It is owned by shareholders",
+      "It must be managed by a board of directors"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The greatest advantage of sole proprietorship is generally",
+    "options": [
+      "limited liability",
+      "ease of decision-making",
+      "perpetual succession",
+      "large capital base"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A major disadvantage of sole proprietorship is",
+    "options": [
+      "quick decision-making",
+      "personal attention to customers",
+      "limited access to large amounts of capital",
+      "simple formation"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "In a partnership, the document containing the terms agreed upon by the partners is called the",
+    "options": [
+      "memorandum of association",
+      "articles of association",
+      "partnership agreement",
+      "prospectus"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which business form has a separate legal personality from its owners?",
+    "options": [
+      "Sole proprietorship",
+      "Partnership",
+      "Registered company",
+      "Family business"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "The liability of shareholders in a company limited by shares is generally limited to",
+    "options": [
+      "all the company's debts",
+      "the amount unpaid on their shares",
+      "their personal assets",
+      "the company's annual profit"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which feature distinguishes a public limited company from a private limited company?",
+    "options": [
+      "A public company can generally offer its shares to the public",
+      "A public company has no shareholders",
+      "A private company must be owned by the government",
+      "A public company cannot employ workers"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A cooperative society is primarily formed to",
+    "options": [
+      "promote the common economic interests of its members",
+      "eliminate all forms of trade",
+      "operate only for government officials",
+      "prevent members from sharing profits"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which source of capital is most directly associated with the issue of shares by a company?",
+    "options": [
+      "Share capital",
+      "Trade credit",
+      "Bank overdraft",
+      "Hire purchase"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A business owned by two or more persons who agree to share profits is most likely a",
+    "options": [
+      "sole proprietorship",
+      "partnership",
+      "cooperative only",
+      "public corporation"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which of the following is NOT a factor that normally determines the choice of form of business ownership?",
+    "options": [
+      "Amount of capital required",
+      "Degree of liability",
+      "Size and nature of the business",
+      "Colour of the owner's clothing"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Occupation refers to the",
+    "options": [
+      "amount of money a person earns",
+      "regular activity through which a person earns a living",
+      "number of businesses in a country",
+      "total amount of goods produced"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which of the following is classified as an extractive occupation?",
+    "options": [
+      "Teaching",
+      "Mining",
+      "Banking",
+      "Retailing"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A farmer growing cocoa is engaged primarily in",
+    "options": [
+      "primary production",
+      "secondary production",
+      "tertiary production",
+      "commercial banking"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Manufacturing belongs to secondary production because it",
+    "options": [
+      "extracts raw materials directly from nature",
+      "converts raw materials into finished or semi-finished goods",
+      "provides only personal services",
+      "involves only buying and selling"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which of the following is an example of tertiary production?",
+    "options": [
+      "Fishing",
+      "Mining",
+      "Banking",
+      "Crop farming"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "The four basic factors of production are",
+    "options": [
+      "land, labour, capital and entrepreneur",
+      "money, machines, markets and managers",
+      "land, money, transport and labour",
+      "capital, banking, insurance and labour"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The reward for the use of land as a factor of production is",
+    "options": [
+      "wage",
+      "interest",
+      "rent",
+      "profit"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "The reward for labour is",
+    "options": [
+      "Rent",
+      "Wages",
+      "Interest",
+      "Profit"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The factor of production that organizes and combines the other factors while bearing business risk is the",
+    "options": [
+      "labourer",
+      "entrepreneur",
+      "consumer",
+      "wholesaler"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which of the following is an example of direct service production?",
+    "options": [
+      "A tailor making clothes",
+      "A teacher providing lessons",
+      "A miner extracting coal",
+      "A farmer producing maize"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "An increase in the efficiency of workers resulting from training is most likely to increase",
+    "options": [
+      "labour productivity",
+      "land area",
+      "population density",
+      "the number of natural resources"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which statement best distinguishes production from consumption?",
+    "options": [
+      "Production creates or adds utility, while consumption uses goods and services to satisfy wants",
+      "Production always involves buying, while consumption always involves selling",
+      "Production is only agricultural, while consumption is only industrial",
+      "Production and consumption mean exactly the same thing"
+    ],
+    "answer": "A"
   }
 ]
