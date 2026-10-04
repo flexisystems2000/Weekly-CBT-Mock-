@@ -1,401 +1,417 @@
 [
   {
-    "question": "Choose the option nearest in meaning to the word in italics: The witness gave an *equivocal* answer.",
+    "id": 1,
+    "type": "passage_question",
+    "passageId": "PASSAGE_01",
+    "passageTitle": "The Changing Meaning of Education",
+    "passage": "Education is often described as the process through which people acquire knowledge, skills, values and attitudes. Yet the meaning of education has changed considerably over time. In many traditional communities, education was not something that happened mainly inside a classroom. Young people learned by watching older members of the community, helping with practical activities and listening to stories that explained the history and values of their people. A child who wanted to become a farmer learned by accompanying an experienced farmer to the field. A child interested in craft learned by observing a skilled craftsperson. In this way, education was closely connected with everyday life.\n\nThe introduction of formal schooling changed this arrangement. Schools created an organised environment where learners could study subjects systematically. Reading, writing and arithmetic became important parts of the curriculum, while subjects such as history, geography and science gradually became more prominent. Formal education made it possible for large numbers of children to receive similar instruction, although the quality and availability of schooling differed from one community to another.\n\nAs societies became more complex, the purposes of education also expanded. Education was no longer viewed simply as preparation for a particular occupation. It became a means of developing citizens who could participate effectively in society. Schools were expected to help learners understand their responsibilities, communicate clearly, solve problems and make informed decisions. The ability to read and write became increasingly important because governments, businesses and other institutions depended on written communication.\n\nTechnology has introduced another major change. A learner can now access information from libraries, educational websites, digital archives and online classrooms without necessarily being physically present in a school building. This has made information more accessible, but it has also created new challenges. Having access to information does not automatically mean that a person understands it or knows whether it is reliable. Learners must therefore develop the ability to evaluate information critically.\n\nAnother challenge is the temptation to confuse information with knowledge. A person may be able to search for an answer within seconds without understanding the principles behind that answer. Genuine education requires more than collecting facts. It involves asking questions, examining evidence, comparing ideas and applying knowledge to unfamiliar situations. This is why good teachers do not merely provide answers; they encourage learners to think.\n\nEducation also has an important social dimension. Learners do not develop in isolation. Through interaction with teachers and classmates, they learn how to listen, cooperate, disagree respectfully and work towards common goals. These abilities are useful beyond the classroom. A person may possess excellent academic qualifications but still struggle to function effectively in a workplace or community if that person cannot communicate or cooperate with others.\n\nThere is also a growing recognition that education should prepare people for change. The skills required in one period may not be exactly the skills required in another. New technologies can transform industries, create new occupations and make some existing tasks less important. Consequently, learners need flexibility. Instead of preparing only for one fixed job, education should help people develop the capacity to continue learning throughout life.\n\nHowever, access remains a major concern. Some learners have reliable electricity, internet access, computers and well-equipped schools, while others may struggle to obtain basic learning materials. This difference can produce unequal opportunities even when learners are equally motivated. Improving education therefore requires more than changing a curriculum. It also requires attention to infrastructure, teacher training, learning materials and the social conditions in which learners live.\n\nThe most useful understanding of education may therefore be one that combines knowledge with judgment, skills with character and individual development with social responsibility. A successful educational system should help people understand the world while also giving them the ability to improve it. Education is not merely preparation for examinations. It is preparation for thoughtful participation in life.",
+    "question": "According to the passage, traditional education was mainly characterised by",
     "options": [
-      "unambiguous",
-      "deliberately unclear",
-      "irrelevant",
-      "hostile"
+      "formal examinations and written assignments",
+      "learning through observation and participation in everyday activities",
+      "the use of digital libraries and online classrooms",
+      "specialised university-level instruction"
     ],
     "answer": "B"
   },
   {
-    "question": "Choose the option opposite in meaning to the word in italics: The chairman was *parsimonious* with the funds.",
+    "id": 2,
+    "type": "passage_question",
+    "passageId": "PASSAGE_01",
+    "passageTitle": "The Changing Meaning of Education",
+    "question": "The passage suggests that access to information through technology",
     "options": [
-      "frugal",
-      "economical",
-      "generous",
-      "cautious"
+      "has made teachers unnecessary",
+      "guarantees that learners understand what they read",
+      "creates opportunities but also requires critical evaluation",
+      "has reduced the importance of reading and writing"
     ],
     "answer": "C"
   },
   {
-    "question": "Choose the option that best completes the sentence: Hardly had the lecture begun ___ the power went off.",
+    "id": 3,
+    "type": "passage_question",
+    "passageId": "PASSAGE_01",
+    "passageTitle": "The Changing Meaning of Education",
+    "question": "The writer distinguishes information from knowledge by suggesting that knowledge",
     "options": [
-      "than",
-      "when",
-      "and",
-      "while"
+      "is always obtained from teachers",
+      "requires understanding and application rather than merely collecting facts",
+      "can only be acquired through printed books",
+      "is less useful than information"
     ],
     "answer": "B"
   },
   {
-    "question": "Choose the option nearest in meaning to ameliorate.",
+    "id": 4,
+    "type": "passage_question",
+    "passageId": "PASSAGE_01",
+    "passageTitle": "The Changing Meaning of Education",
+    "question": "Which of the following is NOT mentioned as a social skill developed through education?",
     "options": [
-      "worsen",
-      "improve",
-      "conceal",
-      "predict"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Choose the option opposite in meaning to transient.",
-    "options": [
-      "temporary",
-      "brief",
-      "permanent",
-      "uncertain"
-    ],
-    "answer": "C"
-  },
-
-  {
-    "question": "PASSAGE 1: Read the passage carefully and answer the question that follows.\n\nIn many societies, education is spoken of as though it were simply a ladder that individuals climb in order to obtain employment. Students are encouraged to pass examinations, acquire certificates and secure positions that will enable them to earn a living. There is certainly nothing wrong with wanting a useful qualification or seeking a stable career. However, when education is reduced entirely to the pursuit of certificates and employment, an important part of its purpose is lost. Education should not merely prepare people to fit into an existing society; it should also prepare them to understand, question and improve that society.\n\nA person may possess several certificates and still lack the ability to reason carefully. Such a person may remember facts for an examination but struggle to determine whether information encountered outside the classroom is reliable. This distinction has become particularly important in an age in which people are surrounded by enormous quantities of information. A message can be forwarded to thousands of people within minutes, even when its claims have never been verified. Photographs can be altered, statistics can be presented without context, and confident statements can be made to appear authoritative simply because they are repeated frequently. Education that develops judgement therefore has value far beyond the examination hall.\n\nCritical thinking does not mean that a person should reject everything that others say. On the contrary, a critical thinker listens carefully and considers evidence before reaching a conclusion. If a student disagrees with a teacher, for example, the appropriate response is not to dismiss the teacher automatically. The student should ask what evidence supports the teacher's position, examine alternative explanations and determine whether the disagreement is based on facts or assumptions. In this way, education teaches intellectual discipline rather than mere opposition.\n\nThe ability to ask good questions is another important part of learning. A student who asks why a particular event occurred may discover relationships that are not immediately obvious. A student who asks how a statistic was obtained may discover that the figure does not mean what it initially appeared to mean. Similarly, asking who produced a piece of information and for what purpose can reveal possible biases. Good questions do not necessarily provide immediate answers, but they prevent people from accepting weak explanations simply because those explanations are convenient.\n\nUnfortunately, examination pressure can sometimes discourage this kind of learning. When students are told that only marks matter, they may concentrate on predicting questions rather than understanding subjects. Some may memorise model answers without knowing why those answers are correct. Others may become afraid of making mistakes and therefore avoid difficult questions altogether. Yet mistakes are often an important part of intellectual development. A student who discovers that an argument is wrong has an opportunity to understand why it failed and to construct a better argument.\n\nThis does not mean that examinations are useless. Examinations can provide a practical way of assessing knowledge and skills, especially when they are carefully designed. The problem arises when examination performance becomes the only measure of ability. A student may perform poorly on one particular day because of anxiety, illness or unfamiliarity with the format, even though the student understands the subject well. Conversely, a student who has memorised information effectively may perform impressively without possessing the deeper understanding required to apply that knowledge in a new situation.\n\nTeachers therefore have an important responsibility. They can encourage students to explain their answers rather than merely provide them. They can ask students to compare different viewpoints, identify weaknesses in an argument and apply principles to unfamiliar situations. Such methods may require more time than simple memorisation, but they develop abilities that remain useful after the examination has ended.\n\nParents and students also have roles to play. Parents naturally want their children to succeed, but constant emphasis on grades can unintentionally communicate that learning itself has little value. Students, for their part, should recognise that genuine knowledge is not always immediately rewarded. A student may spend hours understanding a difficult concept and receive no mark for that effort until much later, when the concept becomes useful in another subject or situation.\n\nEducation also has a social purpose. People who understand history, government, science, economics and literature are better equipped to participate thoughtfully in public life. They are more likely to recognise misleading claims, understand competing interests and appreciate the consequences of decisions. A society in which citizens cannot distinguish evidence from propaganda is vulnerable to manipulation, regardless of how many schools or universities it possesses.\n\nThe most valuable education, therefore, is not necessarily the education that produces the largest number of certificates. It is education that develops knowledgeable, thoughtful and responsible people. Certificates may open doors, but judgement determines how people behave after they enter those doors. A qualification can show that a person has completed a course of study; it cannot by itself demonstrate wisdom, honesty or the ability to think independently. Those qualities must be developed through continuous learning and reflection.\n\nUltimately, education should help individuals become capable of asking meaningful questions, evaluating evidence, learning from mistakes and contributing responsibly to their communities. Employment and examinations remain important, but they should be regarded as parts of education rather than its entire purpose. When education succeeds in developing both knowledge and judgement, its benefits extend beyond the individual to the wider society.",
-    "sub_questions": [
-      {
-        "question": "What is the central argument of the passage?",
-        "options": [
-          "Examinations should be completely abolished",
-          "Education should develop knowledge, judgement and critical thinking rather than certificates alone",
-          "Students should concentrate exclusively on employment",
-          "Teachers should stop giving examinations"
-        ],
-        "answer": "B"
-      },
-      {
-        "question": "According to the passage, why is critical thinking especially important in the modern age?",
-        "options": [
-          "Students no longer attend schools",
-          "People are exposed to large amounts of information, some of which may be unreliable",
-          "Examinations have become impossible to pass",
-          "Teachers no longer provide information"
-        ],
-        "answer": "B"
-      },
-      {
-        "question": "The expression 'fit into an existing society' suggests that education should not merely",
-        "options": [
-          "teach people how to read",
-          "prepare people to accept society without questioning or improving it",
-          "prepare students for employment",
-          "encourage students to study history"
-        ],
-        "answer": "B"
-      },
-      {
-        "question": "According to the passage, a critical thinker who disagrees with a teacher should first",
-        "options": [
-          "reject the teacher's opinion",
-          "ask other students to support the disagreement",
-          "examine the evidence and alternative explanations",
-          "refuse to participate in the lesson"
-        ],
-        "answer": "C"
-      },
-      {
-        "question": "What does the writer suggest about mistakes in learning?",
-        "options": [
-          "They should always be punished",
-          "They can provide opportunities for intellectual development",
-          "They show that a student is incapable of learning",
-          "They are irrelevant to education"
-        ],
-        "answer": "B"
-      },
-      {
-        "question": "The writer's attitude towards examinations can best be described as",
-        "options": [
-          "completely hostile",
-          "completely supportive",
-          "balanced and qualified",
-          "indifferent"
-        ],
-        "answer": "C"
-      },
-      {
-        "question": "Which of the following can be inferred from the passage?",
-        "options": [
-          "A person with many certificates automatically has good judgement",
-          "Good examination performance always proves deep understanding",
-          "Education can benefit society by producing citizens who evaluate information carefully",
-          "Memorisation has no value whatsoever"
-        ],
-        "answer": "C"
-      },
-      {
-        "question": "The word 'propaganda' as used in the passage most nearly refers to",
-        "options": [
-          "information deliberately presented to influence people's opinions",
-          "scientific evidence",
-          "educational material",
-          "historical records"
-        ],
-        "answer": "A"
-      },
-      {
-        "question": "Why does the writer mention parents?",
-        "options": [
-          "To argue that parents should choose their children's careers",
-          "To show that excessive emphasis on grades can affect students' attitudes towards learning",
-          "To prove that parents are responsible for examination failures",
-          "To suggest that parents should teach every school subject"
-        ],
-        "answer": "B"
-      },
-      {
-        "question": "Which statement best expresses the conclusion of the passage?",
-        "options": [
-          "Certificates are completely useless",
-          "Employment is the only worthwhile goal of education",
-          "The best education develops both knowledge and the ability to think responsibly",
-          "Students should avoid examinations whenever possible"
-        ],
-        "answer": "C"
-      }
-    ]
-  },
-
-  {
-    "question": "PASSAGE 2: Read the passage carefully and answer the question that follows.\n\nA town can change dramatically without its inhabitants immediately recognising the extent of the change. A new road may appear where there was once a narrow path. Shops may replace small family compounds. A school may expand into land that previously contained farms. Gradually, the familiar landscape becomes different, and people begin to describe the transformation as development. Development, however, is not simply a matter of constructing more buildings or increasing the number of vehicles on the road. It is a much broader process involving the quality of people's lives, the opportunities available to them and the ability of a community to meet present needs without destroying its future.\n\nFor many communities, development brings undeniable benefits. Better roads can reduce the time required to transport goods and allow people to reach hospitals, schools and markets more easily. Reliable electricity can support businesses and make it possible for students to study after sunset. Improved communication networks can connect small businesses to customers outside their immediate areas. New industries can provide employment and increase government revenue. These changes can transform opportunities for families that previously had very few choices.\n\nYet development can also create problems when it is poorly planned. A road may make transportation easier while encouraging rapid construction along its edges without adequate drainage. A new market may create employment while producing large amounts of waste that are dumped into nearby waterways. A factory may employ hundreds of people while releasing pollutants that damage the health of residents. A growing population may increase demand for housing while reducing the amount of land available for agriculture. Development therefore involves choices, and those choices have consequences.\n\nOne of the most difficult challenges is deciding who benefits from development and who bears its costs. A new commercial centre may create profitable opportunities for landowners, traders and investors. At the same time, tenants may face higher rents and poorer families may be pushed farther away from the centre of economic activity. When a major road is constructed, some property owners may receive compensation for land acquired for the project, while people who depended on informal businesses along the road may lose their sources of income. A project can therefore be economically successful in one sense while producing hardship in another.\n\nThis is why planning should involve more than experts working behind closed doors. People who live in an area often possess knowledge that cannot easily be obtained from maps or statistics. They know where flooding occurs after heavy rainfall, which roads become dangerous at night and which community facilities are already overcrowded. Their knowledge does not mean that every local proposal should automatically be accepted, but it does mean that local experience should be considered before major decisions are made.\n\nPublic participation also has another advantage: it can increase trust. When people understand why a project is being proposed, how it will be financed and what effects it may have, they are more likely to support it or at least engage with the process constructively. By contrast, decisions made without explanation can produce suspicion. Even a project that has genuine benefits may face resistance if residents believe that information has been hidden from them.\n\nEnvironmental considerations are equally important. Natural resources are not unlimited, and damage to the environment can be expensive to reverse. A wetland that is filled to create building space may have previously absorbed excess water during heavy rainfall. Removing vegetation from hillsides may increase erosion. Polluting a river may affect fishing, farming and access to clean water. The financial value of a project may therefore look attractive when calculated in isolation, while its long-term environmental cost remains invisible.\n\nSustainable development seeks to address this problem by considering both present and future needs. It does not mean that communities must reject every new building, factory or road. Rather, it means that development should be planned so that today's improvements do not create unnecessary difficulties for future generations. A factory, for example, can provide employment while also adopting measures that reduce pollution. A city can expand while protecting important drainage channels and green spaces. Economic growth and environmental responsibility do not necessarily have to be enemies.\n\nEducation is another important part of development. A community may receive modern infrastructure but still struggle if its people lack the skills needed to use new opportunities. A new industrial park, for instance, may create jobs, but residents may not benefit fully if they lack the technical skills required by the companies operating there. Investment in education and vocational training can therefore help communities participate more effectively in economic change rather than simply observe it.\n\nHealth should also be considered. Economic activity that increases income but creates unsafe living conditions cannot be regarded as successful development in the fullest sense. Clean water, sanitation, waste management and access to healthcare are essential components of a healthy community. When these services are ignored, economic gains may be accompanied by diseases and other social costs that eventually reduce productivity.\n\nTechnology has introduced another dimension to development. Digital services can make banking, education, commerce and communication more accessible. A small business can advertise products to customers in distant locations without maintaining a physical shop in every town. Students can access educational materials that were previously unavailable to them. However, technology can also deepen inequality if some people have reliable internet access while others cannot afford suitable devices or data. Development that depends heavily on technology must therefore consider digital access as well.\n\nThe success of development should consequently be measured by more than the number of projects completed. A government may proudly announce that hundreds of buildings have been constructed, but the more important questions are whether those buildings serve genuine needs, whether they are maintained and whether ordinary citizens experience improvements in their lives. A road that is completed quickly but deteriorates after a short period may be less valuable than a carefully constructed road that remains useful for decades.\n\nThere is also a moral dimension to development. Decisions about land, resources and public money affect real people. Officials who approve projects should therefore consider not only what is profitable or politically attractive but also what is fair. Investors have legitimate interests, but so do residents. Governments need revenue, but citizens also need clean environments and reliable public services. Development becomes meaningful when economic progress is accompanied by fairness, accountability and concern for human welfare.\n\nUltimately, a developed community is not simply one with tall buildings, busy roads and modern technology. It is a community in which people have meaningful opportunities, essential services are accessible, resources are managed responsibly and citizens have some voice in decisions that affect their lives. Physical infrastructure is important, but infrastructure should serve human beings rather than become an end in itself. The true measure of development is therefore not how dramatically a place changes, but whether the changes produce a healthier, fairer and more sustainable society.",
-    "sub_questions": [
-      {
-        "question": "What is the main idea of the passage?",
-        "options": [
-          "Development should focus exclusively on constructing roads",
-          "Development is meaningful only when physical, economic, social and environmental needs are considered together",
-          "Modern technology is harmful to society",
-          "Communities should reject industrialisation"
-        ],
-        "answer": "B"
-      },
-      {
-        "question": "According to the passage, one benefit of improved roads is that they",
-        "options": [
-          "automatically eliminate poverty",
-          "make access to markets and essential services easier",
-          "prevent population growth",
-          "guarantee environmental protection"
-        ],
-        "answer": "B"
-      },
-      {
-        "question": "Why does the writer argue that local residents should participate in development planning?",
-        "options": [
-          "Residents always have better technical knowledge than experts",
-          "Residents possess practical knowledge about local conditions that may not appear in official data",
-          "Residents should control every government project",
-          "Experts are unnecessary in development planning"
-        ],
-        "answer": "B"
-      },
-      {
-        "question": "The example of a new market producing waste illustrates that",
-        "options": [
-          "markets should never be constructed",
-          "economic benefits can be accompanied by environmental problems",
-          "waste has no effect on development",
-          "employment always damages the environment"
-        ],
-        "answer": "B"
-      },
-      {
-        "question": "What does the writer mean by saying that a project can be 'economically successful in one sense while producing hardship in another'?",
-        "options": [
-          "Every profitable project is harmful",
-          "A project may generate economic benefits while negatively affecting some members of the community",
-          "Economic projects should never make money",
-          "Poor people cannot benefit from development"
-        ],
-        "answer": "B"
-      },
-      {
-        "question": "The word 'sustainable' as used in the passage implies development that",
-        "options": [
-          "continues without considering future consequences",
-          "meets present needs while protecting future interests",
-          "stops all economic activity",
-          "depends entirely on foreign investment"
-        ],
-        "answer": "B"
-      },
-      {
-        "question": "Why is education considered important to development?",
-        "options": [
-          "It prevents people from using technology",
-          "It equips people with skills needed to benefit from new opportunities",
-          "It replaces the need for infrastructure",
-          "It guarantees employment for everyone"
-        ],
-        "answer": "B"
-      },
-      {
-        "question": "What can be inferred about technology from the passage?",
-        "options": [
-          "Technology is always beneficial",
-          "Technology has no effect on inequality",
-          "Technology can create opportunities but may also increase inequality when access is uneven",
-          "Technology should replace schools"
-        ],
-        "answer": "C"
-      },
-      {
-        "question": "According to the writer, the success of development projects should be judged mainly by",
-        "options": [
-          "the number of projects announced",
-          "the speed at which buildings are constructed",
-          "their lasting contribution to people's welfare",
-          "the amount of publicity they receive"
-        ],
-        "answer": "C"
-      },
-      {
-        "question": "Which statement best represents the writer's conclusion?",
-        "options": [
-          "Tall buildings are the best measure of development",
-          "Economic growth is more important than human welfare",
-          "True development should produce a healthier, fairer and more sustainable society",
-          "Communities should avoid all major construction projects"
-        ],
-        "answer": "C"
-      }
-    ]
-  },
-
-  {
-    "question": "CLOZE TEST: Complete the passage by choosing the most appropriate option for each blank. Good communication is essential in every society. A message may be grammatically correct but still fail if it is not ___(1)___ by the listener. Effective speakers therefore consider their audience before choosing their words. They avoid unnecessary ___(2)___ and express their ideas clearly. They also listen carefully because communication is a ___(3)___ process. When people listen only to respond rather than to understand, ___(4)___ often arise. Good communication can therefore prevent unnecessary ___(5)___ and improve relationships.\n\n(1)",
-    "options": [
-      "understood",
-      "destroyed",
-      "hidden",
-      "delayed"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "CLOZE TEST: Good communication is essential in every society. A message may be grammatically correct but still fail if it is not ___(1)___ by the listener. Effective speakers therefore consider their audience before choosing their words. They avoid unnecessary ___(2)___ and express their ideas clearly. They also listen carefully because communication is a ___(3)___ process. When people listen only to respond rather than to understand, ___(4)___ often arise. Good communication can therefore prevent unnecessary ___(5)___ and improve relationships.\n\n(2)",
-    "options": [
-      "clarity",
-      "complexity",
-      "kindness",
-      "accuracy"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "CLOZE TEST: Good communication is essential in every society. A message may be grammatically correct but still fail if it is not ___(1)___ by the listener. Effective speakers therefore consider their audience before choosing their words. They avoid unnecessary ___(2)___ and express their ideas clearly. They also listen carefully because communication is a ___(3)___ process. When people listen only to respond rather than to understand, ___(4)___ often arise. Good communication can therefore prevent unnecessary ___(5)___ and improve relationships.\n\n(3)",
-    "options": [
-      "one-sided",
-      "reciprocal",
-      "silent",
-      "private"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "CLOZE TEST: Good communication is essential in every society. A message may be grammatically correct but still fail if it is not ___(1)___ by the listener. Effective speakers therefore consider their audience before choosing their words. They avoid unnecessary ___(2)___ and express their ideas clearly. They also listen carefully because communication is a ___(3)___ process. When people listen only to respond rather than to understand, ___(4)___ often arise. Good communication can therefore prevent unnecessary ___(5)___ and improve relationships.\n\n(4)",
-    "options": [
-      "agreements",
-      "misunderstandings",
-      "celebrations",
-      "promotions"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "CLOZE TEST: Good communication is essential in every society. A message may be grammatically correct but still fail if it is not ___(1)___ by the listener. Effective speakers therefore consider their audience before choosing their words. They avoid unnecessary ___(2)___ and express their ideas clearly. They also listen carefully because communication is a ___(3)___ process. When people listen only to respond rather than to understand, ___(4)___ often arise. Good communication can therefore prevent unnecessary ___(5)___ and improve relationships.\n\n(5)",
-    "options": [
-      "conflicts",
-      "knowledge",
-      "success",
-      "friendship"
-    ],
-    "answer": "A"
-  },
-
-  {
-    "question": "Choose the option that best completes the sentence: If the manager ___ the warning earlier, the problem would have been avoided.",
-    "options": [
-      "noticed",
-      "had noticed",
-      "has noticed",
-      "would notice"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Choose the option that best completes the sentence: No sooner had the students settled down ___ the bell rang.",
-    "options": [
-      "when",
-      "than",
-      "as",
-      "while"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Choose the option that best completes the sentence: The committee insisted that every applicant ___ the required documents.",
-    "options": [
-      "submits",
-      "submitted",
-      "submit",
-      "submitting"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Choose the option that best completes the sentence: By the time we arrived at the station, the train ___.",
-    "options": [
-      "leaves",
-      "has left",
-      "had left",
-      "will leave"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Choose the option that best completes the sentence: Neither the teachers nor the principal ___ willing to cancel the examination.",
-    "options": [
-      "were",
-      "are",
-      "was",
-      "have"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Choose the option that best completes the sentence: The principal, together with the teachers, ___ expected to attend the ceremony.",
-    "options": [
-      "are",
-      "were",
-      "have",
-      "is"
+      "Cooperation",
+      "Respectful disagreement",
+      "Listening",
+      "Financial investment"
     ],
     "answer": "D"
   },
   {
-    "question": "Choose the option that best completes the sentence: She has lived in Lagos ___ 2019.",
+    "id": 5,
+    "type": "passage_question",
+    "passageId": "PASSAGE_01",
+    "passageTitle": "The Changing Meaning of Education",
+    "question": "The main argument of the passage is that education should",
     "options": [
-      "for",
-      "since",
-      "from",
-      "during"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Choose the option that best completes the sentence: The students were prevented ___ entering the laboratory.",
-    "options": [
-      "to",
-      "for",
-      "from",
-      "with"
+      "focus exclusively on examination success",
+      "prepare people only for specific occupations",
+      "combine knowledge, skills, character and social responsibility",
+      "replace traditional learning with technology"
     ],
     "answer": "C"
   },
 
   {
-    "question": "In the sentence 'The extremely intelligent student solved the problem quickly', the word 'extremely' is a",
+    "id": 6,
+    "type": "passage_question",
+    "passageId": "PASSAGE_02",
+    "passageTitle": "The Importance of Public Spaces",
+    "passage": "A city is more than a collection of buildings and roads. It is also a place where people meet, interact and develop a sense of belonging. Public spaces such as parks, libraries, markets, community centres and open squares play an important role in this process. They provide places where people can gather without necessarily having to purchase anything. In a society where many activities are increasingly organised around commercial spaces, this function is particularly valuable.\n\nPublic spaces have existed in different forms for centuries. Traditional markets, for example, were not simply places where goods were exchanged. They were also centres of communication. People met relatives, exchanged news and discussed community matters. In many communities, markets continue to perform this social function, although modern commercial practices have changed the way they operate.\n\nParks serve a different but related purpose. They provide opportunities for recreation, exercise and relaxation. Children can play, adults can walk and families can spend time together. Green spaces can also improve the appearance of urban areas and provide relief from heavily built-up environments. When properly maintained, they can contribute to both physical and psychological well-being.\n\nLibraries have also changed significantly. In the past, their main function was to provide access to printed books and other physical materials. Today, many libraries provide computers, internet access, digital resources and spaces for group learning. Their purpose remains connected to access to knowledge, but the methods have expanded. A modern library can therefore serve students, job seekers, researchers and members of the wider community.\n\nDespite their importance, public spaces often face serious problems. Poor maintenance can make parks unattractive or unsafe. Illegal dumping can damage the environment. Poor planning can result in public spaces being located far from the communities that need them most. In some cases, valuable open areas are converted to private developments because of pressure on urban land.\n\nThe loss of public spaces can have consequences that are not immediately obvious. When people have fewer opportunities to interact in shared environments, social relationships may become weaker. Children may have fewer safe places to play, while older people may become more isolated. Communities may also lose places where local events, cultural activities and public discussions can take place.\n\nGood public-space planning therefore requires more than simply creating attractive areas. Authorities need to consider accessibility, safety, maintenance and the needs of different groups. A park designed without considering children, older people or people with disabilities may not serve the community effectively. Similarly, a library without adequate opening hours may be difficult for working people to use.\n\nCitizens also have responsibilities. Public spaces belong to the community, and their condition is affected by how people use them. Throwing waste on the ground, damaging facilities or engaging in destructive behaviour reduces the usefulness of these places for everyone. Respecting public property is therefore not merely a matter of obeying rules; it is an expression of concern for other members of society.\n\nThe value of public spaces becomes particularly clear during periods of social difficulty. After a crisis, people may need places to meet, obtain information, organise assistance or simply regain a sense of normality. Community centres, libraries and open spaces can support such recovery. They can provide practical services while also reminding people that they are part of a larger community.\n\nFor this reason, public spaces should be regarded as essential parts of urban life rather than unnecessary luxuries. They contribute to health, education, social interaction and community identity. Their success depends on cooperation between authorities and citizens. When governments provide well-planned facilities and citizens use them responsibly, public spaces can become some of the most valuable parts of a city.",
+    "question": "According to the passage, traditional markets served as",
+    "options": [
+      "places for commercial activity only",
+      "centres of both trade and social communication",
+      "private meeting places for government officials",
+      "substitutes for public libraries"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 7,
+    "type": "passage_question",
+    "passageId": "PASSAGE_02",
+    "passageTitle": "The Importance of Public Spaces",
+    "question": "One advantage of urban parks mentioned in the passage is that they",
+    "options": [
+      "eliminate the need for roads",
+      "provide opportunities for recreation and relaxation",
+      "increase the cost of housing",
+      "replace community centres"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 8,
+    "type": "passage_question",
+    "passageId": "PASSAGE_02",
+    "passageTitle": "The Importance of Public Spaces",
+    "question": "The modern library differs from the traditional library mainly because it",
+    "options": [
+      "no longer provides books",
+      "focuses only on researchers",
+      "provides access to both traditional and digital resources",
+      "is used mainly for entertainment"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 9,
+    "type": "passage_question",
+    "passageId": "PASSAGE_02",
+    "passageTitle": "The Importance of Public Spaces",
+    "question": "The writer believes citizens should protect public spaces because",
+    "options": [
+      "public facilities are expensive to build",
+      "their behaviour affects the usefulness of these spaces to everyone",
+      "government officials require them to do so",
+      "private companies own most public spaces"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 10,
+    "type": "passage_question",
+    "passageId": "PASSAGE_02",
+    "passageTitle": "The Importance of Public Spaces",
+    "question": "The central message of the passage is that public spaces",
+    "options": [
+      "are unnecessary in modern cities",
+      "should be reserved for commercial activities",
+      "are important to social, physical and community life",
+      "should be managed entirely by private companies"
+    ],
+    "answer": "C"
+  },
+
+  {
+    "id": 11,
+    "type": "passage_question",
+    "passageId": "PASSAGE_03",
+    "passageTitle": "Learning from Failure",
+    "passage": "Failure is often treated as something that should be avoided at all costs. In schools, workplaces and families, people may sometimes receive the impression that successful individuals are those who rarely make mistakes. This view is understandable because failure can be painful and can produce disappointment. However, treating every failure as proof of inability can prevent people from learning and improving.\n\nMistakes are a natural part of many forms of learning. A child learning to ride a bicycle does not immediately understand balance, movement and coordination. The child may fall, adjust position and try again. A person learning a musical instrument may play notes incorrectly before developing the ability to perform a piece confidently. These examples do not mean that failure is always beneficial, but they show that mistakes can provide information about what needs to change.\n\nThe useful response to failure is therefore not simply to repeat an unsuccessful action. Reflection is necessary. A student who performs poorly in an examination can ask which topics were misunderstood, whether enough practice was done and whether the study method was appropriate. Without such reflection, the student may continue using the same ineffective method and obtain the same result.\n\nThere is also a difference between a failed attempt and a failed person. An unsuccessful project does not necessarily mean that the people involved are incapable. A business may introduce a product that customers do not want. Researchers may conduct an experiment that does not produce the expected result. Engineers may design a system that requires modification. In each case, the outcome can provide evidence that helps guide future decisions.\n\nHowever, it would be dangerous to romanticise failure. Not every failure should simply be celebrated. Some failures cause serious harm and should lead to careful examination of what went wrong. If a safety procedure fails repeatedly, the correct response is not to say that failure is part of innovation and move on. The procedure must be investigated and improved. Learning from failure requires honesty about its consequences.\n\nAnother important factor is persistence. People who succeed after repeated attempts are sometimes described as naturally talented, but their success may also reflect their willingness to continue learning. Persistence does not mean refusing to change. In fact, effective persistence often involves changing strategy while maintaining the goal. A person who tries the same unsuccessful method indefinitely is not necessarily demonstrating determination; the person may simply be refusing to learn.\n\nThe environment in which people experience failure also matters. If students are constantly mocked for wrong answers, they may become afraid to participate. If workers are punished for every unsuccessful experiment, they may avoid taking reasonable risks. A healthy learning environment allows people to make mistakes while still holding them accountable for carelessness and repeated negligence.\n\nTeachers therefore have an important role in helping learners understand failure. Instead of merely marking an answer wrong, a teacher can explain the misunderstanding and show how the learner can approach the problem differently. Such feedback turns an error into a learning opportunity. Similarly, parents can encourage children to examine mistakes without making them feel that one poor result defines their ability.\n\nModern society often celebrates quick success. Stories about successful entrepreneurs, athletes and scholars may focus on their achievements while ignoring the years of practice, unsuccessful attempts and difficulties that came before them. This can create unrealistic expectations. People may believe that if success does not come quickly, they must lack talent. A more realistic understanding recognises that improvement is often gradual.\n\nThe most productive attitude is therefore neither to fear failure nor to seek it deliberately. Failure should be treated as feedback. When people examine what happened, accept responsibility where necessary, change ineffective strategies and continue learning, an unsuccessful attempt can contribute to future success. The goal is not to fail more often; it is to learn more effectively when things do not go as planned.",
+    "question": "The writer considers failure useful mainly when it",
+    "options": [
+      "is deliberately repeated",
+      "is examined and used as feedback",
+      "is ignored quickly",
+      "is celebrated regardless of its consequences"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 12,
+    "type": "passage_question",
+    "passageId": "PASSAGE_03",
+    "passageTitle": "Learning from Failure",
+    "question": "According to the passage, effective persistence involves",
+    "options": [
+      "using the same method repeatedly",
+      "abandoning every difficult goal",
+      "changing strategy while maintaining the goal",
+      "avoiding all risks"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 13,
+    "type": "passage_question",
+    "passageId": "PASSAGE_03",
+    "passageTitle": "Learning from Failure",
+    "question": "The passage warns against romanticising failure because",
+    "options": [
+      "all failures are signs of laziness",
+      "some failures can cause serious harm and require correction",
+      "failure never provides useful information",
+      "successful people never fail"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 14,
+    "type": "passage_question",
+    "passageId": "PASSAGE_03",
+    "passageTitle": "Learning from Failure",
+    "question": "A student who continues using an ineffective study method without reflection is likely to",
+    "options": [
+      "solve the problem automatically",
+      "obtain the same poor result",
+      "develop better examination skills",
+      "avoid all academic difficulties"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 15,
+    "type": "passage_question",
+    "passageId": "PASSAGE_03",
+    "passageTitle": "Learning from Failure",
+    "question": "The author's attitude towards failure can best be described as",
+    "options": [
+      "completely negative",
+      "completely celebratory",
+      "balanced and practical",
+      "indifferent"
+    ],
+    "answer": "C"
+  },
+
+  {
+    "id": 16,
+    "type": "passage_question",
+    "passageId": "PASSAGE_04",
+    "passageTitle": "Water and the Future of Cities",
+    "passage": "Water is one of the most basic requirements of human life, yet access to reliable water supplies is becoming an increasingly important challenge in many cities. Population growth, changing weather patterns, pollution, ageing infrastructure and poor management can all affect the availability and quality of water. The problem is not simply that some places receive too little rain. Even cities that receive substantial rainfall may experience shortages if water is poorly stored, distributed or protected from contamination.\n\nUrban growth increases demand. As more people move into cities, households require water for drinking, cooking, washing and sanitation. Industries also need water for production, while public institutions such as schools and hospitals require reliable supplies. When demand grows faster than the capacity of water systems, shortages become more likely.\n\nOne major problem is the loss of water through damaged infrastructure. Pipes that are old or poorly maintained can leak significant quantities of treated water before it reaches consumers. Repairing such systems may require substantial investment, but ignoring the problem can be even more expensive in the long term. Water that has already been treated represents resources and energy that are wasted when it disappears through a leaking pipe.\n\nPollution presents another challenge. Industrial waste, untreated sewage, agricultural chemicals and household refuse can enter rivers, streams and underground water sources. Once a water source becomes contaminated, treatment becomes more difficult and expensive. In severe cases, communities may have to search for alternative sources. Protecting water before contamination occurs is therefore generally more effective than relying entirely on treatment afterward.\n\nClimate conditions can also influence water security. Changes in rainfall patterns may produce longer dry periods in some areas and heavier rainfall in others. Heavy rainfall does not necessarily solve water shortages because large volumes of water may run off rapidly instead of being captured and stored. Cities therefore need systems capable of managing both shortage and excess.\n\nRainwater harvesting can form part of the solution. Buildings can collect rain from roofs and store it for suitable uses. Depending on treatment and local regulations, harvested water may be used for activities such as gardening, cleaning or toilet flushing. Although rainwater harvesting cannot replace a complete public water system, it can reduce pressure on that system.\n\nWater conservation is equally important. Individuals can reduce unnecessary consumption by repairing leaking taps, avoiding waste and using water efficiently. However, responsibility should not be placed entirely on households. Governments and water authorities must also maintain infrastructure, monitor quality, plan for population growth and establish fair systems for managing scarce resources.\n\nEducation can influence behaviour. People are more likely to conserve water when they understand where their water comes from and how difficult it is to replace. Schools can teach students about water cycles, sanitation and conservation. Such lessons can encourage habits that continue into adulthood.\n\nTechnology may provide additional solutions. Sensors can detect leaks, digital systems can monitor consumption and improved treatment methods can make more water suitable for reuse. However, technology alone cannot solve every problem. A sophisticated monitoring system is of little value if authorities do not respond to the information it provides.\n\nWater security therefore requires a combination of infrastructure, responsible management, public awareness and individual behaviour. No single measure is sufficient. Cities that plan early and protect their water sources are better prepared for future challenges than those that wait until a crisis becomes unavoidable. The issue is ultimately not only about finding more water but also about using existing supplies wisely and protecting them for future generations.",
+    "question": "According to the passage, cities can experience water shortages even when they receive substantial rainfall because",
+    "options": [
+      "rainwater has no value",
+      "water may be poorly stored, distributed or protected",
+      "people do not drink enough water",
+      "industries never require water"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 17,
+    "type": "passage_question",
+    "passageId": "PASSAGE_04",
+    "passageTitle": "Water and the Future of Cities",
+    "question": "One consequence of leaking water infrastructure is that",
+    "options": [
+      "treated water and the resources used to treat it are wasted",
+      "rainfall increases immediately",
+      "water becomes cheaper to produce",
+      "pollution automatically disappears"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 18,
+    "type": "passage_question",
+    "passageId": "PASSAGE_04",
+    "passageTitle": "Water and the Future of Cities",
+    "question": "The passage suggests that preventing water pollution is generally",
+    "options": [
+      "more difficult than ignoring it",
+      "more effective than depending entirely on later treatment",
+      "unnecessary when rainfall is heavy",
+      "the responsibility of households alone"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 19,
+    "type": "passage_question",
+    "passageId": "PASSAGE_04",
+    "passageTitle": "Water and the Future of Cities",
+    "question": "Why does the writer say heavy rainfall may not solve water shortages?",
+    "options": [
+      "Heavy rain cannot enter cities.",
+      "Large quantities may run off without being captured and stored.",
+      "Rainwater is always polluted.",
+      "Cities cannot use stored water."
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 20,
+    "type": "passage_question",
+    "passageId": "PASSAGE_04",
+    "passageTitle": "Water and the Future of Cities",
+    "question": "The main point of the passage is that water security",
+    "options": [
+      "depends only on rainfall",
+      "requires a combination of planning, infrastructure, conservation and responsible management",
+      "can be achieved entirely through technology",
+      "is mainly an individual responsibility"
+    ],
+    "answer": "B"
+  },
+
+  {
+    "id": 21,
+    "type": "cloze",
+    "question": "Although the candidate was tired, he _______ studying until midnight.",
+    "options": [
+      "continued",
+      "continues",
+      "continue",
+      "continuing"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 22,
+    "type": "cloze",
+    "question": "If the authorities had acted earlier, the problem _______ avoided.",
+    "options": [
+      "will be",
+      "would have been",
+      "would be",
+      "has been"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 23,
+    "type": "cloze",
+    "question": "The teacher advised the students to pay attention _______ the instructions.",
+    "options": [
+      "on",
+      "at",
+      "to",
+      "with"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 24,
+    "type": "cloze",
+    "question": "Neither the principal nor the teachers _______ aware of the development.",
+    "options": [
+      "was",
+      "were",
+      "has",
+      "is"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 25,
+    "type": "cloze",
+    "question": "The manager insisted _______ seeing the original document.",
+    "options": [
+      "on",
+      "at",
+      "for",
+      "with"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 26,
+    "type": "sentence_completion",
+    "question": "Had I known about the meeting earlier, I _______.",
+    "options": [
+      "will attend it",
+      "would have attended it",
+      "would attend it",
+      "have attended it"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 27,
+    "type": "sentence_completion",
+    "question": "The chairman spoke so quietly that",
+    "options": [
+      "everybody could hear him clearly",
+      "nobody could hear him clearly",
+      "everybody has heard him clearly",
+      "nobody hears him clearly"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 28,
+    "type": "sentence_completion",
+    "question": "The examination was postponed because",
+    "options": [
+      "the question papers had not arrived",
+      "the question papers has not arrived",
+      "the question papers was not arriving",
+      "the question paper have not arrive"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 29,
+    "type": "sentence_completion",
+    "question": "No sooner had the bell rung than",
+    "options": [
+      "the students left the classroom",
+      "the students had leave the classroom",
+      "the students leaves the classroom",
+      "the students leaving the classroom"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 30,
+    "type": "sentence_completion",
+    "question": "The committee will approve the proposal provided that",
+    "options": [
+      "all the necessary conditions are met",
+      "all the necessary conditions were met yesterday",
+      "all the necessary conditions has met",
+      "all the necessary conditions is meeting"
+    ],
+    "answer": "A"
+  },
+
+  {
+    "id": 31,
+    "type": "parts_of_speech",
+    "question": "In the sentence 'The extremely careful driver avoided the accident', the word 'extremely' is a",
     "options": [
       "noun",
       "verb",
@@ -405,133 +421,233 @@
     "answer": "C"
   },
   {
-    "question": "In the sentence 'The children crossed the narrow bridge', the word 'narrow' functions as a",
+    "id": 32,
+    "type": "parts_of_speech",
+    "question": "In the sentence 'The children played happily', the word 'happily' is a",
     "options": [
       "noun",
       "adjective",
+      "adverb",
+      "pronoun"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 33,
+    "type": "parts_of_speech",
+    "question": "In the sentence 'She bought a beautiful dress', the word 'beautiful' is a",
+    "options": [
       "verb",
+      "adjective",
+      "adverb",
       "conjunction"
     ],
     "answer": "B"
   },
   {
-    "question": "In the sentence 'She carefully placed the books on the table', the word 'on' is a",
+    "id": 34,
+    "type": "parts_of_speech",
+    "question": "In the sentence 'The boy ran across the field', the word 'across' is a",
     "options": [
       "preposition",
-      "pronoun",
+      "noun",
       "adjective",
-      "adverb"
+      "pronoun"
     ],
     "answer": "A"
   },
   {
-    "question": "Choose the option that correctly completes the sentence: The manager spoke to Ada and ___ about the problem.",
+    "id": 35,
+    "type": "parts_of_speech",
+    "question": "In the sentence 'Although it rained, we continued the journey', the word 'Although' is a",
     "options": [
-      "I",
-      "me",
-      "my",
-      "mine"
+      "preposition",
+      "conjunction",
+      "adverb",
+      "noun"
+    ],
+    "answer": "B"
+  },
+
+  {
+    "id": 36,
+    "type": "lexis",
+    "question": "Choose the word nearest in meaning to 'reluctant'.",
+    "options": [
+      "Unwilling",
+      "Excited",
+      "Certain",
+      "Prepared"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 37,
+    "type": "lexis",
+    "question": "Choose the word opposite in meaning to 'scarce'.",
+    "options": [
+      "Rare",
+      "Limited",
+      "Abundant",
+      "Insufficient"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 38,
+    "type": "lexis",
+    "question": "Choose the word nearest in meaning to 'meticulous'.",
+    "options": [
+      "Careless",
+      "Very careful",
+      "Impatient",
+      "Uncertain"
     ],
     "answer": "B"
   },
   {
-    "question": "Choose the correct option: Neither Chidi nor Emeka brought ___ textbook to class.",
+    "id": 39,
+    "type": "lexis",
+    "question": "Choose the word opposite in meaning to 'hostile'.",
     "options": [
-      "his",
-      "their",
-      "our",
-      "its"
+      "Friendly",
+      "Aggressive",
+      "Violent",
+      "Unpleasant"
     ],
     "answer": "A"
   },
   {
-    "question": "Choose the option that best completes the sentence: I have read ___ books you recommended.",
+    "id": 40,
+    "type": "lexis",
+    "question": "Choose the word nearest in meaning to 'inevitable'.",
     "options": [
-      "a",
-      "an",
-      "the",
-      "much"
+      "Avoidable",
+      "Uncertain",
+      "Unavoidable",
+      "Unlikely"
     ],
     "answer": "C"
   },
 
   {
-    "question": "Choose the option nearest in meaning to meticulous.",
+    "id": 41,
+    "type": "nouns_pronouns_determiners",
+    "question": "Which of the following is an abstract noun?",
     "options": [
-      "careless",
-      "very careful and precise",
-      "hasty",
-      "uncertain"
+      "Table",
+      "Honesty",
+      "Bottle",
+      "Teacher"
     ],
     "answer": "B"
   },
   {
-    "question": "Choose the option opposite in meaning to hostile.",
+    "id": 42,
+    "type": "nouns_pronouns_determiners",
+    "question": "Choose the correct pronoun: 'The girls completed the assignment by _______.'",
     "options": [
-      "aggressive",
-      "unfriendly",
-      "friendly",
-      "violent"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Choose the option nearest in meaning to ubiquitous.",
-    "options": [
-      "rare",
-      "present everywhere",
-      "temporary",
-      "hidden"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Choose the option opposite in meaning to obsolete.",
-    "options": [
-      "outdated",
-      "ancient",
-      "modern",
-      "useless"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Choose the option nearest in meaning to intransigent.",
-    "options": [
-      "uncompromising",
-      "generous",
-      "uncertain",
-      "obedient"
+      "themselves",
+      "theirselves",
+      "themself",
+      "theirself"
     ],
     "answer": "A"
   },
   {
-    "question": "Choose the option opposite in meaning to mitigate.",
+    "id": 43,
+    "type": "nouns_pronouns_determiners",
+    "question": "Choose the correct determiner: 'There isn't _______ water left in the tank.'",
     "options": [
-      "relieve",
-      "alleviate",
-      "aggravate",
-      "moderate"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Choose the option nearest in meaning to laconic.",
-    "options": [
-      "very talkative",
-      "brief and concise",
-      "confused",
-      "aggressive"
+      "many",
+      "much",
+      "few",
+      "several"
     ],
     "answer": "B"
   },
   {
-    "question": "Choose the option opposite in meaning to benevolent.",
+    "id": 44,
+    "type": "nouns_pronouns_determiners",
+    "question": "Choose the correct option: 'Each of the candidates must bring _______ identification card.'",
     "options": [
-      "kind",
-      "generous",
-      "malevolent",
-      "helpful"
+      "their",
+      "his or her",
+      "our",
+      "your"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 45,
+    "type": "nouns_pronouns_determiners",
+    "question": "Which of the following is a collective noun?",
+    "options": [
+      "Team",
+      "Book",
+      "Student",
+      "Honesty"
+    ],
+    "answer": "A"
+  },
+
+  {
+    "id": 46,
+    "type": "lexis",
+    "question": "Choose the option that best completes the sentence: 'The witness gave a _______ account of what happened.'",
+    "options": [
+      "credible",
+      "credulous",
+      "creditable",
+      "credibility"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 47,
+    "type": "sentence_completion",
+    "question": "The principal warned the students that anyone caught cheating would _______.",
+    "options": [
+      "be severely punished",
+      "severely punish",
+      "have severely punished",
+      "severely be punish"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 48,
+    "type": "nouns_pronouns_determiners",
+    "question": "Choose the correct option: 'I have read _______ books you recommended.'",
+    "options": [
+      "all the",
+      "much",
+      "any of",
+      "a little"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 49,
+    "type": "parts_of_speech",
+    "question": "In the sentence 'He worked extremely hard for the examination', the word 'hard' functions as a",
+    "options": [
+      "noun",
+      "adverb",
+      "pronoun",
+      "conjunction"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 50,
+    "type": "lexis",
+    "question": "Choose the word opposite in meaning to 'transparent' as used to describe an organisation's decision-making process.",
+    "options": [
+      "Open",
+      "Clear",
+      "Secretive",
+      "Honest"
     ],
     "answer": "C"
   }
