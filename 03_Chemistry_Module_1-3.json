@@ -148,5 +148,355 @@
       "They are always positively charged"
     ],
     "answer": "C"
+  },
+  {
+    "question": "An atom has 17 protons, 18 neutrons and 17 electrons. What are its atomic number and mass number respectively?",
+    "options": [
+      "17 and 18",
+      "17 and 35",
+      "35 and 17",
+      "18 and 35"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "An ion has 12 protons, 12 neutrons and 10 electrons. The ion is",
+    "options": [
+      "Mg²⁺",
+      "Mg²⁻",
+      "Ne²⁺",
+      "Na⁺"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which pair represents isotopes of the same element?",
+    "options": [
+      "²³Na and ²⁴Mg",
+      "³⁵Cl and ³⁷Cl",
+      "¹⁴C and ¹⁴N",
+      "³⁹K and ⁴⁰Ca"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "An element has two isotopes of mass numbers 35 and 37. If their relative abundances are 75% and 25% respectively, what is its relative atomic mass?",
+    "options": [
+      "35.25",
+      "35.50",
+      "36.00",
+      "36.50"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which electronic configuration represents an atom in the ground state?",
+    "options": [
+      "2,8,7",
+      "2,9,6",
+      "2,8,9",
+      "2,7,8"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "An element has the electronic configuration 2,8,3. In which group and period of the periodic table is it found?",
+    "options": [
+      "Group 3, Period 2",
+      "Group 13, Period 3",
+      "Group 3, Period 3",
+      "Group 13, Period 2"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which property generally decreases across a period from left to right?",
+    "options": [
+      "Nuclear charge",
+      "Number of valence electrons",
+      "Atomic radius",
+      "Electronegativity"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which of the following has the largest atomic radius?",
+    "options": [
+      "Na",
+      "Mg",
+      "Al",
+      "Cl"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which element is expected to have the highest first ionization energy?",
+    "options": [
+      "Na",
+      "Mg",
+      "Al",
+      "Cl"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Why does atomic radius generally decrease across a period?",
+    "options": [
+      "The number of electron shells decreases",
+      "The nuclear charge increases while electrons are added to the same shell",
+      "The number of neutrons decreases",
+      "The atoms lose their outermost electrons"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "An element X has 11 electrons. The ion most likely formed by X is",
+    "options": [
+      "X⁻",
+      "X²⁻",
+      "X⁺",
+      "X²⁺"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which of the following elements is most likely to form a 2− ion?",
+    "options": [
+      "Na",
+      "Mg",
+      "Cl",
+      "O"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which statement correctly describes an element's position in the periodic table?",
+    "options": [
+      "The period number always equals the number of valence electrons",
+      "The group number of a main-group element can indicate its number of valence electrons",
+      "Elements in the same period always have the same number of valence electrons",
+      "Elements in the same group always have the same atomic number"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which observation provides the strongest evidence that matter is made up of tiny particles in constant motion?",
+    "options": [
+      "Melting of ice",
+      "Diffusion of a gas",
+      "Freezing of water",
+      "Filtration of sand"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A gas occupies 200 cm³ at a pressure of 100 kPa. If its volume is reduced to 100 cm³ at constant temperature, what will its pressure become?",
+    "options": [
+      "50 kPa",
+      "100 kPa",
+      "200 kPa",
+      "400 kPa"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A gas occupies 300 cm³ at 27°C. What volume will it occupy at 127°C if pressure remains constant?",
+    "options": [
+      "200 cm³",
+      "300 cm³",
+      "400 cm³",
+      "450 cm³"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which change of state involves particles gaining enough energy to escape from the liquid surface without boiling?",
+    "options": [
+      "Condensation",
+      "Evaporation",
+      "Freezing",
+      "Sublimation"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "When a solid is heated, its particles generally",
+    "options": [
+      "become larger",
+      "move more rapidly about their fixed positions",
+      "lose all attractive forces",
+      "change into atoms immediately"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which statement about particles in a gas is correct?",
+    "options": [
+      "They are closely packed and vibrate about fixed positions",
+      "They have no kinetic energy",
+      "They are widely separated and move randomly",
+      "They are arranged in a regular pattern"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A gas is compressed at constant temperature. Which of the following occurs?",
+    "options": [
+      "The average kinetic energy of its particles increases",
+      "The particles become smaller",
+      "The frequency of collisions with the container walls increases",
+      "The number of particles decreases"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which process provides evidence that particles possess kinetic energy even when no external force is applied?",
+    "options": [
+      "Diffusion",
+      "Filtration",
+      "Decantation",
+      "Crystallization"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A liquid boils when its vapour pressure becomes equal to",
+    "options": [
+      "zero",
+      "the vapour pressure of the surroundings",
+      "the external atmospheric pressure",
+      "the pressure inside the liquid molecules"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which statement best explains why gases are much more compressible than liquids?",
+    "options": [
+      "Gas particles are much lighter than liquid particles",
+      "Gas particles have much greater spaces between them",
+      "Gas particles have no mass",
+      "Liquid particles do not move"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A gas has a volume of 500 cm³ at 20°C. If it is heated to 40°C at constant pressure, its volume will be approximately",
+    "options": [
+      "525 cm³",
+      "534 cm³",
+      "550 cm³",
+      "600 cm³"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which method is most suitable for separating ethanol from water?",
+    "options": [
+      "Filtration",
+      "Simple distillation",
+      "Fractional distillation",
+      "Decantation"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which method is most suitable for obtaining pure water from seawater?",
+    "options": [
+      "Filtration",
+      "Distillation",
+      "Chromatography",
+      "Sublimation"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A mixture contains iron filings and sulfur powder. Which method can be used to separate the iron from the sulfur?",
+    "options": [
+      "Filtration",
+      "Use of a magnet",
+      "Distillation",
+      "Crystallization"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which method is best for separating coloured substances in ink?",
+    "options": [
+      "Chromatography",
+      "Filtration",
+      "Decantation",
+      "Evaporation"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A mixture contains sand and sodium chloride. Which sequence will best separate and recover both substances?",
+    "options": [
+      "Add water, filter, then evaporate the filtrate",
+      "Filter, then add water to the residue",
+      "Distil the mixture directly",
+      "Use a separating funnel, then filter"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which property is mainly responsible for the separation of components during fractional distillation?",
+    "options": [
+      "Difference in density",
+      "Difference in melting points",
+      "Difference in boiling points",
+      "Difference in particle size"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which apparatus is most appropriate for separating kerosene and water?",
+    "options": [
+      "Burette",
+      "Separating funnel",
+      "Condenser",
+      "Evaporating dish"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A student wants to obtain pure copper(II) sulfate crystals from its aqueous solution. Which process is most appropriate?",
+    "options": [
+      "Filtration only",
+      "Evaporation to dryness",
+      "Crystallization",
+      "Decantation"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "During paper chromatography, a substance travels 6 cm while the solvent front travels 10 cm. What is its Rf value?",
+    "options": [
+      "0.4",
+      "0.6",
+      "1.6",
+      "6.0"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which method is most suitable for separating an insoluble solid from a liquid?",
+    "options": [
+      "Filtration",
+      "Fractional distillation",
+      "Chromatography",
+      "Sublimation"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A mixture contains ammonium chloride, sand and sodium chloride. Which property of ammonium chloride can be used first to separate it from the mixture?",
+    "options": [
+      "It is magnetic",
+      "It sublimes",
+      "It is insoluble in water",
+      "It has a higher density"
+    ],
+    "answer": "B"
   }
 ]
