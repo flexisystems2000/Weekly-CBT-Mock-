@@ -148,5 +148,289 @@
       "creating a flashback"
     ],
     "answer": "A"
+  },
+
+  {
+    "question": "A prose narrative told by a character who participates in the events is most commonly written from which point of view?",
+    "options": [
+      "First-person",
+      "Second-person",
+      "Third-person omniscient",
+      "Objective third-person"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A narrator who knows the thoughts and feelings of several characters is best described as",
+    "options": [
+      "first-person narrator",
+      "limited narrator",
+      "omniscient narrator",
+      "unreliable narrator"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which prose form is normally longer and more developed than a short story but shorter than a full-length novel?",
+    "options": [
+      "Novella",
+      "Epic",
+      "Biography",
+      "Essay"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A fictional narrative that concentrates on a limited number of characters and a single major event is most likely a",
+    "options": [
+      "short story",
+      "biography",
+      "chronicle",
+      "autobiography"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A writer tells the story of another person's life using researched facts. The prose form is",
+    "options": [
+      "autobiography",
+      "biography",
+      "fiction",
+      "memoir"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A writer narrates selected experiences from his or her own life, usually focusing on meaningful memories. This is best described as",
+    "options": [
+      "memoir",
+      "biography",
+      "novella",
+      "satire"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A character who changes significantly because of experiences in the story is known as a",
+    "options": [
+      "static character",
+      "dynamic character",
+      "flat character",
+      "minor character"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A character whose qualities are developed in complexity and whose personality is not easily reduced to one trait is a",
+    "options": [
+      "round character",
+      "flat character",
+      "stock character",
+      "background character"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The central idea or underlying message explored throughout a prose work is its",
+    "options": [
+      "setting",
+      "theme",
+      "plot",
+      "dialogue"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "When a writer places a character in a difficult situation and gradually increases the tension, the technique mainly develops",
+    "options": [
+      "suspense",
+      "comic relief",
+      "exposition only",
+      "setting"
+    ],
+    "answer": "A"
+  },
+
+  {
+    "question": "In Once Upon an Elephant, the use of animals to represent human political and social behaviour is an example of",
+    "options": [
+      "allegory",
+      "sonnet",
+      "stream of consciousness",
+      "epistolary narration"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A major concern in Once Upon an Elephant is the abuse of",
+    "options": [
+      "political power",
+      "scientific knowledge",
+      "religious freedom",
+      "educational opportunity"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The political message of Once Upon an Elephant is strengthened by presenting social issues through",
+    "options": [
+      "animal characters and satire",
+      "love letters",
+      "a detective investigation",
+      "a purely romantic plot"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The theme of dictatorship in Once Upon an Elephant is mainly concerned with leaders who",
+    "options": [
+      "voluntarily surrender power",
+      "cling to power and abuse their authority",
+      "avoid political involvement",
+      "encourage equal participation"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which technique allows Once Upon an Elephant to criticize real political behaviour without presenting the political figures directly?",
+    "options": [
+      "Allegory",
+      "Soliloquy",
+      "Flashback",
+      "Epistolary narration"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The conflict between oppressive leadership and collective resistance in Once Upon an Elephant mainly highlights the importance of",
+    "options": [
+      "unchecked authority",
+      "social responsibility and resistance to oppression",
+      "political isolation",
+      "personal wealth"
+    ],
+    "answer": "B"
+  },
+
+  {
+    "question": "In The Marriage of Anansewa, Ananse is best understood as a modern version of the traditional",
+    "options": [
+      "warrior",
+      "trickster figure",
+      "priest",
+      "hunter"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Ananse's scheme involving several wealthy chiefs mainly exposes the theme of",
+    "options": [
+      "materialism and greed",
+      "scientific progress",
+      "religious conversion",
+      "environmental conservation"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The use of the Ananse storytelling tradition in The Marriage of Anansewa connects the play strongly with",
+    "options": [
+      "Akan oral tradition",
+      "European medieval romance",
+      "Greek mythology alone",
+      "Victorian realism"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The fact that the chiefs are not normally seen directly on stage but are represented through reports and messengers contributes to the play's",
+    "options": [
+      "storytelling quality",
+      "scientific realism",
+      "documentary style",
+      "epistolary structure"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The conflict between genuine affection and the material benefits of marriage in The Marriage of Anansewa develops the theme of",
+    "options": [
+      "love versus materialism",
+      "nature versus technology",
+      "war versus peace",
+      "education versus science"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Ananse's manipulation of marriage customs mainly reveals his",
+    "options": [
+      "cunning and opportunism",
+      "complete honesty",
+      "lack of ambition",
+      "fear of wealth"
+    ],
+    "answer": "A"
+  },
+
+  {
+    "question": "In Path of Lucas: The Journey He Endured, the narrative is framed around Lucas speaking to his",
+    "options": [
+      "wife",
+      "comatose daughter",
+      "brother",
+      "employer"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The use of memories and events from different periods of Lucas's life gives the narrative a",
+    "options": [
+      "non-linear structure",
+      "strictly chronological structure",
+      "dramatic verse structure",
+      "purely comic structure"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A major theme developed through Lucas's experiences is",
+    "options": [
+      "family devotion and sacrifice",
+      "political ambition",
+      "commercial competition",
+      "military conquest"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Lucas's continued endurance through personal losses most strongly supports the theme of",
+    "options": [
+      "resilience",
+      "greed",
+      "revenge",
+      "political corruption"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The narrative technique of moving between Lucas's present situation and earlier experiences is primarily used to",
+    "options": [
+      "reveal his life history gradually",
+      "remove all conflict",
+      "make the narrator disappear",
+      "turn the prose into drama"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The use of recurring natural images such as butterflies and birds in Path of Lucas can function primarily as",
+    "options": [
+      "symbols connected with memory, change and loss",
+      "comic devices",
+      "stage directions",
+      "grammatical markers"
+    ],
+    "answer": "A"
   }
 ]
