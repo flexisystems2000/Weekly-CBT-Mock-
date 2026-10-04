@@ -4,13 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Flexi Educational Consult - CBT Exam</title>
-
 <link
     rel="icon"
     type="image/png"
     href="https://i.postimg.cc/0Qm3PLw5/1771700279759-2.jpg"
 >
-
 <script type="module">
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
 import {
@@ -22,39 +20,66 @@ import {
     getDocs,
     serverTimestamp
 } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js";
-
+/*
+=========================================================
+FIREBASE
+=========================================================
+*/
 const firebaseConfig = {
-    apiKey: "AIzaSyDIzP6OB7uLm5bn4js0C6b-4Ll10gV80-o",
-    authDomain: "jambotron-ze1fo.firebaseapp.com",
-    projectId: "jambotron-ze1fo",
-    storageBucket: "jambotron-ze1fo.firebasestorage.app",
-    messagingSenderId: "722311662864",
-    appId: "1:722311662864:web:bad3d8e03d34a4602be995"
+
+    apiKey:
+        "AIzaSyDIzP6OB7uLm5bn4js0C6b-4Ll10gV80-o",
+
+    authDomain:
+        "jambotron-ze1fo.firebaseapp.com",
+
+    projectId:
+        "jambotron-ze1fo",
+
+    storageBucket:
+        "jambotron-ze1fo.firebasestorage.app",
+
+    messagingSenderId:
+        "722311662864",
+
+    appId:
+        "1:722311662864:web:bad3d8e03d34a4602be995"
 };
 
-const app = initializeApp(firebaseConfig);
-const db = getFirestore(app);
+const app =
+    initializeApp(firebaseConfig);
 
-const SESSION_KEY = "flexi_exam_session";
-
-const MAX_WARNINGS = 3;
-const EXAM_DURATION_SECONDS = 600;
-const QUESTIONS_PER_SUBJECT = 15;
-const TOTAL_QUESTIONS = 60;
-
+const db =
+    getFirestore(app);
 /*
- * FLEXI CBT JAMB-STYLE SCORING
- *
- * Correct answer = +1
- * Wrong answer   = -0.25
- * Unanswered     = 0
- *
- * Each subject is scaled to /100.
- * Four subjects give a maximum total of /400.
- */
-const CORRECT_MARK = 1;
-const WRONG_MARK = -0.25;
-
+=========================================================
+EXAM SETTINGS
+=========================================================
+*/
+const SESSION_KEY =
+    "flexi_exam_session";
+const MAX_WARNINGS =
+    3;
+const EXAM_DURATION_SECONDS =
+    600;
+const QUESTIONS_PER_SUBJECT =
+    15;
+const TOTAL_QUESTIONS =
+    60;
+/*
+=========================================================
+SCORING
+=========================================================
+*/
+const CORRECT_MARK =
+    1;
+const WRONG_MARK =
+    -0.25;
+/*
+=========================================================
+STATE
+=========================================================
+*/
 let session = null;
 let examQuestions = [];
 let currentIndex = 0;
@@ -62,26 +87,81 @@ let timerInterval = null;
 let warningCount = 0;
 let submitting = false;
 let examLoaded = false;
-
-
+/*
+=========================================================
+PASSAGE STATE
+=========================================================
+*/
+let currentPassage = null;
+/*
+=========================================================
+QUESTION BANK
+=========================================================
+*/
+const subjectFileMap = {
+    "Mathematics":
+        "01_Mathematics_Module_1-3.json",
+    "Physics":
+        "02_Physics_Module_1-3.json",
+    "Chemistry":
+        "03_Chemistry_Module_1-3.json",
+    "Biology":
+        "04_Biology_Module_1-3.json",
+    "Commerce":
+        "05_Commerce_Module_1-3.json",
+    "Financial Accounting":
+        "06_Financial_Accounting_Module_1-3.json",
+    "Literature in English":
+        "07_Literature_in_English_Module_1-3.json",
+    "Government":
+        "08_Government_Module_1-3.json",
+    "Christian Religious Knowledge":
+        "09_Crk_Module_1-3.json",
+    "Economics":
+        "10_Economics_Module_1-3.json",
+    "Civic Education":
+        "11_Civic_Education_Module_1-3.json",
+    "Use of English":
+        "12_Use_of_English_and_The_Lekki_Headmaster_Module_1-3.json"
+};
+/*
+=========================================================
+DOM
+=========================================================
+*/
+const timerEl =
+    document.getElementById("timer");
+const warningDisplay =
+    document.getElementById("warning-display");
+const warningBox =
+    document.getElementById("warning-box");
+const warningMessage =
+    document.getElementById("warning-message");
 /*
 =========================================================
 SESSION HELPERS
 =========================================================
 */
-
 function getSession() {
     try {
         return JSON.parse(
-            localStorage.getItem(SESSION_KEY) || "null"
+            localStorage.getItem(
+                SESSION_KEY
+            ) || "null"
         );
+
     } catch (error) {
-        console.error("Session read error:", error);
+
+        console.error(
+            "Session read error:",
+            error
+        );
+
         return null;
     }
 }
-
 function saveSession() {
+
     if (!session) return;
 
     localStorage.setItem(
@@ -89,42 +169,6 @@ function saveSession() {
         JSON.stringify(session)
     );
 }
-
-
-/*
-=========================================================
-QUESTION BANK
-=========================================================
-*/
-
-const subjectFileMap = {
-    "Mathematics": "01_Mathematics_Module_1-3.json",
-    "Physics": "02_Physics_Module_1-3.json",
-    "Chemistry": "03_Chemistry_Module_1-3.json",
-    "Biology": "04_Biology_Module_1-3.json",
-    "Commerce": "05_Commerce_Module_1-3.json",
-    "Financial Accounting": "06_Financial_Accounting_Module_1-3.json",
-    "Literature in English": "07_Literature_in_English_Module_1-3.json",
-    "Government": "08_Government_Module_1-3.json",
-    "Christian Religious Knowledge": "09_Crk_Module_1-3.json",
-    "Economics": "10_Economics_Module_1-3.json",
-    "Civic Education": "11_Civic_Education_Module_1-3.json",
-    "Use of English": "12_Use_of_English_and_The_Lekki_Headmaster_Module_1-3.json"
-};
-
-
-/*
-=========================================================
-DOM
-=========================================================
-*/
-
-const timerEl = document.getElementById("timer");
-const warningDisplay = document.getElementById("warning-display");
-const warningBox = document.getElementById("warning-box");
-const warningMessage = document.getElementById("warning-message");
-
-
 /*
 =========================================================
 WARNING DISPLAY
@@ -133,40 +177,68 @@ WARNING DISPLAY
 
 function updateWarningDisplay() {
 
-    const count = Number(session?.warnings || 0);
-
-    warningCount = count;
-
-    if (warningDisplay) {
-        warningDisplay.textContent =
-            `Warnings: ${count}/${MAX_WARNINGS}`;
-
-        warningDisplay.classList.remove(
-            "warning-low",
-            "warning-medium",
-            "warning-high"
+    const count =
+        Number(
+            session?.warnings || 0
         );
 
-        if (count === 0) {
-            warningDisplay.classList.add("warning-low");
-        } else if (count === 1) {
-            warningDisplay.classList.add("warning-medium");
-        } else {
-            warningDisplay.classList.add("warning-high");
-        }
+    warningCount =
+        count;
+
+    if (!warningDisplay) return;
+
+    warningDisplay.textContent =
+        `Warnings: ${count}/${MAX_WARNINGS}`;
+
+    warningDisplay.classList.remove(
+        "warning-low",
+        "warning-medium",
+        "warning-high"
+    );
+
+    if (count === 0) {
+
+        warningDisplay.classList.add(
+            "warning-low"
+        );
+
+    } else if (count === 1) {
+
+        warningDisplay.classList.add(
+            "warning-medium"
+        );
+
+    } else {
+
+        warningDisplay.classList.add(
+            "warning-high"
+        );
     }
 }
 
+
 function showWarning(message) {
 
-    if (!warningBox || !warningMessage) return;
+    if (
+        !warningBox ||
+        !warningMessage
+    ) {
+        return;
+    }
 
-    warningMessage.textContent = message;
+    warningMessage.textContent =
+        message;
 
-    warningBox.classList.add("active");
+    warningBox.classList.add(
+        "active"
+    );
 
     setTimeout(() => {
-        warningBox.classList.remove("active");
+
+        warningBox.classList.remove(
+            "active"
+        );
+
     }, 5000);
 }
 
@@ -179,45 +251,76 @@ ANTI APP-SWITCH / VISIBILITY MONITOR
 
 function registerVisibilityWarning() {
 
-    if (!session || submitting) return;
+    if (
+        !session ||
+        submitting
+    ) {
+        return;
+    }
 
-    const currentStatus = session.status;
+    const currentStatus =
+        session.status;
 
     if (
-        currentStatus !== "in_progress" ||
+        currentStatus !==
+            "in_progress" ||
         !examLoaded
     ) {
         return;
     }
 
-    warningCount = Number(session.warnings || 0);
+    warningCount =
+        Number(
+            session.warnings || 0
+        );
 
     if (document.hidden) {
 
-        if (session.visibilityHidden === true) {
+        if (
+            session.visibilityHidden === true
+        ) {
             return;
         }
 
-        session.visibilityHidden = true;
+        session.visibilityHidden =
+            true;
 
         warningCount++;
 
-        session.warnings = warningCount;
+        session.warnings =
+            warningCount;
 
-        if (!Array.isArray(session.warningEvents)) {
-            session.warningEvents = [];
+        if (
+            !Array.isArray(
+                session.warningEvents
+            )
+        ) {
+
+            session.warningEvents =
+                [];
         }
 
         const warningEvent = {
-            warningNumber: warningCount,
-            reason: "Student left the CBT page or switched application/tab",
-            timestamp: new Date().toISOString()
+
+            warningNumber:
+                warningCount,
+
+            reason:
+                "Student left the CBT page or switched application/tab",
+
+            timestamp:
+                new Date().toISOString()
         };
 
-        session.warningEvents.push(warningEvent);
+        session.warningEvents.push(
+            warningEvent
+        );
 
-        session.lastWarningAt = warningEvent.timestamp;
-        session.lastWarningReason = warningEvent.reason;
+        session.lastWarningAt =
+            warningEvent.timestamp;
+
+        session.lastWarningReason =
+            warningEvent.reason;
 
         saveSession();
 
@@ -227,7 +330,10 @@ function registerVisibilityWarning() {
             `Flexi CBT visibility warning ${warningCount}/${MAX_WARNINGS}`
         );
 
-        if (warningCount >= MAX_WARNINGS) {
+        if (
+            warningCount >=
+            MAX_WARNINGS
+        ) {
 
             autoSubmitExam(
                 "Auto-submitted after 3 visibility/app-switch warnings"
@@ -238,9 +344,12 @@ function registerVisibilityWarning() {
 
     } else {
 
-        if (session.visibilityHidden === true) {
+        if (
+            session.visibilityHidden === true
+        ) {
 
-            session.visibilityHidden = false;
+            session.visibilityHidden =
+                false;
 
             saveSession();
 
@@ -253,129 +362,506 @@ function registerVisibilityWarning() {
     }
 }
 
+
 document.addEventListener(
     "visibilitychange",
     registerVisibilityWarning
 );
 
 
+window.addEventListener(
+    "blur",
+    () => {
+        /*
+         * Blur is deliberately not
+         * counted separately.
+         */
+    }
+);
+
+
+window.addEventListener(
+    "focus",
+    () => {
+        /*
+         * visibilitychange remains
+         * authoritative.
+         */
+    }
+);
+
+
 /*
 =========================================================
-OPTIONAL EXTRA FOCUS MONITOR
-=========================================================
-*/
-
-window.addEventListener("blur", () => {
-    /*
-     * Blur is deliberately not counted separately.
-     */
-});
-
-window.addEventListener("focus", () => {
-    /*
-     * visibilitychange remains the authoritative
-     * anti-switch event.
-     */
-});
-
-
-/*
-=========================================================
-LOAD SUBJECT TABS
+SUBJECT TABS
 =========================================================
 */
 
 function renderSubjectTabs() {
 
     const tabsContainer =
-        document.getElementById("subject-tabs");
+        document.getElementById(
+            "subject-tabs"
+        );
 
     if (!tabsContainer) return;
 
-    tabsContainer.innerHTML = "";
+    tabsContainer.innerHTML =
+        "";
 
-    session.subjects.forEach((subject, subjectIndex) => {
+    session.subjects.forEach(
+        (
+            subject,
+            subjectIndex
+        ) => {
 
-        const button = document.createElement("button");
+            const button =
+                document.createElement(
+                    "button"
+                );
 
-        button.type = "button";
-        button.className = "subject-tab";
+            button.type =
+                "button";
 
-        button.textContent = subject;
+            button.className =
+                "subject-tab";
 
-        button.dataset.subjectIndex =
-            subjectIndex;
+            button.textContent =
+                subject;
 
-        button.addEventListener(
-            "click",
-            () => {
+            button.dataset.subjectIndex =
+                subjectIndex;
 
-                if (submitting) return;
+            button.addEventListener(
+                "click",
+                () => {
 
-                const firstQuestion =
-                    subjectIndex * QUESTIONS_PER_SUBJECT;
+                    if (
+                        submitting
+                    ) {
+                        return;
+                    }
 
-                currentIndex = firstQuestion;
+                    const firstQuestion =
+                        subjectIndex *
+                        QUESTIONS_PER_SUBJECT;
 
-                session.currentQuestionIndex =
-                    currentIndex;
+                    currentIndex =
+                        firstQuestion;
 
-                session.currentSubjectIndex =
-                    subjectIndex;
+                    session.currentQuestionIndex =
+                        currentIndex;
 
-                saveSession();
+                    session.currentSubjectIndex =
+                        subjectIndex;
 
-                renderQuestion();
-            }
-        );
+                    saveSession();
 
-        tabsContainer.appendChild(button);
-    });
+                    renderQuestion();
+                }
+            );
+
+            tabsContainer.appendChild(
+                button
+            );
+        }
+    );
 
     updateSubjectTabs();
 }
 
+
 function updateSubjectTabs() {
 
     const tabs =
-        document.querySelectorAll(".subject-tab");
-
-    tabs.forEach((tab, index) => {
-
-        const start =
-            index * QUESTIONS_PER_SUBJECT;
-
-        const end =
-            start + QUESTIONS_PER_SUBJECT;
-
-        const active =
-            currentIndex >= start &&
-            currentIndex < end;
-
-        tab.classList.toggle(
-            "active",
-            active
+        document.querySelectorAll(
+            ".subject-tab"
         );
 
-        let completed = true;
+    tabs.forEach(
+        (
+            tab,
+            index
+        ) => {
 
-        for (let i = start; i < end; i++) {
+            const start =
+                index *
+                QUESTIONS_PER_SUBJECT;
+
+            const end =
+                start +
+                QUESTIONS_PER_SUBJECT;
+
+            const active =
+                currentIndex >= start &&
+                currentIndex < end;
+
+            tab.classList.toggle(
+                "active",
+                active
+            );
+
+            let completed =
+                true;
+
+            for (
+                let i = start;
+                i < end;
+                i++
+            ) {
+
+                if (
+                    !session.answers ||
+                    session.answers[i] ===
+                        undefined ||
+                    session.answers[i] ===
+                        null
+                ) {
+
+                    completed =
+                        false;
+
+                    break;
+                }
+            }
+
+            tab.classList.toggle(
+                "completed",
+                completed
+            );
+        }
+    );
+}
+
+
+/*
+=========================================================
+PASSAGE HELPERS
+=========================================================
+*/
+
+/*
+ * A question belongs to a passage when
+ * one of these fields exists:
+ *
+ * passageId
+ * passage_id
+ * passage
+ * passageText
+ * passageUrl
+ * passageURL
+ * passageHTML
+ */
+
+function getPassageId(question) {
+
+    if (
+        question.passageId !==
+        undefined &&
+        question.passageId !==
+        null
+    ) {
+
+        return String(
+            question.passageId
+        );
+    }
+
+    if (
+        question.passage_id !==
+        undefined &&
+        question.passage_id !==
+        null
+    ) {
+
+        return String(
+            question.passage_id
+        );
+    }
+
+    return null;
+}
+
+
+function getPassageContent(question) {
+
+    if (
+        question.passageHTML
+    ) {
+
+        return {
+            type: "html",
+            value:
+                String(
+                    question.passageHTML
+                )
+        };
+    }
+
+    if (
+        question.passageText
+    ) {
+
+        return {
+            type: "text",
+            value:
+                String(
+                    question.passageText
+                )
+        };
+    }
+
+    if (
+        question.passage
+    ) {
+
+        return {
+            type:
+                typeof question.passage ===
+                "string"
+                    ? "text"
+                    : "html",
+
+            value:
+                typeof question.passage ===
+                "string"
+                    ? question.passage
+                    : String(
+                        question.passage
+                    )
+        };
+    }
+
+    return null;
+}
+
+
+function getPassageUrl(question) {
+
+    return (
+        question.passageUrl ||
+        question.passageURL ||
+        question.passage_url ||
+        null
+    );
+}
+
+
+function hasPassage(question) {
+
+    return Boolean(
+        getPassageId(question) ||
+        getPassageContent(question) ||
+        getPassageUrl(question)
+    );
+}
+
+
+/*
+=========================================================
+PASSAGE GROUP RANDOMIZATION
+=========================================================
+*/
+
+/*
+ * IMPORTANT:
+ *
+ * Passage questions are treated as a single
+ * unit during randomization.
+ *
+ * Example:
+ *
+ * Passage A
+ *   Q1
+ *   Q2
+ *   Q3
+ *
+ * Passage B
+ *   Q4
+ *   Q5
+ *
+ * They can become:
+ *
+ * Passage B
+ *   Q4
+ *   Q5
+ *
+ * Passage A
+ *   Q1
+ *   Q2
+ *   Q3
+ *
+ * But Q1/Q2/Q3 can NEVER be separated.
+ */
+
+function createQuestionGroups(
+    questions
+) {
+
+    const groups = [];
+
+    const passageGroups =
+        new Map();
+
+    questions.forEach(
+        (
+            question,
+            index
+        ) => {
+
+            const passageId =
+                getPassageId(
+                    question
+                );
 
             if (
-                !session.answers ||
-                session.answers[i] === undefined ||
-                session.answers[i] === null
+                passageId
             ) {
-                completed = false;
-                break;
+
+                if (
+                    !passageGroups.has(
+                        passageId
+                    )
+                ) {
+
+                    const group = {
+
+                        type:
+                            "passage",
+
+                        passageId:
+                            passageId,
+
+                        passageQuestionIndexes:
+                            [],
+
+                        questions:
+                            []
+                    };
+
+                    passageGroups.set(
+                        passageId,
+                        group
+                    );
+
+                    groups.push(
+                        group
+                    );
+                }
+
+                const group =
+                    passageGroups.get(
+                        passageId
+                    );
+
+                group.questions.push(
+                    question
+                );
+
+                group.passageQuestionIndexes.push(
+                    index
+                );
+
+            } else {
+
+                groups.push({
+
+                    type:
+                        "single",
+
+                    questions:
+                        [question]
+                });
             }
         }
+    );
 
-        tab.classList.toggle(
-            "completed",
-            completed
+    return groups;
+}
+
+
+function shuffleArray(array) {
+
+    const result =
+        [...array];
+
+    for (
+        let i =
+            result.length - 1;
+        i > 0;
+        i--
+    ) {
+
+        const j =
+            Math.floor(
+                Math.random() *
+                (i + 1)
+            );
+
+        [
+            result[i],
+            result[j]
+        ] =
+        [
+            result[j],
+            result[i]
+        ];
+    }
+
+    return result;
+}
+
+
+function randomizeQuestionGroups(
+    questions
+) {
+
+    /*
+     * Only randomize inside a subject.
+     *
+     * Passage groups remain intact.
+     */
+
+    const groups =
+        createQuestionGroups(
+            questions
         );
-    });
+
+    const randomizedGroups =
+        shuffleArray(
+            groups
+        );
+
+    const result = [];
+
+    randomizedGroups.forEach(
+        group => {
+
+            /*
+             * The questions inside
+             * a passage remain in their
+             * original order.
+             */
+
+            if (
+                group.type ===
+                "passage"
+            ) {
+
+                result.push(
+                    ...group.questions
+                );
+
+            } else {
+
+                result.push(
+                    ...group.questions
+                );
+            }
+        }
+    );
+
+    return result;
 }
 
 
@@ -388,20 +874,32 @@ LOAD QUESTION BANKS
 async function loadQuestionBanks() {
 
     if (!session) {
-        alert("Exam session not found.");
-        window.location.href = "index.html";
+
+        alert(
+            "Exam session not found."
+        );
+
+        window.location.href =
+            "index.html";
+
         return;
     }
 
     if (
-        !Array.isArray(session.subjects) ||
-        session.subjects.length !== 4
+        !Array.isArray(
+            session.subjects
+        ) ||
+        session.subjects.length !==
+            4
     ) {
+
         alert(
             "Invalid exam setup. Four subjects are required."
         );
 
-        window.location.href = "subjects.html";
+        window.location.href =
+            "subjects.html";
+
         return;
     }
 
@@ -409,40 +907,62 @@ async function loadQuestionBanks() {
 
     for (
         let subjectIndex = 0;
-        subjectIndex < session.subjects.length;
+        subjectIndex <
+            session.subjects.length;
         subjectIndex++
     ) {
 
         const subject =
-            session.subjects[subjectIndex];
+            session.subjects[
+                subjectIndex
+            ];
 
         const filename =
-            subjectFileMap[subject];
+            subjectFileMap[
+                subject
+            ];
 
         if (!filename) {
+
             throw new Error(
                 `Question bank not found for ${subject}`
             );
         }
 
         const response =
-            await fetch(`./${filename}`, {
-                cache: "no-store"
-            });
+            await fetch(
+                `./${filename}`,
+                {
+                    cache:
+                        "no-store"
+                }
+            );
 
         if (!response.ok) {
+
             throw new Error(
                 `Unable to load ${filename}`
             );
         }
 
-        const bank = await response.json();
+        const bank =
+            await response.json();
 
-        if (!Array.isArray(bank)) {
+        if (
+            !Array.isArray(bank)
+        ) {
+
             throw new Error(
                 `${filename} does not contain a question array`
             );
         }
+
+        /*
+         * Take enough questions to
+         * preserve the existing
+         * 15-question-per-subject
+         * behaviour.
+         */
 
         const questions =
             bank.slice(
@@ -454,13 +974,35 @@ async function loadQuestionBanks() {
             questions.length !==
             QUESTIONS_PER_SUBJECT
         ) {
+
             throw new Error(
                 `${subject} contains only ${questions.length} questions. Exactly 15 are required.`
             );
         }
 
-        questions.forEach(
-            (question, localIndex) => {
+
+        /*
+         * English passage-aware
+         * randomization.
+         *
+         * Other subjects keep the
+         * same question order.
+         */
+
+        const processedQuestions =
+            subject ===
+            "Use of English"
+                ? randomizeQuestionGroups(
+                    questions
+                )
+                : questions;
+
+
+        processedQuestions.forEach(
+            (
+                question,
+                localIndex
+            ) => {
 
                 examQuestions.push({
 
@@ -486,11 +1028,196 @@ async function loadQuestionBanks() {
         examQuestions.length !==
         TOTAL_QUESTIONS
     ) {
+
         throw new Error(
             `Exam contains ${examQuestions.length} questions instead of ${TOTAL_QUESTIONS}.`
         );
     }
 }
+
+
+/*
+=========================================================
+PASSAGE IFRAME
+=========================================================
+*/
+
+function openPassage(question) {
+
+    if (
+        !hasPassage(question)
+    ) {
+        return;
+    }
+
+    currentPassage =
+        question;
+
+    const modal =
+        document.getElementById(
+            "passage-modal"
+        );
+
+    const iframe =
+        document.getElementById(
+            "passage-iframe"
+        );
+
+    const title =
+        document.getElementById(
+            "passage-title"
+        );
+
+    title.textContent =
+        question.passageTitle ||
+        "Comprehension Passage";
+
+    const passageUrl =
+        getPassageUrl(
+            question
+        );
+
+    if (passageUrl) {
+
+        iframe.removeAttribute(
+            "srcdoc"
+        );
+
+        iframe.src =
+            passageUrl;
+
+    } else {
+
+        const content =
+            getPassageContent(
+                question
+            );
+
+        if (!content) {
+            return;
+        }
+
+        const safeContent =
+            content.type === "html"
+                ? content.value
+                : escapeHTML(
+                    content.value
+                ).replace(
+                    /\n/g,
+                    "<br>"
+                );
+
+        iframe.srcdoc = `
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+>
+
+<style>
+
+body {
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    line-height:
+        1.75;
+
+    font-size:
+        17px;
+
+    color:
+        #222;
+
+    background:
+        #ffffff;
+
+    padding:
+        25px;
+
+    margin:
+        0;
+
+}
+
+h1,
+h2,
+h3 {
+
+    color:
+        #1b5e20;
+
+}
+
+p {
+
+    margin-bottom:
+        18px;
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+${safeContent}
+
+</body>
+
+</html>
+        `;
+    }
+
+    modal.classList.add(
+        "active"
+    );
+}
+
+
+window.openPassage =
+    openPassage;
+
+
+window.closePassage =
+    function() {
+
+        const modal =
+            document.getElementById(
+                "passage-modal"
+            );
+
+        const iframe =
+            document.getElementById(
+                "passage-iframe"
+            );
+
+        modal.classList.remove(
+            "active"
+        );
+
+        iframe.src =
+            "about:blank";
+
+        iframe.removeAttribute(
+            "srcdoc"
+        );
+
+        currentPassage =
+            null;
+    };
 
 
 /*
@@ -501,12 +1228,21 @@ RENDER QUESTION
 
 function renderQuestion() {
 
-    if (!examQuestions.length) return;
+    if (
+        !examQuestions.length
+    ) {
+        return;
+    }
 
     const question =
-        examQuestions[currentIndex];
+        examQuestions[
+            currentIndex
+        ];
 
-    if (!question) return;
+    if (!question) {
+        return;
+    }
+
 
     const questionCounter =
         document.getElementById(
@@ -528,51 +1264,123 @@ function renderQuestion() {
             "options-container"
         );
 
+
     questionCounter.textContent =
         `Question ${currentIndex + 1} of ${TOTAL_QUESTIONS}`;
+
 
     subjectLabel.textContent =
         `${question.subject} • Question ${question.questionInSubject} of ${QUESTIONS_PER_SUBJECT}`;
 
+
     questionText.innerHTML =
         question.question || "";
 
-    optionsContainer.innerHTML = "";
+
+    optionsContainer.innerHTML =
+        "";
+
+
+    /*
+     * Passage button.
+     */
+
+    if (
+        hasPassage(question)
+    ) {
+
+        const passageButton =
+            document.createElement(
+                "button"
+            );
+
+        passageButton.type =
+            "button";
+
+        passageButton.className =
+            "passage-open-btn";
+
+        passageButton.innerHTML =
+            "📖 Open Passage";
+
+        passageButton.addEventListener(
+            "click",
+            () => {
+                openPassage(
+                    question
+                );
+            }
+        );
+
+        optionsContainer.appendChild(
+            passageButton
+        );
+    }
+
 
     const options =
-        Array.isArray(question.options)
+        Array.isArray(
+            question.options
+        )
             ? question.options
             : [];
 
+
     options.forEach(
-        (option, optionIndex) => {
+        (
+            option,
+            optionIndex
+        ) => {
 
             const label =
-                document.createElement("label");
+                document.createElement(
+                    "label"
+                );
 
             label.className =
                 "option-label";
 
-            const radio =
-                document.createElement("input");
 
-            radio.type = "radio";
-            radio.name = "answer";
+            const radio =
+                document.createElement(
+                    "input"
+                );
+
+            radio.type =
+                "radio";
+
+            radio.name =
+                "answer";
+
             radio.value =
-                String(optionIndex);
+                String(
+                    optionIndex
+                );
+
 
             const savedAnswer =
                 session.answers?.[
                     currentIndex
                 ];
 
+
             if (
-                savedAnswer !== undefined &&
-                Number(savedAnswer) === optionIndex
+                savedAnswer !==
+                    undefined &&
+                Number(
+                    savedAnswer
+                ) ===
+                    optionIndex
             ) {
-                radio.checked = true;
-                label.classList.add("selected");
+
+                radio.checked =
+                    true;
+
+                label.classList.add(
+                    "selected"
+                );
             }
+
 
             radio.addEventListener(
                 "change",
@@ -580,7 +1388,8 @@ function renderQuestion() {
 
                     session.answers[
                         currentIndex
-                    ] = optionIndex;
+                    ] =
+                        optionIndex;
 
                     saveSession();
 
@@ -600,23 +1409,31 @@ function renderQuestion() {
                     );
 
                     updatePalette();
+
                     updateSubjectTabs();
                 }
             );
 
+
             const letter =
-                document.createElement("span");
+                document.createElement(
+                    "span"
+                );
 
             letter.className =
                 "option-letter";
 
             letter.textContent =
                 String.fromCharCode(
-                    65 + optionIndex
+                    65 +
+                    optionIndex
                 ) + ".";
 
+
             const text =
-                document.createElement("span");
+                document.createElement(
+                    "span"
+                );
 
             text.className =
                 "option-text";
@@ -624,9 +1441,18 @@ function renderQuestion() {
             text.innerHTML =
                 option;
 
-            label.appendChild(radio);
-            label.appendChild(letter);
-            label.appendChild(text);
+
+            label.appendChild(
+                radio
+            );
+
+            label.appendChild(
+                letter
+            );
+
+            label.appendChild(
+                text
+            );
 
             optionsContainer.appendChild(
                 label
@@ -634,10 +1460,12 @@ function renderQuestion() {
         }
     );
 
+
     document.getElementById(
         "prev-btn"
     ).disabled =
         currentIndex === 0;
+
 
     document.getElementById(
         "next-btn"
@@ -647,14 +1475,18 @@ function renderQuestion() {
             ? "Submit Exam"
             : "Next";
 
+
     updatePalette();
+
     updateSubjectTabs();
+
 
     if (
         window.MathJax &&
         typeof MathJax.typesetPromise ===
             "function"
     ) {
+
         MathJax.typesetPromise();
     }
 }
@@ -666,42 +1498,48 @@ NAVIGATION
 =========================================================
 */
 
-window.nextQuestion = function() {
+window.nextQuestion =
+    function() {
 
-    if (submitting) return;
+        if (submitting) {
+            return;
+        }
 
-    if (
-        currentIndex ===
-        TOTAL_QUESTIONS - 1
-    ) {
+        if (
+            currentIndex ===
+            TOTAL_QUESTIONS - 1
+        ) {
 
-        showSubmitConfirmation();
+            showSubmitConfirmation();
 
-        return;
-    }
+            return;
+        }
 
-    currentIndex++;
+        currentIndex++;
 
-    persistPosition();
+        persistPosition();
 
-    renderQuestion();
-};
+        renderQuestion();
+    };
 
-window.prevQuestion = function() {
 
-    if (
-        submitting ||
-        currentIndex <= 0
-    ) {
-        return;
-    }
+window.prevQuestion =
+    function() {
 
-    currentIndex--;
+        if (
+            submitting ||
+            currentIndex <= 0
+        ) {
+            return;
+        }
 
-    persistPosition();
+        currentIndex--;
 
-    renderQuestion();
-};
+        persistPosition();
+
+        renderQuestion();
+    };
+
 
 function persistPosition() {
 
@@ -731,17 +1569,27 @@ function renderPalette() {
             "palette-grid"
         );
 
-    if (!grid) return;
+    if (!grid) {
+        return;
+    }
 
-    grid.innerHTML = "";
+    grid.innerHTML =
+        "";
+
 
     examQuestions.forEach(
-        (question, index) => {
+        (
+            question,
+            index
+        ) => {
 
             const button =
-                document.createElement("button");
+                document.createElement(
+                    "button"
+                );
 
-            button.type = "button";
+            button.type =
+                "button";
 
             button.className =
                 "palette-btn";
@@ -749,46 +1597,65 @@ function renderPalette() {
             button.textContent =
                 index + 1;
 
+
             if (
                 session.answers &&
                 session.answers[index] !==
                     undefined
             ) {
+
                 button.classList.add(
                     "answered"
                 );
             }
 
-            if (index === currentIndex) {
+
+            if (
+                index ===
+                currentIndex
+            ) {
+
                 button.classList.add(
                     "current"
                 );
             }
 
+
             const subjectStart =
                 question.subjectIndex *
                 QUESTIONS_PER_SUBJECT;
+
 
             const subjectEnd =
                 subjectStart +
                 QUESTIONS_PER_SUBJECT;
 
+
             if (
-                index >= subjectStart &&
-                index < subjectEnd
+                index >=
+                    subjectStart &&
+                index <
+                    subjectEnd
             ) {
+
                 button.classList.add(
                     "subject-current"
                 );
             }
 
+
             button.addEventListener(
                 "click",
                 () => {
 
-                    if (submitting) return;
+                    if (
+                        submitting
+                    ) {
+                        return;
+                    }
 
-                    currentIndex = index;
+                    currentIndex =
+                        index;
 
                     persistPosition();
 
@@ -796,12 +1663,17 @@ function renderPalette() {
                 }
             );
 
-            grid.appendChild(button);
+
+            grid.appendChild(
+                button
+            );
         }
     );
 }
 
+
 function updatePalette() {
+
     renderPalette();
 }
 
@@ -823,24 +1695,36 @@ function startTimer() {
                 ).getTime()
                 : Date.now();
 
+
         if (!session.startedAt) {
+
             session.startedAt =
-                new Date(start).toISOString();
+                new Date(
+                    start
+                ).toISOString();
         }
+
 
         session.endTime =
             new Date(
                 start +
-                EXAM_DURATION_SECONDS * 1000
+                EXAM_DURATION_SECONDS *
+                1000
             ).toISOString();
+
 
         session.durationSeconds =
             EXAM_DURATION_SECONDS;
 
+
         saveSession();
     }
 
-    clearInterval(timerInterval);
+
+    clearInterval(
+        timerInterval
+    );
+
 
     function tick() {
 
@@ -857,30 +1741,44 @@ function startTimer() {
                 )
             );
 
+
         const minutes =
             Math.floor(
                 remaining / 60
             );
 
+
         const seconds =
             remaining % 60;
+
 
         timerEl.textContent =
             `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
 
-        if (remaining <= 60) {
+
+        if (
+            remaining <= 60
+        ) {
+
             timerEl.classList.add(
                 "warning"
             );
+
         } else {
+
             timerEl.classList.remove(
                 "warning"
             );
         }
 
-        if (remaining <= 0) {
 
-            clearInterval(timerInterval);
+        if (
+            remaining <= 0
+        ) {
+
+            clearInterval(
+                timerInterval
+            );
 
             autoSubmitExam(
                 "Auto-submitted because the 10-minute exam time expired"
@@ -888,10 +1786,15 @@ function startTimer() {
         }
     }
 
+
     tick();
 
+
     timerInterval =
-        setInterval(tick, 500);
+        setInterval(
+            tick,
+            500
+        );
 }
 
 
@@ -913,35 +1816,51 @@ function showSubmitConfirmation() {
             "submission-message"
         );
 
+
     message.textContent =
         "Are you sure you want to submit your exam? You will not be able to return to it.";
 
-    modal.classList.add("active");
+
+    modal.classList.add(
+        "active"
+    );
+
 
     document.getElementById(
         "confirm-submit-btn"
-    ).style.display = "inline-block";
+    ).style.display =
+        "inline-block";
+
 
     document.getElementById(
         "cancel-submit-btn"
-    ).style.display = "inline-block";
+    ).style.display =
+        "inline-block";
 }
 
-window.cancelSubmission = function() {
 
-    document.getElementById(
-        "submission-modal"
-    ).classList.remove("active");
-};
+window.cancelSubmission =
+    function() {
 
-window.confirmSubmission = function() {
+        document.getElementById(
+            "submission-modal"
+        ).classList.remove(
+            "active"
+        );
+    };
 
-    if (submitting) return;
 
-    autoSubmitExam(
-        "Candidate manually submitted the examination"
-    );
-};
+window.confirmSubmission =
+    function() {
+
+        if (submitting) {
+            return;
+        }
+
+        autoSubmitExam(
+            "Candidate manually submitted the examination"
+        );
+    };
 
 
 /*
@@ -950,72 +1869,99 @@ AUTO SUBMIT
 =========================================================
 */
 
-async function autoSubmitExam(reason) {
+async function autoSubmitExam(
+    reason
+) {
 
-    if (submitting) return;
+    if (submitting) {
+        return;
+    }
 
-    submitting = true;
+    submitting =
+        true;
 
-    clearInterval(timerInterval);
 
-    /*
-     * Mark session as submitted locally BEFORE
-     * sending to Firestore.
-     */
-    session.status = "submitted";
-    session.stage = "submitted";
+    clearInterval(
+        timerInterval
+    );
+
+
+    session.status =
+        "submitted";
+
+    session.stage =
+        "submitted";
+
 
     session.submittedAt =
         new Date().toISOString();
 
+
     session.submissionReason =
         reason;
+
 
     session.reasonForSubmission =
         reason;
 
+
     session.autoSubmitted =
-        reason.startsWith("Auto-submitted");
+        reason.startsWith(
+            "Auto-submitted"
+        );
+
 
     session.warningCount =
-        Number(session.warnings || 0);
+        Number(
+            session.warnings || 0
+        );
+
 
     saveSession();
 
-    /*
-     * Lock the UI.
-     */
+
     document
-        .querySelectorAll("button, input")
-        .forEach(element => {
-            element.disabled = true;
-        });
+        .querySelectorAll(
+            "button, input"
+        )
+        .forEach(
+            element => {
+
+                element.disabled =
+                    true;
+            }
+        );
+
 
     const modal =
         document.getElementById(
             "submission-modal"
         );
 
+
     const message =
         document.getElementById(
             "submission-message"
         );
 
-    modal.classList.add("active");
+
+    modal.classList.add(
+        "active"
+    );
+
 
     message.textContent =
         "Submitting your examination. Please wait...";
 
+
     try {
 
-        /*
-         * Idempotency check.
-         */
         const submissionsRef =
             collection(
                 db,
                 "cbt_submissions"
             );
+
 
         const existingQuery =
             query(
@@ -1027,31 +1973,25 @@ async function autoSubmitExam(reason) {
                 )
             );
 
-        const existingSnapshot =
-            await getDocs(existingQuery);
 
-        /*
-         * Calculate the score ONCE.
-         *
-         * This object contains:
-         * - total /400
-         * - individual subject /100
-         * - correct
-         * - wrong
-         * - unanswered
-         */
+        const existingSnapshot =
+            await getDocs(
+                existingQuery
+            );
+
+
         const scoreResult =
             calculateScore();
 
-        if (existingSnapshot.empty) {
+
+        if (
+            existingSnapshot.empty
+        ) {
 
             await addDoc(
                 submissionsRef,
                 {
 
-                    /*
-                     * Candidate
-                     */
                     candidateId:
                         session.candidateId,
 
@@ -1067,9 +2007,6 @@ async function autoSubmitExam(reason) {
                     examType:
                         session.examType,
 
-                    /*
-                     * Exam structure
-                     */
                     subjects:
                         session.subjects,
 
@@ -1082,18 +2019,13 @@ async function autoSubmitExam(reason) {
                     durationSeconds:
                         EXAM_DURATION_SECONDS,
 
-                    /*
-                     * Answers
-                     */
                     answers:
-                        session.answers || {},
+                        session.answers ||
+                        {},
 
                     answeredCount:
                         scoreResult.totalAnswered,
 
-                    /*
-                     * JAMB-style score
-                     */
                     score:
                         scoreResult.totalScore,
 
@@ -1112,36 +2044,30 @@ async function autoSubmitExam(reason) {
                     unansweredCount:
                         scoreResult.totalUnanswered,
 
-                    /*
-                     * Individual subject scores
-                     */
                     subjectScores:
                         scoreResult.subjectScores,
 
-                    /*
-                     * Raw negative-marking data
-                     */
                     rawTotalScore:
                         scoreResult.rawTotalScore,
 
                     scoringMethod:
                         "Correct +1, Wrong -0.25, Unanswered 0; each subject scaled to /100",
 
-                    /*
-                     * Anti-switch records
-                     */
                     warningCount:
                         Number(
-                            session.warnings || 0
+                            session.warnings ||
+                            0
                         ),
 
                     warnings:
                         Number(
-                            session.warnings || 0
+                            session.warnings ||
+                            0
                         ),
 
                     warningEvents:
-                        session.warningEvents || [],
+                        session.warningEvents ||
+                        [],
 
                     lastWarningAt:
                         session.lastWarningAt ||
@@ -1151,9 +2077,6 @@ async function autoSubmitExam(reason) {
                         session.lastWarningReason ||
                         null,
 
-                    /*
-                     * Submission information
-                     */
                     autoSubmitted:
                         Boolean(
                             session.autoSubmitted
@@ -1185,33 +2108,39 @@ async function autoSubmitExam(reason) {
             );
         }
 
-        /*
-         * Show detailed final score.
-         */
+
         const subjectScoreHTML =
             scoreResult.subjectScores
-                .map(subject => `
-                    <div style="
-                        display:flex;
-                        justify-content:space-between;
-                        align-items:center;
-                        gap:12px;
-                        padding:8px 0;
-                        border-bottom:1px solid #e0e0e0;
-                    ">
-                        <span>
-                            ${escapeHTML(subject.subject)}
-                        </span>
-                        <strong>
-                            ${subject.score}/100
-                        </strong>
-                    </div>
-                `)
+                .map(
+                    subject => `
+                        <div style="
+                            display:flex;
+                            justify-content:space-between;
+                            align-items:center;
+                            gap:12px;
+                            padding:8px 0;
+                            border-bottom:1px solid #e0e0e0;
+                        ">
+                            <span>
+                                ${escapeHTML(
+                                    subject.subject
+                                )}
+                            </span>
+
+                            <strong>
+                                ${subject.score}/100
+                            </strong>
+                        </div>
+                    `
+                )
                 .join("");
 
-        message.innerHTML =
-            `
-            <strong>Examination Submitted Successfully.</strong>
+
+        message.innerHTML = `
+
+            <strong>
+                Examination Submitted Successfully.
+            </strong>
 
             <br><br>
 
@@ -1247,8 +2176,10 @@ async function autoSubmitExam(reason) {
                 font-size:1.15rem;
                 font-weight:800;
             ">
+
                 TOTAL SCORE:
                 ${scoreResult.totalScore}/400
+
             </div>
 
             <div style="
@@ -1256,11 +2187,20 @@ async function autoSubmitExam(reason) {
                 font-size:.82rem;
                 color:#666;
             ">
-                Correct: ${scoreResult.totalCorrect}
+
+                Correct:
+                ${scoreResult.totalCorrect}
+
                 &nbsp; • &nbsp;
-                Wrong: ${scoreResult.totalWrong}
+
+                Wrong:
+                ${scoreResult.totalWrong}
+
                 &nbsp; • &nbsp;
-                Unanswered: ${scoreResult.totalUnanswered}
+
+                Unanswered:
+                ${scoreResult.totalUnanswered}
+
             </div>
 
             <div style="
@@ -1268,26 +2208,38 @@ async function autoSubmitExam(reason) {
                 font-size:.75rem;
                 color:#777;
             ">
-                Scoring: +1 correct, −0.25 wrong, 0 unanswered
+
+                Scoring:
+                +1 correct,
+                −0.25 wrong,
+                0 unanswered
+
             </div>
-            `;
+        `;
+
 
         document.getElementById(
             "confirm-submit-btn"
-        ).style.display = "none";
+        ).style.display =
+            "none";
+
 
         document.getElementById(
             "cancel-submit-btn"
-        ).style.display = "none";
+        ).style.display =
+            "none";
 
-        /*
-         * Give the candidate a short delay before
-         * returning to the landing page.
-         */
-        setTimeout(() => {
-            window.location.href =
-                "index.html";
-        }, 7000);
+
+        setTimeout(
+            () => {
+
+                window.location.href =
+                    "index.html";
+
+            },
+            7000
+        );
+
 
     } catch (error) {
 
@@ -1296,75 +2248,89 @@ async function autoSubmitExam(reason) {
             error
         );
 
-        /*
-         * Keep the local submitted state.
-         */
-        message.innerHTML =
-            `
-            <strong>Submission could not be completed.</strong>
+
+        message.innerHTML = `
+
+            <strong>
+                Submission could not be completed.
+            </strong>
+
             <br><br>
+
             Your exam has been locked locally.
-            Please check your internet connection and try again.
-            `;
+            Please check your internet connection
+            and try again.
 
-        submitting = false;
+        `;
 
-        /*
-         * Re-enable controls.
-         */
+
+        submitting =
+            false;
+
+
         document
-            .querySelectorAll("button, input")
-            .forEach(element => {
-                element.disabled = false;
-            });
+            .querySelectorAll(
+                "button, input"
+            )
+            .forEach(
+                element => {
+
+                    element.disabled =
+                        false;
+                }
+            );
     }
 }
 
 
 /*
 =========================================================
-JAMB-STYLE SCORE CALCULATION
+SCORE CALCULATION
 =========================================================
 */
 
 function calculateScore() {
 
-    /*
-     * We calculate each of the four selected
-     * subjects independently.
-     *
-     * Every subject has 15 questions.
-     *
-     * Raw subject score:
-     *
-     * correct × 1
-     * +
-     * wrong × -0.25
-     *
-     * The raw score is then converted to /100.
-     */
-
     const subjectScores = [];
 
-    let totalCorrect = 0;
-    let totalWrong = 0;
-    let totalUnanswered = 0;
-    let rawTotalScore = 0;
+    let totalCorrect =
+        0;
+
+    let totalWrong =
+        0;
+
+    let totalUnanswered =
+        0;
+
+    let rawTotalScore =
+        0;
+
 
     session.subjects.forEach(
-        (subject, subjectIndex) => {
+        (
+            subject,
+            subjectIndex
+        ) => {
 
-            let correct = 0;
-            let wrong = 0;
-            let unanswered = 0;
+            let correct =
+                0;
+
+            let wrong =
+                0;
+
+            let unanswered =
+                0;
+
 
             const start =
                 subjectIndex *
                 QUESTIONS_PER_SUBJECT;
 
+
             const end =
                 start +
                 QUESTIONS_PER_SUBJECT;
+
 
             for (
                 let index = start;
@@ -1373,28 +2339,36 @@ function calculateScore() {
             ) {
 
                 const question =
-                    examQuestions[index];
+                    examQuestions[
+                        index
+                    ];
+
 
                 const selected =
-                    session.answers?.[index];
+                    session.answers?.[
+                        index
+                    ];
 
-                /*
-                 * No answer selected.
-                 */
+
                 if (
-                    selected === undefined ||
-                    selected === null ||
-                    selected === ""
+                    selected ===
+                        undefined ||
+                    selected ===
+                        null ||
+                    selected ===
+                        ""
                 ) {
+
                     unanswered++;
+
                     continue;
                 }
 
-                let correctIndex = -1;
 
-                /*
-                 * Support numeric answer indexes.
-                 */
+                let correctIndex =
+                    -1;
+
+
                 if (
                     typeof question.answer ===
                     "number"
@@ -1403,13 +2377,7 @@ function calculateScore() {
                     correctIndex =
                         question.answer;
 
-                }
-
-                /*
-                 * Support A/B/C/D answers or
-                 * answer text.
-                 */
-                else if (
+                } else if (
                     typeof question.answer ===
                     "string"
                 ) {
@@ -1419,13 +2387,17 @@ function calculateScore() {
                             .trim()
                             .toUpperCase();
 
+
                     if (
-                        /^[A-D]$/.test(answer)
+                        /^[A-D]$/.test(
+                            answer
+                        )
                     ) {
 
                         correctIndex =
-                            answer.charCodeAt(0) -
-                            65;
+                            answer.charCodeAt(
+                                0
+                            ) - 65;
 
                     } else {
 
@@ -1433,8 +2405,9 @@ function calculateScore() {
                             question.options
                                 ?.findIndex(
                                     option =>
-                                        String(option)
-                                            .trim() ===
+                                        String(
+                                            option
+                                        ).trim() ===
                                         String(
                                             question.answer
                                         ).trim()
@@ -1442,9 +2415,7 @@ function calculateScore() {
                     }
                 }
 
-                /*
-                 * Correct answer.
-                 */
+
                 if (
                     Number(selected) ===
                     Number(correctIndex)
@@ -1452,35 +2423,24 @@ function calculateScore() {
 
                     correct++;
 
-                }
-
-                /*
-                 * Answered but incorrect.
-                 */
-                else {
+                } else {
 
                     wrong++;
-
                 }
             }
 
-            /*
-             * Raw score before scaling.
-             */
+
             const rawScore =
                 (
-                    correct * CORRECT_MARK
+                    correct *
+                    CORRECT_MARK
                 ) +
                 (
-                    wrong * WRONG_MARK
+                    wrong *
+                    WRONG_MARK
                 );
 
-            /*
-             * Convert the 15-question subject
-             * to a score out of 100.
-             *
-             * Minimum is clamped to 0.
-             */
+
             const scaledScore =
                 Math.max(
                     0,
@@ -1489,123 +2449,117 @@ function calculateScore() {
                         (
                             rawScore /
                             QUESTIONS_PER_SUBJECT
-                        ) * 100
+                        ) *
+                        100
                     )
                 );
 
-            /*
-             * Round to 2 decimal places.
-             */
+
             const finalScore =
                 Math.round(
-                    scaledScore * 100
+                    scaledScore *
+                    100
                 ) / 100;
+
 
             subjectScores.push({
 
                 subject:
-
                     subject,
 
                 subjectIndex:
-
                     subjectIndex,
 
                 questions:
-
                     QUESTIONS_PER_SUBJECT,
 
                 correct:
-
                     correct,
 
                 wrong:
-
                     wrong,
 
                 unanswered:
-
                     unanswered,
 
                 rawScore:
-
                     Math.round(
-                        rawScore * 100
+                        rawScore *
+                        100
                     ) / 100,
 
                 score:
-
                     finalScore,
 
                 maxScore:
-
                     100
             });
 
-            totalCorrect += correct;
-            totalWrong += wrong;
-            totalUnanswered += unanswered;
 
-            rawTotalScore += rawScore;
+            totalCorrect +=
+                correct;
+
+            totalWrong +=
+                wrong;
+
+            totalUnanswered +=
+                unanswered;
+
+            rawTotalScore +=
+                rawScore;
         }
     );
 
-    /*
-     * Total score is the sum of the four
-     * subject scores.
-     *
-     * Maximum = 400.
-     */
+
     const totalScore =
         subjectScores.reduce(
-            (total, subject) =>
-                total + Number(subject.score || 0),
+            (
+                total,
+                subject
+            ) =>
+                total +
+                Number(
+                    subject.score ||
+                    0
+                ),
             0
         );
 
+
     const roundedTotalScore =
         Math.round(
-            totalScore * 100
+            totalScore *
+            100
         ) / 100;
+
 
     const totalAnswered =
         totalCorrect +
         totalWrong;
 
+
     return {
 
-        subjectScores:
-
-            subjectScores,
+        subjectScores,
 
         totalScore:
-
             roundedTotalScore,
 
         maxScore:
-
             400,
 
-        totalCorrect:
+        totalCorrect,
 
-            totalCorrect,
+        totalWrong,
 
-        totalWrong:
+        totalUnanswered,
 
-            totalWrong,
-
-        totalUnanswered:
-
-            totalUnanswered,
-
-        totalAnswered:
-
-            totalAnswered,
+        totalAnswered,
 
         rawTotalScore:
-
             Math.round(
-                rawTotalScore * 100
+                rawTotalScore *
+                100
             ) / 100
     };
 }
@@ -1620,11 +2574,26 @@ ESCAPE HTML
 function escapeHTML(value) {
 
     return String(value)
-        .replaceAll("&", "&amp;")
-        .replaceAll("<", "&lt;")
-        .replaceAll(">", "&gt;")
-        .replaceAll('"', "&quot;")
-        .replaceAll("'", "&#039;");
+        .replaceAll(
+            "&",
+            "&amp;"
+        )
+        .replaceAll(
+            "<",
+            "&lt;"
+        )
+        .replaceAll(
+            ">",
+            "&gt;"
+        )
+        .replaceAll(
+            '"',
+            "&quot;"
+        )
+        .replaceAll(
+            "'",
+            "&#039;"
+        );
 }
 
 
@@ -1634,89 +2603,108 @@ CALCULATOR
 =========================================================
 */
 
-window.toggleCalculator = function() {
+window.toggleCalculator =
+    function() {
 
-    const calculator =
+        const calculator =
+            document.getElementById(
+                "calculator-modal"
+            );
+
+        calculator.classList.toggle(
+            "active"
+        );
+    };
+
+
+window.closeCalculator =
+    function() {
+
         document.getElementById(
             "calculator-modal"
+        ).classList.remove(
+            "active"
         );
+    };
 
-    calculator.classList.toggle(
-        "active"
-    );
-};
 
-window.closeCalculator = function() {
+window.calcInput =
+    function(value) {
 
-    document.getElementById(
-        "calculator-modal"
-    ).classList.remove("active");
-};
-
-window.calcInput = function(value) {
-
-    const screen =
-        document.getElementById(
-            "calc-screen"
-        );
-
-    screen.value += value;
-};
-
-window.calcClear = function() {
-
-    document.getElementById(
-        "calc-screen"
-    ).value = "";
-};
-
-window.calcDelete = function() {
-
-    const screen =
-        document.getElementById(
-            "calc-screen"
-        );
-
-    screen.value =
-        screen.value.slice(0, -1);
-};
-
-window.calcEquals = function() {
-
-    const screen =
-        document.getElementById(
-            "calc-screen"
-        );
-
-    try {
-
-        const expression =
-            screen.value;
-
-        /*
-         * Only allow calculator-safe characters.
-         */
-        if (
-            !/^[0-9+\-*/().%\s]+$/.test(
-                expression
-            )
-        ) {
-            throw new Error(
-                "Invalid expression"
+        const screen =
+            document.getElementById(
+                "calc-screen"
             );
+
+        screen.value +=
+            value;
+    };
+
+
+window.calcClear =
+    function() {
+
+        document.getElementById(
+            "calc-screen"
+        ).value =
+            "";
+    };
+
+
+window.calcDelete =
+    function() {
+
+        const screen =
+            document.getElementById(
+                "calc-screen"
+            );
+
+        screen.value =
+            screen.value.slice(
+                0,
+                -1
+            );
+    };
+
+
+window.calcEquals =
+    function() {
+
+        const screen =
+            document.getElementById(
+                "calc-screen"
+            );
+
+        try {
+
+            const expression =
+                screen.value;
+
+
+            if (
+                !/^[0-9+\-*/().%\s]+$/.test(
+                    expression
+                )
+            ) {
+
+                throw new Error(
+                    "Invalid expression"
+                );
+            }
+
+
+            screen.value =
+                Function(
+                    `"use strict"; return (${expression})`
+                )();
+
+
+        } catch {
+
+            screen.value =
+                "Error";
         }
-
-        screen.value =
-            Function(
-                `"use strict"; return (${expression})`
-            )();
-
-    } catch {
-
-        screen.value =
-            "Error";
-    }
-};
+    };
 
 
 /*
@@ -1731,8 +2719,10 @@ async function requestFullscreen() {
 
         if (
             !document.fullscreenElement &&
-            document.documentElement.requestFullscreen
+            document.documentElement
+                .requestFullscreen
         ) {
+
             await document.documentElement
                 .requestFullscreen();
         }
@@ -1755,7 +2745,9 @@ INITIALIZATION
 
 async function initializeExam() {
 
-    session = getSession();
+    session =
+        getSession();
+
 
     if (!session) {
 
@@ -1769,8 +2761,10 @@ async function initializeExam() {
         return;
     }
 
+
     if (
-        session.status !== "in_progress"
+        session.status !==
+        "in_progress"
     ) {
 
         alert(
@@ -1783,9 +2777,13 @@ async function initializeExam() {
         return;
     }
 
+
     if (
-        !Array.isArray(session.subjects) ||
-        session.subjects.length !== 4
+        !Array.isArray(
+            session.subjects
+        ) ||
+        session.subjects.length !==
+            4
     ) {
 
         alert(
@@ -1798,119 +2796,171 @@ async function initializeExam() {
         return;
     }
 
-    /*
-     * Universal exam duration.
-     */
+
     session.durationSeconds =
         EXAM_DURATION_SECONDS;
 
-    warningCount =
-        Number(session.warnings || 0);
 
-    /*
-     * Restore current question.
-     */
+    warningCount =
+        Number(
+            session.warnings || 0
+        );
+
+
     currentIndex =
         Number(
-            session.currentQuestionIndex || 0
+            session.currentQuestionIndex ||
+            0
         );
+
 
     if (
         currentIndex < 0 ||
-        currentIndex >= TOTAL_QUESTIONS
+        currentIndex >=
+            TOTAL_QUESTIONS
     ) {
-        currentIndex = 0;
+
+        currentIndex =
+            0;
     }
 
-    /*
-     * Make sure the timer has a valid deadline.
-     */
+
     if (
         !session.startedAt ||
         !session.endTime
     ) {
 
-        const now = Date.now();
+        const now =
+            Date.now();
+
 
         session.startedAt =
-            new Date(now).toISOString();
+            new Date(
+                now
+            ).toISOString();
+
 
         session.endTime =
             new Date(
                 now +
-                EXAM_DURATION_SECONDS * 1000
+                EXAM_DURATION_SECONDS *
+                1000
             ).toISOString();
     }
 
-    if (!Array.isArray(session.warningEvents)) {
-        session.warningEvents = [];
+
+    if (
+        !Array.isArray(
+            session.warningEvents
+        )
+    ) {
+
+        session.warningEvents =
+            [];
     }
 
+
     if (!session.answers) {
-        session.answers = {};
+
+        session.answers =
+            {};
     }
+
 
     saveSession();
 
+
     updateWarningDisplay();
+
 
     await loadQuestionBanks();
 
+
     renderSubjectTabs();
+
 
     renderPalette();
 
+
     renderQuestion();
 
-    /*
-     * Only activate visibility monitoring after
-     * the exam is completely loaded.
-     */
-    examLoaded = true;
+
+    examLoaded =
+        true;
+
 
     startTimer();
 
+
     requestFullscreen();
 }
+
 
 window.addEventListener(
     "DOMContentLoaded",
     () => {
 
         initializeExam()
-            .catch(error => {
+            .catch(
+                error => {
 
-                console.error(
-                    "Exam initialization error:",
-                    error
-                );
+                    console.error(
+                        "Exam initialization error:",
+                        error
+                    );
 
-                alert(
-                    "Unable to load the examination. Please refresh and try again."
-                );
-            });
+                    alert(
+                        "Unable to load the examination. Please refresh and try again."
+                    );
+                }
+            );
     }
 );
 
 </script>
 
+
 <style>
 
 :root {
-    --primary-green: #1b5e20;
-    --light-green: #e8f5e9;
-    --accent-green: #2e7d32;
-    --dark-gray: #2c3e50;
-    --light-bg: #f1f8f1;
-    --border-color: #c8e6c9;
-    --danger: #c62828;
-    --warning: #f57c00;
+
+    --primary-green:
+        #1b5e20;
+
+    --light-green:
+        #e8f5e9;
+
+    --accent-green:
+        #2e7d32;
+
+    --dark-gray:
+        #2c3e50;
+
+    --light-bg:
+        #f1f8f1;
+
+    --border-color:
+        #c8e6c9;
+
+    --danger:
+        #c62828;
+
+    --warning:
+        #f57c00;
 }
 
+
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+
+    box-sizing:
+        border-box;
+
+    margin:
+        0;
+
+    padding:
+        0;
+
     font-family:
         'Segoe UI',
         Tahoma,
@@ -1919,208 +2969,413 @@ window.addEventListener(
         sans-serif;
 }
 
+
 body {
-    background: var(--light-bg);
-    color: var(--dark-gray);
-    min-height: 100vh;
+
+    background:
+        var(--light-bg);
+
+    color:
+        var(--dark-gray);
+
+    min-height:
+        100vh;
 }
+
 
 button {
-    font-family: inherit;
+
+    font-family:
+        inherit;
 }
 
-/* =========================================
-   HEADER
-========================================= */
+
+/*
+=========================================================
+HEADER
+=========================================================
+*/
 
 header {
-    background: var(--primary-green);
-    color: white;
-    padding: 12px 20px;
+
+    background:
+        var(--primary-green);
+
+    color:
+        white;
+
+    padding:
+        12px 20px;
+
     box-shadow:
-        0 3px 8px rgba(0,0,0,.15);
+        0 3px 8px
+        rgba(0,0,0,.15);
 }
+
 
 .header-main {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 15px;
+
+    display:
+        flex;
+
+    justify-content:
+        space-between;
+
+    align-items:
+        center;
+
+    gap:
+        15px;
 }
+
 
 .brand h1 {
-    font-size: 1.2rem;
-    font-weight: 700;
+
+    font-size:
+        1.2rem;
+
+    font-weight:
+        700;
 }
+
 
 .brand p {
-    font-size: .72rem;
-    color: #c8e6c9;
-    margin-top: 2px;
+
+    font-size:
+        .72rem;
+
+    color:
+        #c8e6c9;
+
+    margin-top:
+        2px;
 }
+
 
 .header-meta {
-    display: flex;
-    align-items: center;
-    gap: 8px;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    gap:
+        8px;
 }
 
-/* =========================================
-   TIMER
-========================================= */
+
+/*
+=========================================================
+TIMER
+=========================================================
+*/
 
 #timer {
-    background: #2e7d32;
-    border: 1px solid #81c784;
-    color: white;
-    padding: 8px 14px;
-    border-radius: 5px;
-    font-family: monospace;
-    font-size: 1.15rem;
-    font-weight: bold;
-    letter-spacing: 1px;
-    min-width: 82px;
-    text-align: center;
+
+    background:
+        #2e7d32;
+
+    border:
+        1px solid
+        #81c784;
+
+    color:
+        white;
+
+    padding:
+        8px 14px;
+
+    border-radius:
+        5px;
+
+    font-family:
+        monospace;
+
+    font-size:
+        1.15rem;
+
+    font-weight:
+        bold;
+
+    letter-spacing:
+        1px;
+
+    min-width:
+        82px;
+
+    text-align:
+        center;
 }
+
 
 #timer.warning {
-    background: #b71c1c;
-    border-color: #ef9a9a;
+
+    background:
+        #b71c1c;
+
+    border-color:
+        #ef9a9a;
 }
 
-/* =========================================
-   WARNING COUNTER
-========================================= */
+
+/*
+=========================================================
+WARNING COUNTER
+=========================================================
+*/
 
 #warning-display {
-    padding: 8px 11px;
-    border-radius: 5px;
-    font-size: .78rem;
-    font-weight: 800;
-    white-space: nowrap;
-    border: 1px solid rgba(255,255,255,.4);
+
+    padding:
+        8px 11px;
+
+    border-radius:
+        5px;
+
+    font-size:
+        .78rem;
+
+    font-weight:
+        800;
+
+    white-space:
+        nowrap;
+
+    border:
+        1px solid
+        rgba(255,255,255,.4);
 }
+
 
 #warning-display.warning-low {
-    background: #2e7d32;
+
+    background:
+        #2e7d32;
 }
+
 
 #warning-display.warning-medium {
-    background: #ef6c00;
+
+    background:
+        #ef6c00;
 }
+
 
 #warning-display.warning-high {
-    background: #b71c1c;
+
+    background:
+        #b71c1c;
 }
 
-/* =========================================
-   WARNING ALERT
-========================================= */
+
+/*
+=========================================================
+WARNING ALERT
+=========================================================
+*/
 
 #warning-box {
-    position: fixed;
-    top: 20px;
-    left: 50%;
+
+    position:
+        fixed;
+
+    top:
+        20px;
+
+    left:
+        50%;
+
     transform:
         translate(-50%, -150px);
 
-    width: min(520px, 92%);
-    background: #fff3cd;
-    color: #664d03;
-    border: 2px solid #ffca28;
-    border-radius: 8px;
-    padding: 15px 18px;
+    width:
+        min(520px, 92%);
+
+    background:
+        #fff3cd;
+
+    color:
+        #664d03;
+
+    border:
+        2px solid
+        #ffca28;
+
+    border-radius:
+        8px;
+
+    padding:
+        15px 18px;
+
     box-shadow:
-        0 8px 25px rgba(0,0,0,.2);
+        0 8px 25px
+        rgba(0,0,0,.2);
 
-    z-index: 5000;
+    z-index:
+        5000;
 
-    opacity: 0;
+    opacity:
+        0;
 
     transition:
         transform .3s ease,
         opacity .3s ease;
 
-    text-align: center;
-    font-weight: 700;
+    text-align:
+        center;
+
+    font-weight:
+        700;
 }
 
+
 #warning-box.active {
+
     transform:
         translate(-50%, 0);
 
-    opacity: 1;
+    opacity:
+        1;
 }
+
 
 #warning-message {
-    line-height: 1.45;
+
+    line-height:
+        1.45;
 }
 
-/* =========================================
-   SUBJECT TABS
-========================================= */
+
+/*
+=========================================================
+SUBJECT TABS
+=========================================================
+*/
 
 .subject-tabs {
-    display: flex;
-    gap: 6px;
-    overflow-x: auto;
-    padding-top: 12px;
-    scrollbar-width: thin;
+
+    display:
+        flex;
+
+    gap:
+        6px;
+
+    overflow-x:
+        auto;
+
+    padding-top:
+        12px;
+
+    scrollbar-width:
+        thin;
 }
+
 
 .subject-tab {
-    flex: 1 0 auto;
-    min-width: 150px;
-    padding: 9px 12px;
-    border: 1px solid
+
+    flex:
+        1 0 auto;
+
+    min-width:
+        150px;
+
+    padding:
+        9px 12px;
+
+    border:
+        1px solid
         rgba(255,255,255,.35);
+
     background:
         rgba(255,255,255,.08);
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: .82rem;
-    font-weight: 600;
-    white-space: nowrap;
+
+    color:
+        white;
+
+    border-radius:
+        5px;
+
+    cursor:
+        pointer;
+
+    font-size:
+        .82rem;
+
+    font-weight:
+        600;
+
+    white-space:
+        nowrap;
 }
 
+
 .subject-tab:hover {
+
     background:
         rgba(255,255,255,.16);
 }
 
+
 .subject-tab.active {
-    background: white;
-    color: var(--primary-green);
+
+    background:
+        white;
+
+    color:
+        var(--primary-green);
 }
+
 
 .subject-tab.completed {
-    border-color: #a5d6a7;
+
+    border-color:
+        #a5d6a7;
 }
 
-/* =========================================
-   MAIN
-========================================= */
+
+/*
+=========================================================
+MAIN
+=========================================================
+*/
 
 main {
-    max-width: 1450px;
-    width: 100%;
-    margin: 20px auto;
-    padding: 0 18px;
 
-    display: grid;
+    max-width:
+        1450px;
+
+    width:
+        100%;
+
+    margin:
+        20px auto;
+
+    padding:
+        0 18px;
+
+    display:
+        grid;
 
     grid-template-columns:
         minmax(0, 3fr)
         minmax(260px, 1fr);
 
-    gap: 20px;
+    gap:
+        20px;
 }
 
+
 .question-card {
-    background: white;
-    padding: 28px;
-    border-radius: 10px;
+
+    background:
+        white;
+
+    padding:
+        28px;
+
+    border-radius:
+        10px;
 
     box-shadow:
         0 4px 15px
@@ -2130,81 +3385,201 @@ main {
         5px solid
         var(--primary-green);
 
-    min-height: 600px;
+    min-height:
+        600px;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+    justify-content:
+        space-between;
 }
 
-.question-top-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 
-    gap: 10px;
+.question-top-bar {
+
+    display:
+        flex;
+
+    justify-content:
+        space-between;
+
+    align-items:
+        center;
+
+    gap:
+        10px;
 
     border-bottom:
         1px solid
         var(--border-color);
 
-    padding-bottom: 12px;
-    margin-bottom: 22px;
+    padding-bottom:
+        12px;
+
+    margin-bottom:
+        22px;
 }
+
 
 #question-counter {
-    font-weight: 700;
-    color: var(--primary-green);
-    font-size: 1rem;
+
+    font-weight:
+        700;
+
+    color:
+        var(--primary-green);
+
+    font-size:
+        1rem;
 }
+
 
 #subject-question-label {
-    font-size: .8rem;
-    color: #666;
+
+    font-size:
+        .8rem;
+
+    color:
+        #666;
 }
 
-/* =========================================
-   QUESTION
-========================================= */
+
+/*
+=========================================================
+QUESTION
+=========================================================
+*/
 
 #question-text {
-    font-size: 1.15rem;
-    line-height: 1.65;
-    color: #1a1a1a;
 
-    margin-bottom: 25px;
+    font-size:
+        1.15rem;
 
-    min-height: 100px;
+    line-height:
+        1.65;
+
+    color:
+        #1a1a1a;
+
+    margin-bottom:
+        25px;
+
+    min-height:
+        100px;
 }
+
 
 #options-container {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+    gap:
+        12px;
 }
 
+
+/*
+=========================================================
+PASSAGE BUTTON
+=========================================================
+*/
+
+.passage-open-btn {
+
+    width:
+        100%;
+
+    padding:
+        13px 16px;
+
+    margin-bottom:
+        4px;
+
+    background:
+        #e8f5e9;
+
+    color:
+        #1b5e20;
+
+    border:
+        1px solid
+        #a5d6a7;
+
+    border-radius:
+        7px;
+
+    cursor:
+        pointer;
+
+    font-weight:
+        700;
+
+    text-align:
+        left;
+
+    transition:
+        .2s ease;
+}
+
+
+.passage-open-btn:hover {
+
+    background:
+        #c8e6c9;
+
+    border-color:
+        #2e7d32;
+}
+
+
+/*
+=========================================================
+OPTIONS
+=========================================================
+*/
+
 .option-label {
-    display: flex;
-    align-items: flex-start;
 
-    gap: 12px;
+    display:
+        flex;
 
-    padding: 14px 16px;
+    align-items:
+        flex-start;
+
+    gap:
+        12px;
+
+    padding:
+        14px 16px;
 
     border:
         1px solid
         #dcdcdc;
 
-    border-radius: 6px;
+    border-radius:
+        6px;
 
-    cursor: pointer;
+    cursor:
+        pointer;
 
-    transition: all .2s;
+    transition:
+        all .2s;
 
-    background: white;
+    background:
+        white;
 }
 
+
 .option-label:hover {
+
     background:
         var(--light-green);
 
@@ -2212,7 +3587,9 @@ main {
         var(--accent-green);
 }
 
+
 .option-label.selected {
+
     background:
         var(--light-green);
 
@@ -2224,80 +3601,143 @@ main {
         var(--primary-green);
 }
 
+
 .option-label input {
+
     accent-color:
         var(--primary-green);
 
-    width: 18px;
-    height: 18px;
+    width:
+        18px;
 
-    margin-top: 2px;
+    height:
+        18px;
 
-    flex-shrink: 0;
+    margin-top:
+        2px;
+
+    flex-shrink:
+        0;
 }
+
 
 .option-letter {
-    font-weight: 700;
-    color: var(--primary-green);
+
+    font-weight:
+        700;
+
+    color:
+        var(--primary-green);
 }
+
 
 .option-text {
-    color: #333;
-    line-height: 1.5;
+
+    color:
+        #333;
+
+    line-height:
+        1.5;
 }
 
-/* =========================================
-   NAVIGATION
-========================================= */
+
+/*
+=========================================================
+NAVIGATION
+=========================================================
+*/
 
 .nav-buttons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+    display:
+        flex;
+
+    justify-content:
+        space-between;
+
+    align-items:
+        center;
 
     border-top:
         1px solid
         var(--border-color);
 
-    padding-top: 18px;
-    margin-top: 30px;
+    padding-top:
+        18px;
 
-    gap: 10px;
+    margin-top:
+        30px;
+
+    gap:
+        10px;
 }
+
 
 .btn {
-    padding: 10px 24px;
-    border-radius: 5px;
-    font-weight: 600;
-    cursor: pointer;
-    border: none;
+
+    padding:
+        10px 24px;
+
+    border-radius:
+        5px;
+
+    font-weight:
+        600;
+
+    cursor:
+        pointer;
+
+    border:
+        none;
 }
+
 
 .btn-prev {
-    background: #e0e0e0;
-    color: #333;
+
+    background:
+        #e0e0e0;
+
+    color:
+        #333;
 }
+
 
 .btn-next {
-    background: var(--primary-green);
-    color: white;
+
+    background:
+        var(--primary-green);
+
+    color:
+        white;
 }
+
 
 .btn:disabled {
-    opacity: .35;
-    cursor: not-allowed;
+
+    opacity:
+        .35;
+
+    cursor:
+        not-allowed;
 }
 
-/* =========================================
-   SIDEBAR
-========================================= */
+
+/*
+=========================================================
+SIDEBAR
+=========================================================
+*/
 
 .sidebar-panel {
-    background: white;
 
-    padding: 20px;
+    background:
+        white;
 
-    border-radius: 10px;
+    padding:
+        20px;
+
+    border-radius:
+        10px;
 
     box-shadow:
         0 4px 15px
@@ -2308,126 +3748,344 @@ main {
         var(--accent-green);
 }
 
+
 .sidebar-title {
-    font-weight: 700;
-    color: var(--primary-green);
+
+    font-weight:
+        700;
+
+    color:
+        var(--primary-green);
 
     border-bottom:
         1px solid
         var(--border-color);
 
-    padding-bottom: 9px;
+    padding-bottom:
+        9px;
 
-    margin-bottom: 12px;
+    margin-bottom:
+        12px;
 }
+
 
 .palette-info {
-    font-size: .78rem;
-    color: #666;
 
-    margin-bottom: 10px;
+    font-size:
+        .78rem;
+
+    color:
+        #666;
+
+    margin-bottom:
+        10px;
 }
 
+
 #palette-grid {
-    display: grid;
+
+    display:
+        grid;
 
     grid-template-columns:
         repeat(5, 1fr);
 
-    gap: 7px;
+    gap:
+        7px;
 
-    max-height: 400px;
+    max-height:
+        400px;
 
-    overflow-y: auto;
+    overflow-y:
+        auto;
 
-    padding: 3px;
+    padding:
+        3px;
 }
 
-.palette-btn {
-    height: 36px;
 
-    border-radius: 4px;
+.palette-btn {
+
+    height:
+        36px;
+
+    border-radius:
+        4px;
 
     border:
         1px solid
         #ccc;
 
-    font-weight: 600;
+    font-weight:
+        600;
 
-    font-size: .78rem;
+    font-size:
+        .78rem;
 
-    background: #f9f9f9;
+    background:
+        #f9f9f9;
 
-    color: #444;
+    color:
+        #444;
 
-    cursor: pointer;
+    cursor:
+        pointer;
 }
 
+
 .palette-btn:hover {
+
     background:
         var(--light-green);
 }
 
+
 .palette-btn.answered {
+
     background:
         var(--primary-green);
 
-    color: white;
+    color:
+        white;
 
     border-color:
         var(--primary-green);
 }
 
-.palette-btn.current {
-    outline:
-        2px solid #000;
 
-    outline-offset: 1px;
+.palette-btn.current {
+
+    outline:
+        2px solid
+        #000;
+
+    outline-offset:
+        1px;
 }
 
+
 .palette-btn.subject-current {
+
     box-shadow:
         inset 0 0 0 2px
         #81c784;
 }
 
-/* =========================================
-   SUBMIT
-========================================= */
+
+/*
+=========================================================
+SUBMIT
+=========================================================
+*/
 
 .btn-submit {
+
     background:
         var(--primary-green);
 
-    color: white;
+    color:
+        white;
 
-    width: 100%;
+    width:
+        100%;
 
-    padding: 13px;
+    padding:
+        13px;
 
-    border-radius: 6px;
+    border-radius:
+        6px;
 
-    font-weight: bold;
+    font-weight:
+        bold;
 
-    font-size: 1rem;
+    font-size:
+        1rem;
 
-    cursor: pointer;
+    cursor:
+        pointer;
 
-    border: none;
+    border:
+        none;
 
-    margin-top: 18px;
+    margin-top:
+        18px;
 }
 
+
 .btn-submit:hover {
+
     background:
         var(--accent-green);
 }
 
-/* =========================================
-   CALCULATOR
-========================================= */
+
+/*
+=========================================================
+PASSAGE MODAL
+=========================================================
+*/
+
+#passage-modal {
+
+    display:
+        none;
+
+    position:
+        fixed;
+
+    inset:
+        0;
+
+    background:
+        rgba(0,0,0,.65);
+
+    z-index:
+        6000;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    padding:
+        20px;
+}
+
+
+#passage-modal.active {
+
+    display:
+        flex;
+}
+
+
+.passage-modal-content {
+
+    width:
+        min(1000px, 96vw);
+
+    height:
+        min(800px, 92vh);
+
+    background:
+        white;
+
+    border-radius:
+        10px;
+
+    overflow:
+        hidden;
+
+    box-shadow:
+        0 20px 60px
+        rgba(0,0,0,.35);
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+}
+
+
+.passage-modal-header {
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        space-between;
+
+    gap:
+        15px;
+
+    padding:
+        13px 18px;
+
+    background:
+        var(--primary-green);
+
+    color:
+        white;
+}
+
+
+#passage-title {
+
+    font-weight:
+        700;
+
+    font-size:
+        1rem;
+}
+
+
+.passage-close-btn {
+
+    width:
+        35px;
+
+    height:
+        35px;
+
+    border:
+        none;
+
+    border-radius:
+        50%;
+
+    background:
+        rgba(255,255,255,.15);
+
+    color:
+        white;
+
+    font-size:
+        1.4rem;
+
+    cursor:
+        pointer;
+
+    line-height:
+        1;
+}
+
+
+.passage-close-btn:hover {
+
+    background:
+        rgba(255,255,255,.3);
+}
+
+
+#passage-iframe {
+
+    width:
+        100%;
+
+    flex:
+        1;
+
+    border:
+        none;
+
+    background:
+        white;
+}
+
+
+/*
+=========================================================
+CALCULATOR
+=========================================================
+*/
 
 .calc-toggle-btn {
+
     background:
         var(--light-green);
 
@@ -2441,74 +4099,111 @@ main {
     padding:
         7px 12px;
 
-    border-radius: 4px;
+    border-radius:
+        4px;
 
-    cursor: pointer;
+    cursor:
+        pointer;
 
-    font-size: .8rem;
+    font-size:
+        .8rem;
 
-    font-weight: 600;
+    font-weight:
+        600;
 }
 
+
 #calculator-modal {
-    display: none;
 
-    position: fixed;
+    display:
+        none;
 
-    top: 50%;
-    left: 50%;
+    position:
+        fixed;
+
+    top:
+        50%;
+
+    left:
+        50%;
 
     transform:
         translate(-50%, -50%);
 
-    background: white;
+    background:
+        white;
 
     border:
         1px solid
         var(--border-color);
 
-    padding: 18px;
+    padding:
+        18px;
 
-    border-radius: 10px;
+    border-radius:
+        10px;
 
     box-shadow:
         0 15px 35px
         rgba(0,0,0,.25);
 
-    z-index: 1000;
+    z-index:
+        1000;
 
-    width: 290px;
+    width:
+        290px;
 }
+
 
 #calculator-modal.active {
-    display: block;
+
+    display:
+        block;
 }
 
+
 .calc-header {
-    display: flex;
 
-    justify-content: space-between;
-    align-items: center;
+    display:
+        flex;
 
-    margin-bottom: 10px;
+    justify-content:
+        space-between;
 
-    font-weight: bold;
+    align-items:
+        center;
+
+    margin-bottom:
+        10px;
+
+    font-weight:
+        bold;
 
     color:
         var(--primary-green);
 }
 
+
 .calc-close {
-    border: none;
-    background: none;
 
-    cursor: pointer;
+    border:
+        none;
 
-    font-size: 1.1rem;
+    background:
+        none;
+
+    cursor:
+        pointer;
+
+    font-size:
+        1.1rem;
 }
 
+
 #calc-screen {
-    width: 100%;
+
+    width:
+        100%;
 
     background:
         var(--light-bg);
@@ -2517,29 +4212,41 @@ main {
         1px solid
         var(--border-color);
 
-    padding: 10px;
+    padding:
+        10px;
 
-    margin-bottom: 10px;
+    margin-bottom:
+        10px;
 
-    text-align: right;
+    text-align:
+        right;
 
-    font-family: monospace;
+    font-family:
+        monospace;
 
-    font-size: 1.2rem;
+    font-size:
+        1.2rem;
 
-    border-radius: 4px;
+    border-radius:
+        4px;
 }
 
+
 .calc-keypad {
-    display: grid;
+
+    display:
+        grid;
 
     grid-template-columns:
         repeat(4, 1fr);
 
-    gap: 6px;
+    gap:
+        6px;
 }
 
+
 .calc-btn {
+
     background:
         var(--light-green);
 
@@ -2547,231 +4254,385 @@ main {
         1px solid
         var(--border-color);
 
-    padding: 11px;
+    padding:
+        11px;
 
-    font-weight: 600;
+    font-weight:
+        600;
 
-    border-radius: 4px;
+    border-radius:
+        4px;
 
-    cursor: pointer;
+    cursor:
+        pointer;
 
     color:
         var(--primary-green);
 }
 
+
 .calc-btn.op {
+
     background:
         #c8e6c9;
 }
 
+
 .calc-btn.eq {
+
     background:
         var(--primary-green);
 
-    color: white;
+    color:
+        white;
 }
 
-/* =========================================
-   SUBMISSION MODAL
-========================================= */
+
+/*
+=========================================================
+SUBMISSION MODAL
+=========================================================
+*/
 
 #submission-modal {
-    display: none;
 
-    position: fixed;
+    display:
+        none;
 
-    inset: 0;
+    position:
+        fixed;
+
+    inset:
+        0;
 
     background:
         rgba(0,0,0,.55);
 
-    z-index: 2000;
+    z-index:
+        2000;
 
-    justify-content: center;
-    align-items: center;
+    justify-content:
+        center;
+
+    align-items:
+        center;
 }
+
 
 #submission-modal.active {
-    display: flex;
+
+    display:
+        flex;
 }
 
+
 .submission-content {
-    background: white;
 
-    padding: 28px;
+    background:
+        white;
 
-    border-radius: 10px;
+    padding:
+        28px;
+
+    border-radius:
+        10px;
 
     width:
         min(420px, 90%);
 
-    max-height: 90vh;
-    overflow-y: auto;
+    max-height:
+        90vh;
 
-    text-align: center;
+    overflow-y:
+        auto;
+
+    text-align:
+        center;
 
     border-top:
         5px solid
         var(--primary-green);
 }
 
+
 .submission-content h3 {
+
     color:
         var(--primary-green);
 
-    margin-bottom: 10px;
+    margin-bottom:
+        10px;
 }
+
 
 #submission-message {
-    color: #555;
 
-    font-size: .9rem;
+    color:
+        #555;
 
-    line-height: 1.5;
+    font-size:
+        .9rem;
+
+    line-height:
+        1.5;
 }
+
 
 .submission-actions {
-    display: flex;
 
-    gap: 10px;
+    display:
+        flex;
 
-    margin-top: 20px;
+    gap:
+        10px;
+
+    margin-top:
+        20px;
 }
+
 
 .submission-actions button {
-    flex: 1;
 
-    padding: 10px;
+    flex:
+        1;
 
-    border: none;
+    padding:
+        10px;
 
-    border-radius: 5px;
+    border:
+        none;
 
-    cursor: pointer;
+    border-radius:
+        5px;
 
-    font-weight: 700;
+    cursor:
+        pointer;
+
+    font-weight:
+        700;
 }
 
+
 #confirm-submit-btn {
+
     background:
         var(--primary-green);
 
-    color: white;
+    color:
+        white;
 }
 
+
 #cancel-submit-btn {
+
     background:
         #e0e0e0;
 
-    color: #333;
+    color:
+        #333;
 }
 
-/* =========================================
-   FOOTER
-========================================= */
+
+/*
+=========================================================
+FOOTER
+=========================================================
+*/
 
 footer {
-    text-align: center;
 
-    padding: 15px;
+    text-align:
+        center;
 
-    font-size: .75rem;
+    padding:
+        15px;
 
-    color: #555;
+    font-size:
+        .75rem;
 
-    background: white;
+    color:
+        #555;
+
+    background:
+        white;
 
     border-top:
         1px solid
         var(--border-color);
 
-    margin-top: 20px;
+    margin-top:
+        20px;
 }
 
-/* =========================================
-   MOBILE
-========================================= */
 
-@media(max-width: 950px) {
+/*
+=========================================================
+MOBILE
+=========================================================
+*/
+
+@media(max-width:950px) {
 
     main {
-        grid-template-columns: 1fr;
+
+        grid-template-columns:
+            1fr;
     }
 
     .question-card {
-        min-height: auto;
+
+        min-height:
+            auto;
     }
 
     .sidebar-panel {
-        order: 2;
+
+        order:
+            2;
     }
 }
 
-@media(max-width: 600px) {
+
+@media(max-width:600px) {
 
     header {
-        padding: 10px;
+
+        padding:
+            10px;
     }
 
     .header-main {
-        align-items: flex-start;
+
+        align-items:
+            flex-start;
     }
 
     .brand h1 {
-        font-size: 1rem;
+
+        font-size:
+            1rem;
     }
 
     .header-meta {
-        gap: 4px;
+
+        gap:
+            4px;
     }
 
     #timer {
-        font-size: 1rem;
-        padding: 7px 9px;
-        min-width: 70px;
+
+        font-size:
+            1rem;
+
+        padding:
+            7px 9px;
+
+        min-width:
+            70px;
     }
 
     #warning-display {
-        font-size: .68rem;
-        padding: 7px 6px;
+
+        font-size:
+            .68rem;
+
+        padding:
+            7px 6px;
     }
 
     .subject-tab {
-        min-width: 130px;
-        font-size: .75rem;
+
+        min-width:
+            130px;
+
+        font-size:
+            .75rem;
     }
 
     main {
-        padding: 0 10px;
-        margin-top: 12px;
+
+        padding:
+            0 10px;
+
+        margin-top:
+            12px;
     }
 
     .question-card {
-        padding: 18px;
+
+        padding:
+            18px;
     }
 
     #question-text {
-        font-size: 1rem;
+
+        font-size:
+            1rem;
     }
 
     .nav-buttons {
-        margin-top: 20px;
+
+        margin-top:
+            20px;
     }
 
     #palette-grid {
+
         grid-template-columns:
             repeat(6, 1fr);
     }
 
     .submission-content {
-        padding: 20px;
+
+        padding:
+            20px;
+    }
+
+
+    /*
+     * Passage modal on phones.
+     */
+
+    #passage-modal {
+
+        padding:
+            8px;
+    }
+
+
+    .passage-modal-content {
+
+        width:
+            100%;
+
+        height:
+            96vh;
+
+        border-radius:
+            7px;
+    }
+
+
+    .passage-modal-header {
+
+        padding:
+            10px 12px;
+    }
+
+
+    #passage-title {
+
+        font-size:
+            .9rem;
     }
 }
 
 </style>
 </head>
 
+
 <body>
+
 
 <!-- =========================================
      WARNING ALERT
@@ -2782,6 +4643,7 @@ footer {
     <div id="warning-message"></div>
 
 </div>
+
 
 <header>
 
@@ -2799,6 +4661,7 @@ footer {
 
         </div>
 
+
         <div class="header-meta">
 
             <div
@@ -2808,6 +4671,7 @@ footer {
                 Warnings: 0/3
             </div>
 
+
             <div id="timer">
                 10:00
             </div>
@@ -2815,6 +4679,7 @@ footer {
         </div>
 
     </div>
+
 
     <div
         id="subject-tabs"
@@ -2826,11 +4691,15 @@ footer {
 
 <main>
 
+
     <section class="question-card">
+
 
         <div>
 
+
             <div class="question-top-bar">
+
 
                 <div>
 
@@ -2838,11 +4707,13 @@ footer {
                         Question 1 of 60
                     </div>
 
+
                     <div id="subject-question-label">
                         Loading...
                     </div>
 
                 </div>
+
 
                 <button
                     type="button"
@@ -2867,6 +4738,7 @@ footer {
 
         <div class="nav-buttons">
 
+
             <button
                 onclick="prevQuestion()"
                 id="prev-btn"
@@ -2874,6 +4746,7 @@ footer {
             >
                 Previous
             </button>
+
 
             <button
                 onclick="nextQuestion()"
@@ -2890,15 +4763,19 @@ footer {
 
     <aside class="sidebar-panel">
 
+
         <h3 class="sidebar-title">
             Question Palette
         </h3>
+
 
         <div class="palette-info">
             60 questions • Green = answered
         </div>
 
+
         <div id="palette-grid"></div>
+
 
         <button
             type="button"
@@ -2914,16 +4791,56 @@ footer {
 
 
 <!-- =========================================
+     PASSAGE IFRAME MODAL
+========================================= -->
+
+<div id="passage-modal">
+
+    <div class="passage-modal-content">
+
+        <div class="passage-modal-header">
+
+            <span id="passage-title">
+                Comprehension Passage
+            </span>
+
+
+            <button
+                type="button"
+                class="passage-close-btn"
+                onclick="closePassage()"
+                aria-label="Close passage"
+            >
+                ×
+            </button>
+
+        </div>
+
+
+        <iframe
+            id="passage-iframe"
+            title="English Comprehension Passage"
+            src="about:blank"
+        ></iframe>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================
      CALCULATOR
 ========================================= -->
 
 <div id="calculator-modal">
+
 
     <div class="calc-header">
 
         <span>
             Calculator
         </span>
+
 
         <button
             type="button"
@@ -2935,13 +4852,16 @@ footer {
 
     </div>
 
+
     <input
         id="calc-screen"
         type="text"
         readonly
     >
 
+
     <div class="calc-keypad">
+
 
         <button
             class="calc-btn"
@@ -2950,6 +4870,7 @@ footer {
             C
         </button>
 
+
         <button
             class="calc-btn"
             onclick="calcDelete()"
@@ -2957,12 +4878,14 @@ footer {
             DEL
         </button>
 
+
         <button
             class="calc-btn op"
             onclick="calcInput('%')"
         >
             %
         </button>
+
 
         <button
             class="calc-btn op"
@@ -2979,6 +4902,7 @@ footer {
             7
         </button>
 
+
         <button
             class="calc-btn"
             onclick="calcInput('8')"
@@ -2986,12 +4910,14 @@ footer {
             8
         </button>
 
+
         <button
             class="calc-btn"
             onclick="calcInput('9')"
         >
             9
         </button>
+
 
         <button
             class="calc-btn op"
@@ -3008,6 +4934,7 @@ footer {
             4
         </button>
 
+
         <button
             class="calc-btn"
             onclick="calcInput('5')"
@@ -3015,12 +4942,14 @@ footer {
             5
         </button>
 
+
         <button
             class="calc-btn"
             onclick="calcInput('6')"
         >
             6
         </button>
+
 
         <button
             class="calc-btn op"
@@ -3037,6 +4966,7 @@ footer {
             1
         </button>
 
+
         <button
             class="calc-btn"
             onclick="calcInput('2')"
@@ -3044,12 +4974,14 @@ footer {
             2
         </button>
 
+
         <button
             class="calc-btn"
             onclick="calcInput('3')"
         >
             3
         </button>
+
 
         <button
             class="calc-btn op"
@@ -3066,6 +4998,7 @@ footer {
             0
         </button>
 
+
         <button
             class="calc-btn"
             onclick="calcInput('.')"
@@ -3073,12 +5006,14 @@ footer {
             .
         </button>
 
+
         <button
             class="calc-btn"
             onclick="calcInput('(')"
         >
             (
         </button>
+
 
         <button
             class="calc-btn"
@@ -3091,7 +5026,7 @@ footer {
         <button
             class="calc-btn eq"
             onclick="calcEquals()"
-            style="grid-column: span 4;"
+            style="grid-column:span 4;"
         >
             =
         </button>
@@ -3107,17 +5042,22 @@ footer {
 
 <div id="submission-modal">
 
+
     <div class="submission-content">
+
 
         <h3>
             Exam Submission
         </h3>
 
+
         <div id="submission-message">
             Are you sure you want to submit?
         </div>
 
+
         <div class="submission-actions">
+
 
             <button
                 id="cancel-submit-btn"
@@ -3125,6 +5065,7 @@ footer {
             >
                 Cancel
             </button>
+
 
             <button
                 id="confirm-submit-btn"
@@ -3138,14 +5079,11 @@ footer {
     </div>
 
 </div>
-
-
 <footer>
 
     Flexi Educational Consult
     • Weekly CBT Mock Assessment
 
 </footer>
-
 </body>
 </html>
