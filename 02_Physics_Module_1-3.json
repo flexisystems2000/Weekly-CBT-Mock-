@@ -1,152 +1,262 @@
 [
   {
-    "question": "A car accelerates uniformly from 10 m/s to 30 m/s in 5 s. What distance does it cover during this interval?",
-    "options": [
-      "50 m",
-      "75 m",
-      "100 m",
-      "125 m"
-    ],
+    "question": "A body of mass 5 kg is acted upon by a resultant force of 20 N. What is its acceleration?",
+    "options": ["2 m/s²", "4 m/s²", "5 m/s²", "10 m/s²"],
     "answer": "B"
   },
   {
-    "question": "A body travels 40 m east and then 30 m west in 10 s. Its average velocity is",
-    "options": [
-      "1 m/s east",
-      "1 m/s west",
-      "7 m/s east",
-      "7 m/s west"
-    ],
+    "question": "A force of 30 N acts on a body of mass 6 kg initially at rest. What velocity will the body attain after 4 s?",
+    "options": ["5 m/s", "10 m/s", "20 m/s", "24 m/s"],
+    "answer": "C"
+  },
+  {
+    "question": "A car of mass 1000 kg moving at 20 m/s is brought to rest in 5 s. What is the average retarding force?",
+    "options": ["2,000 N", "4,000 N", "5,000 N", "20,000 N"],
+    "answer": "B"
+  },
+  {
+    "question": "A 4 kg object moving at 6 m/s collides with a stationary 2 kg object. If they move together after collision, what is their common velocity?",
+    "options": ["2 m/s", "3 m/s", "4 m/s", "6 m/s"],
+    "answer": "C"
+  },
+  {
+    "question": "A ball of mass 0.5 kg moving at 12 m/s is brought to rest by a force acting for 0.2 s. What is the magnitude of the average force?",
+    "options": ["15 N", "20 N", "30 N", "60 N"],
+    "answer": "C"
+  },
+  {
+    "question": "A 10 kg object is pulled horizontally by a force of 50 N. If the frictional force opposing the motion is 20 N, what is its acceleration?",
+    "options": ["2 m/s²", "3 m/s²", "5 m/s²", "7 m/s²"],
+    "answer": "B"
+  },
+  {
+    "question": "Two forces of 6 N and 8 N act at right angles to each other. What is the magnitude of their resultant?",
+    "options": ["2 N", "10 N", "14 N", "48 N"],
+    "answer": "B"
+  },
+  {
+    "question": "A 2 kg body has a momentum of 18 kg m/s. What is its velocity?",
+    "options": ["6 m/s", "9 m/s", "16 m/s", "36 m/s"],
+    "answer": "B"
+  },
+  {
+    "question": "A 0.2 kg ball moving at 15 m/s strikes a wall and rebounds at 10 m/s in the opposite direction. What is the magnitude of the change in momentum?",
+    "options": ["1 kg m/s", "2 kg m/s", "5 kg m/s", "25 kg m/s"],
+    "answer": "B"
+  },
+  {
+    "question": "A gun of mass 5 kg fires a bullet of mass 0.02 kg at 400 m/s. What is the recoil velocity of the gun?",
+    "options": ["0.8 m/s", "1.6 m/s", "2.0 m/s", "8.0 m/s"],
+    "answer": "B"
+  },
+  {
+    "question": "A 2 kg body is acted upon by two opposite forces of 15 N and 9 N. What is its acceleration?",
+    "options": ["2 m/s²", "3 m/s²", "5 m/s²", "12 m/s²"],
     "answer": "A"
   },
   {
-    "question": "A particle initially at rest covers 45 m in 5 s under uniform acceleration. Its acceleration is",
+    "question": "A 2 kg body moving at 5 m/s collides with a 3 kg body moving in the same direction at 2 m/s. If they move together after collision, their common velocity is",
+    "options": ["2.8 m/s", "3.0 m/s", "3.2 m/s", "4.0 m/s"],
+    "answer": "C"
+  },
+  {
+    "question": "A force of 40 N acts on a body for 0.5 s. What impulse is delivered to the body?",
+    "options": ["8 Ns", "20 Ns", "40 Ns", "80 Ns"],
+    "answer": "B"
+  },
+  {
+    "question": "A 60 kg person stands on a weighing scale inside a lift accelerating upward at 2 m/s². Taking g = 10 m/s², what reading will the scale give?",
+    "options": ["480 N", "600 N", "720 N", "840 N"],
+    "answer": "C"
+  },
+  {
+    "question": "A block is pulled along a horizontal surface by a constant force. If the resultant force on the block is zero, the block must be",
     "options": [
-      "1.8 m/s²",
-      "3.6 m/s²",
-      "9.0 m/s²",
-      "18 m/s²"
+      "at rest only",
+      "moving with increasing speed",
+      "moving with constant velocity or at rest",
+      "moving with decreasing speed"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A 5 kg object is moving with an acceleration of 3 m/s². If a frictional force of 4 N acts against its motion, what applied force is required?",
+    "options": ["11 N", "15 N", "19 N", "20 N"],
+    "answer": "C"
+  },
+  {
+    "question": "A 2 kg body is moving at 10 m/s and a constant force brings it to rest in 4 s. What is the magnitude of the force?",
+    "options": ["2.5 N", "5 N", "10 N", "20 N"],
+    "answer": "B"
+  },
+  {
+    "question": "A particle of mass 3 kg has a velocity of 4 m/s east. A force changes its velocity to 6 m/s east in 2 s. What is the force acting on it?",
+    "options": ["2 N east", "3 N east", "6 N east", "9 N east"],
+    "answer": "B"
+  },
+  {
+    "question": "A car travels 120 km in 2 hours and then 80 km in 1 hour. What is its average speed for the entire journey?",
+    "options": ["60 km/h", "66.7 km/h", "70 km/h", "100 km/h"],
+    "answer": "B"
+  },
+  {
+    "question": "A body starts from rest and accelerates uniformly at 4 m/s² for 5 s. What distance does it cover?",
+    "options": ["20 m", "40 m", "50 m", "100 m"],
+    "answer": "C"
+  },
+  {
+    "question": "A car moving at 10 m/s accelerates uniformly at 2 m/s² for 6 s. What is its final velocity?",
+    "options": ["12 m/s", "18 m/s", "20 m/s", "22 m/s"],
+    "answer": "D"
+  },
+  {
+    "question": "A stone is dropped from rest and falls freely for 3 s. Taking g = 10 m/s², what speed does it attain?",
+    "options": ["10 m/s", "20 m/s", "30 m/s", "45 m/s"],
+    "answer": "C"
+  },
+  {
+    "question": "A ball is thrown vertically upward with a velocity of 30 m/s. Taking g = 10 m/s², what maximum height does it reach?",
+    "options": ["30 m", "45 m", "60 m", "90 m"],
+    "answer": "B"
+  },
+  {
+    "question": "A body moving with uniform acceleration changes its velocity from 5 m/s to 25 m/s in 4 s. What is its acceleration?",
+    "options": ["4 m/s²", "5 m/s²", "6 m/s²", "7.5 m/s²"],
+    "answer": "B"
+  },
+  {
+    "question": "A car moving at 20 m/s is uniformly decelerated at 4 m/s². How long does it take to stop?",
+    "options": ["4 s", "5 s", "6 s", "8 s"],
+    "answer": "B"
+  },
+  {
+    "question": "A particle starts from rest and travels 72 m in 6 s under uniform acceleration. What is its acceleration?",
+    "options": ["2 m/s²", "4 m/s²", "6 m/s²", "8 m/s²"],
+    "answer": "B"
+  },
+  {
+    "question": "A cyclist travels at 12 m/s and reduces his speed uniformly to 4 m/s in 4 s. What distance does he cover during this time?",
+    "options": ["16 m", "24 m", "32 m", "48 m"],
+    "answer": "C"
+  },
+  {
+    "question": "A body moves with a constant velocity of 15 m/s for 8 s. What is its displacement?",
+    "options": ["23 m", "100 m", "120 m", "135 m"],
+    "answer": "C"
+  },
+  {
+    "question": "A car accelerates from 10 m/s to 30 m/s while covering 200 m. What is its acceleration?",
+    "options": ["1 m/s²", "2 m/s²", "3 m/s²", "4 m/s²"],
+    "answer": "B"
+  },
+  {
+    "question": "A stone is thrown vertically upward at 20 m/s. At what time will it return to the point from which it was thrown? Take g = 10 m/s².",
+    "options": ["2 s", "3 s", "4 s", "5 s"],
+    "answer": "C"
+  },
+  {
+    "question": "Two cars travel in opposite directions at 20 m/s and 15 m/s respectively. What is their relative speed?",
+    "options": ["5 m/s", "15 m/s", "20 m/s", "35 m/s"],
+    "answer": "D"
+  },
+  {
+    "question": "A train moving at 25 m/s takes 10 s to reduce its speed to 5 m/s uniformly. How far does it travel during the 10 s?",
+    "options": ["100 m", "150 m", "200 m", "250 m"],
+    "answer": "C"
+  },
+  {
+    "question": "A velocity-time graph for a body is a horizontal straight line above the time axis. This indicates that the body is",
+    "options": [
+      "at rest",
+      "moving with constant velocity",
+      "moving with constant acceleration",
+      "moving with decreasing velocity"
     ],
     "answer": "B"
   },
   {
-    "question": "A velocity-time graph is a straight line from 0 to 20 m/s over 4 s. The displacement is",
-    "options": [
-      "20 m",
-      "40 m",
-      "60 m",
-      "80 m"
-    ],
+    "question": "A body moves from rest with an acceleration of 5 m/s². What is its velocity after covering 40 m?",
+    "options": ["10 m/s", "15 m/s", "20 m/s", "25 m/s"],
+    "answer": "C"
+  },
+  {
+    "question": "A force of 12 N acts on a body of mass 3 kg initially moving at 4 m/s. If the force acts in the direction of motion for 5 s, what is the final velocity?",
+    "options": ["12 m/s", "20 m/s", "24 m/s", "28 m/s"],
     "answer": "B"
   },
   {
-    "question": "A runner completes one 400 m lap and returns to the starting point in 80 s. Which pair is correct?",
+    "question": "A 4 kg body moving at 8 m/s collides head-on with a 2 kg body moving at 3 m/s in the opposite direction. If they stick together, what is their velocity after collision?",
     "options": [
-      "Average speed=0, velocity=5 m/s",
-      "Average speed=5 m/s, velocity=0",
-      "Average speed=5 m/s, velocity=5 m/s",
-      "Average speed=0, velocity=0"
+      "2.3 m/s in the original direction of the 4 kg body",
+      "3.0 m/s in the original direction of the 4 kg body",
+      "4.3 m/s in the original direction of the 4 kg body",
+      "5.0 m/s in the original direction of the 4 kg body"
     ],
+    "answer": "C"
+  },
+  {
+    "question": "A 10 kg box is pulled along a rough horizontal surface by a horizontal force of 50 N. If it accelerates at 3 m/s², what is the frictional force?",
+    "options": ["10 N", "20 N", "30 N", "50 N"],
     "answer": "B"
   },
   {
-    "question": "A body moving at 25 m/s is brought uniformly to rest in 10 s. Its acceleration is",
-    "options": [
-      "-2.5 m/s²",
-      "-0.4 m/s²",
-      "2.5 m/s²",
-      "4.0 m/s²"
-    ],
+    "question": "A 2 kg object is acted upon by forces of 10 N east and 6 N west. What is the acceleration of the object?",
+    "options": ["2 m/s² east", "3 m/s² east", "4 m/s² east", "8 m/s² east"],
+    "answer": "C"
+  },
+  {
+    "question": "A force acting on a body changes its momentum from 12 kg m/s to 30 kg m/s in 3 s. What is the average force?",
+    "options": ["4 N", "6 N", "8 N", "14 N"],
+    "answer": "B"
+  },
+  {
+    "question": "A 0.1 kg ball strikes a wall at 20 m/s and rebounds at 15 m/s. If the collision lasts 0.05 s, what is the magnitude of the average force exerted on the ball?",
+    "options": ["50 N", "60 N", "70 N", "80 N"],
+    "answer": "B"
+  },
+  {
+    "question": "A body is projected vertically upward with a speed of 40 m/s. Taking g = 10 m/s², what is its velocity after 3 s?",
+    "options": ["10 m/s upward", "10 m/s downward", "30 m/s upward", "30 m/s downward"],
     "answer": "A"
   },
   {
-    "question": "Two cars start together. Car P travels at constant 20 m/s. Car Q starts from rest with acceleration 2 m/s². After how long does Q overtake P?",
-    "options": [
-      "5 s",
-      "10 s",
-      "15 s",
-      "20 s"
-    ],
+    "question": "A car starts from rest and accelerates uniformly at 3 m/s² for 8 s. What distance does it cover during the final 2 seconds?",
+    "options": ["33 m", "39 m", "42 m", "45 m"],
     "answer": "B"
   },
   {
-    "question": "A stone is thrown vertically upward at 20 m/s. Taking g=10 m/s², its velocity after 3 s is",
-    "options": [
-      "10 m/s upward",
-      "10 m/s downward",
-      "30 m/s downward",
-      "0 m/s"
-    ],
+    "question": "A body moving at 30 m/s is brought to rest uniformly after travelling 75 m. What is its acceleration?",
+    "options": ["−4 m/s²", "−6 m/s²", "−8 m/s²", "−10 m/s²"],
     "answer": "B"
   },
   {
-    "question": "An object moves 12 m in the first 2 s and 20 m in the next 2 s with uniform acceleration. Its initial velocity is",
-    "options": [
-      "2 m/s",
-      "4 m/s",
-      "6 m/s",
-      "8 m/s"
-    ],
+    "question": "A particle travels 20 m during the first 2 s and 60 m during the next 2 s under uniform acceleration. What is its acceleration?",
+    "options": ["5 m/s²", "8 m/s²", "10 m/s²", "15 m/s²"],
+    "answer": "C"
+  },
+  {
+    "question": "A vehicle moving at 18 m/s accelerates uniformly to 30 m/s in 6 s. How far does it travel during this interval?",
+    "options": ["108 m", "120 m", "144 m", "180 m"],
+    "answer": "C"
+  },
+  {
+    "question": "A stone is dropped from the top of a tower and reaches the ground after 4 s. Taking g = 10 m/s², what is the height of the tower?",
+    "options": ["40 m", "60 m", "80 m", "100 m"],
+    "answer": "C"
+  },
+  {
+    "question": "A cyclist moving at 12 m/s sees an obstacle 30 m ahead and applies the brakes. If the cyclist decelerates uniformly at 2 m/s², what is the stopping distance?",
+    "options": ["24 m", "30 m", "36 m", "48 m"],
+    "answer": "B"
+  },
+  {
+    "question": "A body travels half of a journey at 20 m/s and the other half at 30 m/s. What is its average speed for the whole journey?",
+    "options": ["24 m/s", "25 m/s", "26 m/s", "27 m/s"],
     "answer": "A"
   },
   {
-    "question": "A displacement-time graph has a constant negative slope. This indicates that the object is moving",
-    "options": [
-      "with increasing acceleration",
-      "with constant velocity in the negative direction",
-      "with zero velocity",
-      "with decreasing speed only"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A body travels half of a journey at 20 m/s and the remaining half at 30 m/s. Its average speed is",
-    "options": [
-      "24 m/s",
-      "25 m/s",
-      "26 m/s",
-      "27 m/s"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A cyclist increases speed from 5 m/s to 15 m/s while covering 50 m uniformly. What is the acceleration?",
-    "options": [
-      "1 m/s²",
-      "2 m/s²",
-      "3 m/s²",
-      "4 m/s²"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A car covers 100 m in 5 s, then another 100 m in 10 s. Its average speed for the whole trip is",
-    "options": [
-      "10 m/s",
-      "13.3 m/s",
-      "15 m/s",
-      "20 m/s"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A particle has initial velocity 8 m/s and acceleration -2 m/s². At what time will it momentarily stop?",
-    "options": [
-      "2 s",
-      "4 s",
-      "6 s",
-      "8 s"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A bus moving at 12 m/s accelerates at 3 m/s² for 4 s. The ratio of its final speed to its initial speed is",
-    "options": [
-      "1:2",
-      "2:1",
-      "3:1",
-      "4:1"
-    ],
-    "answer": "B"
+    "question": "A particle moves with an initial velocity of 6 m/s and an acceleration of 2 m/s². How far does it travel in the fifth second?",
+    "options": ["13 m", "15 m", "17 m", "19 m"],
+    "answer": "C"
   }
 ]
