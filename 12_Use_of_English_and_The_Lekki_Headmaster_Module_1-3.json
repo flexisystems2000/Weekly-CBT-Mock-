@@ -30,7 +30,7 @@
     "answer": "B"
   },
   {
-    "question": "Choose the option nearest in meaning to *ameliorate*.",
+    "question": "Choose the option nearest in meaning to ameliorate.",
     "options": [
       "worsen",
       "improve",
@@ -40,7 +40,7 @@
     "answer": "B"
   },
   {
-    "question": "Choose the option opposite in meaning to *transient*.",
+    "question": "Choose the option opposite in meaning to transient.",
     "options": [
       "temporary",
       "brief",
@@ -49,75 +49,279 @@
     ],
     "answer": "C"
   },
+
   {
-    "question": "In the sentence, “The manager's remarks were deliberately *laconic*,” laconic most nearly means",
+    "question": "PASSAGE 1: Read the passage carefully and answer the question that follows.\n\nIn many societies, education is spoken of as though it were simply a ladder that individuals climb in order to obtain employment. Students are encouraged to pass examinations, acquire certificates and secure positions that will enable them to earn a living. There is certainly nothing wrong with wanting a useful qualification or seeking a stable career. However, when education is reduced entirely to the pursuit of certificates and employment, an important part of its purpose is lost. Education should not merely prepare people to fit into an existing society; it should also prepare them to understand, question and improve that society.\n\nA person may possess several certificates and still lack the ability to reason carefully. Such a person may remember facts for an examination but struggle to determine whether information encountered outside the classroom is reliable. This distinction has become particularly important in an age in which people are surrounded by enormous quantities of information. A message can be forwarded to thousands of people within minutes, even when its claims have never been verified. Photographs can be altered, statistics can be presented without context, and confident statements can be made to appear authoritative simply because they are repeated frequently. Education that develops judgement therefore has value far beyond the examination hall.\n\nCritical thinking does not mean that a person should reject everything that others say. On the contrary, a critical thinker listens carefully and considers evidence before reaching a conclusion. If a student disagrees with a teacher, for example, the appropriate response is not to dismiss the teacher automatically. The student should ask what evidence supports the teacher's position, examine alternative explanations and determine whether the disagreement is based on facts or assumptions. In this way, education teaches intellectual discipline rather than mere opposition.\n\nThe ability to ask good questions is another important part of learning. A student who asks why a particular event occurred may discover relationships that are not immediately obvious. A student who asks how a statistic was obtained may discover that the figure does not mean what it initially appeared to mean. Similarly, asking who produced a piece of information and for what purpose can reveal possible biases. Good questions do not necessarily provide immediate answers, but they prevent people from accepting weak explanations simply because those explanations are convenient.\n\nUnfortunately, examination pressure can sometimes discourage this kind of learning. When students are told that only marks matter, they may concentrate on predicting questions rather than understanding subjects. Some may memorise model answers without knowing why those answers are correct. Others may become afraid of making mistakes and therefore avoid difficult questions altogether. Yet mistakes are often an important part of intellectual development. A student who discovers that an argument is wrong has an opportunity to understand why it failed and to construct a better argument.\n\nThis does not mean that examinations are useless. Examinations can provide a practical way of assessing knowledge and skills, especially when they are carefully designed. The problem arises when examination performance becomes the only measure of ability. A student may perform poorly on one particular day because of anxiety, illness or unfamiliarity with the format, even though the student understands the subject well. Conversely, a student who has memorised information effectively may perform impressively without possessing the deeper understanding required to apply that knowledge in a new situation.\n\nTeachers therefore have an important responsibility. They can encourage students to explain their answers rather than merely provide them. They can ask students to compare different viewpoints, identify weaknesses in an argument and apply principles to unfamiliar situations. Such methods may require more time than simple memorisation, but they develop abilities that remain useful after the examination has ended.\n\nParents and students also have roles to play. Parents naturally want their children to succeed, but constant emphasis on grades can unintentionally communicate that learning itself has little value. Students, for their part, should recognise that genuine knowledge is not always immediately rewarded. A student may spend hours understanding a difficult concept and receive no mark for that effort until much later, when the concept becomes useful in another subject or situation.\n\nEducation also has a social purpose. People who understand history, government, science, economics and literature are better equipped to participate thoughtfully in public life. They are more likely to recognise misleading claims, understand competing interests and appreciate the consequences of decisions. A society in which citizens cannot distinguish evidence from propaganda is vulnerable to manipulation, regardless of how many schools or universities it possesses.\n\nThe most valuable education, therefore, is not necessarily the education that produces the largest number of certificates. It is education that develops knowledgeable, thoughtful and responsible people. Certificates may open doors, but judgement determines how people behave after they enter those doors. A qualification can show that a person has completed a course of study; it cannot by itself demonstrate wisdom, honesty or the ability to think independently. Those qualities must be developed through continuous learning and reflection.\n\nUltimately, education should help individuals become capable of asking meaningful questions, evaluating evidence, learning from mistakes and contributing responsibly to their communities. Employment and examinations remain important, but they should be regarded as parts of education rather than its entire purpose. When education succeeds in developing both knowledge and judgement, its benefits extend beyond the individual to the wider society.",
+    "sub_questions": [
+      {
+        "question": "What is the central argument of the passage?",
+        "options": [
+          "Examinations should be completely abolished",
+          "Education should develop knowledge, judgement and critical thinking rather than certificates alone",
+          "Students should concentrate exclusively on employment",
+          "Teachers should stop giving examinations"
+        ],
+        "answer": "B"
+      },
+      {
+        "question": "According to the passage, why is critical thinking especially important in the modern age?",
+        "options": [
+          "Students no longer attend schools",
+          "People are exposed to large amounts of information, some of which may be unreliable",
+          "Examinations have become impossible to pass",
+          "Teachers no longer provide information"
+        ],
+        "answer": "B"
+      },
+      {
+        "question": "The expression 'fit into an existing society' suggests that education should not merely",
+        "options": [
+          "teach people how to read",
+          "prepare people to accept society without questioning or improving it",
+          "prepare students for employment",
+          "encourage students to study history"
+        ],
+        "answer": "B"
+      },
+      {
+        "question": "According to the passage, a critical thinker who disagrees with a teacher should first",
+        "options": [
+          "reject the teacher's opinion",
+          "ask other students to support the disagreement",
+          "examine the evidence and alternative explanations",
+          "refuse to participate in the lesson"
+        ],
+        "answer": "C"
+      },
+      {
+        "question": "What does the writer suggest about mistakes in learning?",
+        "options": [
+          "They should always be punished",
+          "They can provide opportunities for intellectual development",
+          "They show that a student is incapable of learning",
+          "They are irrelevant to education"
+        ],
+        "answer": "B"
+      },
+      {
+        "question": "The writer's attitude towards examinations can best be described as",
+        "options": [
+          "completely hostile",
+          "completely supportive",
+          "balanced and qualified",
+          "indifferent"
+        ],
+        "answer": "C"
+      },
+      {
+        "question": "Which of the following can be inferred from the passage?",
+        "options": [
+          "A person with many certificates automatically has good judgement",
+          "Good examination performance always proves deep understanding",
+          "Education can benefit society by producing citizens who evaluate information carefully",
+          "Memorisation has no value whatsoever"
+        ],
+        "answer": "C"
+      },
+      {
+        "question": "The word 'propaganda' as used in the passage most nearly refers to",
+        "options": [
+          "information deliberately presented to influence people's opinions",
+          "scientific evidence",
+          "educational material",
+          "historical records"
+        ],
+        "answer": "A"
+      },
+      {
+        "question": "Why does the writer mention parents?",
+        "options": [
+          "To argue that parents should choose their children's careers",
+          "To show that excessive emphasis on grades can affect students' attitudes towards learning",
+          "To prove that parents are responsible for examination failures",
+          "To suggest that parents should teach every school subject"
+        ],
+        "answer": "B"
+      },
+      {
+        "question": "Which statement best expresses the conclusion of the passage?",
+        "options": [
+          "Certificates are completely useless",
+          "Employment is the only worthwhile goal of education",
+          "The best education develops both knowledge and the ability to think responsibly",
+          "Students should avoid examinations whenever possible"
+        ],
+        "answer": "C"
+      }
+    ]
+  },
+
+  {
+    "question": "PASSAGE 2: Read the passage carefully and answer the question that follows.\n\nA town can change dramatically without its inhabitants immediately recognising the extent of the change. A new road may appear where there was once a narrow path. Shops may replace small family compounds. A school may expand into land that previously contained farms. Gradually, the familiar landscape becomes different, and people begin to describe the transformation as development. Development, however, is not simply a matter of constructing more buildings or increasing the number of vehicles on the road. It is a much broader process involving the quality of people's lives, the opportunities available to them and the ability of a community to meet present needs without destroying its future.\n\nFor many communities, development brings undeniable benefits. Better roads can reduce the time required to transport goods and allow people to reach hospitals, schools and markets more easily. Reliable electricity can support businesses and make it possible for students to study after sunset. Improved communication networks can connect small businesses to customers outside their immediate areas. New industries can provide employment and increase government revenue. These changes can transform opportunities for families that previously had very few choices.\n\nYet development can also create problems when it is poorly planned. A road may make transportation easier while encouraging rapid construction along its edges without adequate drainage. A new market may create employment while producing large amounts of waste that are dumped into nearby waterways. A factory may employ hundreds of people while releasing pollutants that damage the health of residents. A growing population may increase demand for housing while reducing the amount of land available for agriculture. Development therefore involves choices, and those choices have consequences.\n\nOne of the most difficult challenges is deciding who benefits from development and who bears its costs. A new commercial centre may create profitable opportunities for landowners, traders and investors. At the same time, tenants may face higher rents and poorer families may be pushed farther away from the centre of economic activity. When a major road is constructed, some property owners may receive compensation for land acquired for the project, while people who depended on informal businesses along the road may lose their sources of income. A project can therefore be economically successful in one sense while producing hardship in another.\n\nThis is why planning should involve more than experts working behind closed doors. People who live in an area often possess knowledge that cannot easily be obtained from maps or statistics. They know where flooding occurs after heavy rainfall, which roads become dangerous at night and which community facilities are already overcrowded. Their knowledge does not mean that every local proposal should automatically be accepted, but it does mean that local experience should be considered before major decisions are made.\n\nPublic participation also has another advantage: it can increase trust. When people understand why a project is being proposed, how it will be financed and what effects it may have, they are more likely to support it or at least engage with the process constructively. By contrast, decisions made without explanation can produce suspicion. Even a project that has genuine benefits may face resistance if residents believe that information has been hidden from them.\n\nEnvironmental considerations are equally important. Natural resources are not unlimited, and damage to the environment can be expensive to reverse. A wetland that is filled to create building space may have previously absorbed excess water during heavy rainfall. Removing vegetation from hillsides may increase erosion. Polluting a river may affect fishing, farming and access to clean water. The financial value of a project may therefore look attractive when calculated in isolation, while its long-term environmental cost remains invisible.\n\nSustainable development seeks to address this problem by considering both present and future needs. It does not mean that communities must reject every new building, factory or road. Rather, it means that development should be planned so that today's improvements do not create unnecessary difficulties for future generations. A factory, for example, can provide employment while also adopting measures that reduce pollution. A city can expand while protecting important drainage channels and green spaces. Economic growth and environmental responsibility do not necessarily have to be enemies.\n\nEducation is another important part of development. A community may receive modern infrastructure but still struggle if its people lack the skills needed to use new opportunities. A new industrial park, for instance, may create jobs, but residents may not benefit fully if they lack the technical skills required by the companies operating there. Investment in education and vocational training can therefore help communities participate more effectively in economic change rather than simply observe it.\n\nHealth should also be considered. Economic activity that increases income but creates unsafe living conditions cannot be regarded as successful development in the fullest sense. Clean water, sanitation, waste management and access to healthcare are essential components of a healthy community. When these services are ignored, economic gains may be accompanied by diseases and other social costs that eventually reduce productivity.\n\nTechnology has introduced another dimension to development. Digital services can make banking, education, commerce and communication more accessible. A small business can advertise products to customers in distant locations without maintaining a physical shop in every town. Students can access educational materials that were previously unavailable to them. However, technology can also deepen inequality if some people have reliable internet access while others cannot afford suitable devices or data. Development that depends heavily on technology must therefore consider digital access as well.\n\nThe success of development should consequently be measured by more than the number of projects completed. A government may proudly announce that hundreds of buildings have been constructed, but the more important questions are whether those buildings serve genuine needs, whether they are maintained and whether ordinary citizens experience improvements in their lives. A road that is completed quickly but deteriorates after a short period may be less valuable than a carefully constructed road that remains useful for decades.\n\nThere is also a moral dimension to development. Decisions about land, resources and public money affect real people. Officials who approve projects should therefore consider not only what is profitable or politically attractive but also what is fair. Investors have legitimate interests, but so do residents. Governments need revenue, but citizens also need clean environments and reliable public services. Development becomes meaningful when economic progress is accompanied by fairness, accountability and concern for human welfare.\n\nUltimately, a developed community is not simply one with tall buildings, busy roads and modern technology. It is a community in which people have meaningful opportunities, essential services are accessible, resources are managed responsibly and citizens have some voice in decisions that affect their lives. Physical infrastructure is important, but infrastructure should serve human beings rather than become an end in itself. The true measure of development is therefore not how dramatically a place changes, but whether the changes produce a healthier, fairer and more sustainable society.",
+    "sub_questions": [
+      {
+        "question": "What is the main idea of the passage?",
+        "options": [
+          "Development should focus exclusively on constructing roads",
+          "Development is meaningful only when physical, economic, social and environmental needs are considered together",
+          "Modern technology is harmful to society",
+          "Communities should reject industrialisation"
+        ],
+        "answer": "B"
+      },
+      {
+        "question": "According to the passage, one benefit of improved roads is that they",
+        "options": [
+          "automatically eliminate poverty",
+          "make access to markets and essential services easier",
+          "prevent population growth",
+          "guarantee environmental protection"
+        ],
+        "answer": "B"
+      },
+      {
+        "question": "Why does the writer argue that local residents should participate in development planning?",
+        "options": [
+          "Residents always have better technical knowledge than experts",
+          "Residents possess practical knowledge about local conditions that may not appear in official data",
+          "Residents should control every government project",
+          "Experts are unnecessary in development planning"
+        ],
+        "answer": "B"
+      },
+      {
+        "question": "The example of a new market producing waste illustrates that",
+        "options": [
+          "markets should never be constructed",
+          "economic benefits can be accompanied by environmental problems",
+          "waste has no effect on development",
+          "employment always damages the environment"
+        ],
+        "answer": "B"
+      },
+      {
+        "question": "What does the writer mean by saying that a project can be 'economically successful in one sense while producing hardship in another'?",
+        "options": [
+          "Every profitable project is harmful",
+          "A project may generate economic benefits while negatively affecting some members of the community",
+          "Economic projects should never make money",
+          "Poor people cannot benefit from development"
+        ],
+        "answer": "B"
+      },
+      {
+        "question": "The word 'sustainable' as used in the passage implies development that",
+        "options": [
+          "continues without considering future consequences",
+          "meets present needs while protecting future interests",
+          "stops all economic activity",
+          "depends entirely on foreign investment"
+        ],
+        "answer": "B"
+      },
+      {
+        "question": "Why is education considered important to development?",
+        "options": [
+          "It prevents people from using technology",
+          "It equips people with skills needed to benefit from new opportunities",
+          "It replaces the need for infrastructure",
+          "It guarantees employment for everyone"
+        ],
+        "answer": "B"
+      },
+      {
+        "question": "What can be inferred about technology from the passage?",
+        "options": [
+          "Technology is always beneficial",
+          "Technology has no effect on inequality",
+          "Technology can create opportunities but may also increase inequality when access is uneven",
+          "Technology should replace schools"
+        ],
+        "answer": "C"
+      },
+      {
+        "question": "According to the writer, the success of development projects should be judged mainly by",
+        "options": [
+          "the number of projects announced",
+          "the speed at which buildings are constructed",
+          "their lasting contribution to people's welfare",
+          "the amount of publicity they receive"
+        ],
+        "answer": "C"
+      },
+      {
+        "question": "Which statement best represents the writer's conclusion?",
+        "options": [
+          "Tall buildings are the best measure of development",
+          "Economic growth is more important than human welfare",
+          "True development should produce a healthier, fairer and more sustainable society",
+          "Communities should avoid all major construction projects"
+        ],
+        "answer": "C"
+      }
+    ]
+  },
+
+  {
+    "question": "CLOZE TEST: Complete the passage by choosing the most appropriate option for each blank. Good communication is essential in every society. A message may be grammatically correct but still fail if it is not ___(1)___ by the listener. Effective speakers therefore consider their audience before choosing their words. They avoid unnecessary ___(2)___ and express their ideas clearly. They also listen carefully because communication is a ___(3)___ process. When people listen only to respond rather than to understand, ___(4)___ often arise. Good communication can therefore prevent unnecessary ___(5)___ and improve relationships.\n\n(1)",
     "options": [
-      "very lengthy",
-      "brief and concise",
-      "emotionally violent",
-      "technically incorrect"
+      "understood",
+      "destroyed",
+      "hidden",
+      "delayed"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "CLOZE TEST: Good communication is essential in every society. A message may be grammatically correct but still fail if it is not ___(1)___ by the listener. Effective speakers therefore consider their audience before choosing their words. They avoid unnecessary ___(2)___ and express their ideas clearly. They also listen carefully because communication is a ___(3)___ process. When people listen only to respond rather than to understand, ___(4)___ often arise. Good communication can therefore prevent unnecessary ___(5)___ and improve relationships.\n\n(2)",
+    "options": [
+      "clarity",
+      "complexity",
+      "kindness",
+      "accuracy"
     ],
     "answer": "B"
   },
   {
-    "question": "Choose the best option: If I ___ earlier, I would have met the principal.",
+    "question": "CLOZE TEST: Good communication is essential in every society. A message may be grammatically correct but still fail if it is not ___(1)___ by the listener. Effective speakers therefore consider their audience before choosing their words. They avoid unnecessary ___(2)___ and express their ideas clearly. They also listen carefully because communication is a ___(3)___ process. When people listen only to respond rather than to understand, ___(4)___ often arise. Good communication can therefore prevent unnecessary ___(5)___ and improve relationships.\n\n(3)",
     "options": [
-      "arrived",
-      "had arrived",
-      "have arrived",
-      "would arrive"
+      "one-sided",
+      "reciprocal",
+      "silent",
+      "private"
     ],
     "answer": "B"
   },
   {
-    "question": "Choose the option that best completes the sentence: Neither the teachers nor the principal ___ willing to cancel the test.",
+    "question": "CLOZE TEST: Good communication is essential in every society. A message may be grammatically correct but still fail if it is not ___(1)___ by the listener. Effective speakers therefore consider their audience before choosing their words. They avoid unnecessary ___(2)___ and express their ideas clearly. They also listen carefully because communication is a ___(3)___ process. When people listen only to respond rather than to understand, ___(4)___ often arise. Good communication can therefore prevent unnecessary ___(5)___ and improve relationships.\n\n(4)",
     "options": [
-      "were",
-      "are",
-      "was",
-      "have"
+      "agreements",
+      "misunderstandings",
+      "celebrations",
+      "promotions"
     ],
-    "answer": "C"
+    "answer": "B"
   },
   {
-    "question": "Choose the word that is nearest in meaning to *intransigent*.",
+    "question": "CLOZE TEST: Good communication is essential in every society. A message may be grammatically correct but still fail if it is not ___(1)___ by the listener. Effective speakers therefore consider their audience before choosing their words. They avoid unnecessary ___(2)___ and express their ideas clearly. They also listen carefully because communication is a ___(3)___ process. When people listen only to respond rather than to understand, ___(4)___ often arise. Good communication can therefore prevent unnecessary ___(5)___ and improve relationships.\n\n(5)",
     "options": [
-      "uncompromising",
-      "generous",
-      "uncertain",
-      "obedient"
+      "conflicts",
+      "knowledge",
+      "success",
+      "friendship"
     ],
     "answer": "A"
   },
+
   {
-    "question": "Choose the option opposite in meaning to *mitigate*.",
+    "question": "Choose the option that best completes the sentence: If the manager ___ the warning earlier, the problem would have been avoided.",
     "options": [
-      "relieve",
-      "alleviate",
-      "aggravate",
-      "moderate"
+      "noticed",
+      "had noticed",
+      "has noticed",
+      "would notice"
     ],
-    "answer": "C"
-  },
-  {
-    "question": "In a dramatic context, a headmaster who appears authoritative but is repeatedly undermined by circumstances can create",
-    "options": [
-      "irony",
-      "literalism",
-      "onomatopoeia",
-      "rhyme"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A character's exaggerated reaction to a minor school incident would most likely be described as",
-    "options": [
-      "hyperbole",
-      "euphemism",
-      "alliteration",
-      "metonymy"
-    ],
-    "answer": "A"
+    "answer": "B"
   },
   {
     "question": "Choose the option that best completes the sentence: No sooner had the students settled down ___ the bell rang.",
@@ -130,23 +334,205 @@
     "answer": "B"
   },
   {
-    "question": "Choose the option nearest in meaning to *scrupulous* as used in “a scrupulous administrator.”",
+    "question": "Choose the option that best completes the sentence: The committee insisted that every applicant ___ the required documents.",
     "options": [
-      "careless",
-      "morally and procedurally careful",
-      "impulsive",
-      "secretive"
+      "submits",
+      "submitted",
+      "submit",
+      "submitting"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Choose the option that best completes the sentence: By the time we arrived at the station, the train ___.",
+    "options": [
+      "leaves",
+      "has left",
+      "had left",
+      "will leave"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Choose the option that best completes the sentence: Neither the teachers nor the principal ___ willing to cancel the examination.",
+    "options": [
+      "were",
+      "are",
+      "was",
+      "have"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Choose the option that best completes the sentence: The principal, together with the teachers, ___ expected to attend the ceremony.",
+    "options": [
+      "are",
+      "were",
+      "have",
+      "is"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Choose the option that best completes the sentence: She has lived in Lagos ___ 2019.",
+    "options": [
+      "for",
+      "since",
+      "from",
+      "during"
     ],
     "answer": "B"
   },
   {
-    "question": "Choose the option that best describes the effect of difficult vocabulary in a literary passage when the meaning must be inferred from surrounding clues.",
+    "question": "Choose the option that best completes the sentence: The students were prevented ___ entering the laboratory.",
     "options": [
-      "Context can narrow the possible meaning even when the word is unfamiliar",
-      "The word must always be ignored",
-      "Only its spelling matters",
-      "Every unfamiliar word is automatically an idiom"
+      "to",
+      "for",
+      "from",
+      "with"
+    ],
+    "answer": "C"
+  },
+
+  {
+    "question": "In the sentence 'The extremely intelligent student solved the problem quickly', the word 'extremely' is a",
+    "options": [
+      "noun",
+      "verb",
+      "adverb",
+      "preposition"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "In the sentence 'The children crossed the narrow bridge', the word 'narrow' functions as a",
+    "options": [
+      "noun",
+      "adjective",
+      "verb",
+      "conjunction"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "In the sentence 'She carefully placed the books on the table', the word 'on' is a",
+    "options": [
+      "preposition",
+      "pronoun",
+      "adjective",
+      "adverb"
     ],
     "answer": "A"
+  },
+  {
+    "question": "Choose the option that correctly completes the sentence: The manager spoke to Ada and ___ about the problem.",
+    "options": [
+      "I",
+      "me",
+      "my",
+      "mine"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Choose the correct option: Neither Chidi nor Emeka brought ___ textbook to class.",
+    "options": [
+      "his",
+      "their",
+      "our",
+      "its"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Choose the option that best completes the sentence: I have read ___ books you recommended.",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "much"
+    ],
+    "answer": "C"
+  },
+
+  {
+    "question": "Choose the option nearest in meaning to meticulous.",
+    "options": [
+      "careless",
+      "very careful and precise",
+      "hasty",
+      "uncertain"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Choose the option opposite in meaning to hostile.",
+    "options": [
+      "aggressive",
+      "unfriendly",
+      "friendly",
+      "violent"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Choose the option nearest in meaning to ubiquitous.",
+    "options": [
+      "rare",
+      "present everywhere",
+      "temporary",
+      "hidden"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Choose the option opposite in meaning to obsolete.",
+    "options": [
+      "outdated",
+      "ancient",
+      "modern",
+      "useless"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Choose the option nearest in meaning to intransigent.",
+    "options": [
+      "uncompromising",
+      "generous",
+      "uncertain",
+      "obedient"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Choose the option opposite in meaning to mitigate.",
+    "options": [
+      "relieve",
+      "alleviate",
+      "aggravate",
+      "moderate"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Choose the option nearest in meaning to laconic.",
+    "options": [
+      "very talkative",
+      "brief and concise",
+      "confused",
+      "aggressive"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Choose the option opposite in meaning to benevolent.",
+    "options": [
+      "kind",
+      "generous",
+      "malevolent",
+      "helpful"
+    ],
+    "answer": "C"
   }
 ]
