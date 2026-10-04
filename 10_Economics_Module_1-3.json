@@ -148,5 +148,370 @@
       "55"
     ],
     "answer": "B"
+  },
+
+  {
+    "question": "In a capitalist economic system, the allocation of resources is influenced mainly by",
+    "options": [
+      "government planning alone",
+      "the price mechanism and market forces",
+      "traditional rulers",
+      "military authorities"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A major feature of a socialist economic system is",
+    "options": [
+      "private ownership of virtually all productive resources",
+      "central planning and substantial state ownership",
+      "complete absence of government intervention",
+      "profit being the only economic objective"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A mixed economy combines",
+    "options": [
+      "only traditional production methods",
+      "elements of private enterprise and government participation",
+      "only state ownership",
+      "only subsistence production"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The basic economic problem exists because resources are",
+    "options": [
+      "unlimited while wants are limited",
+      "scarce relative to unlimited human wants",
+      "equally distributed among everyone",
+      "available without cost"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Opportunity cost is best described as the",
+    "options": [
+      "money price of every commodity",
+      "value of the next best alternative forgone",
+      "total cost of producing a commodity",
+      "amount spent on advertising"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A government decides to use a piece of land for a hospital instead of a shopping complex. The opportunity cost is",
+    "options": [
+      "the cost of constructing the hospital",
+      "the shopping complex forgone",
+      "the workers employed at the hospital",
+      "the government's tax revenue"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Under a traditional economic system, economic decisions are influenced strongly by",
+    "options": [
+      "customs and traditions",
+      "stock market prices",
+      "international banks",
+      "computer algorithms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "One major advantage of the price mechanism is that it",
+    "options": [
+      "eliminates scarcity",
+      "provides signals that help coordinate buyers and sellers",
+      "guarantees equal income",
+      "prevents competition"
+    ],
+    "answer": "B"
+  },
+
+  {
+    "question": "If the supply of a commodity decreases while demand remains unchanged, equilibrium price will generally",
+    "options": [
+      "fall",
+      "rise",
+      "remain permanently unchanged",
+      "become zero"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "An improvement in production technology will normally cause the supply curve to",
+    "options": [
+      "shift to the left",
+      "shift to the right",
+      "become vertical",
+      "disappear"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A price ceiling fixed below the equilibrium price is likely to create",
+    "options": [
+      "a surplus",
+      "a shortage",
+      "an increase in equilibrium price",
+      "perfect competition"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A price floor fixed above the equilibrium price is likely to create",
+    "options": [
+      "a shortage",
+      "a surplus",
+      "zero supply",
+      "a fall in production costs"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "If both demand and supply increase simultaneously, the equilibrium quantity will generally",
+    "options": [
+      "increase",
+      "decrease",
+      "necessarily remain unchanged",
+      "always become zero"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The point at which quantity demanded equals quantity supplied is known as",
+    "options": [
+      "the shortage point",
+      "equilibrium",
+      "the price ceiling",
+      "the production frontier"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The law of supply states that, ceteris paribus, quantity supplied tends to",
+    "options": [
+      "fall when price rises",
+      "rise when price rises",
+      "remain constant regardless of price",
+      "fall when production costs fall"
+    ],
+    "answer": "B"
+  },
+
+  {
+    "question": "Utility in economics refers to the",
+    "options": [
+      "usefulness or satisfaction obtained from consuming a commodity",
+      "monetary cost of production",
+      "quantity supplied by producers",
+      "amount of tax paid by consumers"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Marginal utility is the",
+    "options": [
+      "total satisfaction from all units consumed",
+      "additional satisfaction obtained from consuming one more unit",
+      "average price of a commodity",
+      "total expenditure on a commodity"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The law of diminishing marginal utility states that as successive units of a commodity are consumed",
+    "options": [
+      "total utility must immediately fall",
+      "marginal utility eventually decreases",
+      "price must increase",
+      "income must decrease"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A consumer is in equilibrium when",
+    "options": [
+      "all income is necessarily saved",
+      "the consumer obtains maximum satisfaction from available income and prices",
+      "the consumer buys only one commodity",
+      "marginal utility is always zero"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "If the price of a commodity falls while the consumer's income remains unchanged, the consumer's purchasing power",
+    "options": [
+      "increases",
+      "decreases",
+      "becomes zero",
+      "must remain unchanged"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A consumer spends ₦100 on a commodity and obtains 50 units of satisfaction. If spending rises to ₦150 and total satisfaction becomes 70 units, the additional satisfaction from the extra ₦50 is",
+    "options": [
+      "10 units",
+      "20 units",
+      "50 units",
+      "70 units"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "When total utility is increasing at a decreasing rate, marginal utility is",
+    "options": [
+      "positive but falling",
+      "negative and rising",
+      "zero throughout",
+      "constant and negative"
+    ],
+    "answer": "A"
+  },
+
+  {
+    "question": "Production is best described as the",
+    "options": [
+      "creation or addition of utility",
+      "consumption of all available goods",
+      "exchange of currency only",
+      "destruction of resources"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which of the following is a factor of production?",
+    "options": [
+      "Advertising",
+      "Land",
+      "Demand",
+      "Price"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The reward for entrepreneurship is",
+    "options": [
+      "rent",
+      "wages",
+      "interest",
+      "profit"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The law of diminishing returns applies when",
+    "options": [
+      "all factors are increased equally",
+      "more units of a variable factor are added to fixed factors in the short run",
+      "technology continuously improves",
+      "all factors are fixed"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "If total product increases from 100 units to 130 units when one additional worker is employed, the marginal product of that worker is",
+    "options": [
+      "30 units",
+      "100 units",
+      "130 units",
+      "230 units"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Division of labour can increase productivity mainly because workers",
+    "options": [
+      "perform specialized tasks and become more efficient",
+      "avoid all forms of training",
+      "produce without capital",
+      "eliminate scarcity"
+    ],
+    "answer": "A"
+  },
+
+  {
+    "question": "If the price of a good rises by 20% and quantity demanded falls by 40%, the price elasticity of demand is",
+    "options": [
+      "0.5",
+      "1",
+      "2",
+      "4"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "If price elasticity of demand is greater than one, demand is described as",
+    "options": [
+      "inelastic",
+      "unitary elastic",
+      "elastic",
+      "perfectly inelastic"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "When demand is unitary elastic, a percentage change in price produces",
+    "options": [
+      "a smaller percentage change in quantity demanded",
+      "an equal percentage change in quantity demanded",
+      "no change in quantity demanded",
+      "an infinite change in quantity demanded"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Demand for salt is likely to be relatively inelastic because",
+    "options": [
+      "salt has many perfect substitutes",
+      "it takes a small proportion of most consumers' income and is a necessity",
+      "consumers can easily stop using it",
+      "its price changes every hour"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "If the price of a commodity increases from ₦50 to ₦60 while quantity demanded falls from 100 units to 80 units, using the simple percentage method, the price elasticity of demand is approximately",
+    "options": [
+      "0.5",
+      "1",
+      "2",
+      "4"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A perfectly elastic demand curve is represented by a",
+    "options": [
+      "vertical line",
+      "horizontal line",
+      "positively sloping line",
+      "curved line with no intercept"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A perfectly inelastic demand curve is represented by a",
+    "options": [
+      "horizontal line",
+      "vertical line",
+      "downward-sloping curve",
+      "U-shaped curve"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "If a firm's total revenue rises when it increases price, demand over that range is likely to be",
+    "options": [
+      "elastic",
+      "inelastic",
+      "perfectly elastic",
+      "unitary elastic"
+    ],
+    "answer": "B"
   }
 ]
