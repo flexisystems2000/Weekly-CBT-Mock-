@@ -1804,7 +1804,7 @@ SUBMISSION
 =========================================================
 */
 
-function showSubmitConfirmation() {
+window.showSubmitConfirmation = function() {
 
     const modal =
         document.getElementById(
@@ -1816,27 +1816,19 @@ function showSubmitConfirmation() {
             "submission-message"
         );
 
-
     message.textContent =
         "Are you sure you want to submit your exam? You will not be able to return to it.";
 
-
-    modal.classList.add(
-        "active"
-    );
-
+    modal.classList.add("active");
 
     document.getElementById(
         "confirm-submit-btn"
-    ).style.display =
-        "inline-block";
-
+    ).style.display = "inline-block";
 
     document.getElementById(
         "cancel-submit-btn"
-    ).style.display =
-        "inline-block";
-}
+    ).style.display = "inline-block";
+};
 
 
 window.cancelSubmission =
