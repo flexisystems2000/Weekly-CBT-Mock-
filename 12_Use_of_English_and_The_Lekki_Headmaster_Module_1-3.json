@@ -538,38 +538,38 @@
   {
     "id": 42,
     "type": "nouns_pronouns_determiners",
-    "question": "Choose the correct pronoun: 'The girls completed the assignment by _______.'",
+    "question": "The committee postponed the vote _____ a quorum had not been reached.",
     "options": [
-      "themselves",
-      "theirselves",
-      "themself",
-      "theirself"
+      "whereas",
+      "although",
+      "unless",
+      "because"
     ],
-    "answer": "A"
+    "answer": "D"
   },
   {
     "id": 43,
     "type": "nouns_pronouns_determiners",
-    "question": "Choose the correct determiner: 'There isn't _______ water left in the tank.'",
+    "question": "Hardly had the principal entered the hall _____ the candidates became silent.",
     "options": [
-      "many",
-      "much",
-      "few",
-      "several"
+      "when",
+      "than",
+      "while",
+      "then"
     ],
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 44,
     "type": "nouns_pronouns_determiners",
-    "question": "Choose the correct option: 'Each of the candidates must bring _______ identification card.'",
+    "question": "The witness insisted _____ having seen the vehicle before the incident.",
     "options": [
-      "their",
-      "his or her",
-      "our",
-      "your"
+      "at",
+      "for",
+      "on",
+      "with"
     ],
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 45,
@@ -610,14 +610,14 @@
   {
     "id": 48,
     "type": "nouns_pronouns_determiners",
-    "question": "Choose the correct option: 'I have read _______ books you recommended.'",
+    "question": "Neither the coach nor the players _____ willing to accept the revised schedule.",
     "options": [
-      "all the",
-      "much",
-      "any of",
-      "a little"
+      "is",
+      "were",
+      "has been",
+      "was"
     ],
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 49,
@@ -646,121 +646,121 @@
   {
     "id": 51,
     "type": "prepositions_conjunctions",
-    "question": "Choose the correct preposition: The principal congratulated Ada ___ her excellent result.",
+    "question": "The proposal was rejected, not because it was expensive, _____ because it lacked supporting evidence.",
     "options": [
-      "on",
-      "at",
-      "with",
-      "for"
+      "so",
+      "but",
+      "or",
+      "and"
     ],
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 52,
     "type": "prepositions_conjunctions",
-    "question": "Choose the correct preposition: The students arrived ___ school before eight o'clock.",
+    "question": "The students complied _____ the instructions despite disagreeing with the decision.",
     "options": [
-      "at",
-      "in",
-      "to",
-      "on"
+      "with",
+      "by",
+      "for",
+      "to"
     ],
     "answer": "A"
   },
   {
     "id": 53,
     "type": "prepositions_conjunctions",
-    "question": "Choose the correct preposition: Musa has been absent ___ Monday.",
+    "question": "No sooner had the rain stopped _____ the match resumed.",
     "options": [
-      "from",
-      "by",
-      "since",
-      "for"
+      "when",
+      "than",
+      "while",
+      "then"
     ],
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 54,
     "type": "prepositions_conjunctions",
-    "question": "Choose the correct preposition: The book belongs ___ my sister.",
+    "question": "The manager is responsible _____ ensuring that all reports are submitted on time.",
     "options": [
-      "at",
       "with",
-      "to",
-      "for"
+      "of",
+      "for",
+      "to"
     ],
     "answer": "C"
   },
   {
     "id": 55,
     "type": "prepositions_conjunctions",
-    "question": "Choose the correct conjunction: I studied hard, ___ I passed the examination.",
+    "question": "The candidate performed well _____ having had little time to prepare.",
     "options": [
+      "whereas",
+      "because",
       "unless",
-      "so",
-      "because of",
-      "although"
+      "despite"
     ],
-    "answer": "B"
+    "answer": "D"
   },
   {
     "id": 56,
     "type": "prepositions_conjunctions",
-    "question": "Choose the correct conjunction: You will not succeed ___ you work consistently.",
+    "question": "The lecturer spoke slowly _____ everyone could take accurate notes.",
     "options": [
-      "unless",
-      "so",
-      "because",
-      "while"
+      "whereas",
+      "in spite of",
+      "so that",
+      "unless"
     ],
-    "answer": "A"
+    "answer": "C"
   },
   {
     "id": 57,
     "type": "prepositions_conjunctions",
-    "question": "Choose the correct conjunction: ___ it was raining, the match continued.",
+    "question": "The team succeeded _____ the obstacles it encountered during the project.",
     "options": [
-      "Although",
-      "Because",
-      "Therefore",
-      "Unless"
+      "because",
+      "in spite of",
+      "unless",
+      "whereas"
     ],
-    "answer": "A"
+    "answer": "B"
   },
   {
     "id": 58,
     "type": "prepositions_conjunctions",
-    "question": "Choose the correct conjunction: Neither Chika ___ Bisi attended the meeting.",
+    "question": "The application will be considered _____ all required documents are submitted.",
     "options": [
-      "but",
-      "or",
-      "nor",
-      "and"
+      "although",
+      "whereas",
+      "provided that",
+      "despite"
     ],
     "answer": "C"
   },
   {
     "id": 59,
     "type": "prepositions_conjunctions",
-    "question": "Choose the correct preposition: The teacher divided the class ___ four groups.",
+    "question": "She is not only an excellent researcher _____ also a careful editor.",
     "options": [
-      "among",
-      "into",
-      "between",
-      "by"
+      "and",
+      "or",
+      "but",
+      "so"
     ],
-    "answer": "B"
+    "answer": "C"
   },
   {
     "id": 60,
     "type": "prepositions_conjunctions",
-    "question": "Choose the correct conjunction: We waited ___ the bus finally arrived.",
+    "question": "The report must be submitted today, _____ the director has granted an extension.",
     "options": [
+      "because",
       "whereas",
-      "unless",
-      "until",
-      "although"
+      "since",
+      "unless"
     ],
-    "answer": "C"
+    "answer": "D"
   }
 ]

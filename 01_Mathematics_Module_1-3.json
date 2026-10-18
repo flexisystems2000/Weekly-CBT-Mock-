@@ -1,602 +1,602 @@
 [
   {
-    "question": "Find the 8th term of the arithmetic sequence with first term 2 and common difference 3.",
+    "question": "The 16th term of an arithmetic progression is required. If its first term is 7 and common difference is 3, find the term.",
     "options": [
-      "20",
-      "26",
-      "13",
-      "23"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Find the sum of the first 5 terms of an arithmetic progression with first term 2 and common difference 3.",
-    "options": [
-      "14",
-      "47",
-      "40",
-      "32"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "In an arithmetic progression, the 3rd term is 8 and the 6th term is 17. Find the common difference.",
-    "options": [
-      "4",
-      "5",
-      "2",
-      "3"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Which is the 5th term of the arithmetic sequence 2, 5, 8, ...?",
-    "options": [
-      "17",
-      "11",
-      "14",
-      "None of the above"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Find the 8th term of the arithmetic sequence with first term 5 and common difference 4.",
-    "options": [
-      "37",
-      "29",
-      "27",
-      "33"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Find the sum of the first 5 terms of an arithmetic progression with first term 5 and common difference 4.",
-    "options": [
-      "55",
-      "21",
-      "75",
-      "65"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "In an arithmetic progression, the 3rd term is 13 and the 6th term is 25. Find the common difference.",
-    "options": [
-      "3",
-      "5",
-      "4",
-      "6"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which is the 5th term of the arithmetic sequence 5, 9, 13, ...?",
-    "options": [
+      "160",
       "25",
-      "None of the above",
-      "21",
-      "17"
+      "52",
+      "55"
     ],
     "answer": "C"
   },
   {
-    "question": "Find the 8th term of the arithmetic sequence with first term 7 and common difference 2.",
+    "question": "The 30th term of an arithmetic progression is required. If its first term is 8 and common difference is 9, find the term.",
     "options": [
-      "21",
+      "46",
+      "510",
+      "278",
+      "269"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The 28th term of an arithmetic progression is required. If its first term is 11 and common difference is 6, find the term.",
+    "options": [
+      "44",
+      "173",
+      "179",
+      "476"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The 12th term of an arithmetic progression is required. If its first term is 3 and common difference is 5, find the term.",
+    "options": [
+      "63",
+      "96",
       "19",
-      "23",
-      "None of the above"
+      "58"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The 22th term of an arithmetic progression is required. If its first term is 11 and common difference is 7, find the term.",
+    "options": [
+      "39",
+      "158",
+      "396",
+      "165"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The 12th term of an arithmetic progression is required. If its first term is 7 and common difference is 7, find the term.",
+    "options": [
+      "91",
+      "168",
+      "25",
+      "84"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The 22th term of an arithmetic progression is required. If its first term is -3 and common difference is 6, find the term.",
+    "options": [
+      "123",
+      "129",
+      "24",
+      "66"
     ],
     "answer": "A"
   },
   {
-    "question": "Find the sum of the first 5 terms of an arithmetic progression with first term 7 and common difference 2.",
+    "question": "The 13th term of an arithmetic progression is required. If its first term is -2 and common difference is 5, find the term.",
     "options": [
-      "60",
-      "15",
-      "55",
+      "58",
+      "39",
+      "63",
+      "15"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The 13th term of an arithmetic progression is required. If its first term is 5 and common difference is 7, find the term.",
+    "options": [
+      "24",
+      "89",
+      "96",
+      "156"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The 16th term of an arithmetic progression is required. If its first term is 6 and common difference is 4, find the term.",
+    "options": [
+      "70",
+      "66",
+      "160",
+      "25"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The 17th term of an arithmetic progression is required. If its first term is 7 and common difference is 2, find the term.",
+    "options": [
+      "25",
+      "39",
+      "41",
+      "153"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The 20th term of an arithmetic progression is required. If its first term is 6 and common difference is 5, find the term.",
+    "options": [
+      "101",
+      "106",
+      "30",
+      "220"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The 23th term of an arithmetic progression is required. If its first term is -3 and common difference is 5, find the term.",
+    "options": [
+      "112",
+      "46",
+      "107",
+      "24"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "The 11th term of an arithmetic progression is required. If its first term is 6 and common difference is 8, find the term.",
+    "options": [
+      "154",
+      "86",
+      "94",
+      "24"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The 27th term of an arithmetic progression is required. If its first term is 5 and common difference is 8, find the term.",
+    "options": [
+      "39",
+      "221",
+      "351",
+      "213"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Find the sum of the first 18 terms of an arithmetic progression whose first term is 7 and common difference is 2.",
+    "options": [
+      "738",
+      "432",
+      "450",
+      "43"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Find the sum of the first 18 terms of an arithmetic progression whose first term is 3 and common difference is 3.",
+    "options": [
+      "540",
+      "57",
+      "513",
+      "972"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Find the sum of the first 18 terms of an arithmetic progression whose first term is 8 and common difference is 6.",
+    "options": [
+      "1062",
+      "1116",
+      "116",
+      "1980"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Find the sum of the first 18 terms of an arithmetic progression whose first term is 8 and common difference is 3.",
+    "options": [
+      "1062",
+      "630",
+      "62",
+      "603"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Find the sum of the first 20 terms of an arithmetic progression whose first term is 2 and common difference is 3.",
+    "options": [
+      "610",
+      "640",
+      "62",
+      "1180"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Find the sum of the first 15 terms of an arithmetic progression whose first term is 6 and common difference is 4.",
+    "options": [
+      "930",
+      "510",
+      "540",
+      "66"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Find the sum of the first 12 terms of an arithmetic progression whose first term is 2 and common difference is 4.",
+    "options": [
+      "312",
+      "552",
+      "288",
       "50"
     ],
     "answer": "C"
   },
   {
-    "question": "In an arithmetic progression, the 3rd term is 11 and the 6th term is 17. Find the common difference.",
+    "question": "Find the sum of the first 25 terms of an arithmetic progression whose first term is 2 and common difference is 6.",
     "options": [
-      "1",
-      "3",
-      "4",
-      "2"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Which is the 5th term of the arithmetic sequence 7, 9, 11, ...?",
-    "options": [
-      "17",
-      "13",
-      "None of the above",
-      "15"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Find the 8th term of the arithmetic sequence with first term 12 and common difference -2.",
-    "options": [
-      "-17",
-      "-4",
-      "-2",
-      "0"
+      "3650",
+      "1925",
+      "1850",
+      "152"
     ],
     "answer": "C"
   },
   {
-    "question": "Find the sum of the first 5 terms of an arithmetic progression with first term 12 and common difference -2.",
+    "question": "Find the sum of the first 12 terms of an arithmetic progression whose first term is 5 and common difference is 4.",
     "options": [
-      "35",
-      "4",
-      "45",
-      "40"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "In an arithmetic progression, the 3rd term is 8 and the 6th term is 2. Find the common difference.",
-    "options": [
-      "-2",
-      "-1",
-      "4",
-      "-3"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which is the 5th term of the arithmetic sequence 12, 10, 8, ...?",
-    "options": [
-      "2",
-      "4",
-      "6",
-      "None of the above"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Find the 8th term of the arithmetic sequence with first term 3 and common difference 5.",
-    "options": [
-      "43",
-      "22",
-      "33",
-      "38"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Find the sum of the first 5 terms of an arithmetic progression with first term 3 and common difference 5.",
-    "options": [
-      "52",
-      "23",
-      "65",
-      "77"
+      "348",
+      "588",
+      "324",
+      "53"
     ],
     "answer": "C"
   },
   {
-    "question": "In an arithmetic progression, the 3rd term is 13 and the 6th term is 28. Find the common difference.",
+    "question": "Find the sum of the first 20 terms of an arithmetic progression whose first term is 6 and common difference is 2.",
     "options": [
-      "7",
-      "4",
-      "6",
-      "5"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Which is the 5th term of the arithmetic sequence 3, 8, 13, ...?",
-    "options": [
-      "23",
-      "28",
-      "18",
-      "None of the above"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Find the 8th term of the arithmetic sequence with first term 20 and common difference -3.",
-    "options": [
-      "-1",
-      "2",
-      "-53",
-      "-4"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Find the sum of the first 5 terms of an arithmetic progression with first term 20 and common difference -3.",
-    "options": [
-      "70",
-      "8",
-      "62",
-      "77"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "In an arithmetic progression, the 3rd term is 14 and the 6th term is 5. Find the common difference.",
-    "options": [
-      "-2",
-      "5",
-      "-4",
-      "-3"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Which is the 5th term of the arithmetic sequence 20, 17, 14, ...?",
-    "options": [
-      "11",
-      "5",
-      "8",
-      "None of the above"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Find the 8th term of the arithmetic sequence with first term 1 and common difference 6.",
-    "options": [
-      "37",
-      "43",
-      "49",
-      "13"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Find the sum of the first 5 terms of an arithmetic progression with first term 1 and common difference 6.",
-    "options": [
-      "50",
-      "25",
-      "65",
-      "80"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "In an arithmetic progression, the 3rd term is 13 and the 6th term is 31. Find the common difference.",
-    "options": [
-      "8",
-      "5",
-      "7",
-      "6"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Which is the 5th term of the arithmetic sequence 1, 7, 13, ...?",
-    "options": [
-      "31",
-      "None of the above",
-      "25",
-      "19"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Find the 8th term of the arithmetic sequence with first term 9 and common difference 3.",
-    "options": [
-      "34",
-      "33",
-      "30",
-      "27"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Find the sum of the first 5 terms of an arithmetic progression with first term 9 and common difference 3.",
-    "options": [
-      "75",
-      "67",
-      "82",
-      "21"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "In an arithmetic progression, the 3rd term is 15 and the 6th term is 24. Find the common difference.",
-    "options": [
-      "2",
-      "3",
-      "5",
-      "4"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which is the 5th term of the arithmetic sequence 9, 12, 15, ...?",
-    "options": [
-      "21",
-      "24",
-      "18",
-      "None of the above"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Find the 8th term of the arithmetic sequence with first term 15 and common difference -4.",
-    "options": [
-      "-13",
-      "-17",
-      "-9",
-      "-53"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Find the sum of the first 5 terms of an arithmetic progression with first term 15 and common difference -4.",
-    "options": [
-      "45",
-      "-1",
-      "35",
-      "25"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "In an arithmetic progression, the 3rd term is 7 and the 6th term is -5. Find the common difference.",
-    "options": [
-      "-3",
-      "-5",
-      "-4",
-      "6"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which is the 5th term of the arithmetic sequence 15, 11, 7, ...?",
-    "options": [
-      "-5",
-      "3",
-      "None of the above",
-      "-1"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Find the 8th term of the arithmetic sequence with first term 4 and common difference 7.",
-    "options": [
-      "60",
-      "53",
+      "880",
+      "500",
       "46",
-      "35"
+      "520"
     ],
     "answer": "B"
   },
   {
-    "question": "Find the sum of the first 5 terms of an arithmetic progression with first term 4 and common difference 7.",
+    "question": "Find the sum of the first 15 terms of an arithmetic progression whose first term is 4 and common difference is 4.",
     "options": [
-      "90",
-      "107",
-      "72",
-      "32"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "In an arithmetic progression, the 3rd term is 18 and the 6th term is 39. Find the common difference.",
-    "options": [
-      "8",
-      "7",
-      "9",
-      "6"
+      "900",
+      "480",
+      "64",
+      "510"
     ],
     "answer": "B"
   },
   {
-    "question": "Which is the 5th term of the arithmetic sequence 4, 11, 18, ...?",
+    "question": "Find the sum of the first 25 terms of an arithmetic progression whose first term is 6 and common difference is 3.",
     "options": [
-      "39",
-      "None of the above",
-      "25",
-      "32"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Find the 5th term of the geometric progression with first term 2 and common ratio 2.",
-    "options": [
-      "10",
-      "16",
-      "32",
-      "64"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Find the sum of the first 4 terms of the geometric progression 2, 4, 8, ... .",
-    "options": [
-      "16",
-      "14",
-      "30",
-      "34"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "The first term of a geometric progression is 2 and its common ratio is 2. What is the 3rd term?",
-    "options": [
-      "6",
-      "4",
-      "16",
-      "8"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Which number comes next in the geometric sequence 2, 4, 8, 16, ...?",
-    "options": [
-      "14",
-      "32",
-      "18",
-      "17"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Find the 5th term of the geometric progression with first term 3 and common ratio 2.",
-    "options": [
-      "24",
-      "48",
-      "11",
-      "96"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Find the sum of the first 4 terms of the geometric progression 3, 6, 12, ... .",
-    "options": [
-      "24",
-      "45",
-      "51",
-      "21"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "The first term of a geometric progression is 3 and its common ratio is 2. What is the 3rd term?",
-    "options": [
-      "7",
-      "6",
-      "24",
-      "12"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Which number comes next in the geometric sequence 3, 6, 12, 24, ...?",
-    "options": [
-      "25",
-      "26",
-      "48",
-      "22"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Find the 5th term of the geometric progression with first term 1 and common ratio 3.",
-    "options": [
-      "13",
-      "81",
-      "27",
-      "243"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Find the sum of the first 4 terms of the geometric progression 1, 3, 9, ... .",
-    "options": [
-      "13",
-      "27",
-      "41",
-      "40"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "The first term of a geometric progression is 1 and its common ratio is 3. What is the 3rd term?",
-    "options": [
-      "7",
-      "3",
-      "27",
-      "9"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Which number comes next in the geometric sequence 1, 3, 9, 27, ...?",
-    "options": [
-      "28",
-      "24",
-      "30",
+      "1050",
+      "1087",
+      "1950",
       "81"
     ],
+    "answer": "A"
+  },
+  {
+    "question": "Find the sum of the first 20 terms of an arithmetic progression whose first term is 3 and common difference is 5.",
+    "options": [
+      "1960",
+      "1060",
+      "1010",
+      "103"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Find the sum of the first 20 terms of an arithmetic progression whose first term is 4 and common difference is 2.",
+    "options": [
+      "480",
+      "44",
+      "840",
+      "460"
+    ],
     "answer": "D"
   },
   {
-    "question": "Find the 5th term of the geometric progression with first term 5 and common ratio 2.",
+    "question": "Find the sum of the first 25 terms of an arithmetic progression whose first term is 8 and common difference is 2.",
     "options": [
-      "80",
-      "13",
+      "825",
+      "800",
+      "1400",
+      "58"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A geometric progression has first term 5 and common ratio 3. Find the sum of its first 6 terms.",
+    "options": [
+      "364",
+      "1820",
+      "1215",
+      "3645"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A geometric progression has first term 4 and common ratio 2. Find the sum of its first 5 terms.",
+    "options": [
+      "31",
+      "124",
+      "128",
+      "64"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A geometric progression has first term 4 and common ratio 2. Find the sum of its first 8 terms.",
+    "options": [
+      "255",
+      "1024",
+      "1020",
+      "512"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A geometric progression has first term 5 and common ratio 2. Find the sum of its first 5 terms.",
+    "options": [
       "160",
-      "40"
+      "155",
+      "80",
+      "31"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A geometric progression has first term 2 and common ratio 2. Find the sum of its first 7 terms.",
+    "options": [
+      "128",
+      "127",
+      "256",
+      "254"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A geometric progression has first term 3 and common ratio 3. Find the sum of its first 5 terms.",
+    "options": [
+      "121",
+      "729",
+      "363",
+      "243"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A geometric progression has first term 3 and common ratio 3. Find the sum of its first 8 terms.",
+    "options": [
+      "9840",
+      "3280",
+      "19683",
+      "6561"
     ],
     "answer": "A"
   },
   {
-    "question": "Find the sum of the first 4 terms of the geometric progression 5, 10, 20, ... .",
+    "question": "A geometric progression has first term 5 and common ratio 3. Find the sum of its first 5 terms.",
     "options": [
-      "75",
-      "40",
-      "85",
-      "35"
+      "121",
+      "405",
+      "1215",
+      "605"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A geometric progression has first term 5 and common ratio 3. Find the sum of its first 5 terms.",
+    "options": [
+      "405",
+      "605",
+      "121",
+      "1215"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A geometric progression has first term 4 and common ratio 2. Find the sum of its first 5 terms.",
+    "options": [
+      "124",
+      "31",
+      "128",
+      "64"
     ],
     "answer": "A"
   },
   {
-    "question": "The first term of a geometric progression is 5 and its common ratio is 2. What is the 3rd term?",
+    "question": "A geometric progression has first term 5 and common ratio 3. Find the sum of its first 7 terms.",
     "options": [
-      "9",
-      "20",
-      "40",
+      "10935",
+      "1093",
+      "3645",
+      "5465"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A geometric progression has first term 2 and common ratio 3. Find the sum of its first 6 terms.",
+    "options": [
+      "486",
+      "1458",
+      "728",
+      "364"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A geometric progression has first term 4 and common ratio 2. Find the sum of its first 7 terms.",
+    "options": [
+      "127",
+      "512",
+      "256",
+      "508"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A geometric progression has first term 2 and common ratio 2. Find the sum of its first 7 terms.",
+    "options": [
+      "127",
+      "254",
+      "256",
+      "128"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A geometric progression has first term 4 and common ratio 2. Find the sum of its first 7 terms.",
+    "options": [
+      "127",
+      "256",
+      "512",
+      "508"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "In an arithmetic progression, term 3 is 14 and term 9 is 38. Find the first term.",
+    "options": [
+      "22",
+      "6",
+      "30",
       "10"
     ],
     "answer": "B"
   },
   {
-    "question": "Which number comes next in the geometric sequence 5, 10, 20, 40, ...?",
+    "question": "In an arithmetic progression, term 4 is 7 and term 10 is 19. Find the first term.",
     "options": [
-      "80",
-      "38",
-      "41",
-      "42"
+      "13",
+      "10",
+      "5",
+      "1"
     ],
-    "answer": "A"
+    "answer": "D"
   },
   {
-    "question": "Find the 5th term of the geometric progression with first term 4 and common ratio 3.",
+    "question": "In an arithmetic progression, term 5 is 18 and term 11 is 30. Find the first term.",
     "options": [
-      "324",
-      "108",
-      "972",
+      "20",
+      "26",
+      "10",
       "16"
     ],
+    "answer": "C"
+  },
+  {
+    "question": "In an arithmetic progression, term 4 is 10 and term 11 is 31. Find the first term.",
+    "options": [
+      "1",
+      "21",
+      "7",
+      "19"
+    ],
     "answer": "A"
   },
   {
-    "question": "Find the sum of the first 4 terms of the geometric progression 4, 12, 36, ... .",
+    "question": "In an arithmetic progression, term 5 is 17 and term 8 is 23. Find the first term.",
     "options": [
-      "52",
-      "108",
-      "164",
-      "160"
+      "16",
+      "15",
+      "25",
+      "9"
     ],
     "answer": "D"
   },
   {
-    "question": "The first term of a geometric progression is 4 and its common ratio is 3. What is the 3rd term?",
+    "question": "In an arithmetic progression, term 3 is 19 and term 8 is 44. Find the first term.",
     "options": [
-      "108",
-      "10",
-      "12",
-      "36"
+      "29",
+      "37",
+      "9",
+      "14"
     ],
-    "answer": "D"
+    "answer": "C"
   },
   {
-    "question": "Which number comes next in the geometric sequence 4, 12, 36, 108, ...?",
+    "question": "In an arithmetic progression, term 3 is 17 and term 6 is 29. Find the first term.",
     "options": [
-      "105",
-      "324",
-      "111",
-      "109"
+      "24",
+      "9",
+      "13",
+      "25"
     ],
     "answer": "B"
+  },
+  {
+    "question": "In an arithmetic progression, term 5 is 28 and term 8 is 46. Find the first term.",
+    "options": [
+      "4",
+      "22",
+      "52",
+      "39"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "In an arithmetic progression, term 2 is 7 and term 7 is 37. Find the first term.",
+    "options": [
+      "1",
+      "1",
+      "13",
+      "31"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "In an arithmetic progression, term 5 is 9 and term 11 is 21. Find the first term.",
+    "options": [
+      "1",
+      "7",
+      "17",
+      "11"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "In an arithmetic progression, term 4 is 19 and term 8 is 39. Find the first term.",
+    "options": [
+      "14",
+      "4",
+      "32",
+      "34"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "In an arithmetic progression, term 2 is 12 and term 6 is 20. Find the first term.",
+    "options": [
+      "10",
+      "15",
+      "10",
+      "14"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "In an arithmetic progression, term 5 is 11 and term 12 is 25. Find the first term.",
+    "options": [
+      "19",
+      "3",
+      "9",
+      "14"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "In an arithmetic progression, term 4 is 17 and term 8 is 33. Find the first term.",
+    "options": [
+      "29",
+      "13",
+      "26",
+      "5"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "In an arithmetic progression, term 2 is 10 and term 5 is 34. Find the first term.",
+    "options": [
+      "2",
+      "30",
+      "18",
+      "2"
+    ],
+    "answer": "A"
   }
 ]

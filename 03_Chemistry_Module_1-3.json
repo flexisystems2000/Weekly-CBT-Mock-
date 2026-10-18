@@ -1,601 +1,601 @@
 [
   {
-    "question": "Matter is made up of particles that are in",
+    "question": "A gas occupies 6 dm³ at 80 kPa. At constant temperature, what pressure will it exert when compressed to 10 dm³?",
     "options": [
-      "a single continuous block",
-      "constant motion",
-      "only chemical bonds",
-      "complete rest at all times"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which option is correct? matter is made up of particles that are in",
-    "options": [
-      "constant motion",
-      "only chemical bonds",
-      "a single continuous block",
-      "complete rest at all times"
+      "48.0",
+      "133.33",
+      "8.0",
+      "480"
     ],
     "answer": "A"
   },
   {
-    "question": "Select the best answer: Matter is made up of particles that are in",
+    "question": "A gas occupies 6 dm³ at 80 kPa. At constant temperature, what pressure will it exert when compressed to 4 dm³?",
     "options": [
-      "complete rest at all times",
-      "constant motion",
-      "a single continuous block",
-      "only chemical bonds"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which state of matter has a fixed shape and fixed volume?",
-    "options": [
-      "Liquid",
-      "Vapour only",
-      "Solid",
-      "Gas"
+      "480",
+      "53.33",
+      "120.0",
+      "20.0"
     ],
     "answer": "C"
   },
   {
-    "question": "Which option is correct? which state of matter has a fixed shape and fixed volume?",
+    "question": "A gas occupies 2 dm³ at 80 kPa. At constant temperature, what pressure will it exert when compressed to 2 dm³?",
     "options": [
-      "Gas",
-      "Liquid",
-      "Solid",
-      "Vapour only"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Select the best answer: Which state of matter has a fixed shape and fixed volume?",
-    "options": [
-      "Gas",
-      "Vapour only",
-      "Solid",
-      "Liquid"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "A liquid has",
-    "options": [
-      "particles fixed in position",
-      "fixed volume but no fixed shape",
-      "fixed shape and fixed volume",
-      "neither fixed volume nor ability to flow"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which option is correct? a liquid has",
-    "options": [
-      "particles fixed in position",
-      "neither fixed volume nor ability to flow",
-      "fixed volume but no fixed shape",
-      "fixed shape and fixed volume"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Select the best answer: A liquid has",
-    "options": [
-      "fixed volume but no fixed shape",
-      "neither fixed volume nor ability to flow",
-      "fixed shape and fixed volume",
-      "particles fixed in position"
+      "80.0",
+      "160",
+      "80.0",
+      "40.0"
     ],
     "answer": "A"
   },
   {
-    "question": "A gas fills its container because its particles",
+    "question": "A gas occupies 6 dm³ at 80 kPa. At constant temperature, what pressure will it exert when compressed to 3 dm³?",
     "options": [
-      "cannot collide",
-      "have no kinetic energy",
-      "are tightly packed in fixed positions",
-      "move freely and are far apart"
+      "40.0",
+      "160.0",
+      "480",
+      "26.67"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A gas occupies 5 dm³ at 150 kPa. At constant temperature, what pressure will it exert when compressed to 10 dm³?",
+    "options": [
+      "750",
+      "15.0",
+      "75.0",
+      "300.0"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A gas occupies 8 dm³ at 80 kPa. At constant temperature, what pressure will it exert when compressed to 10 dm³?",
+    "options": [
+      "8.0",
+      "640",
+      "64.0",
+      "100.0"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A gas occupies 4 dm³ at 120 kPa. At constant temperature, what pressure will it exert when compressed to 4 dm³?",
+    "options": [
+      "120.0",
+      "30.0",
+      "480",
+      "120.0"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A gas occupies 6 dm³ at 80 kPa. At constant temperature, what pressure will it exert when compressed to 10 dm³?",
+    "options": [
+      "133.33",
+      "48.0",
+      "480",
+      "8.0"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A gas occupies 3 dm³ at 120 kPa. At constant temperature, what pressure will it exert when compressed to 6 dm³?",
+    "options": [
+      "20.0",
+      "240.0",
+      "360",
+      "60.0"
     ],
     "answer": "D"
   },
   {
-    "question": "Which option is correct? a gas fills its container because its particles",
+    "question": "A gas occupies 3 dm³ at 150 kPa. At constant temperature, what pressure will it exert when compressed to 2 dm³?",
     "options": [
-      "move freely and are far apart",
-      "are tightly packed in fixed positions",
-      "have no kinetic energy",
-      "cannot collide"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Select the best answer: A gas fills its container because its particles",
-    "options": [
-      "have no kinetic energy",
-      "are tightly packed in fixed positions",
-      "cannot collide",
-      "move freely and are far apart"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "The change from solid directly to gas is called",
-    "options": [
-      "sublimation",
-      "melting",
-      "freezing",
-      "condensation"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which option is correct? the change from solid directly to gas is called",
-    "options": [
-      "freezing",
-      "condensation",
-      "melting",
-      "sublimation"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Select the best answer: The change from solid directly to gas is called",
-    "options": [
-      "sublimation",
-      "condensation",
-      "melting",
-      "freezing"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The change from gas to liquid is called",
-    "options": [
-      "evaporation",
-      "condensation",
-      "sublimation",
-      "melting"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which option is correct? the change from gas to liquid is called",
-    "options": [
-      "evaporation",
-      "condensation",
-      "sublimation",
-      "melting"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Select the best answer: The change from gas to liquid is called",
-    "options": [
-      "melting",
-      "evaporation",
-      "condensation",
-      "sublimation"
+      "100.0",
+      "450",
+      "225.0",
+      "75.0"
     ],
     "answer": "C"
   },
   {
-    "question": "The change from liquid to gas at the surface below boiling point is",
+    "question": "A gas occupies 6 dm³ at 100 kPa. At constant temperature, what pressure will it exert when compressed to 4 dm³?",
     "options": [
-      "freezing",
-      "condensation",
-      "deposition",
-      "evaporation"
+      "150.0",
+      "600",
+      "66.67",
+      "25.0"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A gas occupies 2 dm³ at 120 kPa. At constant temperature, what pressure will it exert when compressed to 6 dm³?",
+    "options": [
+      "40.0",
+      "20.0",
+      "360.0",
+      "240"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A gas occupies 500 cm³ at 320 K. If pressure remains constant, calculate its volume at 300 K.",
+    "options": [
+      "252.95",
+      "480",
+      "533.33",
+      "468.75"
     ],
     "answer": "D"
   },
   {
-    "question": "Which option is correct? the change from liquid to gas at the surface below boiling point is",
+    "question": "A gas occupies 600 cm³ at 273 K. If pressure remains constant, calculate its volume at 330 K.",
     "options": [
-      "condensation",
-      "evaporation",
-      "freezing",
-      "deposition"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Select the best answer: The change from liquid to gas at the surface below boiling point is",
-    "options": [
-      "evaporation",
-      "freezing",
-      "condensation",
-      "deposition"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Diffusion is fastest in gases because their particles",
-    "options": [
-      "are larger than solids",
-      "are fixed in a lattice",
-      "have no kinetic energy",
-      "move rapidly and are widely spaced"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Which option is correct? diffusion is fastest in gases because their particles",
-    "options": [
-      "move rapidly and are widely spaced",
-      "are fixed in a lattice",
-      "are larger than solids",
-      "have no kinetic energy"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Select the best answer: Diffusion is fastest in gases because their particles",
-    "options": [
-      "move rapidly and are widely spaced",
-      "are larger than solids",
-      "are fixed in a lattice",
-      "have no kinetic energy"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Boyle's law states that at constant temperature, gas pressure is inversely proportional to",
-    "options": [
-      "mass",
-      "density only",
-      "volume",
-      "temperature"
+      "362.64",
+      "496.36",
+      "725.27",
+      "657"
     ],
     "answer": "C"
   },
   {
-    "question": "Which option is correct? boyle's law states that at constant temperature, gas pressure is inversely proportional to",
+    "question": "A gas occupies 500 cm³ at 300 K. If pressure remains constant, calculate its volume at 360 K.",
     "options": [
-      "temperature",
-      "volume",
-      "mass",
-      "density only"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Select the best answer: Boyle's law states that at constant temperature, gas pressure is inversely proportional to",
-    "options": [
-      "density only",
-      "volume",
-      "temperature",
-      "mass"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Charles's law states that at constant pressure, gas volume is directly proportional to",
-    "options": [
-      "density",
-      "absolute temperature",
-      "pressure",
-      "molar mass"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which option is correct? charles's law states that at constant pressure, gas volume is directly proportional to",
-    "options": [
-      "absolute temperature",
-      "pressure",
-      "molar mass",
-      "density"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Select the best answer: Charles's law states that at constant pressure, gas volume is directly proportional to",
-    "options": [
-      "absolute temperature",
-      "molar mass",
-      "pressure",
-      "density"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The SI unit of thermodynamic temperature is",
-    "options": [
-      "kelvin",
-      "joule",
-      "fahrenheit",
-      "degree Celsius"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which option is correct? the SI unit of thermodynamic temperature is",
-    "options": [
-      "joule",
-      "kelvin",
-      "fahrenheit",
-      "degree Celsius"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Select the best answer: The SI unit of thermodynamic temperature is",
-    "options": [
-      "kelvin",
-      "degree Celsius",
-      "joule",
-      "fahrenheit"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A gas occupies 2 L at 100 kPa. At constant temperature, its volume at 200 kPa is",
-    "options": [
-      "4 L",
-      "2 L",
-      "0.5 L",
-      "1 L"
+      "416.67",
+      "314.14",
+      "560",
+      "600.0"
     ],
     "answer": "D"
   },
   {
-    "question": "Which option is correct? a gas occupies 2 L at 100 kPa. At constant temperature, its volume at 200 kPa is",
+    "question": "A gas occupies 250 cm³ at 350 K. If pressure remains constant, calculate its volume at 330 K.",
     "options": [
-      "0.5 L",
-      "4 L",
-      "1 L",
-      "2 L"
+      "132.42",
+      "235.71",
+      "230",
+      "265.15"
     ],
-    "answer": "C"
+    "answer": "B"
   },
   {
-    "question": "Select the best answer: A gas occupies 2 L at 100 kPa. At constant temperature, its volume at 200 kPa is",
+    "question": "A gas occupies 300 cm³ at 300 K. If pressure remains constant, calculate its volume at 330 K.",
     "options": [
-      "2 L",
-      "4 L",
-      "0.5 L",
-      "1 L"
+      "272.73",
+      "330",
+      "172.77",
+      "330.0"
     ],
     "answer": "D"
   },
   {
-    "question": "A gas occupies 3 L at 300 K. At constant pressure, its volume at 600 K is",
+    "question": "A gas occupies 400 cm³ at 350 K. If pressure remains constant, calculate its volume at 400 K.",
     "options": [
-      "1.5 L",
-      "6 L",
-      "3 L",
-      "9 L"
+      "256.82",
+      "457.14",
+      "450",
+      "350.0"
     ],
     "answer": "B"
   },
   {
-    "question": "Which option is correct? a gas occupies 3 L at 300 K. At constant pressure, its volume at 600 K is",
+    "question": "A gas occupies 600 cm³ at 300 K. If pressure remains constant, calculate its volume at 360 K.",
     "options": [
-      "3 L",
-      "6 L",
-      "1.5 L",
-      "9 L"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Select the best answer: A gas occupies 3 L at 300 K. At constant pressure, its volume at 600 K is",
-    "options": [
-      "6 L",
-      "3 L",
-      "1.5 L",
-      "9 L"
+      "720.0",
+      "500.0",
+      "376.96",
+      "660"
     ],
     "answer": "A"
   },
   {
-    "question": "The combined gas law relates pressure, volume and",
+    "question": "A gas occupies 250 cm³ at 350 K. If pressure remains constant, calculate its volume at 330 K.",
     "options": [
-      "atomic number",
-      "solubility only",
-      "absolute temperature",
-      "colour"
+      "230",
+      "235.71",
+      "265.15",
+      "132.42"
     ],
-    "answer": "C"
+    "answer": "B"
   },
   {
-    "question": "Which option is correct? the combined gas law relates pressure, volume and",
+    "question": "A gas occupies 300 cm³ at 320 K. If pressure remains constant, calculate its volume at 280 K.",
     "options": [
-      "solubility only",
-      "atomic number",
-      "colour",
-      "absolute temperature"
+      "260",
+      "342.86",
+      "141.65",
+      "262.5"
     ],
     "answer": "D"
   },
   {
-    "question": "Select the best answer: The combined gas law relates pressure, volume and",
+    "question": "A gas occupies 500 cm³ at 273 K. If pressure remains constant, calculate its volume at 360 K.",
     "options": [
-      "absolute temperature",
-      "atomic number",
-      "solubility only",
-      "colour"
+      "587",
+      "659.34",
+      "379.17",
+      "329.67"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A gas occupies 200 cm³ at 300 K. If pressure remains constant, calculate its volume at 330 K.",
+    "options": [
+      "220.0",
+      "181.82",
+      "230",
+      "115.18"
     ],
     "answer": "A"
   },
   {
-    "question": "In the ideal gas equation PV = nRT, n represents the number of",
+    "question": "A gas occupies 200 cm³ at 320 K. If pressure remains constant, calculate its volume at 400 K.",
     "options": [
-      "newtons",
-      "containers",
-      "neutrons",
-      "moles"
+      "280",
+      "160.0",
+      "134.91",
+      "250.0"
     ],
     "answer": "D"
   },
   {
-    "question": "Which option is correct? in the ideal gas equation PV = nRT, n represents the number of",
+    "question": "A gas has pressure 150 kPa, volume 4 dm³ and temperature 270 K. Find its pressure when volume is 4 dm³ and temperature 280 K.",
     "options": [
-      "neutrons",
-      "containers",
-      "newtons",
-      "moles"
+      "155.56",
+      "144.64",
+      "144.64",
+      "622.22"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A gas has pressure 100 kPa, volume 4 dm³ and temperature 270 K. Find its pressure when volume is 2 dm³ and temperature 300 K.",
+    "options": [
+      "222.22",
+      "444.44",
+      "45.0",
+      "180.0"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A gas has pressure 120 kPa, volume 5 dm³ and temperature 270 K. Find its pressure when volume is 5 dm³ and temperature 280 K.",
+    "options": [
+      "115.71",
+      "115.71",
+      "124.44",
+      "622.22"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A gas has pressure 150 kPa, volume 5 dm³ and temperature 350 K. Find its pressure when volume is 4 dm³ and temperature 300 K.",
+    "options": [
+      "160.71",
+      "140.0",
+      "642.86",
+      "218.75"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A gas has pressure 150 kPa, volume 2 dm³ and temperature 300 K. Find its pressure when volume is 5 dm³ and temperature 360 K.",
+    "options": [
+      "72.0",
+      "312.5",
+      "360.0",
+      "50.0"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A gas has pressure 90 kPa, volume 3 dm³ and temperature 350 K. Find its pressure when volume is 5 dm³ and temperature 280 K.",
+    "options": [
+      "67.5",
+      "187.5",
+      "43.2",
+      "216.0"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A gas has pressure 100 kPa, volume 5 dm³ and temperature 270 K. Find its pressure when volume is 5 dm³ and temperature 280 K.",
+    "options": [
+      "96.43",
+      "96.43",
+      "518.52",
+      "103.7"
     ],
     "answer": "D"
   },
   {
-    "question": "Select the best answer: In the ideal gas equation PV = nRT, n represents the number of",
+    "question": "A gas has pressure 90 kPa, volume 2 dm³ and temperature 270 K. Find its pressure when volume is 4 dm³ and temperature 300 K.",
     "options": [
-      "moles",
-      "newtons",
-      "neutrons",
-      "containers"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The pressure of a gas is caused by particle",
-    "options": [
-      "collisions with container walls",
-      "colour changes",
-      "melting",
-      "chemical symbols"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which option is correct? the pressure of a gas is caused by particle",
-    "options": [
-      "melting",
-      "colour changes",
-      "collisions with container walls",
-      "chemical symbols"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Select the best answer: The pressure of a gas is caused by particle",
-    "options": [
-      "melting",
-      "collisions with container walls",
-      "colour changes",
-      "chemical symbols"
+      "40.5",
+      "50.0",
+      "200.0",
+      "162.0"
     ],
     "answer": "B"
   },
   {
-    "question": "Heating a gas in a rigid sealed container generally causes its pressure to",
+    "question": "A gas has pressure 150 kPa, volume 4 dm³ and temperature 270 K. Find its pressure when volume is 4 dm³ and temperature 280 K.",
     "options": [
-      "increase",
-      "decrease to zero",
-      "become unrelated to temperature",
-      "remain zero"
+      "144.64",
+      "155.56",
+      "622.22",
+      "144.64"
     ],
-    "answer": "A"
+    "answer": "B"
   },
   {
-    "question": "Which option is correct? heating a gas in a rigid sealed container generally causes its pressure to",
+    "question": "A gas has pressure 90 kPa, volume 3 dm³ and temperature 270 K. Find its pressure when volume is 6 dm³ and temperature 330 K.",
     "options": [
-      "increase",
-      "remain zero",
-      "become unrelated to temperature",
-      "decrease to zero"
+      "147.27",
+      "55.0",
+      "36.82",
+      "330.0"
     ],
-    "answer": "A"
+    "answer": "B"
   },
   {
-    "question": "Select the best answer: Heating a gas in a rigid sealed container generally causes its pressure to",
+    "question": "A gas has pressure 120 kPa, volume 4 dm³ and temperature 300 K. Find its pressure when volume is 2 dm³ and temperature 360 K.",
     "options": [
-      "become unrelated to temperature",
-      "decrease to zero",
-      "remain zero",
-      "increase"
+      "200.0",
+      "50.0",
+      "576.0",
+      "288.0"
     ],
     "answer": "D"
   },
   {
-    "question": "At absolute zero, the Kelvin temperature is",
+    "question": "A gas has pressure 100 kPa, volume 4 dm³ and temperature 320 K. Find its pressure when volume is 6 dm³ and temperature 330 K.",
     "options": [
-      "0 K",
-      "100 K",
-      "273 K",
-      "−273 K"
+      "68.75",
+      "145.45",
+      "64.65",
+      "412.5"
     ],
     "answer": "A"
   },
   {
-    "question": "Which option is correct? at absolute zero, the Kelvin temperature is",
+    "question": "Assuming ideal behaviour, calculate the pressure in kPa of 0.1 mol of gas at 320 K in a volume of 0.005 m³. Use R = 8.314 J mol⁻¹ K⁻¹.",
     "options": [
-      "−273 K",
-      "0 K",
-      "273 K",
-      "100 K"
+      "0.0",
+      "53.21",
+      "53209.6",
+      "0.0"
     ],
     "answer": "B"
   },
   {
-    "question": "Select the best answer: At absolute zero, the Kelvin temperature is",
+    "question": "Assuming ideal behaviour, calculate the pressure in kPa of 0.25 mol of gas at 298 K in a volume of 0.01 m³. Use R = 8.314 J mol⁻¹ K⁻¹.",
     "options": [
-      "273 K",
-      "100 K",
-      "0 K",
-      "−273 K"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which process changes a liquid into a solid?",
-    "options": [
-      "Melting",
-      "Freezing",
-      "Boiling",
-      "Sublimation"
+      "0.0",
+      "61.94",
+      "61939.3",
+      "0.01"
     ],
     "answer": "B"
   },
   {
-    "question": "Which option is correct? which process changes a liquid into a solid?",
+    "question": "Assuming ideal behaviour, calculate the pressure in kPa of 0.2 mol of gas at 273 K in a volume of 0.025 m³. Use R = 8.314 J mol⁻¹ K⁻¹.",
     "options": [
-      "Boiling",
-      "Sublimation",
-      "Freezing",
-      "Melting"
+      "18157.78",
+      "0.0",
+      "0.01",
+      "18.16"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Assuming ideal behaviour, calculate the pressure in kPa of 0.25 mol of gas at 350 K in a volume of 0.02 m³. Use R = 8.314 J mol⁻¹ K⁻¹.",
+    "options": [
+      "0.01",
+      "0.0",
+      "36.37",
+      "36373.75"
     ],
     "answer": "C"
   },
   {
-    "question": "Select the best answer: Which process changes a liquid into a solid?",
+    "question": "Assuming ideal behaviour, calculate the pressure in kPa of 0.2 mol of gas at 273 K in a volume of 0.02 m³. Use R = 8.314 J mol⁻¹ K⁻¹.",
     "options": [
-      "Freezing",
-      "Boiling",
-      "Melting",
-      "Sublimation"
+      "22697.22",
+      "0.01",
+      "22.7",
+      "0.0"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Assuming ideal behaviour, calculate the pressure in kPa of 1.5 mol of gas at 298 K in a volume of 0.005 m³. Use R = 8.314 J mol⁻¹ K⁻¹.",
+    "options": [
+      "0.0",
+      "743271.6",
+      "743.27",
+      "0.02"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Assuming ideal behaviour, calculate the pressure in kPa of 0.25 mol of gas at 273 K in a volume of 0.04 m³. Use R = 8.314 J mol⁻¹ K⁻¹.",
+    "options": [
+      "0.0",
+      "14.19",
+      "0.02",
+      "14185.76"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Assuming ideal behaviour, calculate the pressure in kPa of 1 mol of gas at 300 K in a volume of 0.04 m³. Use R = 8.314 J mol⁻¹ K⁻¹.",
+    "options": [
+      "0.0",
+      "62355.0",
+      "62.35",
+      "0.1"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Assuming ideal behaviour, calculate the pressure in kPa of 0.2 mol of gas at 300 K in a volume of 0.04 m³. Use R = 8.314 J mol⁻¹ K⁻¹.",
+    "options": [
+      "0.0",
+      "12.47",
+      "0.02",
+      "12471.0"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Assuming ideal behaviour, calculate the pressure in kPa of 0.2 mol of gas at 273 K in a volume of 0.04 m³. Use R = 8.314 J mol⁻¹ K⁻¹.",
+    "options": [
+      "11348.61",
+      "11.35",
+      "0.0",
+      "0.02"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Assuming ideal behaviour, calculate the pressure in kPa of 2 mol of gas at 298 K in a volume of 0.005 m³. Use R = 8.314 J mol⁻¹ K⁻¹.",
+    "options": [
+      "991028.8",
+      "0.0",
+      "0.02",
+      "991.03"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Assuming ideal behaviour, calculate the pressure in kPa of 2 mol of gas at 273 K in a volume of 0.02 m³. Use R = 8.314 J mol⁻¹ K⁻¹.",
+    "options": [
+      "226972.2",
+      "0.0",
+      "0.09",
+      "226.97"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A gas sample has a mass of 4 g and occupies 1 dm³. Calculate its density in g dm⁻³.",
+    "options": [
+      "4",
+      "5",
+      "4.0",
+      "0.25"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A mixture contains two non-reacting gases with partial pressures 50 kPa and 55 kPa. Calculate the total pressure.",
+    "options": [
+      "5",
+      "0.9090909090909091",
+      "105",
+      "2750"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A gas sample has mass 44 g and molar mass 4 g mol⁻¹. Calculate the amount of substance present.",
+    "options": [
+      "0.09",
+      "11.0",
+      "48",
+      "176"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A gas sample has a mass of 20 g and occupies 4 dm³. Calculate its density in g dm⁻³.",
+    "options": [
+      "80",
+      "5.0",
+      "24",
+      "0.2"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A mixture contains two non-reacting gases with partial pressures 50 kPa and 15 kPa. Calculate the total pressure.",
+    "options": [
+      "35",
+      "3.3333333333333335",
+      "65",
+      "750"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A gas sample has mass 44 g and molar mass 4 g mol⁻¹. Calculate the amount of substance present.",
+    "options": [
+      "0.09",
+      "48",
+      "176",
+      "11.0"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A gas sample has a mass of 8 g and occupies 4 dm³. Calculate its density in g dm⁻³.",
+    "options": [
+      "12",
+      "32",
+      "0.5",
+      "2.0"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A mixture contains two non-reacting gases with partial pressures 50 kPa and 55 kPa. Calculate the total pressure.",
+    "options": [
+      "105",
+      "2750",
+      "5",
+      "0.9090909090909091"
     ],
     "answer": "A"
   },
   {
-    "question": "The random movement of tiny particles suspended in a fluid is called",
+    "question": "A gas sample has mass 8 g and molar mass 44 g mol⁻¹. Calculate the amount of substance present.",
     "options": [
-      "electrolysis",
-      "crystallisation",
-      "Brownian motion",
-      "neutralisation"
+      "352",
+      "5.5",
+      "0.18",
+      "52"
     ],
     "answer": "C"
   },
   {
-    "question": "Which option is correct? the random movement of tiny particles suspended in a fluid is called",
+    "question": "A gas sample has a mass of 2 g and occupies 5 dm³. Calculate its density in g dm⁻³.",
     "options": [
-      "crystallisation",
-      "Brownian motion",
-      "electrolysis",
-      "neutralisation"
+      "0.4",
+      "2.5",
+      "10",
+      "7"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A mixture contains two non-reacting gases with partial pressures 50 kPa and 45 kPa. Calculate the total pressure.",
+    "options": [
+      "2250",
+      "95",
+      "5",
+      "1.1111111111111112"
     ],
     "answer": "B"
   },
   {
-    "question": "Select the best answer: The random movement of tiny particles suspended in a fluid is called",
+    "question": "A gas sample has mass 32 g and molar mass 44 g mol⁻¹. Calculate the amount of substance present.",
     "options": [
-      "crystallisation",
-      "Brownian motion",
-      "electrolysis",
-      "neutralisation"
+      "1.38",
+      "0.73",
+      "1408",
+      "76"
     ],
     "answer": "B"
   }

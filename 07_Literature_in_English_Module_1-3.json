@@ -1,601 +1,601 @@
 [
   {
-    "question": "A playwright reveals a character's private thoughts directly to the audience while other characters remain unaware. This is best described as",
+    "question": "A narrator reports events but reveals only what one character knows. This narrative method most limits the reader’s access to",
     "options": [
-      "aside",
-      "soliloquy",
-      "dramatic irony",
-      "flashback"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "When the audience knows that a character is walking into a trap but the character does not, the dominant technique is",
-    "options": [
-      "dramatic irony",
-      "foreshadowing",
-      "comic relief",
-      "flashback"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A brief interruption by a humorous character during a tense scene primarily serves as",
-    "options": [
-      "comic relief",
-      "exposition",
-      "denouement",
-      "catastrophe"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A character says, “What a beautiful day!” immediately after a destructive storm. The technique is most clearly",
-    "options": [
-      "irony",
-      "metaphor",
-      "pun",
-      "euphemism"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A play begins with a scene from the hero's childhood, then returns to the present. This structural device is",
-    "options": [
-      "flashback",
-      "foreshadowing",
-      "aside",
-      "climax"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A playwright places a prophecy early in the play that later comes true. The prophecy mainly functions as",
-    "options": [
-      "foreshadowing",
-      "comic relief",
-      "bathos",
-      "denouement"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which technique most directly allows the audience to hear a character's unspoken reasoning while the character is alone on stage?",
-    "options": [
-      "Soliloquy",
-      "Aside",
-      "Mime",
-      "Chorus"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "An aside differs from a soliloquy mainly because an aside is",
-    "options": [
-      "always spoken by the protagonist",
-      "usually a brief remark unheard by other characters but heard by the audience",
-      "always a song",
-      "spoken only in a flashback"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "The moment of greatest tension in a conventional dramatic plot is the",
-    "options": [
-      "exposition",
-      "climax",
-      "prologue",
-      "epilogue"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A character deliberately says one thing to another character while the audience understands a different intended meaning. This can create",
-    "options": [
-      "dramatic irony",
-      "stage direction",
-      "denouement",
-      "exposition"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A playwright gives a character repeated references to darkness before the character's downfall. The references primarily create",
-    "options": [
-      "symbolism and foreshadowing",
-      "comic relief only",
-      "a soliloquy",
-      "a stage direction"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which dramatic technique most directly provides background information necessary for understanding the present conflict?",
-    "options": [
-      "Exposition",
-      "Climax",
-      "Catastrophe",
-      "Aside"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A messenger reports an important battle that is not shown on stage. This technique is useful mainly because it",
-    "options": [
-      "allows off-stage events to be communicated without staging them",
-      "turns the messenger into the protagonist",
-      "eliminates conflict",
-      "creates a soliloquy"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The final resolution of the major conflict in a play is most closely associated with the",
-    "options": [
-      "denouement",
-      "exposition",
-      "rising action",
-      "aside"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A chorus comments on events and sometimes guides the audience's interpretation. Its function is closest to",
-    "options": [
-      "providing commentary and contextual perspective",
-      "serving only as comic relief",
-      "replacing all dialogue",
-      "creating a flashback"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A prose narrative told by a character who participates in the events is most commonly written from which point of view?",
-    "options": [
-      "First-person",
-      "Second-person",
-      "Third-person omniscient",
-      "Objective third-person"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A narrator who knows the thoughts and feelings of several characters is best described as",
-    "options": [
-      "first-person narrator",
-      "limited narrator",
-      "omniscient narrator",
-      "unreliable narrator"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which prose form is normally longer and more developed than a short story but shorter than a full-length novel?",
-    "options": [
-      "Novella",
-      "Epic",
-      "Biography",
-      "Essay"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A fictional narrative that concentrates on a limited number of characters and a single major event is most likely a",
-    "options": [
-      "short story",
-      "biography",
-      "chronicle",
-      "autobiography"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A writer tells the story of another person's life using researched facts. The prose form is",
-    "options": [
-      "autobiography",
-      "biography",
-      "fiction",
-      "memoir"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A writer narrates selected experiences from his or her own life, usually focusing on meaningful memories. This is best described as",
-    "options": [
-      "memoir",
-      "biography",
-      "novella",
-      "satire"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A character who changes significantly because of experiences in the story is known as a",
-    "options": [
-      "static character",
-      "dynamic character",
-      "flat character",
-      "minor character"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A character whose qualities are developed in complexity and whose personality is not easily reduced to one trait is a",
-    "options": [
-      "round character",
-      "flat character",
-      "stock character",
-      "background character"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The central idea or underlying message explored throughout a prose work is its",
-    "options": [
-      "setting",
-      "theme",
-      "plot",
+      "the setting",
+      "information beyond that character’s knowledge",
+      "the sequence of events",
       "dialogue"
     ],
     "answer": "B"
   },
   {
-    "question": "When a writer places a character in a difficult situation and gradually increases the tension, the technique mainly develops",
+    "question": "A recurring image of a locked door develops across a play and increasingly represents social exclusion. The image functions as",
     "options": [
-      "suspense",
-      "comic relief",
-      "exposition only",
-      "setting"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "In Once Upon an Elephant, the use of animals to represent human political and social behaviour is an example of",
-    "options": [
-      "allegory",
-      "sonnet",
-      "stream of consciousness",
-      "epistolary narration"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A major concern in Once Upon an Elephant is the abuse of",
-    "options": [
-      "political power",
-      "scientific knowledge",
-      "religious freedom",
-      "educational opportunity"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The political message of Once Upon an Elephant is strengthened by presenting social issues through",
-    "options": [
-      "animal characters and satire",
-      "love letters",
-      "a detective investigation",
-      "a purely romantic plot"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The theme of dictatorship in Once Upon an Elephant is mainly concerned with leaders who",
-    "options": [
-      "voluntarily surrender power",
-      "cling to power and abuse their authority",
-      "avoid political involvement",
-      "encourage equal participation"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which technique allows Once Upon an Elephant to criticize real political behaviour without presenting the political figures directly?",
-    "options": [
-      "Allegory",
-      "Soliloquy",
-      "Flashback",
-      "Epistolary narration"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The conflict between oppressive leadership and collective resistance in Once Upon an Elephant mainly highlights the importance of",
-    "options": [
-      "unchecked authority",
-      "social responsibility and resistance to oppression",
-      "political isolation",
-      "personal wealth"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "In The Marriage of Anansewa, Ananse is best understood as a modern version of the traditional",
-    "options": [
-      "warrior",
-      "trickster figure",
-      "priest",
-      "hunter"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Ananse's scheme involving several wealthy chiefs mainly exposes the theme of",
-    "options": [
-      "materialism and greed",
-      "scientific progress",
-      "religious conversion",
-      "environmental conservation"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The use of the Ananse storytelling tradition in The Marriage of Anansewa connects the play strongly with",
-    "options": [
-      "Akan oral tradition",
-      "European medieval romance",
-      "Greek mythology alone",
-      "Victorian realism"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The fact that the chiefs are not normally seen directly on stage but are represented through reports and messengers contributes to the play's",
-    "options": [
-      "storytelling quality",
-      "scientific realism",
-      "documentary style",
-      "epistolary structure"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The conflict between genuine affection and the material benefits of marriage in The Marriage of Anansewa develops the theme of",
-    "options": [
-      "love versus materialism",
-      "nature versus technology",
-      "war versus peace",
-      "education versus science"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Ananse's manipulation of marriage customs mainly reveals his",
-    "options": [
-      "cunning and opportunism",
-      "complete honesty",
-      "lack of ambition",
-      "fear of wealth"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "In Path of Lucas: The Journey He Endured, the narrative is framed around Lucas speaking to his",
-    "options": [
-      "wife",
-      "comatose daughter",
-      "brother",
-      "employer"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "The use of memories and events from different periods of Lucas's life gives the narrative a",
-    "options": [
-      "non-linear structure",
-      "strictly chronological structure",
-      "dramatic verse structure",
-      "purely comic structure"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A major theme developed through Lucas's experiences is",
-    "options": [
-      "family devotion and sacrifice",
-      "political ambition",
-      "commercial competition",
-      "military conquest"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Lucas's continued endurance through personal losses most strongly supports the theme of",
-    "options": [
-      "resilience",
-      "greed",
-      "revenge",
-      "political corruption"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The narrative technique of moving between Lucas's present situation and earlier experiences is primarily used to",
-    "options": [
-      "reveal his life history gradually",
-      "remove all conflict",
-      "make the narrator disappear",
-      "turn the prose into drama"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The use of recurring natural images such as butterflies and birds in Path of Lucas can function primarily as",
-    "options": [
-      "symbols connected with memory, change and loss",
-      "comic devices",
-      "stage directions",
-      "grammatical markers"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A recurring object or image that represents an idea beyond itself is a",
-    "options": [
-      "rhyme",
-      "setting",
-      "plot",
-      "symbol"
+      "a comic aside",
+      "a stage direction only",
+      "an unrelated prop",
+      "a symbol whose meaning develops through repetition"
     ],
     "answer": "D"
   },
   {
-    "question": "The time and place in which a literary work occurs form its",
+    "question": "A protagonist’s stated values repeatedly conflict with private actions. This contrast most strongly develops",
     "options": [
-      "setting",
-      "theme",
-      "diction",
-      "metre"
+      "character complexity and thematic tension",
+      "the setting alone",
+      "a change in metre",
+      "a narrator’s omniscience"
     ],
     "answer": "A"
   },
   {
-    "question": "The central message or insight of a literary work is its",
+    "question": "A poem’s regular rhythm breaks abruptly at the moment the speaker describes panic. The break primarily",
     "options": [
-      "stage direction",
-      "rhyme scheme",
-      "theme",
-      "stanza"
+      "reinforces the emotional disruption through form",
+      "removes all meaning from the image",
+      "proves the poem has no structure",
+      "establishes a new setting"
     ],
-    "answer": "C"
+    "answer": "A"
   },
   {
-    "question": "A comparison using 'like' or 'as' is a",
+    "question": "An audience knows that a trusted adviser is betraying the king, but the king does not. The tension arises from",
     "options": [
-      "metaphor",
-      "pun",
-      "simile",
-      "irony"
+      "dramatic irony",
+      "elegy",
+      "alliteration",
+      "pathetic fallacy alone"
     ],
-    "answer": "C"
+    "answer": "A"
   },
   {
-    "question": "A direct comparison that does not use 'like' or 'as' is a",
+    "question": "A playwright delays revealing the cause of a family feud until the final act. This structural choice mainly creates",
     "options": [
+      "an objective narrator",
+      "a complete absence of conflict",
+      "a change from drama to lyric",
+      "suspense and retrospective reinterpretation"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A speaker describes a city as “a hungry mouth swallowing its children.” The dominant device is",
+    "options": [
+      "understatement only",
       "onomatopoeia",
-      "alliteration",
-      "metaphor",
-      "simile"
+      "pun",
+      "personification combined with metaphor"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A character’s downfall results from a flaw that becomes destructive under pressure. This is most closely associated with",
+    "options": [
+      "exposition only",
+      "a refrain",
+      "hamartia in tragedy",
+      "comic relief"
     ],
     "answer": "C"
   },
   {
-    "question": "The repetition of initial consonant sounds is",
+    "question": "An unreliable narrator gives details that contradict later evidence. Readers are expected to",
     "options": [
-      "hyperbole",
-      "alliteration",
-      "euphemism",
-      "assonance"
+      "ignore the plot",
+      "reassess the narrator’s credibility",
+      "accept every statement literally",
+      "treat the work as a sonnet"
     ],
     "answer": "B"
   },
   {
-    "question": "An exaggerated statement for emphasis is",
+    "question": "A poet places contrasting images of drought and flood in adjacent stanzas. This juxtaposition most likely emphasizes",
     "options": [
-      "metonymy",
-      "understatement",
-      "paradox",
-      "hyperbole"
+      "the speaker’s lack of emotion",
+      "a fixed chronological report",
+      "extremes or instability within the poem’s central concern",
+      "the absence of imagery"
     ],
-    "answer": "D"
+    "answer": "C"
   },
   {
-    "question": "A character who opposes the protagonist is the",
+    "question": "A chorus comments on the action but does not directly control it. Its function may include",
     "options": [
-      "antagonist",
-      "narrator",
+      "removing conflict",
+      "framing events and guiding audience response",
+      "providing scientific data",
+      "replacing all protagonists"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A repeated phrase changes meaning each time it appears because the circumstances change. The repetition is effective through",
+    "options": [
+      "the removal of tone",
+      "cumulative contextual development",
+      "random sound",
+      "identical literal meaning only"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A novelist presents a wealthy character’s luxurious room beside a poor neighbour’s overcrowded home. This contrast most directly supports",
+    "options": [
+      "social criticism through juxtaposition",
+      "comic rhyme",
+      "a neutral inventory without implication",
+      "a shift to first-person narration"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A character speaks at length while alone, revealing conflicting motives. This is a",
+    "options": [
       "chorus",
-      "confidant"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The main character in a story is commonly called the",
-    "options": [
-      "antagonist",
-      "audience",
-      "critic",
-      "protagonist"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "A poem of fourteen lines is traditionally called a",
-    "options": [
-      "ballad",
-      "elegy",
-      "ode",
-      "sonnet"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "A poem that mourns a death or loss is an",
-    "options": [
-      "elegy",
-      "epic",
-      "satire",
-      "limerick"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The arrangement of stressed and unstressed syllables in poetry is",
-    "options": [
-      "setting",
-      "metre",
-      "plot",
-      "prose"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A speech by a character alone on stage revealing thoughts is a",
-    "options": [
+      "stage whisper to another character",
       "soliloquy",
-      "chorus",
-      "dialogue",
       "aside"
     ],
-    "answer": "A"
+    "answer": "C"
   },
   {
-    "question": "A hint about an event that will happen later is",
+    "question": "A poem’s title initially appears literal but becomes ironic after the final stanza. The reader’s interpretation changes because of",
     "options": [
-      "flashback",
-      "parody",
-      "allusion",
-      "foreshadowing"
+      "the author’s biography alone",
+      "the relationship between title and completed text",
+      "the number of lines",
+      "the rhyme scheme alone"
     ],
-    "answer": "D"
+    "answer": "B"
   },
   {
-    "question": "A return to an earlier event in a narrative is a",
+    "question": "When a character’s public speech praises justice while the plot shows that character exploiting the weak, the strongest interpretation is (interpretive question 1)",
     "options": [
-      "climax",
-      "foreshadowing",
-      "resolution",
-      "flashback"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "The sequence of events in a literary work is its",
-    "options": [
-      "diction",
-      "genre",
-      "plot",
-      "tone"
+      "the speech has no thematic relevance",
+      "the character is necessarily the narrator",
+      "the work exposes hypocrisy through dramatic contrast",
+      "the plot has no conflict"
     ],
     "answer": "C"
   },
   {
-    "question": "The attitude conveyed by a writer toward a subject is",
+    "question": "A sudden shift from elevated diction to colloquial speech most likely signals (interpretive question 2)",
     "options": [
-      "rhyme",
-      "setting",
-      "tone",
-      "stage property"
+      "that the text has no audience",
+      "the end of all symbolism",
+      "a change in speaker, social register or emotional stance",
+      "a change in genre in every case"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "The setting changes from an open field to a confined room as the protagonist loses freedom. This can function as (interpretive question 3)",
+    "options": [
+      "proof that the plot is non-linear",
+      "an example of rhyme",
+      "symbolic reinforcement of the character’s restriction",
+      "a metrical foot"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "When a character’s public speech praises justice while the plot shows that character exploiting the weak, the strongest interpretation is (interpretive question 4)",
+    "options": [
+      "the speech has no thematic relevance",
+      "the work exposes hypocrisy through dramatic contrast",
+      "the plot has no conflict",
+      "the character is necessarily the narrator"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A sudden shift from elevated diction to colloquial speech most likely signals (interpretive question 5)",
+    "options": [
+      "the end of all symbolism",
+      "a change in genre in every case",
+      "that the text has no audience",
+      "a change in speaker, social register or emotional stance"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The setting changes from an open field to a confined room as the protagonist loses freedom. This can function as (interpretive question 6)",
+    "options": [
+      "proof that the plot is non-linear",
+      "an example of rhyme",
+      "symbolic reinforcement of the character’s restriction",
+      "a metrical foot"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "When a character’s public speech praises justice while the plot shows that character exploiting the weak, the strongest interpretation is (interpretive question 7)",
+    "options": [
+      "the character is necessarily the narrator",
+      "the speech has no thematic relevance",
+      "the plot has no conflict",
+      "the work exposes hypocrisy through dramatic contrast"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A sudden shift from elevated diction to colloquial speech most likely signals (interpretive question 8)",
+    "options": [
+      "that the text has no audience",
+      "a change in genre in every case",
+      "the end of all symbolism",
+      "a change in speaker, social register or emotional stance"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The setting changes from an open field to a confined room as the protagonist loses freedom. This can function as (interpretive question 9)",
+    "options": [
+      "an example of rhyme",
+      "a metrical foot",
+      "symbolic reinforcement of the character’s restriction",
+      "proof that the plot is non-linear"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "When a character’s public speech praises justice while the plot shows that character exploiting the weak, the strongest interpretation is (interpretive question 10)",
+    "options": [
+      "the character is necessarily the narrator",
+      "the speech has no thematic relevance",
+      "the plot has no conflict",
+      "the work exposes hypocrisy through dramatic contrast"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A sudden shift from elevated diction to colloquial speech most likely signals (interpretive question 11)",
+    "options": [
+      "a change in genre in every case",
+      "the end of all symbolism",
+      "a change in speaker, social register or emotional stance",
+      "that the text has no audience"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "The setting changes from an open field to a confined room as the protagonist loses freedom. This can function as (interpretive question 12)",
+    "options": [
+      "a metrical foot",
+      "proof that the plot is non-linear",
+      "an example of rhyme",
+      "symbolic reinforcement of the character’s restriction"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "When a character’s public speech praises justice while the plot shows that character exploiting the weak, the strongest interpretation is (interpretive question 13)",
+    "options": [
+      "the speech has no thematic relevance",
+      "the character is necessarily the narrator",
+      "the work exposes hypocrisy through dramatic contrast",
+      "the plot has no conflict"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A sudden shift from elevated diction to colloquial speech most likely signals (interpretive question 14)",
+    "options": [
+      "a change in genre in every case",
+      "a change in speaker, social register or emotional stance",
+      "that the text has no audience",
+      "the end of all symbolism"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The setting changes from an open field to a confined room as the protagonist loses freedom. This can function as (interpretive question 15)",
+    "options": [
+      "a metrical foot",
+      "symbolic reinforcement of the character’s restriction",
+      "proof that the plot is non-linear",
+      "an example of rhyme"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "When a character’s public speech praises justice while the plot shows that character exploiting the weak, the strongest interpretation is (interpretive question 16)",
+    "options": [
+      "the speech has no thematic relevance",
+      "the work exposes hypocrisy through dramatic contrast",
+      "the character is necessarily the narrator",
+      "the plot has no conflict"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A sudden shift from elevated diction to colloquial speech most likely signals (interpretive question 17)",
+    "options": [
+      "the end of all symbolism",
+      "a change in genre in every case",
+      "a change in speaker, social register or emotional stance",
+      "that the text has no audience"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "The setting changes from an open field to a confined room as the protagonist loses freedom. This can function as (interpretive question 18)",
+    "options": [
+      "symbolic reinforcement of the character’s restriction",
+      "proof that the plot is non-linear",
+      "a metrical foot",
+      "an example of rhyme"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "When a character’s public speech praises justice while the plot shows that character exploiting the weak, the strongest interpretation is (interpretive question 19)",
+    "options": [
+      "the speech has no thematic relevance",
+      "the character is necessarily the narrator",
+      "the work exposes hypocrisy through dramatic contrast",
+      "the plot has no conflict"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A sudden shift from elevated diction to colloquial speech most likely signals (interpretive question 20)",
+    "options": [
+      "a change in speaker, social register or emotional stance",
+      "a change in genre in every case",
+      "the end of all symbolism",
+      "that the text has no audience"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The setting changes from an open field to a confined room as the protagonist loses freedom. This can function as (interpretive question 21)",
+    "options": [
+      "a metrical foot",
+      "proof that the plot is non-linear",
+      "symbolic reinforcement of the character’s restriction",
+      "an example of rhyme"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "When a character’s public speech praises justice while the plot shows that character exploiting the weak, the strongest interpretation is (interpretive question 22)",
+    "options": [
+      "the character is necessarily the narrator",
+      "the speech has no thematic relevance",
+      "the work exposes hypocrisy through dramatic contrast",
+      "the plot has no conflict"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A sudden shift from elevated diction to colloquial speech most likely signals (interpretive question 23)",
+    "options": [
+      "that the text has no audience",
+      "a change in speaker, social register or emotional stance",
+      "the end of all symbolism",
+      "a change in genre in every case"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The setting changes from an open field to a confined room as the protagonist loses freedom. This can function as (interpretive question 24)",
+    "options": [
+      "a metrical foot",
+      "an example of rhyme",
+      "proof that the plot is non-linear",
+      "symbolic reinforcement of the character’s restriction"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "When a character’s public speech praises justice while the plot shows that character exploiting the weak, the strongest interpretation is (interpretive question 25)",
+    "options": [
+      "the work exposes hypocrisy through dramatic contrast",
+      "the speech has no thematic relevance",
+      "the plot has no conflict",
+      "the character is necessarily the narrator"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A sudden shift from elevated diction to colloquial speech most likely signals (interpretive question 26)",
+    "options": [
+      "a change in speaker, social register or emotional stance",
+      "a change in genre in every case",
+      "the end of all symbolism",
+      "that the text has no audience"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The setting changes from an open field to a confined room as the protagonist loses freedom. This can function as (interpretive question 27)",
+    "options": [
+      "a metrical foot",
+      "symbolic reinforcement of the character’s restriction",
+      "an example of rhyme",
+      "proof that the plot is non-linear"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "When a character’s public speech praises justice while the plot shows that character exploiting the weak, the strongest interpretation is (interpretive question 28)",
+    "options": [
+      "the character is necessarily the narrator",
+      "the speech has no thematic relevance",
+      "the plot has no conflict",
+      "the work exposes hypocrisy through dramatic contrast"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A sudden shift from elevated diction to colloquial speech most likely signals (interpretive question 29)",
+    "options": [
+      "that the text has no audience",
+      "the end of all symbolism",
+      "a change in genre in every case",
+      "a change in speaker, social register or emotional stance"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The setting changes from an open field to a confined room as the protagonist loses freedom. This can function as (interpretive question 30)",
+    "options": [
+      "symbolic reinforcement of the character’s restriction",
+      "an example of rhyme",
+      "proof that the plot is non-linear",
+      "a metrical foot"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "When a character’s public speech praises justice while the plot shows that character exploiting the weak, the strongest interpretation is (interpretive question 31)",
+    "options": [
+      "the speech has no thematic relevance",
+      "the character is necessarily the narrator",
+      "the plot has no conflict",
+      "the work exposes hypocrisy through dramatic contrast"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A sudden shift from elevated diction to colloquial speech most likely signals (interpretive question 32)",
+    "options": [
+      "a change in genre in every case",
+      "the end of all symbolism",
+      "that the text has no audience",
+      "a change in speaker, social register or emotional stance"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The setting changes from an open field to a confined room as the protagonist loses freedom. This can function as (interpretive question 33)",
+    "options": [
+      "a metrical foot",
+      "an example of rhyme",
+      "proof that the plot is non-linear",
+      "symbolic reinforcement of the character’s restriction"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "When a character’s public speech praises justice while the plot shows that character exploiting the weak, the strongest interpretation is (interpretive question 34)",
+    "options": [
+      "the work exposes hypocrisy through dramatic contrast",
+      "the speech has no thematic relevance",
+      "the plot has no conflict",
+      "the character is necessarily the narrator"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A sudden shift from elevated diction to colloquial speech most likely signals (interpretive question 35)",
+    "options": [
+      "a change in speaker, social register or emotional stance",
+      "that the text has no audience",
+      "the end of all symbolism",
+      "a change in genre in every case"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The setting changes from an open field to a confined room as the protagonist loses freedom. This can function as (interpretive question 36)",
+    "options": [
+      "symbolic reinforcement of the character’s restriction",
+      "a metrical foot",
+      "proof that the plot is non-linear",
+      "an example of rhyme"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "When a character’s public speech praises justice while the plot shows that character exploiting the weak, the strongest interpretation is (interpretive question 37)",
+    "options": [
+      "the work exposes hypocrisy through dramatic contrast",
+      "the plot has no conflict",
+      "the character is necessarily the narrator",
+      "the speech has no thematic relevance"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A sudden shift from elevated diction to colloquial speech most likely signals (interpretive question 38)",
+    "options": [
+      "the end of all symbolism",
+      "a change in genre in every case",
+      "that the text has no audience",
+      "a change in speaker, social register or emotional stance"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The setting changes from an open field to a confined room as the protagonist loses freedom. This can function as (interpretive question 39)",
+    "options": [
+      "a metrical foot",
+      "proof that the plot is non-linear",
+      "symbolic reinforcement of the character’s restriction",
+      "an example of rhyme"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "When a character’s public speech praises justice while the plot shows that character exploiting the weak, the strongest interpretation is (interpretive question 40)",
+    "options": [
+      "the speech has no thematic relevance",
+      "the plot has no conflict",
+      "the work exposes hypocrisy through dramatic contrast",
+      "the character is necessarily the narrator"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A sudden shift from elevated diction to colloquial speech most likely signals (interpretive question 41)",
+    "options": [
+      "a change in speaker, social register or emotional stance",
+      "a change in genre in every case",
+      "the end of all symbolism",
+      "that the text has no audience"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The setting changes from an open field to a confined room as the protagonist loses freedom. This can function as (interpretive question 42)",
+    "options": [
+      "proof that the plot is non-linear",
+      "an example of rhyme",
+      "a metrical foot",
+      "symbolic reinforcement of the character’s restriction"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "When a character’s public speech praises justice while the plot shows that character exploiting the weak, the strongest interpretation is (interpretive question 43)",
+    "options": [
+      "the work exposes hypocrisy through dramatic contrast",
+      "the plot has no conflict",
+      "the speech has no thematic relevance",
+      "the character is necessarily the narrator"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A sudden shift from elevated diction to colloquial speech most likely signals (interpretive question 44)",
+    "options": [
+      "the end of all symbolism",
+      "that the text has no audience",
+      "a change in speaker, social register or emotional stance",
+      "a change in genre in every case"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "The setting changes from an open field to a confined room as the protagonist loses freedom. This can function as (interpretive question 45)",
+    "options": [
+      "a metrical foot",
+      "an example of rhyme",
+      "symbolic reinforcement of the character’s restriction",
+      "proof that the plot is non-linear"
     ],
     "answer": "C"
   }

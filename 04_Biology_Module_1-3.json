@@ -1,601 +1,601 @@
 [
   {
-    "question": "Aerobic respiration releases energy by breaking down glucose in the presence of",
+    "question": "A respirometer contains germinating seeds and soda lime. The manometer fluid moves towards the seeds. The best explanation is that",
     "options": [
-      "oxygen",
-      "chlorophyll",
-      "nitrogen",
-      "carbon monoxide"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which option is correct? aerobic respiration releases energy by breaking down glucose in the presence of",
-    "options": [
-      "nitrogen",
-      "oxygen",
-      "carbon monoxide",
-      "chlorophyll"
+      "the seeds have stopped respiring",
+      "oxygen uptake exceeds the volume of carbon dioxide released",
+      "soda lime releases oxygen",
+      "carbon dioxide production exceeds oxygen uptake"
     ],
     "answer": "B"
   },
   {
-    "question": "Select the best answer: Aerobic respiration releases energy by breaking down glucose in the presence of",
+    "question": "In an experiment, a respiratory quotient (RQ) of 0.7 is recorded. The most likely respiratory substrate is",
     "options": [
-      "carbon monoxide",
-      "nitrogen",
-      "oxygen",
-      "chlorophyll"
+      "glucose",
+      "fat",
+      "an organic acid",
+      "protein only"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A poison blocks the electron transport chain in mitochondria. Which immediate effect is expected?",
+    "options": [
+      "more ATP is produced per glucose",
+      "oxygen consumption increases without limit",
+      "oxidative phosphorylation falls sharply",
+      "glycolysis stops instantly in the cytoplasm"
     ],
     "answer": "C"
   },
   {
-    "question": "The main site of aerobic respiration in a eukaryotic cell is the",
+    "question": "A muscle cell temporarily lacks sufficient oxygen during vigorous activity. The main product formed from pyruvate is",
     "options": [
-      "nucleus",
-      "mitochondrion",
-      "ribosome",
-      "vacuole"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which option is correct? the main site of aerobic respiration in a eukaryotic cell is the",
-    "options": [
-      "mitochondrion",
-      "nucleus",
-      "ribosome",
-      "vacuole"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Select the best answer: The main site of aerobic respiration in a eukaryotic cell is the",
-    "options": [
-      "nucleus",
-      "mitochondrion",
-      "vacuole",
-      "ribosome"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "The first stage of respiration, glycolysis, occurs in the",
-    "options": [
-      "nucleus",
-      "chloroplast",
-      "mitochondrial matrix only",
-      "cytoplasm"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Which option is correct? the first stage of respiration, glycolysis, occurs in the",
-    "options": [
-      "chloroplast",
-      "mitochondrial matrix only",
-      "nucleus",
-      "cytoplasm"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Select the best answer: The first stage of respiration, glycolysis, occurs in the",
-    "options": [
-      "nucleus",
-      "cytoplasm",
-      "chloroplast",
-      "mitochondrial matrix only"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "The end products of aerobic respiration are",
-    "options": [
-      "lactic acid only",
-      "glucose and oxygen",
-      "ethanol and oxygen",
-      "carbon dioxide, water and energy"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Which option is correct? the end products of aerobic respiration are",
-    "options": [
-      "lactic acid only",
-      "ethanol and oxygen",
-      "carbon dioxide, water and energy",
-      "glucose and oxygen"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Select the best answer: The end products of aerobic respiration are",
-    "options": [
-      "carbon dioxide, water and energy",
-      "lactic acid only",
-      "ethanol and oxygen",
-      "glucose and oxygen"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Anaerobic respiration in yeast produces ethanol and",
-    "options": [
-      "carbon dioxide",
-      "starch",
-      "oxygen",
-      "urea"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which option is correct? anaerobic respiration in yeast produces ethanol and",
-    "options": [
+      "ethanol and carbon dioxide",
+      "lactate",
       "urea",
-      "starch",
-      "oxygen",
-      "carbon dioxide"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Select the best answer: Anaerobic respiration in yeast produces ethanol and",
-    "options": [
-      "urea",
-      "starch",
-      "oxygen",
-      "carbon dioxide"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "In human muscles, anaerobic respiration may produce",
-    "options": [
-      "ethanol",
-      "bile",
-      "chlorophyll",
-      "lactic acid"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Which option is correct? in human muscles, anaerobic respiration may produce",
-    "options": [
-      "ethanol",
-      "chlorophyll",
-      "bile",
-      "lactic acid"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Select the best answer: In human muscles, anaerobic respiration may produce",
-    "options": [
-      "ethanol",
-      "bile",
-      "chlorophyll",
-      "lactic acid"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "The energy currency of the cell is",
-    "options": [
-      "RNA",
-      "haemoglobin",
-      "ATP",
-      "DNA"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which option is correct? the energy currency of the cell is",
-    "options": [
-      "DNA",
-      "haemoglobin",
-      "RNA",
-      "ATP"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Select the best answer: The energy currency of the cell is",
-    "options": [
-      "ATP",
-      "DNA",
-      "RNA",
-      "haemoglobin"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The gas used in aerobic respiration is",
-    "options": [
-      "carbon dioxide",
-      "nitrogen",
-      "oxygen",
-      "hydrogen"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which option is correct? the gas used in aerobic respiration is",
-    "options": [
-      "hydrogen",
-      "oxygen",
-      "nitrogen",
-      "carbon dioxide"
+      "acetyl-CoA only"
     ],
     "answer": "B"
   },
   {
-    "question": "Select the best answer: The gas used in aerobic respiration is",
+    "question": "Which comparison correctly distinguishes aerobic respiration from anaerobic respiration in human muscle?",
     "options": [
-      "nitrogen",
-      "hydrogen",
-      "carbon dioxide",
-      "oxygen"
+      "Anaerobic respiration requires more oxygen",
+      "Aerobic respiration occurs only in the nucleus",
+      "Anaerobic respiration completely oxidises glucose",
+      "Aerobic respiration yields much more ATP per glucose molecule"
     ],
     "answer": "D"
   },
   {
-    "question": "The gas released during aerobic respiration is",
+    "question": "A student measures oxygen uptake by equal masses of germinating and boiled seeds. The boiled seeds show almost no uptake because boiling",
     "options": [
-      "oxygen",
-      "carbon dioxide",
-      "nitrogen",
-      "hydrogen"
+      "removes all stored food permanently",
+      "converts oxygen to carbon dioxide",
+      "increases mitochondrial number",
+      "denatures respiratory enzymes and kills the embryo"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "During glycolysis, one glucose molecule is converted into",
+    "options": [
+      "two molecules of ethanol in human cells",
+      "two molecules of pyruvate",
+      "six molecules of carbon dioxide",
+      "one molecule of acetyl-CoA only"
     ],
     "answer": "B"
   },
   {
-    "question": "Which option is correct? the gas released during aerobic respiration is",
+    "question": "If cyanide inhibits cytochrome oxidase, ATP production falls because",
     "options": [
-      "oxygen",
-      "hydrogen",
-      "nitrogen",
-      "carbon dioxide"
+      "carbon dioxide cannot diffuse out of the cell",
+      "glucose cannot enter the cell membrane",
+      "ribosomes stop synthesising enzymes immediately",
+      "electrons cannot be transferred to oxygen at the end of the chain"
     ],
     "answer": "D"
   },
   {
-    "question": "Select the best answer: The gas released during aerobic respiration is",
+    "question": "The respiratory quotient is calculated as the ratio of",
     "options": [
-      "hydrogen",
-      "oxygen",
-      "nitrogen",
-      "carbon dioxide"
+      "oxygen consumed to glucose stored",
+      "ATP used to ATP produced",
+      "water absorbed to carbon dioxide produced",
+      "carbon dioxide produced to oxygen consumed"
     ],
     "answer": "D"
   },
   {
-    "question": "Which blood component transports most oxygen?",
+    "question": "A plant kept in darkness continues to release carbon dioxide. This observation shows that",
     "options": [
-      "Platelets",
-      "White blood cells",
-      "Plasma proteins only",
-      "Red blood cells"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Which option is correct? which blood component transports most oxygen?",
-    "options": [
-      "Red blood cells",
-      "Platelets",
-      "White blood cells",
-      "Plasma proteins only"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Select the best answer: Which blood component transports most oxygen?",
-    "options": [
-      "White blood cells",
-      "Platelets",
-      "Red blood cells",
-      "Plasma proteins only"
+      "light is required for glycolysis",
+      "chlorophyll is the respiratory substrate",
+      "respiration continues without light",
+      "photosynthesis is faster in darkness"
     ],
     "answer": "C"
   },
   {
-    "question": "The respiratory quotient is the ratio of carbon dioxide produced to",
+    "question": "Which sequence best represents the main stages of aerobic respiration?",
     "options": [
-      "ATP used",
-      "water absorbed",
-      "glucose stored",
-      "oxygen consumed"
+      "electron transport chain, glycolysis, Calvin cycle, link reaction",
+      "fermentation, light reaction, Krebs cycle, glycolysis",
+      "Krebs cycle, glycolysis, fermentation, photosynthesis",
+      "glycolysis, link reaction, Krebs cycle, electron transport chain"
     ],
     "answer": "D"
   },
   {
-    "question": "Which option is correct? the respiratory quotient is the ratio of carbon dioxide produced to",
+    "question": "Why does a rise in temperature above the optimum reduce the rate of respiration?",
     "options": [
-      "ATP used",
-      "water absorbed",
-      "glucose stored",
-      "oxygen consumed"
+      "Glucose becomes an enzyme",
+      "Oxygen changes into nitrogen",
+      "Respiratory enzymes lose their functional shape",
+      "Mitochondria begin producing chlorophyll"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A respiratory inhibitor reduces ATP supply in root cells. Which process is most directly affected?",
+    "options": [
+      "passive diffusion of carbon dioxide",
+      "simple diffusion of oxygen",
+      "osmosis down a water potential gradient only",
+      "active uptake of mineral ions"
     ],
     "answer": "D"
   },
   {
-    "question": "Select the best answer: The respiratory quotient is the ratio of carbon dioxide produced to",
+    "question": "In a germinating seed, respiration rate rises as growth begins mainly because",
     "options": [
-      "glucose stored",
-      "oxygen consumed",
-      "water absorbed",
-      "ATP used"
+      "metabolic activity and ATP demand increase",
+      "the embryo no longer needs energy",
+      "water prevents enzyme action",
+      "the seed stops using stored food"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which statement about fermentation in yeast is correct?",
+    "options": [
+      "It regenerates NAD+ and produces ethanol and carbon dioxide",
+      "It produces more ATP than aerobic respiration",
+      "It takes place only in mitochondria",
+      "It requires oxygen as the final electron acceptor"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "In a controlled experiment, a 10 g sample of germinating seeds consumes 2 cm³ of oxygen in 5 minutes. Which measurement gives the rate of oxygen uptake per gram per minute?",
+    "options": [
+      "oxygen volume × mass × time",
+      "time ÷ (oxygen volume + mass)",
+      "oxygen volume ÷ (mass × time)",
+      "mass × time ÷ oxygen volume"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A student records carbon dioxide output rising from 13 to 21 units when temperature is raised within the enzyme optimum. The most defensible inference is that",
+    "options": [
+      "photosynthesis must have increased in darkness",
+      "the respiratory substrate has become oxygen",
+      "enzyme-controlled respiratory reactions are occurring faster",
+      "temperature has stopped respiration"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A cell produces 4 ATP by substrate-level phosphorylation but far less ATP than expected overall. Which explanation best fits a blockage of the electron transport chain?",
+    "options": [
+      "the Krebs cycle occurs in the cell wall",
+      "most ATP normally made by oxidative phosphorylation is lost",
+      "oxygen is converted directly into glucose",
+      "glycolysis normally produces all cellular ATP"
     ],
     "answer": "B"
   },
   {
-    "question": "Complete oxidation of glucose yields more energy than anaerobic respiration because it",
+    "question": "In a controlled experiment, a 13 g sample of germinating seeds consumes 5 cm³ of oxygen in 8 minutes. Which measurement gives the rate of oxygen uptake per gram per minute?",
     "options": [
-      "produces no waste",
-      "uses no enzymes",
-      "breaks down glucose more completely",
-      "occurs without glucose"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which option is correct? complete oxidation of glucose yields more energy than anaerobic respiration because it",
-    "options": [
-      "breaks down glucose more completely",
-      "produces no waste",
-      "uses no enzymes",
-      "occurs without glucose"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Select the best answer: Complete oxidation of glucose yields more energy than anaerobic respiration because it",
-    "options": [
-      "occurs without glucose",
-      "breaks down glucose more completely",
-      "uses no enzymes",
-      "produces no waste"
+      "time ÷ (oxygen volume + mass)",
+      "oxygen volume ÷ (mass × time)",
+      "mass × time ÷ oxygen volume",
+      "oxygen volume × mass × time"
     ],
     "answer": "B"
   },
   {
-    "question": "The equation for aerobic respiration includes glucose and oxygen producing carbon dioxide, water and",
+    "question": "A student records carbon dioxide output rising from 16 to 24 units when temperature is raised within the enzyme optimum. The most defensible inference is that",
     "options": [
-      "protein",
-      "nitrogen",
-      "chlorophyll",
-      "energy"
+      "the respiratory substrate has become oxygen",
+      "temperature has stopped respiration",
+      "photosynthesis must have increased in darkness",
+      "enzyme-controlled respiratory reactions are occurring faster"
     ],
     "answer": "D"
   },
   {
-    "question": "Which option is correct? the equation for aerobic respiration includes glucose and oxygen producing carbon dioxide, water and",
+    "question": "A cell produces 3 ATP by substrate-level phosphorylation but far less ATP than expected overall. Which explanation best fits a blockage of the electron transport chain?",
     "options": [
-      "energy",
-      "nitrogen",
-      "protein",
-      "chlorophyll"
+      "most ATP normally made by oxidative phosphorylation is lost",
+      "glycolysis normally produces all cellular ATP",
+      "the Krebs cycle occurs in the cell wall",
+      "oxygen is converted directly into glucose"
     ],
     "answer": "A"
   },
   {
-    "question": "Select the best answer: The equation for aerobic respiration includes glucose and oxygen producing carbon dioxide, water and",
+    "question": "In a controlled experiment, a 16 g sample of germinating seeds consumes 3 cm³ of oxygen in 7 minutes. Which measurement gives the rate of oxygen uptake per gram per minute?",
     "options": [
-      "protein",
-      "chlorophyll",
-      "energy",
-      "nitrogen"
+      "time ÷ (oxygen volume + mass)",
+      "oxygen volume × mass × time",
+      "oxygen volume ÷ (mass × time)",
+      "mass × time ÷ oxygen volume"
     ],
     "answer": "C"
   },
   {
-    "question": "A lack of oxygen during vigorous exercise may cause increased production of",
+    "question": "A student records carbon dioxide output rising from 19 to 27 units when temperature is raised within the enzyme optimum. The most defensible inference is that",
     "options": [
-      "bile salts",
-      "ethanol in muscle cells",
-      "lactic acid",
-      "starch"
+      "photosynthesis must have increased in darkness",
+      "the respiratory substrate has become oxygen",
+      "enzyme-controlled respiratory reactions are occurring faster",
+      "temperature has stopped respiration"
     ],
     "answer": "C"
   },
   {
-    "question": "Which option is correct? a lack of oxygen during vigorous exercise may cause increased production of",
+    "question": "A cell produces 2 ATP by substrate-level phosphorylation but far less ATP than expected overall. Which explanation best fits a blockage of the electron transport chain?",
     "options": [
-      "lactic acid",
-      "starch",
-      "bile salts",
-      "ethanol in muscle cells"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Select the best answer: A lack of oxygen during vigorous exercise may cause increased production of",
-    "options": [
-      "lactic acid",
-      "bile salts",
-      "ethanol in muscle cells",
-      "starch"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The folds of the inner mitochondrial membrane are called",
-    "options": [
-      "alveoli",
-      "grana",
-      "villi",
-      "cristae"
+      "the Krebs cycle occurs in the cell wall",
+      "glycolysis normally produces all cellular ATP",
+      "oxygen is converted directly into glucose",
+      "most ATP normally made by oxidative phosphorylation is lost"
     ],
     "answer": "D"
   },
   {
-    "question": "Which option is correct? the folds of the inner mitochondrial membrane are called",
+    "question": "In a controlled experiment, a 12 g sample of germinating seeds consumes 6 cm³ of oxygen in 6 minutes. Which measurement gives the rate of oxygen uptake per gram per minute?",
     "options": [
-      "villi",
-      "alveoli",
-      "grana",
-      "cristae"
+      "oxygen volume ÷ (mass × time)",
+      "oxygen volume × mass × time",
+      "time ÷ (oxygen volume + mass)",
+      "mass × time ÷ oxygen volume"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A student records carbon dioxide output rising from 13 to 30 units when temperature is raised within the enzyme optimum. The most defensible inference is that",
+    "options": [
+      "enzyme-controlled respiratory reactions are occurring faster",
+      "photosynthesis must have increased in darkness",
+      "the respiratory substrate has become oxygen",
+      "temperature has stopped respiration"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A cell produces 5 ATP by substrate-level phosphorylation but far less ATP than expected overall. Which explanation best fits a blockage of the electron transport chain?",
+    "options": [
+      "oxygen is converted directly into glucose",
+      "glycolysis normally produces all cellular ATP",
+      "most ATP normally made by oxidative phosphorylation is lost",
+      "the Krebs cycle occurs in the cell wall"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "In a controlled experiment, a 15 g sample of germinating seeds consumes 4 cm³ of oxygen in 5 minutes. Which measurement gives the rate of oxygen uptake per gram per minute?",
+    "options": [
+      "oxygen volume ÷ (mass × time)",
+      "oxygen volume × mass × time",
+      "mass × time ÷ oxygen volume",
+      "time ÷ (oxygen volume + mass)"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A student records carbon dioxide output rising from 16 to 22 units when temperature is raised within the enzyme optimum. The most defensible inference is that",
+    "options": [
+      "temperature has stopped respiration",
+      "the respiratory substrate has become oxygen",
+      "photosynthesis must have increased in darkness",
+      "enzyme-controlled respiratory reactions are occurring faster"
     ],
     "answer": "D"
   },
   {
-    "question": "Select the best answer: The folds of the inner mitochondrial membrane are called",
+    "question": "A cell produces 4 ATP by substrate-level phosphorylation but far less ATP than expected overall. Which explanation best fits a blockage of the electron transport chain?",
     "options": [
-      "alveoli",
-      "cristae",
-      "villi",
-      "grana"
+      "oxygen is converted directly into glucose",
+      "the Krebs cycle occurs in the cell wall",
+      "most ATP normally made by oxidative phosphorylation is lost",
+      "glycolysis normally produces all cellular ATP"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "In a controlled experiment, a 11 g sample of germinating seeds consumes 2 cm³ of oxygen in 8 minutes. Which measurement gives the rate of oxygen uptake per gram per minute?",
+    "options": [
+      "oxygen volume ÷ (mass × time)",
+      "oxygen volume × mass × time",
+      "time ÷ (oxygen volume + mass)",
+      "mass × time ÷ oxygen volume"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A student records carbon dioxide output rising from 19 to 25 units when temperature is raised within the enzyme optimum. The most defensible inference is that",
+    "options": [
+      "photosynthesis must have increased in darkness",
+      "the respiratory substrate has become oxygen",
+      "temperature has stopped respiration",
+      "enzyme-controlled respiratory reactions are occurring faster"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A cell produces 3 ATP by substrate-level phosphorylation but far less ATP than expected overall. Which explanation best fits a blockage of the electron transport chain?",
+    "options": [
+      "oxygen is converted directly into glucose",
+      "most ATP normally made by oxidative phosphorylation is lost",
+      "glycolysis normally produces all cellular ATP",
+      "the Krebs cycle occurs in the cell wall"
     ],
     "answer": "B"
   },
   {
-    "question": "The breakdown of food to release usable energy is called",
+    "question": "In a controlled experiment, a 14 g sample of germinating seeds consumes 5 cm³ of oxygen in 7 minutes. Which measurement gives the rate of oxygen uptake per gram per minute?",
     "options": [
-      "respiration",
-      "transpiration",
-      "excretion",
-      "photosynthesis"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which option is correct? the breakdown of food to release usable energy is called",
-    "options": [
-      "transpiration",
-      "excretion",
-      "respiration",
-      "photosynthesis"
+      "time ÷ (oxygen volume + mass)",
+      "mass × time ÷ oxygen volume",
+      "oxygen volume ÷ (mass × time)",
+      "oxygen volume × mass × time"
     ],
     "answer": "C"
   },
   {
-    "question": "Select the best answer: The breakdown of food to release usable energy is called",
+    "question": "A student records carbon dioxide output rising from 13 to 28 units when temperature is raised within the enzyme optimum. The most defensible inference is that",
     "options": [
-      "photosynthesis",
-      "transpiration",
-      "respiration",
-      "excretion"
+      "photosynthesis must have increased in darkness",
+      "the respiratory substrate has become oxygen",
+      "enzyme-controlled respiratory reactions are occurring faster",
+      "temperature has stopped respiration"
     ],
     "answer": "C"
   },
   {
-    "question": "Which organism commonly carries out alcoholic fermentation?",
+    "question": "A cell produces 2 ATP by substrate-level phosphorylation but far less ATP than expected overall. Which explanation best fits a blockage of the electron transport chain?",
     "options": [
-      "Yeast",
-      "Fern",
-      "Earthworm",
-      "Moss"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which option is correct? which organism commonly carries out alcoholic fermentation?",
-    "options": [
-      "Yeast",
-      "Moss",
-      "Fern",
-      "Earthworm"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Select the best answer: Which organism commonly carries out alcoholic fermentation?",
-    "options": [
-      "Yeast",
-      "Moss",
-      "Fern",
-      "Earthworm"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Energy released in respiration is used for",
-    "options": [
-      "growth, movement and active transport",
-      "only changing eye colour",
-      "stopping metabolism",
-      "making sunlight"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which option is correct? energy released in respiration is used for",
-    "options": [
-      "growth, movement and active transport",
-      "stopping metabolism",
-      "only changing eye colour",
-      "making sunlight"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Select the best answer: Energy released in respiration is used for",
-    "options": [
-      "stopping metabolism",
-      "making sunlight",
-      "growth, movement and active transport",
-      "only changing eye colour"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Respiration differs from breathing because respiration is a",
-    "options": [
-      "movement of air only",
-      "physical exchange of air only",
-      "chemical process in cells",
-      "movement of the rib cage only"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which option is correct? respiration differs from breathing because respiration is a",
-    "options": [
-      "movement of the rib cage only",
-      "physical exchange of air only",
-      "chemical process in cells",
-      "movement of air only"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Select the best answer: Respiration differs from breathing because respiration is a",
-    "options": [
-      "chemical process in cells",
-      "movement of air only",
-      "physical exchange of air only",
-      "movement of the rib cage only"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Enzymes involved in respiration function best at",
-    "options": [
-      "zero temperature only",
-      "any temperature without limit",
-      "all pH values equally",
-      "suitable optimum conditions"
+      "oxygen is converted directly into glucose",
+      "the Krebs cycle occurs in the cell wall",
+      "glycolysis normally produces all cellular ATP",
+      "most ATP normally made by oxidative phosphorylation is lost"
     ],
     "answer": "D"
   },
   {
-    "question": "Which option is correct? enzymes involved in respiration function best at",
+    "question": "In a controlled experiment, a 10 g sample of germinating seeds consumes 3 cm³ of oxygen in 6 minutes. Which measurement gives the rate of oxygen uptake per gram per minute?",
     "options": [
-      "zero temperature only",
-      "suitable optimum conditions",
-      "all pH values equally",
-      "any temperature without limit"
+      "time ÷ (oxygen volume + mass)",
+      "oxygen volume × mass × time",
+      "oxygen volume ÷ (mass × time)",
+      "mass × time ÷ oxygen volume"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A student records carbon dioxide output rising from 16 to 20 units when temperature is raised within the enzyme optimum. The most defensible inference is that",
+    "options": [
+      "photosynthesis must have increased in darkness",
+      "temperature has stopped respiration",
+      "the respiratory substrate has become oxygen",
+      "enzyme-controlled respiratory reactions are occurring faster"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A cell produces 5 ATP by substrate-level phosphorylation but far less ATP than expected overall. Which explanation best fits a blockage of the electron transport chain?",
+    "options": [
+      "most ATP normally made by oxidative phosphorylation is lost",
+      "oxygen is converted directly into glucose",
+      "the Krebs cycle occurs in the cell wall",
+      "glycolysis normally produces all cellular ATP"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "In a controlled experiment, a 13 g sample of germinating seeds consumes 6 cm³ of oxygen in 5 minutes. Which measurement gives the rate of oxygen uptake per gram per minute?",
+    "options": [
+      "oxygen volume ÷ (mass × time)",
+      "oxygen volume × mass × time",
+      "mass × time ÷ oxygen volume",
+      "time ÷ (oxygen volume + mass)"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A student records carbon dioxide output rising from 19 to 23 units when temperature is raised within the enzyme optimum. The most defensible inference is that",
+    "options": [
+      "enzyme-controlled respiratory reactions are occurring faster",
+      "temperature has stopped respiration",
+      "photosynthesis must have increased in darkness",
+      "the respiratory substrate has become oxygen"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A cell produces 4 ATP by substrate-level phosphorylation but far less ATP than expected overall. Which explanation best fits a blockage of the electron transport chain?",
+    "options": [
+      "the Krebs cycle occurs in the cell wall",
+      "oxygen is converted directly into glucose",
+      "most ATP normally made by oxidative phosphorylation is lost",
+      "glycolysis normally produces all cellular ATP"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "In a controlled experiment, a 16 g sample of germinating seeds consumes 4 cm³ of oxygen in 8 minutes. Which measurement gives the rate of oxygen uptake per gram per minute?",
+    "options": [
+      "oxygen volume ÷ (mass × time)",
+      "mass × time ÷ oxygen volume",
+      "time ÷ (oxygen volume + mass)",
+      "oxygen volume × mass × time"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A student records carbon dioxide output rising from 13 to 26 units when temperature is raised within the enzyme optimum. The most defensible inference is that",
+    "options": [
+      "photosynthesis must have increased in darkness",
+      "temperature has stopped respiration",
+      "the respiratory substrate has become oxygen",
+      "enzyme-controlled respiratory reactions are occurring faster"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A cell produces 3 ATP by substrate-level phosphorylation but far less ATP than expected overall. Which explanation best fits a blockage of the electron transport chain?",
+    "options": [
+      "oxygen is converted directly into glucose",
+      "the Krebs cycle occurs in the cell wall",
+      "glycolysis normally produces all cellular ATP",
+      "most ATP normally made by oxidative phosphorylation is lost"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "In a controlled experiment, a 12 g sample of germinating seeds consumes 2 cm³ of oxygen in 7 minutes. Which measurement gives the rate of oxygen uptake per gram per minute?",
+    "options": [
+      "time ÷ (oxygen volume + mass)",
+      "oxygen volume × mass × time",
+      "oxygen volume ÷ (mass × time)",
+      "mass × time ÷ oxygen volume"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A student records carbon dioxide output rising from 16 to 29 units when temperature is raised within the enzyme optimum. The most defensible inference is that",
+    "options": [
+      "enzyme-controlled respiratory reactions are occurring faster",
+      "temperature has stopped respiration",
+      "photosynthesis must have increased in darkness",
+      "the respiratory substrate has become oxygen"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A cell produces 2 ATP by substrate-level phosphorylation but far less ATP than expected overall. Which explanation best fits a blockage of the electron transport chain?",
+    "options": [
+      "oxygen is converted directly into glucose",
+      "glycolysis normally produces all cellular ATP",
+      "the Krebs cycle occurs in the cell wall",
+      "most ATP normally made by oxidative phosphorylation is lost"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "In a controlled experiment, a 15 g sample of germinating seeds consumes 5 cm³ of oxygen in 6 minutes. Which measurement gives the rate of oxygen uptake per gram per minute?",
+    "options": [
+      "oxygen volume ÷ (mass × time)",
+      "time ÷ (oxygen volume + mass)",
+      "mass × time ÷ oxygen volume",
+      "oxygen volume × mass × time"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A student records carbon dioxide output rising from 19 to 21 units when temperature is raised within the enzyme optimum. The most defensible inference is that",
+    "options": [
+      "the respiratory substrate has become oxygen",
+      "temperature has stopped respiration",
+      "enzyme-controlled respiratory reactions are occurring faster",
+      "photosynthesis must have increased in darkness"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A cell produces 5 ATP by substrate-level phosphorylation but far less ATP than expected overall. Which explanation best fits a blockage of the electron transport chain?",
+    "options": [
+      "glycolysis normally produces all cellular ATP",
+      "oxygen is converted directly into glucose",
+      "the Krebs cycle occurs in the cell wall",
+      "most ATP normally made by oxidative phosphorylation is lost"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "In a controlled experiment, a 11 g sample of germinating seeds consumes 3 cm³ of oxygen in 5 minutes. Which measurement gives the rate of oxygen uptake per gram per minute?",
+    "options": [
+      "mass × time ÷ oxygen volume",
+      "oxygen volume × mass × time",
+      "time ÷ (oxygen volume + mass)",
+      "oxygen volume ÷ (mass × time)"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A student records carbon dioxide output rising from 13 to 24 units when temperature is raised within the enzyme optimum. The most defensible inference is that",
+    "options": [
+      "photosynthesis must have increased in darkness",
+      "temperature has stopped respiration",
+      "the respiratory substrate has become oxygen",
+      "enzyme-controlled respiratory reactions are occurring faster"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A cell produces 4 ATP by substrate-level phosphorylation but far less ATP than expected overall. Which explanation best fits a blockage of the electron transport chain?",
+    "options": [
+      "glycolysis normally produces all cellular ATP",
+      "the Krebs cycle occurs in the cell wall",
+      "most ATP normally made by oxidative phosphorylation is lost",
+      "oxygen is converted directly into glucose"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "In a controlled experiment, a 14 g sample of germinating seeds consumes 6 cm³ of oxygen in 8 minutes. Which measurement gives the rate of oxygen uptake per gram per minute?",
+    "options": [
+      "oxygen volume ÷ (mass × time)",
+      "mass × time ÷ oxygen volume",
+      "oxygen volume × mass × time",
+      "time ÷ (oxygen volume + mass)"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A student records carbon dioxide output rising from 16 to 27 units when temperature is raised within the enzyme optimum. The most defensible inference is that",
+    "options": [
+      "temperature has stopped respiration",
+      "enzyme-controlled respiratory reactions are occurring faster",
+      "the respiratory substrate has become oxygen",
+      "photosynthesis must have increased in darkness"
     ],
     "answer": "B"
   },
   {
-    "question": "Select the best answer: Enzymes involved in respiration function best at",
+    "question": "A cell produces 3 ATP by substrate-level phosphorylation but far less ATP than expected overall. Which explanation best fits a blockage of the electron transport chain?",
     "options": [
-      "any temperature without limit",
-      "all pH values equally",
-      "suitable optimum conditions",
-      "zero temperature only"
+      "oxygen is converted directly into glucose",
+      "the Krebs cycle occurs in the cell wall",
+      "most ATP normally made by oxidative phosphorylation is lost",
+      "glycolysis normally produces all cellular ATP"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "In a controlled experiment, a 10 g sample of germinating seeds consumes 4 cm³ of oxygen in 7 minutes. Which measurement gives the rate of oxygen uptake per gram per minute?",
+    "options": [
+      "time ÷ (oxygen volume + mass)",
+      "oxygen volume ÷ (mass × time)",
+      "oxygen volume × mass × time",
+      "mass × time ÷ oxygen volume"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A student records carbon dioxide output rising from 19 to 30 units when temperature is raised within the enzyme optimum. The most defensible inference is that",
+    "options": [
+      "photosynthesis must have increased in darkness",
+      "enzyme-controlled respiratory reactions are occurring faster",
+      "the respiratory substrate has become oxygen",
+      "temperature has stopped respiration"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A cell produces 2 ATP by substrate-level phosphorylation but far less ATP than expected overall. Which explanation best fits a blockage of the electron transport chain?",
+    "options": [
+      "oxygen is converted directly into glucose",
+      "glycolysis normally produces all cellular ATP",
+      "most ATP normally made by oxidative phosphorylation is lost",
+      "the Krebs cycle occurs in the cell wall"
     ],
     "answer": "C"
   }

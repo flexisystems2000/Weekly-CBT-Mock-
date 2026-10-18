@@ -1,601 +1,601 @@
 [
   {
-    "question": "National income refers broadly to the total income earned by",
+    "question": "An economy records GDP at market prices of ₦84 trillion, depreciation of ₦6 trillion and indirect taxes less subsidies of ₦4 trillion. Net national income at factor cost, assuming net factor income from abroad is zero, is",
     "options": [
-      "all banks' cash holdings",
-      "a country's factors of production over a period",
-      "only exporters in one day",
-      "only the government from taxes"
+      "₦94 trillion",
+      "₦78 trillion",
+      "₦82 trillion",
+      "₦74 trillion"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Nominal GDP rises by 12% while the GDP deflator rises by 8%. The approximate real GDP growth rate is",
+    "options": [
+      "4.0% exactly",
+      "20.0%",
+      "about 3.7%",
+      "8.0%"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "If national income is ₦500 billion, consumption is ₦360 billion and government expenditure is ₦80 billion, with no foreign trade or depreciation, planned investment equals",
+    "options": [
+      "₦420 billion",
+      "₦140 billion",
+      "₦220 billion",
+      "₦60 billion"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A country’s GDP is ₦900 billion and net factor income from abroad is −₦25 billion. Its GNP is",
+    "options": [
+      "₦925 billion",
+      "₦900 billion",
+      "₦875 billion",
+      "₦25 billion"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "If the marginal propensity to consume is 0.8, the simple Keynesian multiplier is",
+    "options": [
+      "0.2",
+      "5",
+      "1.25",
+      "4"
     ],
     "answer": "B"
   },
   {
-    "question": "Which option is correct? national income refers broadly to the total income earned by",
+    "question": "An autonomous investment increase of ₦12 billion occurs where MPC = 0.75. In the simple model, equilibrium income increases by",
     "options": [
-      "a country's factors of production over a period",
-      "only the government from taxes",
-      "only exporters in one day",
-      "all banks' cash holdings"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Select the best answer: National income refers broadly to the total income earned by",
-    "options": [
-      "only the government from taxes",
-      "only exporters in one day",
-      "a country's factors of production over a period",
-      "all banks' cash holdings"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Gross Domestic Product (GDP) measures the value of final goods and services produced",
-    "options": [
-      "only by government departments",
-      "only by citizens abroad",
-      "only in agriculture",
-      "within a country's domestic territory"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Which option is correct? gross Domestic Product (GDP) measures the value of final goods and services produced",
-    "options": [
-      "only by citizens abroad",
-      "only by government departments",
-      "within a country's domestic territory",
-      "only in agriculture"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Select the best answer: Gross Domestic Product (GDP) measures the value of final goods and services produced",
-    "options": [
-      "only in agriculture",
-      "within a country's domestic territory",
-      "only by government departments",
-      "only by citizens abroad"
+      "₦9 billion",
+      "₦48 billion",
+      "₦16 billion",
+      "₦3 billion"
     ],
     "answer": "B"
   },
   {
-    "question": "Gross National Income (GNI) adjusts GDP for",
+    "question": "A country counts the value of flour and bread separately even though the flour is used to make the bread. This causes GDP to be overstated through",
     "options": [
-      "net primary income from abroad",
-      "indirect taxes alone",
-      "population growth alone",
-      "imports alone"
+      "double counting of intermediate goods",
+      "transfer payments",
+      "omission of depreciation",
+      "underestimation of exports"
     ],
     "answer": "A"
   },
   {
-    "question": "Which option is correct? gross National Income (GNI) adjusts GDP for",
+    "question": "Which item is excluded from current national output when measured by the expenditure method?",
     "options": [
-      "population growth alone",
-      "net primary income from abroad",
-      "indirect taxes alone",
-      "imports alone"
+      "household expenditure on new clothing",
+      "exported manufactured goods",
+      "unemployment benefit paid by government",
+      "newly produced machinery"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "If nominal national income is ₦660 billion and the price index is 110 (base year 100), real national income is",
+    "options": [
+      "₦660 billion",
+      "₦600 billion",
+      "₦550 billion",
+      "₦726 billion"
     ],
     "answer": "B"
   },
   {
-    "question": "Select the best answer: Gross National Income (GNI) adjusts GDP for",
+    "question": "A rise in GDP caused entirely by higher prices, with unchanged quantities produced, indicates that",
     "options": [
-      "population growth alone",
-      "net primary income from abroad",
-      "indirect taxes alone",
-      "imports alone"
+      "nominal GDP rises while real GDP is unchanged",
+      "national output has doubled",
+      "real GDP must rise by the same percentage",
+      "the GDP deflator has fallen"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A country’s net domestic product is ₦720 billion and depreciation is ₦45 billion. GDP is",
+    "options": [
+      "₦675 billion",
+      "₦720 billion",
+      "₦765 billion",
+      "₦16 billion"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "The income approach estimates national income by summing",
+    "options": [
+      "all cash transfers between households",
+      "the value of every intermediate transaction",
+      "only government tax receipts",
+      "factor incomes earned from production"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A rise in unpaid household work may improve welfare but is often absent from measured GDP because it is",
+    "options": [
+      "necessarily illegal",
+      "not exchanged through a recorded market transaction",
+      "included as exports",
+      "always an intermediate input"
     ],
     "answer": "B"
   },
   {
-    "question": "The expenditure method calculates national income by adding consumption, investment, government spending and",
+    "question": "If savings equal ₦90 billion at income ₦600 billion, the average propensity to save is",
     "options": [
-      "net exports",
-      "depreciation only",
-      "unemployment",
-      "income tax only"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which option is correct? the expenditure method calculates national income by adding consumption, investment, government spending and",
-    "options": [
-      "income tax only",
-      "depreciation only",
-      "net exports",
-      "unemployment"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Select the best answer: The expenditure method calculates national income by adding consumption, investment, government spending and",
-    "options": [
-      "net exports",
-      "unemployment",
-      "income tax only",
-      "depreciation only"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "In the expenditure approach, net exports equal exports minus",
-    "options": [
-      "savings",
-      "imports",
-      "taxes",
-      "investment"
+      "0.60",
+      "0.15",
+      "6.67",
+      "510"
     ],
     "answer": "B"
   },
   {
-    "question": "Which option is correct? in the expenditure approach, net exports equal exports minus",
+    "question": "If MPC is 0.6 and lump-sum taxes are ignored, the marginal propensity to save is",
     "options": [
-      "imports",
-      "investment",
-      "taxes",
-      "savings"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Select the best answer: In the expenditure approach, net exports equal exports minus",
-    "options": [
-      "taxes",
-      "savings",
-      "investment",
-      "imports"
+      "2.5",
+      "0.6",
+      "1.6",
+      "0.4"
     ],
     "answer": "D"
   },
   {
-    "question": "The income method adds wages, rent, interest and",
+    "question": "Nominal national output is ₦100 billion and the price index (base year 100) is 100. Real output in base-year prices is",
     "options": [
-      "consumer prices",
-      "population",
-      "profits",
-      "imports"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which option is correct? the income method adds wages, rent, interest and",
-    "options": [
-      "imports",
-      "population",
-      "consumer prices",
-      "profits"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Select the best answer: The income method adds wages, rent, interest and",
-    "options": [
-      "consumer prices",
-      "imports",
-      "population",
-      "profits"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "The output method avoids double counting by counting",
-    "options": [
-      "all used goods as new output",
-      "only wages",
-      "value added at each stage or final output",
-      "every intermediate sale repeatedly"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which option is correct? the output method avoids double counting by counting",
-    "options": [
-      "every intermediate sale repeatedly",
-      "all used goods as new output",
-      "only wages",
-      "value added at each stage or final output"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Select the best answer: The output method avoids double counting by counting",
-    "options": [
-      "only wages",
-      "all used goods as new output",
-      "value added at each stage or final output",
-      "every intermediate sale repeatedly"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Transfer payments are generally excluded from national income because they",
-    "options": [
-      "measure investment directly",
-      "are not payments for current production",
-      "are wages for factory work",
-      "always represent exports"
+      "₦80 billion",
+      "₦100 billion",
+      "₦100 billion",
+      "₦100 billion"
     ],
     "answer": "B"
   },
   {
-    "question": "Which option is correct? transfer payments are generally excluded from national income because they",
+    "question": "Nominal national output is ₦116 billion and the price index (base year 100) is 105. Real output in base-year prices is",
     "options": [
-      "always represent exports",
-      "measure investment directly",
-      "are not payments for current production",
-      "are wages for factory work"
+      "₦116 billion",
+      "₦90 billion",
+      "₦122 billion",
+      "₦110 billion"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Nominal national output is ₦132 billion and the price index (base year 100) is 110. Real output in base-year prices is",
+    "options": [
+      "₦132 billion",
+      "₦145 billion",
+      "₦120 billion",
+      "₦100 billion"
     ],
     "answer": "C"
   },
   {
-    "question": "Select the best answer: Transfer payments are generally excluded from national income because they",
+    "question": "Nominal national output is ₦150 billion and the price index (base year 100) is 115. Real output in base-year prices is",
     "options": [
-      "always represent exports",
-      "measure investment directly",
-      "are not payments for current production",
-      "are wages for factory work"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which is an example of a transfer payment?",
-    "options": [
-      "Wages paid to a teacher",
-      "Rent earned by a landlord",
-      "Profit from a factory",
-      "A social benefit paid without a current productive service"
+      "₦172 billion",
+      "₦110 billion",
+      "₦150 billion",
+      "₦130 billion"
     ],
     "answer": "D"
   },
   {
-    "question": "Which option is correct? which is an example of a transfer payment?",
+    "question": "Nominal national output is ₦168 billion and the price index (base year 100) is 120. Real output in base-year prices is",
     "options": [
-      "Profit from a factory",
-      "Wages paid to a teacher",
-      "A social benefit paid without a current productive service",
-      "Rent earned by a landlord"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Select the best answer: Which is an example of a transfer payment?",
-    "options": [
-      "Rent earned by a landlord",
-      "Wages paid to a teacher",
-      "Profit from a factory",
-      "A social benefit paid without a current productive service"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Nominal GDP is measured using",
-    "options": [
-      "only foreign prices",
-      "constant base-year prices",
-      "no prices",
-      "current-year prices"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Which option is correct? nominal GDP is measured using",
-    "options": [
-      "constant base-year prices",
-      "no prices",
-      "only foreign prices",
-      "current-year prices"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Select the best answer: Nominal GDP is measured using",
-    "options": [
-      "current-year prices",
-      "only foreign prices",
-      "constant base-year prices",
-      "no prices"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Real GDP adjusts nominal GDP for changes in",
-    "options": [
-      "exchange of votes",
-      "weather only",
-      "population names",
-      "the general price level"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Which option is correct? real GDP adjusts nominal GDP for changes in",
-    "options": [
-      "weather only",
-      "population names",
-      "exchange of votes",
-      "the general price level"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Select the best answer: Real GDP adjusts nominal GDP for changes in",
-    "options": [
-      "population names",
-      "the general price level",
-      "exchange of votes",
-      "weather only"
+      "₦168 billion",
+      "₦140 billion",
+      "₦120 billion",
+      "₦202 billion"
     ],
     "answer": "B"
   },
   {
-    "question": "Per capita income is calculated by dividing national income by",
+    "question": "Nominal national output is ₦150 billion and the price index (base year 100) is 100. Real output in base-year prices is",
     "options": [
-      "tax rate",
-      "number of firms only",
-      "exports",
-      "population"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Which option is correct? per capita income is calculated by dividing national income by",
-    "options": [
-      "exports",
-      "population",
-      "number of firms only",
-      "tax rate"
+      "₦130 billion",
+      "₦150 billion",
+      "₦150 billion",
+      "₦150 billion"
     ],
     "answer": "B"
   },
   {
-    "question": "Select the best answer: Per capita income is calculated by dividing national income by",
+    "question": "Nominal national output is ₦168 billion and the price index (base year 100) is 105. Real output in base-year prices is",
     "options": [
-      "population",
-      "exports",
-      "number of firms only",
-      "tax rate"
+      "₦160 billion",
+      "₦168 billion",
+      "₦176 billion",
+      "₦140 billion"
     ],
     "answer": "A"
   },
   {
-    "question": "Double counting occurs when",
+    "question": "Nominal national output is ₦187 billion and the price index (base year 100) is 110. Real output in base-year prices is",
     "options": [
-      "imports are subtracted from exports",
-      "a final good is counted once",
-      "income is divided by population",
-      "the value of an intermediate good is counted again in the final product"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Which option is correct? double counting occurs when",
-    "options": [
-      "income is divided by population",
-      "imports are subtracted from exports",
-      "the value of an intermediate good is counted again in the final product",
-      "a final good is counted once"
+      "₦150 billion",
+      "₦187 billion",
+      "₦170 billion",
+      "₦206 billion"
     ],
     "answer": "C"
   },
   {
-    "question": "Select the best answer: Double counting occurs when",
+    "question": "Nominal national output is ₦207 billion and the price index (base year 100) is 115. Real output in base-year prices is",
     "options": [
-      "the value of an intermediate good is counted again in the final product",
-      "a final good is counted once",
-      "income is divided by population",
-      "imports are subtracted from exports"
+      "₦180 billion",
+      "₦160 billion",
+      "₦207 billion",
+      "₦238 billion"
     ],
     "answer": "A"
   },
   {
-    "question": "Depreciation is deducted from gross domestic product to obtain",
+    "question": "Nominal national output is ₦120 billion and the price index (base year 100) is 120. Real output in base-year prices is",
     "options": [
-      "net domestic product",
-      "gross national income",
-      "personal disposable income",
-      "total exports"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which option is correct? depreciation is deducted from gross domestic product to obtain",
-    "options": [
-      "net domestic product",
-      "gross national income",
-      "personal disposable income",
-      "total exports"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Select the best answer: Depreciation is deducted from gross domestic product to obtain",
-    "options": [
-      "gross national income",
-      "total exports",
-      "personal disposable income",
-      "net domestic product"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "A limitation of per capita income is that it does not show",
-    "options": [
-      "how income is distributed",
-      "the size of the population",
-      "national output at all",
-      "the average income mathematically"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which option is correct? a limitation of per capita income is that it does not show",
-    "options": [
-      "how income is distributed",
-      "the size of the population",
-      "national output at all",
-      "the average income mathematically"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Select the best answer: A limitation of per capita income is that it does not show",
-    "options": [
-      "how income is distributed",
-      "the size of the population",
-      "the average income mathematically",
-      "national output at all"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "An increase in real GDP over time generally indicates",
-    "options": [
-      "a guaranteed equal income distribution",
-      "zero output",
-      "a fall in all production",
-      "economic growth"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Which option is correct? an increase in real GDP over time generally indicates",
-    "options": [
-      "economic growth",
-      "a fall in all production",
-      "a guaranteed equal income distribution",
-      "zero output"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Select the best answer: An increase in real GDP over time generally indicates",
-    "options": [
-      "a guaranteed equal income distribution",
-      "a fall in all production",
-      "economic growth",
-      "zero output"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Underground economic activities may cause national income estimates to be",
-    "options": [
-      "always exact",
-      "equal to population",
-      "unrelated to production",
-      "understated"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Which option is correct? underground economic activities may cause national income estimates to be",
-    "options": [
-      "equal to population",
-      "unrelated to production",
-      "always exact",
-      "understated"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Select the best answer: Underground economic activities may cause national income estimates to be",
-    "options": [
-      "always exact",
-      "unrelated to production",
-      "understated",
-      "equal to population"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "The circular flow model shows flows of income and",
-    "options": [
-      "rainfall between states",
-      "expenditure between sectors",
-      "goods only without money",
-      "laws between courts"
+      "₦80 billion",
+      "₦100 billion",
+      "₦144 billion",
+      "₦120 billion"
     ],
     "answer": "B"
   },
   {
-    "question": "Which option is correct? the circular flow model shows flows of income and",
+    "question": "Nominal national output is ₦110 billion and the price index (base year 100) is 100. Real output in base-year prices is",
     "options": [
-      "expenditure between sectors",
-      "laws between courts",
-      "rainfall between states",
-      "goods only without money"
+      "₦110 billion",
+      "₦90 billion",
+      "₦110 billion",
+      "₦110 billion"
     ],
     "answer": "A"
   },
   {
-    "question": "Select the best answer: The circular flow model shows flows of income and",
+    "question": "Nominal national output is ₦126 billion and the price index (base year 100) is 105. Real output in base-year prices is",
     "options": [
-      "goods only without money",
-      "laws between courts",
-      "rainfall between states",
-      "expenditure between sectors"
+      "₦126 billion",
+      "₦132 billion",
+      "₦120 billion",
+      "₦100 billion"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Nominal national output is ₦143 billion and the price index (base year 100) is 110. Real output in base-year prices is",
+    "options": [
+      "₦157 billion",
+      "₦143 billion",
+      "₦110 billion",
+      "₦130 billion"
     ],
     "answer": "D"
   },
   {
-    "question": "Disposable income is personal income after deduction of",
+    "question": "Nominal national output is ₦161 billion and the price index (base year 100) is 115. Real output in base-year prices is",
     "options": [
-      "all imports",
-      "foreign population",
-      "direct personal taxes",
-      "capital stock"
+      "₦120 billion",
+      "₦161 billion",
+      "₦185 billion",
+      "₦140 billion"
     ],
-    "answer": "C"
+    "answer": "D"
   },
   {
-    "question": "Which option is correct? disposable income is personal income after deduction of",
+    "question": "Nominal national output is ₦180 billion and the price index (base year 100) is 120. Real output in base-year prices is",
     "options": [
-      "direct personal taxes",
-      "foreign population",
-      "capital stock",
-      "all imports"
+      "₦150 billion",
+      "₦180 billion",
+      "₦130 billion",
+      "₦216 billion"
     ],
     "answer": "A"
   },
   {
-    "question": "Select the best answer: Disposable income is personal income after deduction of",
+    "question": "Nominal national output is ₦160 billion and the price index (base year 100) is 100. Real output in base-year prices is",
     "options": [
-      "capital stock",
-      "foreign population",
-      "direct personal taxes",
-      "all imports"
+      "₦160 billion",
+      "₦160 billion",
+      "₦140 billion",
+      "₦160 billion"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Nominal national output is ₦178 billion and the price index (base year 100) is 105. Real output in base-year prices is",
+    "options": [
+      "₦187 billion",
+      "₦178 billion",
+      "₦170 billion",
+      "₦150 billion"
     ],
     "answer": "C"
   },
   {
-    "question": "Which item is included in GDP when newly produced this year?",
+    "question": "Nominal national output is ₦198 billion and the price index (base year 100) is 110. Real output in base-year prices is",
     "options": [
-      "A previously owned house resold",
-      "A second-hand car resold",
-      "A newly manufactured car",
-      "A transfer gift"
+      "₦198 billion",
+      "₦160 billion",
+      "₦218 billion",
+      "₦180 billion"
     ],
-    "answer": "C"
+    "answer": "D"
   },
   {
-    "question": "Which option is correct? which item is included in GDP when newly produced this year?",
+    "question": "Nominal national output is ₦115 billion and the price index (base year 100) is 115. Real output in base-year prices is",
     "options": [
-      "A transfer gift",
-      "A newly manufactured car",
-      "A previously owned house resold",
-      "A second-hand car resold"
+      "₦100 billion",
+      "₦80 billion",
+      "₦115 billion",
+      "₦132 billion"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Nominal national output is ₦132 billion and the price index (base year 100) is 120. Real output in base-year prices is",
+    "options": [
+      "₦110 billion",
+      "₦132 billion",
+      "₦158 billion",
+      "₦90 billion"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Nominal national output is ₦120 billion and the price index (base year 100) is 100. Real output in base-year prices is",
+    "options": [
+      "₦120 billion",
+      "₦100 billion",
+      "₦120 billion",
+      "₦120 billion"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Nominal national output is ₦136 billion and the price index (base year 100) is 105. Real output in base-year prices is",
+    "options": [
+      "₦136 billion",
+      "₦130 billion",
+      "₦110 billion",
+      "₦143 billion"
     ],
     "answer": "B"
   },
   {
-    "question": "Select the best answer: Which item is included in GDP when newly produced this year?",
+    "question": "Nominal national output is ₦154 billion and the price index (base year 100) is 110. Real output in base-year prices is",
     "options": [
-      "A second-hand car resold",
-      "A previously owned house resold",
-      "A newly manufactured car",
-      "A transfer gift"
+      "₦120 billion",
+      "₦154 billion",
+      "₦169 billion",
+      "₦140 billion"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Nominal national output is ₦172 billion and the price index (base year 100) is 115. Real output in base-year prices is",
+    "options": [
+      "₦172 billion",
+      "₦130 billion",
+      "₦198 billion",
+      "₦150 billion"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Nominal national output is ₦192 billion and the price index (base year 100) is 120. Real output in base-year prices is",
+    "options": [
+      "₦140 billion",
+      "₦160 billion",
+      "₦230 billion",
+      "₦192 billion"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Nominal national output is ₦170 billion and the price index (base year 100) is 100. Real output in base-year prices is",
+    "options": [
+      "₦170 billion",
+      "₦170 billion",
+      "₦150 billion",
+      "₦170 billion"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Nominal national output is ₦189 billion and the price index (base year 100) is 105. Real output in base-year prices is",
+    "options": [
+      "₦189 billion",
+      "₦180 billion",
+      "₦198 billion",
+      "₦160 billion"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Nominal national output is ₦110 billion and the price index (base year 100) is 110. Real output in base-year prices is",
+    "options": [
+      "₦110 billion",
+      "₦121 billion",
+      "₦80 billion",
+      "₦100 billion"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Nominal national output is ₦126 billion and the price index (base year 100) is 115. Real output in base-year prices is",
+    "options": [
+      "₦126 billion",
+      "₦110 billion",
+      "₦145 billion",
+      "₦90 billion"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Nominal national output is ₦144 billion and the price index (base year 100) is 120. Real output in base-year prices is",
+    "options": [
+      "₦144 billion",
+      "₦120 billion",
+      "₦173 billion",
+      "₦100 billion"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Nominal national output is ₦130 billion and the price index (base year 100) is 100. Real output in base-year prices is",
+    "options": [
+      "₦110 billion",
+      "₦130 billion",
+      "₦130 billion",
+      "₦130 billion"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Nominal national output is ₦147 billion and the price index (base year 100) is 105. Real output in base-year prices is",
+    "options": [
+      "₦140 billion",
+      "₦120 billion",
+      "₦147 billion",
+      "₦154 billion"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Nominal national output is ₦165 billion and the price index (base year 100) is 110. Real output in base-year prices is",
+    "options": [
+      "₦182 billion",
+      "₦150 billion",
+      "₦165 billion",
+      "₦130 billion"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Nominal national output is ₦184 billion and the price index (base year 100) is 115. Real output in base-year prices is",
+    "options": [
+      "₦212 billion",
+      "₦184 billion",
+      "₦140 billion",
+      "₦160 billion"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Nominal national output is ₦204 billion and the price index (base year 100) is 120. Real output in base-year prices is",
+    "options": [
+      "₦150 billion",
+      "₦245 billion",
+      "₦170 billion",
+      "₦204 billion"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Nominal national output is ₦180 billion and the price index (base year 100) is 100. Real output in base-year prices is",
+    "options": [
+      "₦180 billion",
+      "₦180 billion",
+      "₦160 billion",
+      "₦180 billion"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Nominal national output is ₦105 billion and the price index (base year 100) is 105. Real output in base-year prices is",
+    "options": [
+      "₦80 billion",
+      "₦105 billion",
+      "₦100 billion",
+      "₦110 billion"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Nominal national output is ₦121 billion and the price index (base year 100) is 110. Real output in base-year prices is",
+    "options": [
+      "₦121 billion",
+      "₦133 billion",
+      "₦90 billion",
+      "₦110 billion"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Nominal national output is ₦138 billion and the price index (base year 100) is 115. Real output in base-year prices is",
+    "options": [
+      "₦100 billion",
+      "₦120 billion",
+      "₦159 billion",
+      "₦138 billion"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Nominal national output is ₦156 billion and the price index (base year 100) is 120. Real output in base-year prices is",
+    "options": [
+      "₦130 billion",
+      "₦187 billion",
+      "₦110 billion",
+      "₦156 billion"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Nominal national output is ₦140 billion and the price index (base year 100) is 100. Real output in base-year prices is",
+    "options": [
+      "₦120 billion",
+      "₦140 billion",
+      "₦140 billion",
+      "₦140 billion"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Nominal national output is ₦158 billion and the price index (base year 100) is 105. Real output in base-year prices is",
+    "options": [
+      "₦166 billion",
+      "₦130 billion",
+      "₦150 billion",
+      "₦158 billion"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Nominal national output is ₦176 billion and the price index (base year 100) is 110. Real output in base-year prices is",
+    "options": [
+      "₦176 billion",
+      "₦160 billion",
+      "₦194 billion",
+      "₦140 billion"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Nominal national output is ₦196 billion and the price index (base year 100) is 115. Real output in base-year prices is",
+    "options": [
+      "₦225 billion",
+      "₦150 billion",
+      "₦196 billion",
+      "₦170 billion"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Nominal national output is ₦216 billion and the price index (base year 100) is 120. Real output in base-year prices is",
+    "options": [
+      "₦259 billion",
+      "₦160 billion",
+      "₦180 billion",
+      "₦216 billion"
     ],
     "answer": "C"
   }

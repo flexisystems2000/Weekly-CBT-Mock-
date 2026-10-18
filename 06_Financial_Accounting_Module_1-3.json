@@ -1,602 +1,602 @@
 [
   {
-    "question": "The cash book records",
+    "question": "Cash book bank balance is ₦84,000 debit. Unpresented cheques are ₦12,500 and lodgements not yet credited are ₦9,000. The adjusted bank statement balance is",
     "options": [
-      "employees' attendance",
-      "credit sales only",
-      "non-current assets only",
-      "cash and bank transactions"
+      "₦105,500",
+      "₦62,500",
+      "₦80,500",
+      "₦87,500"
     ],
     "answer": "D"
   },
   {
-    "question": "A bank reconciliation statement explains differences between the",
+    "question": "Bank statement shows ₦53,200 credit; unpresented cheques ₦7,800; lodgements not credited ₦11,400. The cash-book balance before adjustments is",
     "options": [
-      "cash book and bank statement balances",
-      "capital and drawings",
-      "trial balance and income statement",
-      "sales and purchases ledgers"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "An unpresented cheque is a cheque that has been",
-    "options": [
-      "dishonoured by the payee",
-      "cancelled before issue",
-      "received and banked immediately",
-      "issued but not yet presented to the bank"
+      "₦37,600",
+      "₦72,400",
+      "₦49,600",
+      "₦56,800"
     ],
     "answer": "D"
   },
   {
-    "question": "A deposit not yet credited by the bank is usually added to the",
+    "question": "A bank charges ₦1,250 not yet entered in the cash book. The immediate cash-book adjustment is to",
     "options": [
-      "purchases account",
-      "bank statement balance",
-      "cash book balance",
-      "sales account"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Bank charges shown on the bank statement but not in the cash book should be",
-    "options": [
-      "entered in the cash book",
-      "added to sales",
-      "ignored permanently",
-      "recorded as capital"
+      "credit bank column by ₦1,250",
+      "debit purchases by ₦1,250",
+      "credit sales by ₦1,250",
+      "debit bank column by ₦1,250"
     ],
     "answer": "A"
   },
   {
-    "question": "A cheque received and entered in the cash book but dishonoured by the bank should be",
+    "question": "A cheque for ₦18,600 received from a customer is dishonoured after being entered in the cash book. The correcting entry is to",
     "options": [
-      "added to cash sales",
-      "ignored",
-      "treated as a fixed asset",
-      "deducted from the bank column of the cash book"
+      "debit sales and credit purchases",
+      "debit the customer and credit bank",
+      "debit cash and credit capital",
+      "debit bank and credit the customer"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Cash book balance ₦42,000 debit; bank charges ₦1,000 and direct customer deposit ₦6,500 are unrecorded. Adjusted cash book balance is",
+    "options": [
+      "₦35,500 debit",
+      "₦49,500 credit",
+      "₦43,000 debit",
+      "₦47,500 debit"
     ],
     "answer": "D"
   },
   {
-    "question": "The discount allowed column of a three-column cash book records",
+    "question": "A cheque of ₦9,400 was recorded in the cash book as ₦4,900. The correction requires",
     "options": [
-      "discounts given to customers",
-      "cash purchases only",
-      "bank loans",
-      "discounts received from suppliers"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A contra entry in a cash book records a transfer between",
-    "options": [
-      "capital and drawings only",
-      "cash and bank columns",
-      "sales and purchases accounts",
-      "debtors and creditors"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A favourable bank balance in the cash book is normally a",
-    "options": [
-      "credit balance",
-      "debit balance",
-      "suspense balance",
-      "nil balance"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A bank overdraft is generally represented by a",
-    "options": [
-      "credit balance in the bank column of the cash book",
-      "debit balance in the bank column",
-      "credit balance in purchases",
-      "debit balance in sales"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The main purpose of petty cash is to pay for",
-    "options": [
-      "large factory machinery",
-      "small routine expenses",
-      "purchase of land",
-      "issue of shares"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Under the imprest system, petty cash is restored to",
-    "options": [
-      "double the original float",
-      "the amount of the original float",
-      "the value of sales",
-      "zero permanently"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "An error of omission occurs when a transaction is",
-    "options": [
-      "entered with equal debit and credit",
-      "recorded twice",
-      "completely left out of the books",
-      "posted to the wrong account but correct side"
+      "debiting the supplier by ₦4,900",
+      "crediting cash by ₦9,400",
+      "crediting bank by ₦4,500",
+      "debiting bank by ₦4,500"
     ],
     "answer": "C"
   },
   {
-    "question": "An error of commission occurs when an amount is posted to",
+    "question": "The purpose of a bank reconciliation statement is primarily to",
     "options": [
-      "the correct account and side",
-      "both sides of the same account",
-      "no account at all",
-      "the wrong account of the same class"
+      "explain differences between cash-book and bank-statement balances",
+      "replace the ledger control accounts",
+      "calculate gross profit",
+      "prove that every cash transaction is profitable"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A standing order of ₦2,000 appears on the bank statement but not in the cash book. The cash-book adjustment is",
+    "options": [
+      "credit bank ₦2,000 and debit the relevant expense",
+      "debit sales ₦2,000 and credit capital",
+      "debit bank ₦2,000 and credit expense",
+      "no entry is required ever"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The bank statement balance is overdraft ₦15,000. Cheques issued but not presented total ₦8,000. Ignoring other items, the balance after those cheques clear will be",
+    "options": [
+      "credit ₦23,000",
+      "credit ₦7,000",
+      "overdraft ₦7,000",
+      "overdraft ₦23,000"
     ],
     "answer": "D"
   },
   {
-    "question": "An error of principle occurs when a transaction violates",
+    "question": "A receipt of ₦6,250 was entered on the wrong side of the cash book. The correcting effect on the bank balance is",
     "options": [
-      "the use of a cash book",
-      "the date sequence only",
-      "the distinction between capital and revenue items",
-      "the arithmetical total only"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "A suspense account may be opened when",
-    "options": [
-      "a new asset is purchased",
-      "cash sales increase",
-      "all accounts are closed correctly",
-      "the trial balance totals disagree"
+      "decrease it by ₦6,250",
+      "increase it by ₦6,250",
+      "no change",
+      "increase it by ₦12,500"
     ],
     "answer": "D"
   },
   {
-    "question": "A complete omission of a transaction does not affect the trial balance because",
+    "question": "A bank statement balance of ₦96,000 includes an unpresented cheque of ₦14,000 and uncredited lodgement of ₦10,000. The corresponding cash-book balance is",
     "options": [
-      "only the debit is recorded",
-      "only the credit is recorded",
-      "both debit and credit entries are missing",
-      "the transaction is recorded twice"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Posting a debit entry to the wrong debit account is an error of",
-    "options": [
-      "commission",
-      "principle",
-      "original entry",
-      "complete reversal"
+      "₦92,000",
+      "₦120,000",
+      "₦100,000",
+      "₦72,000"
     ],
     "answer": "A"
   },
   {
-    "question": "An error that cancels another error is called a",
+    "question": "A debit balance in the cash-book bank column normally represents",
     "options": [
-      "principle error",
-      "transposition only",
-      "compensating error",
-      "casting error"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "A suspense account should be closed when",
-    "options": [
-      "the errors causing the difference are corrected",
-      "the cash book is balanced daily",
-      "the business changes its name",
-      "all customers pay cash"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A transposition error may occur when",
-    "options": [
-      "a transaction is omitted entirely",
-      "a correct figure is posted correctly",
-      "digits are reversed, such as 54 entered as 45",
-      "cash is transferred to bank"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "A trial balance may still agree despite an error of",
-    "options": [
-      "principle",
-      "one-sided posting",
-      "unequal debit and credit totals",
-      "a missing debit only"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The correction of an error usually requires",
-    "options": [
-      "changing every transaction",
-      "ignoring the difference",
-      "a journal entry or appropriate ledger adjustment",
-      "destroying the ledger"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "An original-entry error occurs when",
-    "options": [
-      "a bank statement arrives late",
-      "the correct amount is posted once",
-      "an asset is depreciated",
-      "the wrong amount is entered in both accounts"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Depreciation is the systematic allocation of a tangible non-current asset's",
-    "options": [
-      "depreciable amount over its useful life",
-      "market value as income",
-      "purchase cost to drawings",
-      "sales revenue to liabilities"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The straight-line method charges",
-    "options": [
-      "a constantly increasing amount each year",
-      "an equal depreciation amount each year",
-      "depreciation only when sold",
-      "no depreciation"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Annual straight-line depreciation equals cost less residual value divided by",
-    "options": [
-      "current liabilities",
       "capital employed",
-      "annual sales",
-      "useful life"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "A machine costs ₦100,000, has residual value ₦10,000 and useful life 5 years. Annual straight-line depreciation is",
-    "options": [
-      "₦18,000",
-      "₦20,000",
-      "₦10,000",
-      "₦22,000"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The reducing-balance method calculates depreciation on the asset's",
-    "options": [
-      "residual value only",
-      "carrying amount at the start of the period",
-      "original cost only every year",
-      "sales revenue"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Accumulated depreciation is shown as a deduction from",
-    "options": [
-      "current sales",
-      "share capital",
-      "the asset's cost in the statement of financial position",
+      "an overdraft",
+      "money at bank",
       "trade receivables"
     ],
     "answer": "C"
   },
   {
-    "question": "A provision for doubtful debts recognises expected losses on",
+    "question": "A trial balance has debit totals ₦438,000 and credit totals ₦421,000. The suspense account opened to balance it has a",
     "options": [
-      "trade receivables",
-      "trade payables",
-      "share capital",
-      "inventory purchases"
+      "debit balance of ₦17,000",
+      "debit balance of ₦421,000",
+      "credit balance of ₦17,000",
+      "credit balance of ₦859,000"
     ],
-    "answer": "A"
+    "answer": "C"
   },
   {
-    "question": "An increase in the allowance for doubtful debts is generally treated as",
+    "question": "A purchase of ₦8,600 was completely omitted from the books. The error is",
     "options": [
-      "a cash receipt",
-      "a capital contribution",
-      "income",
-      "an expense"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Residual value is the estimated amount obtainable from disposal of an asset at the end of its",
-    "options": [
-      "first month",
-      "useful life",
-      "purchase date",
-      "accounting year only"
+      "an error of commission always disclosed by the trial balance",
+      "an error of omission not disclosed by the trial balance",
+      "an error of original entry",
+      "a compensating error"
     ],
     "answer": "B"
   },
   {
-    "question": "Depreciation is charged even when the market value of an asset",
+    "question": "Sales returns of ₦3,400 were posted to the debit of sales account. The correcting journal is",
     "options": [
-      "is never considered",
-      "is equal to cash",
-      "has increased",
-      "is zero in every case"
+      "debit sales returns ₦3,400; credit sales ₦3,400",
+      "debit sales ₦6,800; credit suspense ₦6,800",
+      "debit cash ₦3,400; credit sales returns ₦3,400",
+      "debit sales returns ₦3,400; debit sales ₦3,400"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A payment of ₦7,200 to a supplier was debited to the supplier account. To correct it, the account requires",
+    "options": [
+      "credit supplier ₦7,200",
+      "debit supplier ₦14,400",
+      "no entry",
+      "credit supplier ₦14,400"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A machine bought for ₦50,000 was debited to purchases. This is",
+    "options": [
+      "an error of principle",
+      "an error of omission",
+      "an error of complete reversal",
+      "a compensating error"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A transposition error makes an amount ₦5,430 appear as ₦5,340. The difference affecting the trial balance is",
+    "options": [
+      "₦90",
+      "₦180",
+      "₦9",
+      "₦5,385"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A suspense account is cleared when",
+    "options": [
+      "all errors causing the trial-balance difference have been corrected",
+      "cash is deposited at the bank",
+      "closing inventory is counted",
+      "the business makes a profit"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Rent paid ₦12,000 was correctly credited to cash but debited to rates. The error is",
+    "options": [
+      "a complete reversal",
+      "an error of omission",
+      "an error that necessarily creates suspense",
+      "an error of commission not affecting trial-balance agreement"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A credit sale of ₦9,500 was entered correctly in sales but posted to the customer as ₦5,900. The customer account needs",
+    "options": [
+      "no correction",
+      "a debit of ₦15,400",
+      "a further debit of ₦3,600",
+      "a further credit of ₦3,600"
     ],
     "answer": "C"
+  },
+  {
+    "question": "An error causes debits to be understated by ₦4,000 while credits are correct. To balance the trial balance, suspense is initially credited by",
+    "options": [
+      "₦0",
+      "₦2,000",
+      "₦8,000",
+      "₦4,000"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A credit purchase of ₦2,700 was posted to the supplier account as ₦7,200. The supplier balance is overstated by",
+    "options": [
+      "₦9,900",
+      "₦4,500",
+      "₦2,700",
+      "₦7,200"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which error is most likely to leave the trial balance agreeing?",
+    "options": [
+      "a one-sided posting omitted entirely",
+      "a ledger total added incorrectly on one side",
+      "a debit entry posted as a credit entry only",
+      "a transaction entered in the wrong expense account on the correct side"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Equipment cost ₦480,000, residual value ₦30,000 and useful life 5 years. Annual straight-line depreciation is",
+    "options": [
+      "₦96,000",
+      "₦75,000",
+      "₦102,000",
+      "₦90,000"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A machine costing ₦200,000 is depreciated at 20% reducing balance. Its book value after two years is",
+    "options": [
+      "₦120,000",
+      "₦128,000",
+      "₦80,000",
+      "₦160,000"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "An asset cost ₦360,000 with accumulated depreciation ₦225,000 is sold for ₦120,000. The result is",
+    "options": [
+      "loss of ₦105,000",
+      "profit of ₦15,000",
+      "loss of ₦15,000",
+      "profit of ₦120,000"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Allowance for doubtful debts is increased from ₦8,000 to ₦11,500. The income statement charge is",
+    "options": [
+      "₦3,500",
+      "₦11,500",
+      "₦8,000",
+      "₦19,500"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Receivables are ₦150,000 and the allowance is 4%. The required allowance is",
+    "options": [
+      "₦6,000",
+      "₦37,500",
+      "₦144,000",
+      "₦4,000"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A vehicle cost ₦600,000 and depreciation is 15% straight line on cost. Depreciation for three full years is",
+    "options": [
+      "₦90,000",
+      "₦510,000",
+      "₦153,000",
+      "₦270,000"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "An asset with carrying amount ₦75,000 is sold for ₦82,000. The disposal produces",
+    "options": [
+      "profit of ₦7,000",
+      "loss of ₦75,000",
+      "loss of ₦7,000",
+      "profit of ₦82,000"
+    ],
+    "answer": "A"
   },
   {
     "question": "A provision differs from a reserve because a provision is generally",
     "options": [
-      "charged as an expense for a known liability or expected loss",
-      "cash kept in a drawer",
-      "an appropriation of profit only",
-      "always share capital"
+      "an appropriation of profit only after profit is calculated",
+      "charged in arriving at profit for a known liability or diminution in asset value",
+      "the owner’s personal asset",
+      "always distributable as dividend"
     ],
-    "answer": "A"
+    "answer": "B"
   },
   {
-    "question": "The carrying amount of an asset is its cost less",
+    "question": "A machine costing ₦240,000 is depreciated at 10% reducing balance. Book value after one year is",
     "options": [
-      "trade payables",
-      "cash discounts",
-      "accumulated depreciation and impairment where applicable",
-      "annual revenue"
+      "₦24,000",
+      "₦216,000",
+      "₦264,000",
+      "₦200,000"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A business writes off an irrecoverable debt of ₦2,400. The entry includes",
+    "options": [
+      "debit receivables and credit sales",
+      "debit capital and credit cash",
+      "debit irrecoverable debts expense and credit receivables",
+      "debit bank and credit allowance"
     ],
     "answer": "C"
   },
   {
-    "question": "The trading account is prepared to determine",
+    "question": "An asset cost ₦90,000 and accumulated depreciation is ₦54,000. If sold for ₦31,000, the disposal result is",
     "options": [
-      "net cash flow only",
-      "capital introduced",
-      "bank balance only",
-      "gross profit or gross loss"
+      "profit ₦5,000",
+      "loss ₦31,000",
+      "profit ₦31,000",
+      "loss ₦5,000"
     ],
     "answer": "D"
   },
   {
-    "question": "Net profit is generally calculated by deducting expenses from",
+    "question": "Depreciation is charged mainly to",
     "options": [
-      "gross profit plus other income",
-      "current assets",
-      "capital",
-      "sales alone without costs"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Closing inventory is normally shown in the statement of financial position as a",
-    "options": [
-      "current asset",
-      "current liability",
-      "capital expense",
-      "non-current liability"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Carriage inward is usually included in the cost of",
-    "options": [
-      "capital",
-      "purchases",
-      "office equipment",
-      "sales returns"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Carriage outward is normally treated as a",
-    "options": [
-      "selling and distribution expense",
-      "direct purchase cost",
-      "current liability",
-      "non-current asset"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Bad debts written off are recorded as an",
-    "options": [
-      "expense",
-      "capital contribution",
-      "sales return",
-      "asset"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The income statement is prepared to determine the profit or loss for",
-    "options": [
-      "an accounting period",
-      "the whole life of a business only",
-      "the date of incorporation only",
-      "one bank transaction"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "An accrued expense is an expense that has been",
-    "options": [
-      "written off as a bad debt",
-      "incurred but not yet paid",
-      "paid in advance",
-      "received in cash"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A prepaid expense is shown as a",
-    "options": [
-      "capital reserve",
-      "current asset",
-      "current liability",
-      "non-current liability"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Depreciation in final accounts is recorded as an expense and deducted from",
-    "options": [
-      "the related asset's carrying amount",
-      "sales revenue directly as a liability",
-      "capital introduced",
-      "trade payables"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Drawings by the owner are deducted from",
-    "options": [
-      "trade payables",
-      "sales",
-      "purchases",
-      "capital"
+      "measure market value every day",
+      "accumulate cash for immediate replacement",
+      "eliminate all maintenance costs",
+      "allocate the depreciable amount over useful life"
     ],
     "answer": "D"
   },
   {
-    "question": "The statement of financial position shows assets, liabilities and",
+    "question": "Opening inventory ₦45,000, purchases ₦280,000, carriage inward ₦12,000 and closing inventory ₦51,000. Cost of goods sold is",
     "options": [
-      "gross profit for a period only",
-      "equity at a particular date",
-      "units produced",
-      "cash sales only"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Gross profit is calculated as net sales less",
-    "options": [
-      "current liabilities",
-      "administrative expenses only",
-      "capital",
-      "cost of goods sold"
+      "₦298,000",
+      "₦274,000",
+      "₦337,000",
+      "₦286,000"
     ],
     "answer": "D"
   },
   {
-    "question": "Cost of goods sold is opening inventory plus net purchases and carriage inward less",
+    "question": "Gross profit is ₦180,000 and sales are ₦600,000. Gross profit margin is",
     "options": [
-      "closing inventory",
-      "bank charges",
-      "drawings",
-      "sales returns"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Net sales equal sales less",
-    "options": [
-      "opening inventory",
-      "sales returns",
-      "carriage inward",
-      "purchases returns"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Working capital is current assets less",
-    "options": [
-      "non-current assets",
-      "gross profit",
-      "capital",
-      "current liabilities"
+      "70%",
+      "25%",
+      "40%",
+      "30%"
     ],
     "answer": "D"
   },
   {
-    "question": "A current ratio is calculated as",
+    "question": "Net profit is ₦72,000 after charging rent ₦18,000 and wages ₦30,000. Profit before these expenses was",
     "options": [
-      "gross profit divided by capital",
-      "sales divided by inventory",
-      "current assets divided by current liabilities",
-      "current liabilities divided by sales"
+      "₦42,000",
+      "₦120,000",
+      "₦84,000",
+      "₦102,000"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Closing inventory is overstated by ₦10,000. The immediate effect is that gross profit is",
+    "options": [
+      "understated by ₦10,000",
+      "overstated by ₦20,000",
+      "unaffected",
+      "overstated by ₦10,000"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Rent paid ₦24,000 includes ₦6,000 prepaid. The expense in the income statement is",
+    "options": [
+      "₦30,000",
+      "₦6,000",
+      "₦18,000",
+      "₦24,000"
     ],
     "answer": "C"
   },
   {
-    "question": "A business has current assets of ₦60,000 and current liabilities of ₦30,000. Its current ratio is",
+    "question": "Wages owing at year end are ₦4,500. The adjustment should",
     "options": [
-      "1:1",
-      "2:1",
-      "1:2",
-      "3:1"
+      "increase assets by ₦4,500",
+      "reduce expenses and liabilities by ₦4,500",
+      "increase expenses and current liabilities by ₦4,500",
+      "reduce capital directly only"
     ],
-    "answer": "B"
+    "answer": "C"
   },
   {
-    "question": "Inventory is normally classified as a",
+    "question": "Sales ₦720,000, sales returns ₦20,000, opening inventory ₦70,000, purchases ₦350,000, purchase returns ₦15,000, closing inventory ₦85,000. Gross profit is",
     "options": [
-      "non-current liability",
-      "current asset",
-      "capital expense",
-      "long-term loan"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Trade payables are amounts owed by the business to",
-    "options": [
-      "suppliers",
-      "customers who owe the business",
-      "owners as drawings",
-      "employees only"
+      "₦380,000",
+      "₦365,000",
+      "₦345,000",
+      "₦295,000"
     ],
     "answer": "A"
   },
   {
-    "question": "Trade receivables are amounts owed to the business by",
+    "question": "An accrued electricity bill at year end is treated as",
     "options": [
-      "suppliers",
-      "the tax authority only",
-      "the owner as capital",
-      "customers"
+      "an expense and a current liability",
+      "drawings and a reserve",
+      "income and a current asset",
+      "capital and a non-current asset"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Bad debts recovered that were previously written off are generally treated as",
+    "options": [
+      "a non-current asset",
+      "additional capital introduced",
+      "income in the current period",
+      "a reduction of sales returns"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A business has net profit ₦96,000 and sales ₦800,000. Net profit margin is",
+    "options": [
+      "20%",
+      "8.33%",
+      "88%",
+      "12%"
     ],
     "answer": "D"
   },
   {
-    "question": "A liquidity ratio helps assess the ability to meet",
+    "question": "Goods withdrawn by owner for personal use should be",
     "options": [
-      "short-term obligations",
-      "dividend policy only",
-      "sales targets only",
-      "long-term expansion only"
+      "treated as wages expense",
+      "added to sales and credited to capital",
+      "ignored in final accounts",
+      "deducted from purchases and debited to drawings"
     ],
-    "answer": "A"
+    "answer": "D"
   },
   {
-    "question": "A statement of financial position is prepared",
+    "question": "If closing inventory is omitted entirely, profit for the period will generally be",
     "options": [
-      "as at a particular date",
-      "only for a future date",
-      "for each sale individually",
-      "only when a business closes"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "If closing inventory is overstated, gross profit for the period will generally be",
-    "options": [
-      "equal to zero",
       "understated",
+      "unchanged",
       "overstated",
-      "unchanged in all cases"
+      "equal to cash balance"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Current assets ₦240,000 and current liabilities ₦120,000. Current ratio is",
+    "options": [
+      "0.5:1",
+      "2:1",
+      "3:1",
+      "120:1"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Current assets ₦180,000 include inventory ₦60,000; current liabilities are ₦80,000. Quick ratio is",
+    "options": [
+      "3:1",
+      "0.75:1",
+      "1.5:1",
+      "2.25:1"
     ],
     "answer": "C"
+  },
+  {
+    "question": "Total assets ₦900,000 and external liabilities ₦340,000. Owner’s equity is",
+    "options": [
+      "₦340,000",
+      "₦560,000",
+      "₦1,240,000",
+      "₦900,000"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A business has sales ₦500,000 and cost of sales ₦325,000. Gross profit is",
+    "options": [
+      "65%",
+      "₦825,000",
+      "₦325,000",
+      "₦175,000"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Inventory turnover is commonly calculated as",
+    "options": [
+      "current assets divided by liabilities",
+      "sales divided by capital",
+      "net profit divided by sales",
+      "cost of sales divided by average inventory"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A debt-equity ratio rises sharply while profit is stable. This most directly suggests",
+    "options": [
+      "lower gearing",
+      "elimination of interest obligations",
+      "improved liquidity in every case",
+      "greater reliance on debt financing and higher financial risk"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A statement of financial position reports",
+    "options": [
+      "budgeted sales for next year",
+      "cash receipts only",
+      "income and expenses over a period only",
+      "assets, liabilities and equity at a specific date"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Inventory is purchased on credit. The immediate effect is",
+    "options": [
+      "inventory decreases and receivables increase",
+      "cash and capital increase",
+      "profit automatically increases by purchase value",
+      "inventory and trade payables increase"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "If working capital is negative, the business has",
+    "options": [
+      "current assets exceeding current liabilities",
+      "current liabilities exceeding current assets",
+      "no non-current assets",
+      "no owner’s equity"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A business earns gross profit ₦150,000 on sales ₦500,000. Mark-up on cost, if cost of sales is ₦350,000, is approximately",
+    "options": [
+      "30%",
+      "15%",
+      "70%",
+      "42.86%"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Owner introduces cash ₦50,000. The accounting equation changes because",
+    "options": [
+      "equity falls and cash rises",
+      "assets rise and liabilities fall",
+      "assets and equity both increase by ₦50,000",
+      "liabilities and expenses both increase"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A current ratio improves from 1.2:1 to 2:1 but inventory forms most current assets. The conclusion should be that",
+    "options": [
+      "profit margin has doubled",
+      "liquidity may still be weak if inventory cannot be converted quickly",
+      "all debts have been paid",
+      "the firm must be solvent in every respect"
+    ],
+    "answer": "B"
   }
 ]

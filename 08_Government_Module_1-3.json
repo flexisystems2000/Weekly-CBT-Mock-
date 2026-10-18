@@ -1,602 +1,602 @@
 [
   {
-    "question": "The executive arm of government is primarily responsible for",
+    "question": "A president refuses to implement a law validly passed by the legislature. Which principle is most directly threatened?",
     "options": [
-      "implementing laws and policies",
-      "making all judicial decisions",
-      "interpreting laws",
-      "conducting private businesses"
+      "rule of law and constitutional responsibility",
+      "federal character alone",
+      "judicial independence alone",
+      "collective ownership of the press"
     ],
     "answer": "A"
   },
   {
-    "question": "Which option is correct? the executive arm of government is primarily responsible for",
+    "question": "A minister is removed after failing to carry out an approved policy. This best illustrates",
     "options": [
-      "conducting private businesses",
-      "making all judicial decisions",
-      "interpreting laws",
-      "implementing laws and policies"
+      "the separation of the civil service from government",
+      "judicial review by citizens",
+      "legislative immunity for ministers",
+      "political responsibility of the executive"
     ],
     "answer": "D"
   },
   {
-    "question": "Select the best answer: The executive arm of government is primarily responsible for",
+    "question": "The legislature questions a minister about expenditure in the ministry. This is an example of",
     "options": [
-      "making all judicial decisions",
-      "interpreting laws",
-      "implementing laws and policies",
-      "conducting private businesses"
+      "legislative oversight of the executive",
+      "local government autonomy",
+      "executive appointment of judges",
+      "judicial legislation"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A head of state performs ceremonial duties while a prime minister directs government policy. This arrangement is most consistent with",
+    "options": [
+      "a directorial system without an executive",
+      "an absolute monarchy in which no cabinet exists",
+      "a parliamentary system with a ceremonial head of state",
+      "a military government"
     ],
     "answer": "C"
   },
   {
-    "question": "At the federal level in Nigeria, the President is the head of the",
+    "question": "A president appoints a minister, subject to legislative confirmation. The confirmation requirement is designed chiefly to",
     "options": [
-      "executive",
-      "legislature",
-      "judiciary",
-      "civil service union"
+      "abolish ministerial responsibility",
+      "transfer judicial power to the cabinet",
+      "make the legislature implement policy",
+      "check executive appointment power"
     ],
-    "answer": "A"
+    "answer": "D"
   },
   {
-    "question": "Which option is correct? at the federal level in Nigeria, the President is the head of the",
+    "question": "A civil servant remains in office after a change of elected government and serves the new administration impartially. This demonstrates",
     "options": [
-      "executive",
-      "legislature",
-      "judiciary",
-      "civil service union"
+      "the civil service’s power to veto elections",
+      "partisan control of every public post",
+      "political neutrality and permanence of the civil service",
+      "judicial supremacy over ministries"
     ],
-    "answer": "A"
+    "answer": "C"
   },
   {
-    "question": "Select the best answer: At the federal level in Nigeria, the President is the head of the",
+    "question": "The executive issues an order that contradicts the constitution. A court invalidates it. This illustrates",
     "options": [
-      "civil service union",
-      "executive",
-      "legislature",
-      "judiciary"
+      "executive supremacy over the constitution",
+      "judicial review as a check on executive power",
+      "legislative control of court judgments",
+      "the absence of separation of powers"
     ],
     "answer": "B"
   },
   {
-    "question": "The chief function of a minister is to",
+    "question": "In a presidential system, the president is elected independently of the legislature. One likely consequence is",
     "options": [
-      "write the constitution alone",
-      "preside over every court",
-      "assist in administering a ministry",
-      "conduct all elections"
+      "a separate electoral mandate for the executive",
+      "the abolition of impeachment",
+      "automatic fusion of cabinet and parliament",
+      "the prime minister’s compulsory resignation"
     ],
-    "answer": "C"
+    "answer": "A"
   },
   {
-    "question": "Which option is correct? the chief function of a minister is to",
+    "question": "A governor uses emergency powers indefinitely without legislative or judicial scrutiny. The main danger is",
     "options": [
-      "conduct all elections",
-      "write the constitution alone",
-      "preside over every court",
-      "assist in administering a ministry"
+      "stronger checks and balances",
+      "automatic decentralisation",
+      "greater accountability by definition",
+      "executive arbitrariness and concentration of power"
     ],
     "answer": "D"
   },
   {
-    "question": "Select the best answer: The chief function of a minister is to",
+    "question": "The cabinet collectively resigns after losing a confidence vote. This is characteristic of",
     "options": [
-      "write the constitution alone",
-      "assist in administering a ministry",
-      "preside over every court",
-      "conduct all elections"
+      "a confederation without a government",
+      "a one-party military command",
+      "a strict presidential system",
+      "a parliamentary system"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which function is normally performed by the executive rather than the legislature or judiciary?",
+    "options": [
+      "interpreting the constitution in a court case",
+      "formulating and implementing public policy",
+      "determining guilt in criminal trials",
+      "enacting statutes as the primary law-making body"
     ],
     "answer": "B"
   },
   {
-    "question": "A cabinet is generally made up of",
+    "question": "An executive agency makes regulations under authority delegated by an enabling Act. These regulations are",
     "options": [
-      "judges only",
-      "members of the opposition only",
-      "senior ministers or secretaries advising the chief executive",
-      "traditional rulers only"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which option is correct? a cabinet is generally made up of",
-    "options": [
-      "traditional rulers only",
-      "judges only",
-      "senior ministers or secretaries advising the chief executive",
-      "members of the opposition only"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Select the best answer: A cabinet is generally made up of",
-    "options": [
-      "traditional rulers only",
-      "judges only",
-      "members of the opposition only",
-      "senior ministers or secretaries advising the chief executive"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "The civil service supports the executive by",
-    "options": [
-      "declaring laws unconstitutional",
-      "electing the president",
-      "replacing the legislature",
-      "implementing government decisions and providing continuity"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Which option is correct? the civil service supports the executive by",
-    "options": [
-      "declaring laws unconstitutional",
-      "implementing government decisions and providing continuity",
-      "replacing the legislature",
-      "electing the president"
+      "judicial precedents",
+      "subsidiary legislation",
+      "constitutional amendments automatically",
+      "private contracts"
     ],
     "answer": "B"
   },
   {
-    "question": "Select the best answer: The civil service supports the executive by",
+    "question": "The president is impeached for serious constitutional misconduct through a prescribed process. This mechanism chiefly aims to",
     "options": [
-      "electing the president",
-      "replacing the legislature",
-      "declaring laws unconstitutional",
-      "implementing government decisions and providing continuity"
+      "replace elections with appointments",
+      "make the executive immune from prosecution",
+      "allow courts to enact budgets",
+      "hold the executive accountable under the constitution"
     ],
     "answer": "D"
   },
   {
-    "question": "The power to appoint ministers is usually vested in the",
+    "question": "A minister gives policy direction while career officials provide technical advice and administer programmes. This reflects the distinction between",
     "options": [
-      "chief executive, subject to constitutional rules",
-      "chief justice alone",
-      "local market association",
-      "electoral commission alone"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which option is correct? the power to appoint ministers is usually vested in the",
-    "options": [
-      "local market association",
-      "electoral commission alone",
-      "chief justice alone",
-      "chief executive, subject to constitutional rules"
+      "local and traditional authorities",
+      "judiciary and electorate",
+      "public and private ownership",
+      "political executive and permanent civil service"
     ],
     "answer": "D"
   },
   {
-    "question": "Select the best answer: The power to appoint ministers is usually vested in the",
+    "question": "A president vetoes a bill, and the legislature can override the veto by the required majority. This is an example of",
     "options": [
-      "chief executive, subject to constitutional rules",
-      "chief justice alone",
-      "local market association",
-      "electoral commission alone"
+      "checks and balances",
+      "judicial independence from all law",
+      "absolute executive supremacy",
+      "the abolition of legislative power"
     ],
     "answer": "A"
   },
   {
-    "question": "An executive order is an instruction issued by",
+    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 1)",
     "options": [
-      "a private citizen to the courts",
-      "a trade union to judges",
-      "a voter to parliament",
-      "an executive authority within its lawful powers"
+      "courts to appoint ministers",
+      "the executive to dissolve the constitution",
+      "financial scrutiny of executive priorities",
+      "civil servants to elect the president"
     ],
-    "answer": "D"
+    "answer": "C"
   },
   {
-    "question": "Which option is correct? an executive order is an instruction issued by",
+    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 2)",
     "options": [
-      "an executive authority within its lawful powers",
-      "a trade union to judges",
-      "a voter to parliament",
-      "a private citizen to the courts"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Select the best answer: An executive order is an instruction issued by",
-    "options": [
-      "a trade union to judges",
-      "an executive authority within its lawful powers",
-      "a voter to parliament",
-      "a private citizen to the courts"
+      "judicial law-making",
+      "transparency and accountability",
+      "federal secession",
+      "secrecy and arbitrariness"
     ],
     "answer": "B"
   },
   {
-    "question": "Collective ministerial responsibility means ministers should",
+    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 3)",
     "options": [
-      "ignore all cabinet decisions",
-      "serve as judges",
-      "publicly support agreed cabinet decisions or resign",
-      "avoid answering to parliament"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which option is correct? collective ministerial responsibility means ministers should",
-    "options": [
-      "serve as judges",
-      "ignore all cabinet decisions",
-      "publicly support agreed cabinet decisions or resign",
-      "avoid answering to parliament"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Select the best answer: Collective ministerial responsibility means ministers should",
-    "options": [
-      "serve as judges",
-      "ignore all cabinet decisions",
-      "avoid answering to parliament",
-      "publicly support agreed cabinet decisions or resign"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "In a presidential system, the president is usually",
-    "options": [
-      "the leader of every court",
-      "the speaker of parliament",
-      "only the chief judge",
-      "both head of state and head of government"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Which option is correct? in a presidential system, the president is usually",
-    "options": [
-      "the leader of every court",
-      "both head of state and head of government",
-      "only the chief judge",
-      "the speaker of parliament"
+      "the separation of powers in favour of courts only",
+      "impartial public administration and legality",
+      "the principle of delegated legislation",
+      "universal adult suffrage"
     ],
     "answer": "B"
   },
   {
-    "question": "Select the best answer: In a presidential system, the president is usually",
+    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 4)",
     "options": [
-      "both head of state and head of government",
-      "the leader of every court",
-      "the speaker of parliament",
-      "only the chief judge"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "In a parliamentary system, the prime minister usually depends on",
-    "options": [
-      "the central bank alone",
-      "the army alone",
-      "the support of a legislative majority",
-      "the approval of every judge for each policy"
+      "civil servants to elect the president",
+      "courts to appoint ministers",
+      "financial scrutiny of executive priorities",
+      "the executive to dissolve the constitution"
     ],
     "answer": "C"
   },
   {
-    "question": "Which option is correct? in a parliamentary system, the prime minister usually depends on",
+    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 5)",
     "options": [
-      "the central bank alone",
-      "the approval of every judge for each policy",
-      "the army alone",
-      "the support of a legislative majority"
+      "transparency and accountability",
+      "judicial law-making",
+      "secrecy and arbitrariness",
+      "federal secession"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 6)",
+    "options": [
+      "the separation of powers in favour of courts only",
+      "the principle of delegated legislation",
+      "impartial public administration and legality",
+      "universal adult suffrage"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 7)",
+    "options": [
+      "courts to appoint ministers",
+      "the executive to dissolve the constitution",
+      "civil servants to elect the president",
+      "financial scrutiny of executive priorities"
     ],
     "answer": "D"
   },
   {
-    "question": "Select the best answer: In a parliamentary system, the prime minister usually depends on",
+    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 8)",
     "options": [
-      "the army alone",
-      "the support of a legislative majority",
-      "the central bank alone",
-      "the approval of every judge for each policy"
+      "secrecy and arbitrariness",
+      "judicial law-making",
+      "federal secession",
+      "transparency and accountability"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 9)",
+    "options": [
+      "the separation of powers in favour of courts only",
+      "the principle of delegated legislation",
+      "impartial public administration and legality",
+      "universal adult suffrage"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 10)",
+    "options": [
+      "the executive to dissolve the constitution",
+      "civil servants to elect the president",
+      "financial scrutiny of executive priorities",
+      "courts to appoint ministers"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 11)",
+    "options": [
+      "federal secession",
+      "transparency and accountability",
+      "secrecy and arbitrariness",
+      "judicial law-making"
     ],
     "answer": "B"
   },
   {
-    "question": "The executive may be checked by the legislature through",
+    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 12)",
     "options": [
-      "oversight and budget scrutiny",
-      "abolishing all courts",
-      "controlling the weather",
-      "appointing every private employer"
+      "universal adult suffrage",
+      "the separation of powers in favour of courts only",
+      "impartial public administration and legality",
+      "the principle of delegated legislation"
     ],
-    "answer": "A"
+    "answer": "C"
   },
   {
-    "question": "Which option is correct? the executive may be checked by the legislature through",
+    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 13)",
     "options": [
-      "abolishing all courts",
-      "oversight and budget scrutiny",
-      "appointing every private employer",
-      "controlling the weather"
+      "the executive to dissolve the constitution",
+      "financial scrutiny of executive priorities",
+      "courts to appoint ministers",
+      "civil servants to elect the president"
     ],
     "answer": "B"
   },
   {
-    "question": "Select the best answer: The executive may be checked by the legislature through",
+    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 14)",
     "options": [
-      "abolishing all courts",
-      "oversight and budget scrutiny",
-      "appointing every private employer",
-      "controlling the weather"
+      "federal secession",
+      "secrecy and arbitrariness",
+      "transparency and accountability",
+      "judicial law-making"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 15)",
+    "options": [
+      "impartial public administration and legality",
+      "the principle of delegated legislation",
+      "universal adult suffrage",
+      "the separation of powers in favour of courts only"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 16)",
+    "options": [
+      "civil servants to elect the president",
+      "the executive to dissolve the constitution",
+      "financial scrutiny of executive priorities",
+      "courts to appoint ministers"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 17)",
+    "options": [
+      "secrecy and arbitrariness",
+      "federal secession",
+      "transparency and accountability",
+      "judicial law-making"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 18)",
+    "options": [
+      "the principle of delegated legislation",
+      "impartial public administration and legality",
+      "the separation of powers in favour of courts only",
+      "universal adult suffrage"
     ],
     "answer": "B"
   },
   {
-    "question": "The veto is a power that may allow an executive to",
+    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 19)",
     "options": [
-      "cancel all elections permanently",
-      "amend any court judgment",
-      "sentence every accused person",
-      "reject or return a bill for reconsideration"
+      "the executive to dissolve the constitution",
+      "civil servants to elect the president",
+      "courts to appoint ministers",
+      "financial scrutiny of executive priorities"
     ],
     "answer": "D"
   },
   {
-    "question": "Which option is correct? the veto is a power that may allow an executive to",
+    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 20)",
     "options": [
-      "reject or return a bill for reconsideration",
-      "sentence every accused person",
-      "cancel all elections permanently",
-      "amend any court judgment"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Select the best answer: The veto is a power that may allow an executive to",
-    "options": [
-      "reject or return a bill for reconsideration",
-      "cancel all elections permanently",
-      "sentence every accused person",
-      "amend any court judgment"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The main role of a governor in a state government is to",
-    "options": [
-      "head the state executive",
-      "lead the Supreme Court",
-      "register all voters personally",
-      "preside over the National Assembly"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which option is correct? the main role of a governor in a state government is to",
-    "options": [
-      "lead the Supreme Court",
-      "preside over the National Assembly",
-      "register all voters personally",
-      "head the state executive"
+      "judicial law-making",
+      "federal secession",
+      "secrecy and arbitrariness",
+      "transparency and accountability"
     ],
     "answer": "D"
   },
   {
-    "question": "Select the best answer: The main role of a governor in a state government is to",
+    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 21)",
     "options": [
-      "head the state executive",
-      "preside over the National Assembly",
-      "register all voters personally",
-      "lead the Supreme Court"
+      "the principle of delegated legislation",
+      "universal adult suffrage",
+      "impartial public administration and legality",
+      "the separation of powers in favour of courts only"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 22)",
+    "options": [
+      "financial scrutiny of executive priorities",
+      "civil servants to elect the president",
+      "the executive to dissolve the constitution",
+      "courts to appoint ministers"
     ],
     "answer": "A"
   },
   {
-    "question": "The head of a local government executive in Nigeria is commonly the",
+    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 23)",
     "options": [
-      "inspector-general of police",
-      "chief justice",
-      "chairman",
-      "senate president"
+      "judicial law-making",
+      "federal secession",
+      "transparency and accountability",
+      "secrecy and arbitrariness"
     ],
     "answer": "C"
   },
   {
-    "question": "Which option is correct? the head of a local government executive in Nigeria is commonly the",
+    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 24)",
     "options": [
-      "chief justice",
-      "inspector-general of police",
-      "chairman",
-      "senate president"
+      "the principle of delegated legislation",
+      "universal adult suffrage",
+      "impartial public administration and legality",
+      "the separation of powers in favour of courts only"
     ],
     "answer": "C"
   },
   {
-    "question": "Select the best answer: The head of a local government executive in Nigeria is commonly the",
+    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 25)",
     "options": [
-      "senate president",
-      "chairman",
-      "chief justice",
-      "inspector-general of police"
+      "civil servants to elect the president",
+      "financial scrutiny of executive priorities",
+      "courts to appoint ministers",
+      "the executive to dissolve the constitution"
     ],
     "answer": "B"
   },
   {
-    "question": "The executive is accountable to the people through mechanisms such as",
+    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 26)",
     "options": [
-      "secret hereditary succession only",
-      "unlimited immunity from law",
-      "elections and lawful oversight",
-      "private ownership of courts"
+      "secrecy and arbitrariness",
+      "federal secession",
+      "transparency and accountability",
+      "judicial law-making"
     ],
     "answer": "C"
   },
   {
-    "question": "Which option is correct? the executive is accountable to the people through mechanisms such as",
+    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 27)",
     "options": [
-      "secret hereditary succession only",
-      "elections and lawful oversight",
-      "unlimited immunity from law",
-      "private ownership of courts"
+      "impartial public administration and legality",
+      "the principle of delegated legislation",
+      "universal adult suffrage",
+      "the separation of powers in favour of courts only"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 28)",
+    "options": [
+      "civil servants to elect the president",
+      "courts to appoint ministers",
+      "financial scrutiny of executive priorities",
+      "the executive to dissolve the constitution"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 29)",
+    "options": [
+      "judicial law-making",
+      "federal secession",
+      "transparency and accountability",
+      "secrecy and arbitrariness"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 30)",
+    "options": [
+      "the separation of powers in favour of courts only",
+      "impartial public administration and legality",
+      "universal adult suffrage",
+      "the principle of delegated legislation"
     ],
     "answer": "B"
   },
   {
-    "question": "Select the best answer: The executive is accountable to the people through mechanisms such as",
+    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 31)",
     "options": [
-      "secret hereditary succession only",
-      "unlimited immunity from law",
-      "private ownership of courts",
-      "elections and lawful oversight"
+      "civil servants to elect the president",
+      "courts to appoint ministers",
+      "financial scrutiny of executive priorities",
+      "the executive to dissolve the constitution"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 32)",
+    "options": [
+      "secrecy and arbitrariness",
+      "federal secession",
+      "transparency and accountability",
+      "judicial law-making"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 33)",
+    "options": [
+      "universal adult suffrage",
+      "the principle of delegated legislation",
+      "impartial public administration and legality",
+      "the separation of powers in favour of courts only"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 34)",
+    "options": [
+      "civil servants to elect the president",
+      "courts to appoint ministers",
+      "the executive to dissolve the constitution",
+      "financial scrutiny of executive priorities"
     ],
     "answer": "D"
   },
   {
-    "question": "A caretaker executive arrangement is generally intended to",
+    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 35)",
     "options": [
-      "prevent all public services",
-      "manage affairs temporarily until a lawful successor takes over",
-      "replace the constitution permanently",
-      "abolish public administration"
+      "secrecy and arbitrariness",
+      "transparency and accountability",
+      "federal secession",
+      "judicial law-making"
     ],
     "answer": "B"
   },
   {
-    "question": "Which option is correct? a caretaker executive arrangement is generally intended to",
+    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 36)",
     "options": [
-      "replace the constitution permanently",
-      "manage affairs temporarily until a lawful successor takes over",
-      "prevent all public services",
-      "abolish public administration"
+      "universal adult suffrage",
+      "the principle of delegated legislation",
+      "the separation of powers in favour of courts only",
+      "impartial public administration and legality"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 37)",
+    "options": [
+      "financial scrutiny of executive priorities",
+      "courts to appoint ministers",
+      "the executive to dissolve the constitution",
+      "civil servants to elect the president"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 38)",
+    "options": [
+      "federal secession",
+      "secrecy and arbitrariness",
+      "judicial law-making",
+      "transparency and accountability"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 39)",
+    "options": [
+      "the separation of powers in favour of courts only",
+      "impartial public administration and legality",
+      "universal adult suffrage",
+      "the principle of delegated legislation"
     ],
     "answer": "B"
   },
   {
-    "question": "Select the best answer: A caretaker executive arrangement is generally intended to",
+    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 40)",
     "options": [
-      "prevent all public services",
-      "abolish public administration",
-      "replace the constitution permanently",
-      "manage affairs temporarily until a lawful successor takes over"
+      "civil servants to elect the president",
+      "courts to appoint ministers",
+      "the executive to dissolve the constitution",
+      "financial scrutiny of executive priorities"
     ],
     "answer": "D"
   },
   {
-    "question": "The attorney-general commonly advises government on",
+    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 41)",
     "options": [
-      "crop prices only",
-      "weather forecasting",
-      "legal matters",
-      "school sports"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which option is correct? the attorney-general commonly advises government on",
-    "options": [
-      "legal matters",
-      "school sports",
-      "weather forecasting",
-      "crop prices only"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Select the best answer: The attorney-general commonly advises government on",
-    "options": [
-      "school sports",
-      "crop prices only",
-      "legal matters",
-      "weather forecasting"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "A public policy is put into effect mainly by the",
-    "options": [
-      "executive and public administration",
-      "private media only",
-      "judiciary alone",
-      "electorate individually"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which option is correct? a public policy is put into effect mainly by the",
-    "options": [
-      "private media only",
-      "electorate individually",
-      "judiciary alone",
-      "executive and public administration"
+      "judicial law-making",
+      "federal secession",
+      "secrecy and arbitrariness",
+      "transparency and accountability"
     ],
     "answer": "D"
   },
   {
-    "question": "Select the best answer: A public policy is put into effect mainly by the",
+    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 42)",
     "options": [
-      "private media only",
-      "electorate individually",
-      "executive and public administration",
-      "judiciary alone"
+      "universal adult suffrage",
+      "impartial public administration and legality",
+      "the principle of delegated legislation",
+      "the separation of powers in favour of courts only"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 43)",
+    "options": [
+      "the executive to dissolve the constitution",
+      "courts to appoint ministers",
+      "financial scrutiny of executive priorities",
+      "civil servants to elect the president"
     ],
     "answer": "C"
   },
   {
-    "question": "The executive's budget proposal is commonly submitted to",
+    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 44)",
     "options": [
-      "foreign businesses for approval",
-      "the police station for trial",
-      "the legislature for consideration",
-      "the Supreme Court for election"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which option is correct? the executive's budget proposal is commonly submitted to",
-    "options": [
-      "the Supreme Court for election",
-      "foreign businesses for approval",
-      "the police station for trial",
-      "the legislature for consideration"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Select the best answer: The executive's budget proposal is commonly submitted to",
-    "options": [
-      "the legislature for consideration",
-      "the Supreme Court for election",
-      "the police station for trial",
-      "foreign businesses for approval"
+      "transparency and accountability",
+      "secrecy and arbitrariness",
+      "judicial law-making",
+      "federal secession"
     ],
     "answer": "A"
   },
   {
-    "question": "Separation of powers prevents the executive from",
+    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 45)",
     "options": [
-      "concentrating all government powers in one arm",
-      "implementing any lawful policy",
-      "appointing any official under law",
-      "providing public services"
+      "the principle of delegated legislation",
+      "impartial public administration and legality",
+      "universal adult suffrage",
+      "the separation of powers in favour of courts only"
     ],
-    "answer": "A"
-  },
-  {
-    "question": "Which option is correct? separation of powers prevents the executive from",
-    "options": [
-      "implementing any lawful policy",
-      "providing public services",
-      "appointing any official under law",
-      "concentrating all government powers in one arm"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Select the best answer: Separation of powers prevents the executive from",
-    "options": [
-      "appointing any official under law",
-      "implementing any lawful policy",
-      "concentrating all government powers in one arm",
-      "providing public services"
-    ],
-    "answer": "C"
+    "answer": "B"
   }
 ]

@@ -1,602 +1,602 @@
 [
   {
-    "question": "Which of the following is a scalar quantity?",
+    "question": "A particle is acted on by two mutually perpendicular forces of 12 N and 20 N. What is the magnitude of their resultant?",
     "options": [
-      "Velocity",
-      "Displacement",
-      "Force",
-      "Mass"
+      "8",
+      "32",
+      "544",
+      "23.32"
     ],
     "answer": "D"
   },
   {
-    "question": "Which option is correct? which of the following is a scalar quantity?",
+    "question": "A particle is acted on by two mutually perpendicular forces of 6 N and 8 N. What is the magnitude of their resultant?",
     "options": [
-      "Force",
-      "Displacement",
-      "Mass",
-      "Velocity"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Select the best answer: Which of the following is a scalar quantity?",
-    "options": [
-      "Velocity",
-      "Force",
-      "Mass",
-      "Displacement"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which of the following is a vector quantity?",
-    "options": [
-      "Acceleration",
-      "Temperature",
-      "Energy",
-      "Time"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which option is correct? which of the following is a vector quantity?",
-    "options": [
-      "Energy",
-      "Acceleration",
-      "Time",
-      "Temperature"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Select the best answer: Which of the following is a vector quantity?",
-    "options": [
-      "Time",
-      "Temperature",
-      "Acceleration",
-      "Energy"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "A quantity described by magnitude and direction is a",
-    "options": [
-      "scalar",
-      "unit",
-      "vector",
-      "constant"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which option is correct? a quantity described by magnitude and direction is a",
-    "options": [
-      "constant",
-      "scalar",
-      "unit",
-      "vector"
+      "14",
+      "2",
+      "100",
+      "10.0"
     ],
     "answer": "D"
   },
   {
-    "question": "Select the best answer: A quantity described by magnitude and direction is a",
+    "question": "A particle is acted on by two mutually perpendicular forces of 3 N and 4 N. What is the magnitude of their resultant?",
     "options": [
-      "vector",
-      "constant",
-      "scalar",
-      "unit"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The SI unit of displacement is the",
-    "options": [
-      "metre per second",
-      "metre",
-      "newton",
-      "joule"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which option is correct? the SI unit of displacement is the",
-    "options": [
-      "newton",
-      "metre per second",
-      "joule",
-      "metre"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Select the best answer: The SI unit of displacement is the",
-    "options": [
-      "metre per second",
-      "joule",
-      "metre",
-      "newton"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which instrument can measure the magnitude of a force?",
-    "options": [
-      "thermometer",
-      "measuring cylinder",
-      "spring balance",
-      "stopwatch"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which option is correct? which instrument can measure the magnitude of a force?",
-    "options": [
-      "thermometer",
-      "spring balance",
-      "measuring cylinder",
-      "stopwatch"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Select the best answer: Which instrument can measure the magnitude of a force?",
-    "options": [
-      "measuring cylinder",
-      "spring balance",
-      "stopwatch",
-      "thermometer"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Two perpendicular vectors have magnitudes 3 N and 4 N. Find their resultant magnitude.",
-    "options": [
-      "1 N",
-      "12 N",
-      "7 N",
-      "5 N"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Which option is correct? two perpendicular vectors have magnitudes 3 N and 4 N. Find their resultant magnitude.",
-    "options": [
-      "7 N",
-      "12 N",
-      "1 N",
-      "5 N"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Select the best answer: Two perpendicular vectors have magnitudes 3 N and 4 N. Find their resultant magnitude.",
-    "options": [
-      "7 N",
-      "1 N",
-      "12 N",
-      "5 N"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Two forces of 6 N and 8 N act in the same direction. Their resultant is",
-    "options": [
-      "14 N",
-      "48 N",
-      "2 N",
-      "10 N"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which option is correct? two forces of 6 N and 8 N act in the same direction. Their resultant is",
-    "options": [
-      "48 N",
-      "14 N",
-      "10 N",
-      "2 N"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Select the best answer: Two forces of 6 N and 8 N act in the same direction. Their resultant is",
-    "options": [
-      "48 N",
-      "14 N",
-      "10 N",
-      "2 N"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Two forces of 9 N and 4 N act in opposite directions. Their resultant magnitude is",
-    "options": [
-      "5 N",
-      "36 N",
-      "13 N",
-      "√97 N"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which option is correct? two forces of 9 N and 4 N act in opposite directions. Their resultant magnitude is",
-    "options": [
-      "5 N",
-      "√97 N",
-      "13 N",
-      "36 N"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Select the best answer: Two forces of 9 N and 4 N act in opposite directions. Their resultant magnitude is",
-    "options": [
-      "36 N",
-      "√97 N",
-      "5 N",
-      "13 N"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "A displacement of 3 m east followed by 4 m north gives a resultant displacement of",
-    "options": [
-      "12 m",
-      "1 m",
-      "5 m",
-      "7 m"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which option is correct? a displacement of 3 m east followed by 4 m north gives a resultant displacement of",
-    "options": [
-      "7 m",
-      "12 m",
-      "5 m",
-      "1 m"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Select the best answer: A displacement of 3 m east followed by 4 m north gives a resultant displacement of",
-    "options": [
-      "7 m",
-      "5 m",
-      "1 m",
-      "12 m"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "The horizontal and vertical components of a vector are 6 and 8 units. Its magnitude is",
-    "options": [
-      "14 units",
-      "48 units",
-      "2 units",
-      "10 units"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Which option is correct? the horizontal and vertical components of a vector are 6 and 8 units. Its magnitude is",
-    "options": [
-      "48 units",
-      "2 units",
-      "10 units",
-      "14 units"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Select the best answer: The horizontal and vertical components of a vector are 6 and 8 units. Its magnitude is",
-    "options": [
-      "2 units",
-      "10 units",
-      "48 units",
-      "14 units"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A vector's component along the x-axis is found using",
-    "options": [
-      "V/θ",
-      "V cos θ",
-      "V tan θ",
-      "V sin θ"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which option is correct? a vector's component along the x-axis is found using",
-    "options": [
-      "V/θ",
-      "V tan θ",
-      "V sin θ",
-      "V cos θ"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Select the best answer: A vector's component along the x-axis is found using",
-    "options": [
-      "V/θ",
-      "V sin θ",
-      "V cos θ",
-      "V tan θ"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "A vector's component along the y-axis is found using",
-    "options": [
-      "V sin θ",
-      "V cot θ",
-      "V+θ",
-      "V cos θ"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which option is correct? a vector's component along the y-axis is found using",
-    "options": [
-      "V sin θ",
-      "V+θ",
-      "V cot θ",
-      "V cos θ"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Select the best answer: A vector's component along the y-axis is found using",
-    "options": [
-      "V cot θ",
-      "V sin θ",
-      "V cos θ",
-      "V+θ"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which pair contains only scalar quantities?",
-    "options": [
-      "Displacement and acceleration",
-      "Momentum and weight",
-      "Velocity and force",
-      "Speed and distance"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Which option is correct? which pair contains only scalar quantities?",
-    "options": [
-      "Velocity and force",
-      "Momentum and weight",
-      "Displacement and acceleration",
-      "Speed and distance"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Select the best answer: Which pair contains only scalar quantities?",
-    "options": [
-      "Momentum and weight",
-      "Velocity and force",
-      "Speed and distance",
-      "Displacement and acceleration"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which pair contains only vector quantities?",
-    "options": [
-      "Speed and energy",
-      "Mass and time",
-      "Distance and temperature",
-      "Momentum and force"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Which option is correct? which pair contains only vector quantities?",
-    "options": [
-      "Distance and temperature",
-      "Mass and time",
-      "Momentum and force",
-      "Speed and energy"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Select the best answer: Which pair contains only vector quantities?",
-    "options": [
-      "Mass and time",
-      "Momentum and force",
-      "Distance and temperature",
-      "Speed and energy"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "If a vector has zero magnitude, it is called the",
-    "options": [
-      "unit vector",
-      "zero vector",
-      "resultant vector",
-      "position vector"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which option is correct? if a vector has zero magnitude, it is called the",
-    "options": [
-      "position vector",
-      "zero vector",
-      "resultant vector",
-      "unit vector"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Select the best answer: If a vector has zero magnitude, it is called the",
-    "options": [
-      "unit vector",
-      "resultant vector",
-      "position vector",
-      "zero vector"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "A unit vector has a magnitude of",
-    "options": [
-      "depends on direction",
+      "5.0",
+      "25",
       "1",
-      "0",
-      "10"
+      "7"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A particle is acted on by two mutually perpendicular forces of 12 N and 12 N. What is the magnitude of their resultant?",
+    "options": [
+      "288",
+      "16.97",
+      "24",
+      "0"
     ],
     "answer": "B"
   },
   {
-    "question": "Which option is correct? a unit vector has a magnitude of",
+    "question": "A particle is acted on by two mutually perpendicular forces of 9 N and 8 N. What is the magnitude of their resultant?",
     "options": [
-      "depends on direction",
-      "0",
+      "145",
       "1",
-      "10"
+      "12.04",
+      "17"
     ],
     "answer": "C"
   },
   {
-    "question": "Select the best answer: A unit vector has a magnitude of",
+    "question": "A particle is acted on by two mutually perpendicular forces of 4 N and 8 N. What is the magnitude of their resultant?",
     "options": [
+      "80",
+      "12",
+      "8.94",
+      "4"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A particle is acted on by two mutually perpendicular forces of 3 N and 9 N. What is the magnitude of their resultant?",
+    "options": [
+      "6",
+      "12",
+      "9.49",
+      "90"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A particle is acted on by two mutually perpendicular forces of 15 N and 6 N. What is the magnitude of their resultant?",
+    "options": [
+      "9",
+      "261",
+      "16.16",
+      "21"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A particle is acted on by two mutually perpendicular forces of 6 N and 3 N. What is the magnitude of their resultant?",
+    "options": [
+      "45",
+      "9",
+      "3",
+      "6.71"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A particle is acted on by two mutually perpendicular forces of 3 N and 9 N. What is the magnitude of their resultant?",
+    "options": [
+      "9.49",
+      "90",
+      "12",
+      "6"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A force of 40 N acts at 60° to the positive x-axis. Calculate its horizontal component (to 2 d.p.).",
+    "options": [
+      "40",
+      "80.0",
+      "20.0",
+      "34.64"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A force of 30 N acts at 45° to the positive x-axis. Calculate its horizontal component (to 2 d.p.).",
+    "options": [
+      "30",
+      "42.43",
+      "21.21",
+      "21.21"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A force of 10 N acts at 37° to the positive x-axis. Calculate its horizontal component (to 2 d.p.).",
+    "options": [
+      "12.52",
+      "6.02",
       "10",
-      "1",
-      "0",
-      "depends on direction"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "The resultant of two equal and opposite vectors is",
-    "options": [
-      "the sum of their magnitudes",
-      "twice either vector",
-      "their product",
-      "zero"
+      "7.99"
     ],
     "answer": "D"
   },
   {
-    "question": "Which option is correct? the resultant of two equal and opposite vectors is",
+    "question": "A force of 25 N acts at 60° to the positive x-axis. Calculate its horizontal component (to 2 d.p.).",
     "options": [
-      "twice either vector",
-      "the sum of their magnitudes",
-      "zero",
-      "their product"
+      "25",
+      "12.5",
+      "50.0",
+      "21.65"
     ],
-    "answer": "C"
+    "answer": "B"
   },
   {
-    "question": "Select the best answer: The resultant of two equal and opposite vectors is",
+    "question": "A force of 25 N acts at 45° to the positive x-axis. Calculate its horizontal component (to 2 d.p.).",
     "options": [
-      "the sum of their magnitudes",
-      "twice either vector",
-      "zero",
-      "their product"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "A person walks 10 m north and then 10 m south. The total distance is",
-    "options": [
-      "20 m",
-      "5 m",
-      "10 m",
-      "0 m"
+      "17.68",
+      "25",
+      "35.36",
+      "17.68"
     ],
     "answer": "A"
   },
   {
-    "question": "Which option is correct? a person walks 10 m north and then 10 m south. The total distance is",
+    "question": "A force of 30 N acts at 30° to the positive x-axis. Calculate its horizontal component (to 2 d.p.).",
     "options": [
-      "0 m",
-      "20 m",
-      "10 m",
-      "5 m"
+      "15.0",
+      "30",
+      "25.98",
+      "34.64"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A force of 20 N acts at 30° to the positive x-axis. Calculate its horizontal component (to 2 d.p.).",
+    "options": [
+      "10.0",
+      "17.32",
+      "23.09",
+      "20"
     ],
     "answer": "B"
   },
   {
-    "question": "Select the best answer: A person walks 10 m north and then 10 m south. The total distance is",
+    "question": "A force of 25 N acts at 30° to the positive x-axis. Calculate its horizontal component (to 2 d.p.).",
     "options": [
-      "0 m",
-      "10 m",
-      "5 m",
-      "20 m"
+      "28.87",
+      "25",
+      "12.5",
+      "21.65"
     ],
     "answer": "D"
   },
   {
-    "question": "For the same journey, the final displacement is",
+    "question": "A force of 20 N acts at 60° to the positive x-axis. Calculate its horizontal component (to 2 d.p.).",
     "options": [
-      "10 m north",
-      "10 m south",
-      "20 m",
-      "0 m"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Which option is correct? for the same journey, the final displacement is",
-    "options": [
-      "20 m",
-      "10 m north",
-      "0 m",
-      "10 m south"
+      "20",
+      "40.0",
+      "10.0",
+      "17.32"
     ],
     "answer": "C"
   },
   {
-    "question": "Select the best answer: For the same journey, the final displacement is",
+    "question": "A force of 30 N acts at 45° to the positive x-axis. Calculate its horizontal component (to 2 d.p.).",
     "options": [
-      "10 m south",
-      "0 m",
-      "20 m",
-      "10 m north"
+      "42.43",
+      "21.21",
+      "30",
+      "21.21"
     ],
     "answer": "B"
   },
   {
-    "question": "The direction of a vector is commonly specified relative to a",
+    "question": "A student walks 15 m east and then 9 m north. Find the magnitude of the displacement from the starting point.",
     "options": [
-      "mass",
-      "temperature scale",
-      "reference axis",
-      "unit of time"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which option is correct? the direction of a vector is commonly specified relative to a",
-    "options": [
-      "temperature scale",
-      "unit of time",
-      "mass",
-      "reference axis"
+      "306",
+      "6",
+      "24",
+      "17.49"
     ],
     "answer": "D"
   },
   {
-    "question": "Select the best answer: The direction of a vector is commonly specified relative to a",
+    "question": "A student walks 9 m east and then 9 m north. Find the magnitude of the displacement from the starting point.",
     "options": [
-      "temperature scale",
-      "unit of time",
-      "reference axis",
-      "mass"
+      "12.73",
+      "0",
+      "18",
+      "162"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A student walks 6 m east and then 8 m north. Find the magnitude of the displacement from the starting point.",
+    "options": [
+      "14",
+      "100",
+      "10.0",
+      "2"
     ],
     "answer": "C"
+  },
+  {
+    "question": "A student walks 20 m east and then 7 m north. Find the magnitude of the displacement from the starting point.",
+    "options": [
+      "449",
+      "13",
+      "27",
+      "21.19"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A student walks 20 m east and then 8 m north. Find the magnitude of the displacement from the starting point.",
+    "options": [
+      "12",
+      "28",
+      "21.54",
+      "464"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A student walks 15 m east and then 7 m north. Find the magnitude of the displacement from the starting point.",
+    "options": [
+      "16.55",
+      "22",
+      "274",
+      "8"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A student walks 8 m east and then 5 m north. Find the magnitude of the displacement from the starting point.",
+    "options": [
+      "9.43",
+      "89",
+      "3",
+      "13"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A student walks 6 m east and then 12 m north. Find the magnitude of the displacement from the starting point.",
+    "options": [
+      "180",
+      "13.42",
+      "18",
+      "6"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A student walks 12 m east and then 8 m north. Find the magnitude of the displacement from the starting point.",
+    "options": [
+      "4",
+      "208",
+      "14.42",
+      "20"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A student walks 15 m east and then 5 m north. Find the magnitude of the displacement from the starting point.",
+    "options": [
+      "15.81",
+      "250",
+      "20",
+      "10"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Two vectors of magnitudes 6 and 10 units act at 30°. Find their scalar product (to 2 d.p.).",
+    "options": [
+      "0",
+      "30.0",
+      "60",
+      "51.96"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Two vectors of magnitudes 15 and 20 units act at 120°. Find their scalar product (to 2 d.p.).",
+    "options": [
+      "0",
+      "259.81",
+      "-150.0",
+      "300"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Two vectors of magnitudes 6 and 10 units act at 30°. Find their scalar product (to 2 d.p.).",
+    "options": [
+      "0",
+      "51.96",
+      "60",
+      "30.0"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Two vectors of magnitudes 9 and 14 units act at 60°. Find their scalar product (to 2 d.p.).",
+    "options": [
+      "0",
+      "109.12",
+      "63.0",
+      "126"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Two vectors of magnitudes 9 and 14 units act at 30°. Find their scalar product (to 2 d.p.).",
+    "options": [
+      "126",
+      "63.0",
+      "0",
+      "109.12"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Two vectors of magnitudes 15 and 20 units act at 30°. Find their scalar product (to 2 d.p.).",
+    "options": [
+      "0",
+      "259.81",
+      "300",
+      "150.0"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Two vectors of magnitudes 12 and 7 units act at 60°. Find their scalar product (to 2 d.p.).",
+    "options": [
+      "0",
+      "72.75",
+      "84",
+      "42.0"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Two vectors of magnitudes 9 and 14 units act at 90°. Find their scalar product (to 2 d.p.).",
+    "options": [
+      "126",
+      "126.0",
+      "126",
+      "0.0"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Two vectors of magnitudes 5 and 8 units act at 60°. Find their scalar product (to 2 d.p.).",
+    "options": [
+      "40",
+      "34.64",
+      "0",
+      "20.0"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Two vectors of magnitudes 6 and 10 units act at 30°. Find their scalar product (to 2 d.p.).",
+    "options": [
+      "51.96",
+      "30.0",
+      "0",
+      "60"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Taking east as positive, two collinear forces are 8 N and 6 N. What is the net force, with sign indicating direction?",
+    "options": [
+      "14",
+      "-14",
+      "14",
+      "2"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Taking east as positive, two collinear forces are -12 N and 6 N. What is the net force, with sign indicating direction?",
+    "options": [
+      "6",
+      "-6",
+      "-18",
+      "18"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Taking east as positive, two collinear forces are 20 N and -9 N. What is the net force, with sign indicating direction?",
+    "options": [
+      "29",
+      "29",
+      "11",
+      "-11"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Taking east as positive, two collinear forces are 8 N and 11 N. What is the net force, with sign indicating direction?",
+    "options": [
+      "19",
+      "19",
+      "-3",
+      "-19"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Taking east as positive, two collinear forces are 20 N and 17 N. What is the net force, with sign indicating direction?",
+    "options": [
+      "37",
+      "37",
+      "3",
+      "-37"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Taking east as positive, two collinear forces are 8 N and 11 N. What is the net force, with sign indicating direction?",
+    "options": [
+      "-19",
+      "-3",
+      "19",
+      "19"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Taking east as positive, two collinear forces are 14 N and -9 N. What is the net force, with sign indicating direction?",
+    "options": [
+      "-5",
+      "23",
+      "5",
+      "23"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Taking east as positive, two collinear forces are 20 N and -9 N. What is the net force, with sign indicating direction?",
+    "options": [
+      "-11",
+      "29",
+      "11",
+      "29"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Taking east as positive, two collinear forces are -12 N and 11 N. What is the net force, with sign indicating direction?",
+    "options": [
+      "23",
+      "-1",
+      "-23",
+      "1"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Taking east as positive, two collinear forces are -10 N and 17 N. What is the net force, with sign indicating direction?",
+    "options": [
+      "-27",
+      "27",
+      "7",
+      "-7"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Two vectors have perpendicular components 8 units and 15 units. Calculate the magnitude of the resultant to 2 d.p.",
+    "options": [
+      "23",
+      "289",
+      "17.0",
+      "7"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Two vectors have perpendicular components 8 units and 15 units. Calculate the magnitude of the resultant to 2 d.p.",
+    "options": [
+      "17.0",
+      "23",
+      "289",
+      "7"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Two vectors have perpendicular components 12 units and 16 units. Calculate the magnitude of the resultant to 2 d.p.",
+    "options": [
+      "28",
+      "4",
+      "20.0",
+      "400"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Two vectors have perpendicular components 9 units and 12 units. Calculate the magnitude of the resultant to 2 d.p.",
+    "options": [
+      "225",
+      "15.0",
+      "3",
+      "21"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Two vectors have perpendicular components 20 units and 21 units. Calculate the magnitude of the resultant to 2 d.p.",
+    "options": [
+      "41",
+      "29.0",
+      "841",
+      "1"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Two vectors have perpendicular components 9 units and 12 units. Calculate the magnitude of the resultant to 2 d.p.",
+    "options": [
+      "3",
+      "225",
+      "15.0",
+      "21"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Two vectors have perpendicular components 7 units and 24 units. Calculate the magnitude of the resultant to 2 d.p.",
+    "options": [
+      "625",
+      "17",
+      "31",
+      "25.0"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Two vectors have perpendicular components 7 units and 24 units. Calculate the magnitude of the resultant to 2 d.p.",
+    "options": [
+      "25.0",
+      "17",
+      "625",
+      "31"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Two vectors have perpendicular components 7 units and 24 units. Calculate the magnitude of the resultant to 2 d.p.",
+    "options": [
+      "625",
+      "25.0",
+      "17",
+      "31"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Two vectors have perpendicular components 9 units and 12 units. Calculate the magnitude of the resultant to 2 d.p.",
+    "options": [
+      "21",
+      "3",
+      "225",
+      "15.0"
+    ],
+    "answer": "D"
   }
 ]

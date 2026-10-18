@@ -1,602 +1,602 @@
 [
   {
-    "question": "Communication in commerce is the process of",
+    "question": "A manufacturer sends a time-sensitive instruction to a distributor and needs immediate clarification. Which channel is most appropriate?",
     "options": [
-      "transporting goods only",
-      "producing raw materials",
-      "exchanging information in business",
-      "storing money"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which option is correct? communication in commerce is the process of",
-    "options": [
-      "transporting goods only",
-      "exchanging information in business",
-      "producing raw materials",
-      "storing money"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Select the best answer: Communication in commerce is the process of",
-    "options": [
-      "transporting goods only",
-      "storing money",
-      "exchanging information in business",
-      "producing raw materials"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which is an example of written business communication?",
-    "options": [
-      "Business letter",
-      "Oral announcement",
-      "Telephone call",
-      "Face-to-face conversation"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which option is correct? which is an example of written business communication?",
-    "options": [
-      "Face-to-face conversation",
-      "Business letter",
-      "Telephone call",
-      "Oral announcement"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Select the best answer: Which is an example of written business communication?",
-    "options": [
-      "Oral announcement",
-      "Face-to-face conversation",
-      "Telephone call",
-      "Business letter"
+      "mass advertising",
+      "annual report",
+      "printed catalogue only",
+      "telephone call followed by written confirmation"
     ],
     "answer": "D"
   },
   {
-    "question": "Which is an example of oral communication?",
+    "question": "A firm sends an invoice but the buyer claims the quantities are wrong. The most effective communication practice is to",
     "options": [
-      "Memo",
-      "Invoice",
-      "Circular letter",
-      "Telephone conversation"
+      "ignore the complaint until year-end",
+      "replace the invoice without checking records",
+      "refer to the order and delivery note and resolve the discrepancy in writing",
+      "send an unrelated circular"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A message passes from a manager through three supervisors before reaching workers. The likely disadvantage is",
+    "options": [
+      "complete elimination of hierarchy",
+      "delay and distortion of information",
+      "automatic feedback",
+      "guaranteed confidentiality"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which situation best illustrates feedback in the communication process?",
+    "options": [
+      "A letter remains unopened",
+      "A firm prints a notice but receives no response",
+      "A radio station broadcasts an advert",
+      "A customer confirms that the instructions were understood"
     ],
     "answer": "D"
   },
   {
-    "question": "Which option is correct? which is an example of oral communication?",
+    "question": "A business needs proof that a contractual notice was delivered. Which method is most suitable?",
     "options": [
-      "Invoice",
-      "Memo",
-      "Telephone conversation",
-      "Circular letter"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Select the best answer: Which is an example of oral communication?",
-    "options": [
-      "Memo",
-      "Circular letter",
-      "Telephone conversation",
-      "Invoice"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "A memorandum is mainly used for communication",
-    "options": [
-      "between countries only",
-      "with no written record",
-      "only with customers abroad",
-      "within an organisation"
+      "anonymous social-media post",
+      "informal rumour",
+      "unrecorded verbal message",
+      "registered mail with delivery evidence"
     ],
     "answer": "D"
   },
   {
-    "question": "Which option is correct? a memorandum is mainly used for communication",
+    "question": "A company communicates with many customers spread across the country at low cost. Which medium best suits a general promotional message?",
     "options": [
-      "between countries only",
-      "within an organisation",
-      "with no written record",
-      "only with customers abroad"
+      "internal memo",
+      "one-to-one home visits to every customer",
+      "mass media or a digital broadcast campaign",
+      "private staff appraisal"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "An employee hesitates to report a production defect because the supervisor punishes criticism. This is primarily a",
+    "options": [
+      "formal report",
+      "communication barrier caused by fear and poor organisational climate",
+      "feedback mechanism",
+      "semantic advantage"
     ],
     "answer": "B"
   },
   {
-    "question": "Select the best answer: A memorandum is mainly used for communication",
+    "question": "A technical instruction is repeatedly misunderstood by customers. The sender should first",
     "options": [
-      "within an organisation",
-      "with no written record",
-      "between countries only",
-      "only with customers abroad"
+      "increase the number of technical terms",
+      "send it only to senior management",
+      "use clearer language and test the message with the intended audience",
+      "remove all feedback channels"
     ],
-    "answer": "A"
+    "answer": "C"
   },
   {
-    "question": "A report is usually prepared to",
+    "question": "A firm uses a circular to inform all branches of a revised policy. The circular is an example of",
     "options": [
-      "present findings and information",
-      "replace all accounting records",
-      "insure property",
-      "transport goods"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which option is correct? a report is usually prepared to",
-    "options": [
-      "replace all accounting records",
-      "present findings and information",
-      "insure property",
-      "transport goods"
+      "informal grapevine",
+      "written internal communication",
+      "external advertising",
+      "non-verbal communication only"
     ],
     "answer": "B"
   },
   {
-    "question": "Select the best answer: A report is usually prepared to",
+    "question": "A sales representative listens, paraphrases a buyer’s concern and asks a clarifying question. This demonstrates",
     "options": [
-      "replace all accounting records",
-      "transport goods",
-      "insure property",
-      "present findings and information"
+      "selective concealment",
+      "noise",
+      "active listening",
+      "one-way transmission"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A company’s email containing confidential prices is sent to the wrong client. The principal failure concerns",
+    "options": [
+      "product differentiation",
+      "stock valuation",
+      "the physical distribution of goods",
+      "accuracy and confidentiality in communication"
     ],
     "answer": "D"
   },
   {
-    "question": "The main purpose of an invoice is to",
+    "question": "Which factor most strongly determines whether a communication medium is appropriate?",
     "options": [
-      "advertise a vacancy",
-      "request payment and show details of a sale",
-      "appoint a director",
-      "record attendance"
+      "the length of the sender’s title",
+      "urgency, audience, complexity and need for a record",
+      "the number of departments in the firm only",
+      "the sender’s personal preference alone"
     ],
     "answer": "B"
   },
   {
-    "question": "Which option is correct? the main purpose of an invoice is to",
+    "question": "A firm receives repeated complaints that online order confirmations are not arriving. The best first step is to",
     "options": [
-      "appoint a director",
-      "record attendance",
-      "request payment and show details of a sale",
-      "advertise a vacancy"
+      "increase the selling price immediately",
+      "stop recording orders",
+      "audit the communication system and test delivery logs",
+      "assume customers are dishonest"
     ],
     "answer": "C"
   },
   {
-    "question": "Select the best answer: The main purpose of an invoice is to",
+    "question": "A message is accurate but uses language unfamiliar to its recipient. The barrier is mainly",
     "options": [
-      "advertise a vacancy",
-      "record attendance",
-      "appoint a director",
-      "request payment and show details of a sale"
+      "financial",
+      "semantic",
+      "legal ownership",
+      "mechanical transport"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A company holds a video conference with overseas suppliers to negotiate delivery dates. The major advantage is",
+    "options": [
+      "elimination of time-zone differences",
+      "no possibility of misunderstanding",
+      "permanent physical proof of every statement",
+      "rapid two-way interaction across distance"
     ],
     "answer": "D"
   },
   {
-    "question": "A receipt provides evidence that",
+    "question": "A branch manager sends a report to head office, receives questions and revises the report. This is effective because communication is (case 1)",
     "options": [
-      "payment has been made",
-      "a meeting is postponed",
-      "goods are insured",
-      "a company is registered"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which option is correct? a receipt provides evidence that",
-    "options": [
-      "goods are insured",
-      "a company is registered",
-      "payment has been made",
-      "a meeting is postponed"
+      "limited to external audiences",
+      "unrecorded by definition",
+      "two-way and allows feedback",
+      "strictly one-way"
     ],
     "answer": "C"
   },
   {
-    "question": "Select the best answer: A receipt provides evidence that",
+    "question": "A company wants to communicate a complex safety procedure to new staff. The strongest approach is (case 2)",
     "options": [
-      "payment has been made",
-      "goods are insured",
-      "a company is registered",
-      "a meeting is postponed"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A circular is useful when a message must be sent to",
-    "options": [
-      "one person secretly",
-      "only a bank teller",
-      "many people at once",
-      "no recipient"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which option is correct? a circular is useful when a message must be sent to",
-    "options": [
-      "one person secretly",
-      "many people at once",
-      "no recipient",
-      "only a bank teller"
+      "a single unexplained symbol",
+      "a clear written procedure supported by demonstration and questions",
+      "a slogan with no explanation",
+      "an anonymous rumour"
     ],
     "answer": "B"
   },
   {
-    "question": "Select the best answer: A circular is useful when a message must be sent to",
+    "question": "A message is altered as it passes through informal workplace gossip. This illustrates (case 3)",
     "options": [
-      "one person secretly",
-      "only a bank teller",
-      "many people at once",
-      "no recipient"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which is a barrier to effective communication?",
-    "options": [
-      "Clear wording",
-      "Noise and unclear language",
-      "Active listening",
-      "Feedback"
+      "formal downward communication",
+      "distortion through the grapevine",
+      "perfect encoding",
+      "verified feedback"
     ],
     "answer": "B"
   },
   {
-    "question": "Which option is correct? which is a barrier to effective communication?",
+    "question": "A branch manager sends a report to head office, receives questions and revises the report. This is effective because communication is (case 4)",
     "options": [
-      "Feedback",
-      "Clear wording",
-      "Active listening",
-      "Noise and unclear language"
+      "two-way and allows feedback",
+      "limited to external audiences",
+      "unrecorded by definition",
+      "strictly one-way"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A company wants to communicate a complex safety procedure to new staff. The strongest approach is (case 5)",
+    "options": [
+      "a single unexplained symbol",
+      "a slogan with no explanation",
+      "a clear written procedure supported by demonstration and questions",
+      "an anonymous rumour"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A message is altered as it passes through informal workplace gossip. This illustrates (case 6)",
+    "options": [
+      "perfect encoding",
+      "formal downward communication",
+      "verified feedback",
+      "distortion through the grapevine"
     ],
     "answer": "D"
   },
   {
-    "question": "Select the best answer: Which is a barrier to effective communication?",
+    "question": "A branch manager sends a report to head office, receives questions and revises the report. This is effective because communication is (case 7)",
     "options": [
-      "Noise and unclear language",
-      "Feedback",
-      "Active listening",
-      "Clear wording"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Feedback helps the sender to know whether the message was",
-    "options": [
-      "insured",
-      "printed in colour",
-      "understood",
-      "delivered by rail"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which option is correct? feedback helps the sender to know whether the message was",
-    "options": [
-      "understood",
-      "printed in colour",
-      "delivered by rail",
-      "insured"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Select the best answer: Feedback helps the sender to know whether the message was",
-    "options": [
-      "understood",
-      "printed in colour",
-      "delivered by rail",
-      "insured"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The fastest common means of long-distance electronic communication is",
-    "options": [
-      "handwritten memo",
-      "ordinary post",
-      "email or instant messaging",
-      "printed catalogue"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which option is correct? the fastest common means of long-distance electronic communication is",
-    "options": [
-      "email or instant messaging",
-      "handwritten memo",
-      "ordinary post",
-      "printed catalogue"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Select the best answer: The fastest common means of long-distance electronic communication is",
-    "options": [
-      "handwritten memo",
-      "printed catalogue",
-      "email or instant messaging",
-      "ordinary post"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Confidential business information should be sent through",
-    "options": [
-      "an open group without permission",
-      "an appropriate secure channel",
-      "an unverified recipient",
-      "any public noticeboard"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which option is correct? confidential business information should be sent through",
-    "options": [
-      "any public noticeboard",
-      "an appropriate secure channel",
-      "an open group without permission",
-      "an unverified recipient"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Select the best answer: Confidential business information should be sent through",
-    "options": [
-      "an appropriate secure channel",
-      "an unverified recipient",
-      "an open group without permission",
-      "any public noticeboard"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A telephone message should include the caller's name, contact and",
-    "options": [
-      "unconfirmed prices",
-      "personal guesses",
-      "clear details of the message",
-      "unrelated gossip"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which option is correct? a telephone message should include the caller's name, contact and",
-    "options": [
-      "unrelated gossip",
-      "personal guesses",
-      "clear details of the message",
-      "unconfirmed prices"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Select the best answer: A telephone message should include the caller's name, contact and",
-    "options": [
-      "clear details of the message",
-      "unconfirmed prices",
-      "personal guesses",
-      "unrelated gossip"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "An agenda lists the",
-    "options": [
-      "money owed by every customer",
-      "items to be discussed at a meeting",
-      "staff salaries only",
-      "goods in a warehouse"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which option is correct? an agenda lists the",
-    "options": [
-      "items to be discussed at a meeting",
-      "goods in a warehouse",
-      "staff salaries only",
-      "money owed by every customer"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Select the best answer: An agenda lists the",
-    "options": [
-      "items to be discussed at a meeting",
-      "goods in a warehouse",
-      "money owed by every customer",
-      "staff salaries only"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Minutes of a meeting record",
-    "options": [
-      "only the venue colour",
-      "private messages",
-      "future rumours",
-      "the proceedings and decisions"
+      "limited to external audiences",
+      "unrecorded by definition",
+      "strictly one-way",
+      "two-way and allows feedback"
     ],
     "answer": "D"
   },
   {
-    "question": "Which option is correct? minutes of a meeting record",
+    "question": "A company wants to communicate a complex safety procedure to new staff. The strongest approach is (case 8)",
     "options": [
-      "the proceedings and decisions",
-      "private messages",
-      "future rumours",
-      "only the venue colour"
+      "an anonymous rumour",
+      "a slogan with no explanation",
+      "a clear written procedure supported by demonstration and questions",
+      "a single unexplained symbol"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A message is altered as it passes through informal workplace gossip. This illustrates (case 9)",
+    "options": [
+      "verified feedback",
+      "formal downward communication",
+      "distortion through the grapevine",
+      "perfect encoding"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A branch manager sends a report to head office, receives questions and revises the report. This is effective because communication is (case 10)",
+    "options": [
+      "two-way and allows feedback",
+      "limited to external audiences",
+      "strictly one-way",
+      "unrecorded by definition"
     ],
     "answer": "A"
   },
   {
-    "question": "Select the best answer: Minutes of a meeting record",
+    "question": "A company wants to communicate a complex safety procedure to new staff. The strongest approach is (case 11)",
     "options": [
-      "only the venue colour",
-      "private messages",
-      "future rumours",
-      "the proceedings and decisions"
+      "a single unexplained symbol",
+      "a slogan with no explanation",
+      "an anonymous rumour",
+      "a clear written procedure supported by demonstration and questions"
     ],
     "answer": "D"
   },
   {
-    "question": "Which communication is non-verbal?",
+    "question": "A message is altered as it passes through informal workplace gossip. This illustrates (case 12)",
     "options": [
-      "Email",
-      "Facial expression",
-      "Letter",
-      "Memo"
+      "distortion through the grapevine",
+      "verified feedback",
+      "perfect encoding",
+      "formal downward communication"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A branch manager sends a report to head office, receives questions and revises the report. This is effective because communication is (case 13)",
+    "options": [
+      "strictly one-way",
+      "limited to external audiences",
+      "two-way and allows feedback",
+      "unrecorded by definition"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A company wants to communicate a complex safety procedure to new staff. The strongest approach is (case 14)",
+    "options": [
+      "a slogan with no explanation",
+      "a clear written procedure supported by demonstration and questions",
+      "an anonymous rumour",
+      "a single unexplained symbol"
     ],
     "answer": "B"
   },
   {
-    "question": "Which option is correct? which communication is non-verbal?",
+    "question": "A message is altered as it passes through informal workplace gossip. This illustrates (case 15)",
     "options": [
-      "Facial expression",
-      "Memo",
-      "Email",
-      "Letter"
+      "formal downward communication",
+      "distortion through the grapevine",
+      "perfect encoding",
+      "verified feedback"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A branch manager sends a report to head office, receives questions and revises the report. This is effective because communication is (case 16)",
+    "options": [
+      "strictly one-way",
+      "unrecorded by definition",
+      "two-way and allows feedback",
+      "limited to external audiences"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A company wants to communicate a complex safety procedure to new staff. The strongest approach is (case 17)",
+    "options": [
+      "a clear written procedure supported by demonstration and questions",
+      "a slogan with no explanation",
+      "an anonymous rumour",
+      "a single unexplained symbol"
     ],
     "answer": "A"
   },
   {
-    "question": "Select the best answer: Which communication is non-verbal?",
+    "question": "A message is altered as it passes through informal workplace gossip. This illustrates (case 18)",
     "options": [
-      "Facial expression",
-      "Letter",
-      "Email",
-      "Memo"
+      "distortion through the grapevine",
+      "perfect encoding",
+      "verified feedback",
+      "formal downward communication"
     ],
     "answer": "A"
   },
   {
-    "question": "A notice is commonly used to",
+    "question": "A branch manager sends a report to head office, receives questions and revises the report. This is effective because communication is (case 19)",
     "options": [
-      "calculate depreciation",
-      "record only cash sales",
-      "transport products",
-      "give information to a group"
+      "limited to external audiences",
+      "strictly one-way",
+      "two-way and allows feedback",
+      "unrecorded by definition"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A company wants to communicate a complex safety procedure to new staff. The strongest approach is (case 20)",
+    "options": [
+      "an anonymous rumour",
+      "a single unexplained symbol",
+      "a clear written procedure supported by demonstration and questions",
+      "a slogan with no explanation"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A message is altered as it passes through informal workplace gossip. This illustrates (case 21)",
+    "options": [
+      "distortion through the grapevine",
+      "verified feedback",
+      "formal downward communication",
+      "perfect encoding"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A branch manager sends a report to head office, receives questions and revises the report. This is effective because communication is (case 22)",
+    "options": [
+      "limited to external audiences",
+      "unrecorded by definition",
+      "two-way and allows feedback",
+      "strictly one-way"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A company wants to communicate a complex safety procedure to new staff. The strongest approach is (case 23)",
+    "options": [
+      "an anonymous rumour",
+      "a clear written procedure supported by demonstration and questions",
+      "a slogan with no explanation",
+      "a single unexplained symbol"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A message is altered as it passes through informal workplace gossip. This illustrates (case 24)",
+    "options": [
+      "perfect encoding",
+      "distortion through the grapevine",
+      "formal downward communication",
+      "verified feedback"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A branch manager sends a report to head office, receives questions and revises the report. This is effective because communication is (case 25)",
+    "options": [
+      "limited to external audiences",
+      "two-way and allows feedback",
+      "strictly one-way",
+      "unrecorded by definition"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A company wants to communicate a complex safety procedure to new staff. The strongest approach is (case 26)",
+    "options": [
+      "a slogan with no explanation",
+      "an anonymous rumour",
+      "a clear written procedure supported by demonstration and questions",
+      "a single unexplained symbol"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A message is altered as it passes through informal workplace gossip. This illustrates (case 27)",
+    "options": [
+      "perfect encoding",
+      "verified feedback",
+      "distortion through the grapevine",
+      "formal downward communication"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A branch manager sends a report to head office, receives questions and revises the report. This is effective because communication is (case 28)",
+    "options": [
+      "strictly one-way",
+      "limited to external audiences",
+      "unrecorded by definition",
+      "two-way and allows feedback"
     ],
     "answer": "D"
   },
   {
-    "question": "Which option is correct? a notice is commonly used to",
+    "question": "A company wants to communicate a complex safety procedure to new staff. The strongest approach is (case 29)",
     "options": [
-      "give information to a group",
-      "calculate depreciation",
-      "transport products",
-      "record only cash sales"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Select the best answer: A notice is commonly used to",
-    "options": [
-      "record only cash sales",
-      "calculate depreciation",
-      "give information to a group",
-      "transport products"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "The best language for a formal business letter is",
-    "options": [
-      "unrelated to the purpose",
-      "clear, polite and concise",
-      "overly casual and slang-filled",
-      "ambiguous and insulting"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which option is correct? the best language for a formal business letter is",
-    "options": [
-      "ambiguous and insulting",
-      "clear, polite and concise",
-      "unrelated to the purpose",
-      "overly casual and slang-filled"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Select the best answer: The best language for a formal business letter is",
-    "options": [
-      "ambiguous and insulting",
-      "overly casual and slang-filled",
-      "clear, polite and concise",
-      "unrelated to the purpose"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "An organisation chart communicates",
-    "options": [
-      "customer complaints only",
-      "stock prices",
-      "daily weather only",
-      "lines of authority and reporting"
+      "an anonymous rumour",
+      "a single unexplained symbol",
+      "a slogan with no explanation",
+      "a clear written procedure supported by demonstration and questions"
     ],
     "answer": "D"
   },
   {
-    "question": "Which option is correct? an organisation chart communicates",
+    "question": "A message is altered as it passes through informal workplace gossip. This illustrates (case 30)",
     "options": [
-      "lines of authority and reporting",
-      "customer complaints only",
-      "stock prices",
-      "daily weather only"
+      "distortion through the grapevine",
+      "perfect encoding",
+      "verified feedback",
+      "formal downward communication"
     ],
     "answer": "A"
   },
   {
-    "question": "Select the best answer: An organisation chart communicates",
+    "question": "A branch manager sends a report to head office, receives questions and revises the report. This is effective because communication is (case 31)",
     "options": [
-      "lines of authority and reporting",
-      "stock prices",
-      "daily weather only",
-      "customer complaints only"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A communication channel is",
-    "options": [
-      "the sender's age",
-      "the message's grammar alone",
-      "the medium through which a message passes",
-      "the product price"
+      "limited to external audiences",
+      "strictly one-way",
+      "two-way and allows feedback",
+      "unrecorded by definition"
     ],
     "answer": "C"
   },
   {
-    "question": "Which option is correct? a communication channel is",
+    "question": "A company wants to communicate a complex safety procedure to new staff. The strongest approach is (case 32)",
     "options": [
-      "the sender's age",
-      "the medium through which a message passes",
-      "the product price",
-      "the message's grammar alone"
+      "a slogan with no explanation",
+      "an anonymous rumour",
+      "a single unexplained symbol",
+      "a clear written procedure supported by demonstration and questions"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A message is altered as it passes through informal workplace gossip. This illustrates (case 33)",
+    "options": [
+      "formal downward communication",
+      "perfect encoding",
+      "verified feedback",
+      "distortion through the grapevine"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A branch manager sends a report to head office, receives questions and revises the report. This is effective because communication is (case 34)",
+    "options": [
+      "unrecorded by definition",
+      "strictly one-way",
+      "limited to external audiences",
+      "two-way and allows feedback"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A company wants to communicate a complex safety procedure to new staff. The strongest approach is (case 35)",
+    "options": [
+      "a clear written procedure supported by demonstration and questions",
+      "a slogan with no explanation",
+      "an anonymous rumour",
+      "a single unexplained symbol"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A message is altered as it passes through informal workplace gossip. This illustrates (case 36)",
+    "options": [
+      "verified feedback",
+      "formal downward communication",
+      "distortion through the grapevine",
+      "perfect encoding"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A branch manager sends a report to head office, receives questions and revises the report. This is effective because communication is (case 37)",
+    "options": [
+      "strictly one-way",
+      "limited to external audiences",
+      "two-way and allows feedback",
+      "unrecorded by definition"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A company wants to communicate a complex safety procedure to new staff. The strongest approach is (case 38)",
+    "options": [
+      "a slogan with no explanation",
+      "a single unexplained symbol",
+      "an anonymous rumour",
+      "a clear written procedure supported by demonstration and questions"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A message is altered as it passes through informal workplace gossip. This illustrates (case 39)",
+    "options": [
+      "distortion through the grapevine",
+      "formal downward communication",
+      "perfect encoding",
+      "verified feedback"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A branch manager sends a report to head office, receives questions and revises the report. This is effective because communication is (case 40)",
+    "options": [
+      "two-way and allows feedback",
+      "unrecorded by definition",
+      "strictly one-way",
+      "limited to external audiences"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A company wants to communicate a complex safety procedure to new staff. The strongest approach is (case 41)",
+    "options": [
+      "a single unexplained symbol",
+      "a clear written procedure supported by demonstration and questions",
+      "an anonymous rumour",
+      "a slogan with no explanation"
     ],
     "answer": "B"
   },
   {
-    "question": "Select the best answer: A communication channel is",
+    "question": "A message is altered as it passes through informal workplace gossip. This illustrates (case 42)",
     "options": [
-      "the sender's age",
-      "the product price",
-      "the medium through which a message passes",
-      "the message's grammar alone"
+      "perfect encoding",
+      "distortion through the grapevine",
+      "verified feedback",
+      "formal downward communication"
     ],
-    "answer": "C"
+    "answer": "B"
+  },
+  {
+    "question": "A branch manager sends a report to head office, receives questions and revises the report. This is effective because communication is (case 43)",
+    "options": [
+      "strictly one-way",
+      "unrecorded by definition",
+      "limited to external audiences",
+      "two-way and allows feedback"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A company wants to communicate a complex safety procedure to new staff. The strongest approach is (case 44)",
+    "options": [
+      "a slogan with no explanation",
+      "an anonymous rumour",
+      "a single unexplained symbol",
+      "a clear written procedure supported by demonstration and questions"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A message is altered as it passes through informal workplace gossip. This illustrates (case 45)",
+    "options": [
+      "verified feedback",
+      "perfect encoding",
+      "formal downward communication",
+      "distortion through the grapevine"
+    ],
+    "answer": "D"
   }
 ]
