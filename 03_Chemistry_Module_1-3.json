@@ -1,501 +1,601 @@
 [
   {
-    "question": "An atom has 17 protons and 18 neutrons. Which nuclide notation represents it?",
+    "question": "Matter is made up of particles that are in",
     "options": [
-      "³⁵₁₇Cl",
-      "³⁵₁₈Ar",
-      "³⁴₁₇Cl",
-      "³⁶₁₇Cl"
+      "a single continuous block",
+      "constant motion",
+      "only chemical bonds",
+      "complete rest at all times"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which option is correct? matter is made up of particles that are in",
+    "options": [
+      "constant motion",
+      "only chemical bonds",
+      "a single continuous block",
+      "complete rest at all times"
     ],
     "answer": "A"
   },
   {
-    "question": "An ion X²⁻ contains 18 electrons. The atomic number of X is",
+    "question": "Select the best answer: Matter is made up of particles that are in",
     "options": [
-      "16",
-      "18",
-      "20",
-      "36"
+      "complete rest at all times",
+      "constant motion",
+      "a single continuous block",
+      "only chemical bonds"
     ],
-    "answer": "A"
+    "answer": "B"
   },
   {
-    "question": "Which pair consists of isotopes of the same element?",
+    "question": "Which state of matter has a fixed shape and fixed volume?",
     "options": [
-      "¹⁴₆C and ¹⁴₇N",
-      "²³₁₁Na and ²⁴₁₂Mg",
-      "³⁵₁₇Cl and ³⁷₁₇Cl",
-      "⁴⁰₁₈Ar and ⁴⁰₂₀Ca"
+      "Liquid",
+      "Vapour only",
+      "Solid",
+      "Gas"
     ],
     "answer": "C"
   },
   {
-    "question": "Which change occurs when a neutral sodium atom forms Na⁺?",
+    "question": "Which option is correct? which state of matter has a fixed shape and fixed volume?",
     "options": [
-      "It gains one proton",
-      "It loses one electron",
-      "It gains one electron",
-      "It loses one neutron"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "An ion has 13 protons, 14 neutrons and 10 electrons. Its charge and mass number are",
-    "options": [
-      "3+, 27",
-      "3-, 27",
-      "3+, 24",
-      "1+, 27"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which species has the same number of electrons as Ne?",
-    "options": [
-      "Na⁺",
-      "F⁻",
-      "O⁻",
-      "Mg⁺"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The number of neutrons in ³¹₁₅P is",
-    "options": [
-      "15",
-      "16",
-      "31",
-      "46"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which statement best distinguishes an atom from an ion?",
-    "options": [
-      "An atom always has neutrons but an ion does not",
-      "An ion has unequal numbers of protons and electrons",
-      "An atom has no electrons",
-      "An ion must contain more neutrons than protons"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A chlorine atom has electron arrangement 2,8,7. The most likely ion it forms is",
-    "options": [
-      "Cl⁺",
-      "Cl²⁺",
-      "Cl⁻",
-      "Cl²⁻"
+      "Gas",
+      "Liquid",
+      "Solid",
+      "Vapour only"
     ],
     "answer": "C"
   },
   {
-    "question": "Which formula correctly represents the polyatomic ion nitrate?",
+    "question": "Select the best answer: Which state of matter has a fixed shape and fixed volume?",
     "options": [
-      "NO₂⁻",
-      "NO₃⁻",
-      "NO₃²⁻",
-      "N₂O₃⁻"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "An element has two isotopes of mass numbers 35 and 37 in equal abundance. Its relative atomic mass is",
-    "options": [
-      "35.0",
-      "35.5",
-      "36.0",
-      "37.0"
+      "Gas",
+      "Vapour only",
+      "Solid",
+      "Liquid"
     ],
     "answer": "C"
   },
   {
-    "question": "Which particle determines the identity of an element?",
+    "question": "A liquid has",
     "options": [
-      "Electron",
-      "Neutron",
-      "Proton",
-      "Nucleon"
+      "particles fixed in position",
+      "fixed volume but no fixed shape",
+      "fixed shape and fixed volume",
+      "neither fixed volume nor ability to flow"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which option is correct? a liquid has",
+    "options": [
+      "particles fixed in position",
+      "neither fixed volume nor ability to flow",
+      "fixed volume but no fixed shape",
+      "fixed shape and fixed volume"
     ],
     "answer": "C"
   },
   {
-    "question": "When Mg forms Mg²⁺, its electron arrangement changes from 2,8,2 to",
+    "question": "Select the best answer: A liquid has",
     "options": [
-      "2,8",
-      "2,8,1",
-      "2,8,3",
-      "2,6"
+      "fixed volume but no fixed shape",
+      "neither fixed volume nor ability to flow",
+      "fixed shape and fixed volume",
+      "particles fixed in position"
     ],
     "answer": "A"
   },
   {
-    "question": "A species contains 8 protons, 8 neutrons and 10 electrons. It is best represented as",
+    "question": "A gas fills its container because its particles",
     "options": [
-      "¹⁶₈O",
-      "¹⁶₈O²⁻",
-      "¹⁸₈O²⁻",
-      "¹⁶₁₀Ne²⁻"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which statement about polyatomic ions is correct?",
-    "options": [
-      "They contain only one atom carrying charge",
-      "They are electrically neutral molecules only",
-      "They are groups of covalently bonded atoms carrying an overall charge",
-      "They are always positively charged"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "An atom has 17 protons, 18 neutrons and 17 electrons. What are its atomic number and mass number respectively?",
-    "options": [
-      "17 and 18",
-      "17 and 35",
-      "35 and 17",
-      "18 and 35"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "An ion has 12 protons, 12 neutrons and 10 electrons. The ion is",
-    "options": [
-      "Mg²⁺",
-      "Mg²⁻",
-      "Ne²⁺",
-      "Na⁺"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which pair represents isotopes of the same element?",
-    "options": [
-      "²³Na and ²⁴Mg",
-      "³⁵Cl and ³⁷Cl",
-      "¹⁴C and ¹⁴N",
-      "³⁹K and ⁴⁰Ca"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "An element has two isotopes of mass numbers 35 and 37. If their relative abundances are 75% and 25% respectively, what is its relative atomic mass?",
-    "options": [
-      "35.25",
-      "35.50",
-      "36.00",
-      "36.50"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which electronic configuration represents an atom in the ground state?",
-    "options": [
-      "2,8,7",
-      "2,9,6",
-      "2,8,9",
-      "2,7,8"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "An element has the electronic configuration 2,8,3. In which group and period of the periodic table is it found?",
-    "options": [
-      "Group 3, Period 2",
-      "Group 13, Period 3",
-      "Group 3, Period 3",
-      "Group 13, Period 2"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which property generally decreases across a period from left to right?",
-    "options": [
-      "Nuclear charge",
-      "Number of valence electrons",
-      "Atomic radius",
-      "Electronegativity"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which of the following has the largest atomic radius?",
-    "options": [
-      "Na",
-      "Mg",
-      "Al",
-      "Cl"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which element is expected to have the highest first ionization energy?",
-    "options": [
-      "Na",
-      "Mg",
-      "Al",
-      "Cl"
+      "cannot collide",
+      "have no kinetic energy",
+      "are tightly packed in fixed positions",
+      "move freely and are far apart"
     ],
     "answer": "D"
   },
   {
-    "question": "Why does atomic radius generally decrease across a period?",
+    "question": "Which option is correct? a gas fills its container because its particles",
     "options": [
-      "The number of electron shells decreases",
-      "The nuclear charge increases while electrons are added to the same shell",
-      "The number of neutrons decreases",
-      "The atoms lose their outermost electrons"
+      "move freely and are far apart",
+      "are tightly packed in fixed positions",
+      "have no kinetic energy",
+      "cannot collide"
     ],
-    "answer": "B"
+    "answer": "A"
   },
   {
-    "question": "An element X has 11 electrons. The ion most likely formed by X is",
+    "question": "Select the best answer: A gas fills its container because its particles",
     "options": [
-      "X⁻",
-      "X²⁻",
-      "X⁺",
-      "X²⁺"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which of the following elements is most likely to form a 2− ion?",
-    "options": [
-      "Na",
-      "Mg",
-      "Cl",
-      "O"
+      "have no kinetic energy",
+      "are tightly packed in fixed positions",
+      "cannot collide",
+      "move freely and are far apart"
     ],
     "answer": "D"
   },
   {
-    "question": "Which statement correctly describes an element's position in the periodic table?",
+    "question": "The change from solid directly to gas is called",
     "options": [
-      "The period number always equals the number of valence electrons",
-      "The group number of a main-group element can indicate its number of valence electrons",
-      "Elements in the same period always have the same number of valence electrons",
-      "Elements in the same group always have the same atomic number"
+      "sublimation",
+      "melting",
+      "freezing",
+      "condensation"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which option is correct? the change from solid directly to gas is called",
+    "options": [
+      "freezing",
+      "condensation",
+      "melting",
+      "sublimation"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Select the best answer: The change from solid directly to gas is called",
+    "options": [
+      "sublimation",
+      "condensation",
+      "melting",
+      "freezing"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The change from gas to liquid is called",
+    "options": [
+      "evaporation",
+      "condensation",
+      "sublimation",
+      "melting"
     ],
     "answer": "B"
   },
   {
-    "question": "Which observation provides the strongest evidence that matter is made up of tiny particles in constant motion?",
+    "question": "Which option is correct? the change from gas to liquid is called",
     "options": [
-      "Melting of ice",
-      "Diffusion of a gas",
-      "Freezing of water",
-      "Filtration of sand"
+      "evaporation",
+      "condensation",
+      "sublimation",
+      "melting"
     ],
     "answer": "B"
   },
   {
-    "question": "A gas occupies 200 cm³ at a pressure of 100 kPa. If its volume is reduced to 100 cm³ at constant temperature, what will its pressure become?",
+    "question": "Select the best answer: The change from gas to liquid is called",
     "options": [
-      "50 kPa",
-      "100 kPa",
-      "200 kPa",
-      "400 kPa"
+      "melting",
+      "evaporation",
+      "condensation",
+      "sublimation"
     ],
     "answer": "C"
   },
   {
-    "question": "A gas occupies 300 cm³ at 27°C. What volume will it occupy at 127°C if pressure remains constant?",
+    "question": "The change from liquid to gas at the surface below boiling point is",
     "options": [
-      "200 cm³",
-      "300 cm³",
-      "400 cm³",
-      "450 cm³"
+      "freezing",
+      "condensation",
+      "deposition",
+      "evaporation"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which option is correct? the change from liquid to gas at the surface below boiling point is",
+    "options": [
+      "condensation",
+      "evaporation",
+      "freezing",
+      "deposition"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Select the best answer: The change from liquid to gas at the surface below boiling point is",
+    "options": [
+      "evaporation",
+      "freezing",
+      "condensation",
+      "deposition"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Diffusion is fastest in gases because their particles",
+    "options": [
+      "are larger than solids",
+      "are fixed in a lattice",
+      "have no kinetic energy",
+      "move rapidly and are widely spaced"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which option is correct? diffusion is fastest in gases because their particles",
+    "options": [
+      "move rapidly and are widely spaced",
+      "are fixed in a lattice",
+      "are larger than solids",
+      "have no kinetic energy"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Select the best answer: Diffusion is fastest in gases because their particles",
+    "options": [
+      "move rapidly and are widely spaced",
+      "are larger than solids",
+      "are fixed in a lattice",
+      "have no kinetic energy"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Boyle's law states that at constant temperature, gas pressure is inversely proportional to",
+    "options": [
+      "mass",
+      "density only",
+      "volume",
+      "temperature"
     ],
     "answer": "C"
   },
   {
-    "question": "Which change of state involves particles gaining enough energy to escape from the liquid surface without boiling?",
+    "question": "Which option is correct? boyle's law states that at constant temperature, gas pressure is inversely proportional to",
     "options": [
-      "Condensation",
-      "Evaporation",
+      "temperature",
+      "volume",
+      "mass",
+      "density only"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Select the best answer: Boyle's law states that at constant temperature, gas pressure is inversely proportional to",
+    "options": [
+      "density only",
+      "volume",
+      "temperature",
+      "mass"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Charles's law states that at constant pressure, gas volume is directly proportional to",
+    "options": [
+      "density",
+      "absolute temperature",
+      "pressure",
+      "molar mass"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which option is correct? charles's law states that at constant pressure, gas volume is directly proportional to",
+    "options": [
+      "absolute temperature",
+      "pressure",
+      "molar mass",
+      "density"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Select the best answer: Charles's law states that at constant pressure, gas volume is directly proportional to",
+    "options": [
+      "absolute temperature",
+      "molar mass",
+      "pressure",
+      "density"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The SI unit of thermodynamic temperature is",
+    "options": [
+      "kelvin",
+      "joule",
+      "fahrenheit",
+      "degree Celsius"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which option is correct? the SI unit of thermodynamic temperature is",
+    "options": [
+      "joule",
+      "kelvin",
+      "fahrenheit",
+      "degree Celsius"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Select the best answer: The SI unit of thermodynamic temperature is",
+    "options": [
+      "kelvin",
+      "degree Celsius",
+      "joule",
+      "fahrenheit"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A gas occupies 2 L at 100 kPa. At constant temperature, its volume at 200 kPa is",
+    "options": [
+      "4 L",
+      "2 L",
+      "0.5 L",
+      "1 L"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which option is correct? a gas occupies 2 L at 100 kPa. At constant temperature, its volume at 200 kPa is",
+    "options": [
+      "0.5 L",
+      "4 L",
+      "1 L",
+      "2 L"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Select the best answer: A gas occupies 2 L at 100 kPa. At constant temperature, its volume at 200 kPa is",
+    "options": [
+      "2 L",
+      "4 L",
+      "0.5 L",
+      "1 L"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A gas occupies 3 L at 300 K. At constant pressure, its volume at 600 K is",
+    "options": [
+      "1.5 L",
+      "6 L",
+      "3 L",
+      "9 L"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which option is correct? a gas occupies 3 L at 300 K. At constant pressure, its volume at 600 K is",
+    "options": [
+      "3 L",
+      "6 L",
+      "1.5 L",
+      "9 L"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Select the best answer: A gas occupies 3 L at 300 K. At constant pressure, its volume at 600 K is",
+    "options": [
+      "6 L",
+      "3 L",
+      "1.5 L",
+      "9 L"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The combined gas law relates pressure, volume and",
+    "options": [
+      "atomic number",
+      "solubility only",
+      "absolute temperature",
+      "colour"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which option is correct? the combined gas law relates pressure, volume and",
+    "options": [
+      "solubility only",
+      "atomic number",
+      "colour",
+      "absolute temperature"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Select the best answer: The combined gas law relates pressure, volume and",
+    "options": [
+      "absolute temperature",
+      "atomic number",
+      "solubility only",
+      "colour"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "In the ideal gas equation PV = nRT, n represents the number of",
+    "options": [
+      "newtons",
+      "containers",
+      "neutrons",
+      "moles"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which option is correct? in the ideal gas equation PV = nRT, n represents the number of",
+    "options": [
+      "neutrons",
+      "containers",
+      "newtons",
+      "moles"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Select the best answer: In the ideal gas equation PV = nRT, n represents the number of",
+    "options": [
+      "moles",
+      "newtons",
+      "neutrons",
+      "containers"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The pressure of a gas is caused by particle",
+    "options": [
+      "collisions with container walls",
+      "colour changes",
+      "melting",
+      "chemical symbols"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which option is correct? the pressure of a gas is caused by particle",
+    "options": [
+      "melting",
+      "colour changes",
+      "collisions with container walls",
+      "chemical symbols"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Select the best answer: The pressure of a gas is caused by particle",
+    "options": [
+      "melting",
+      "collisions with container walls",
+      "colour changes",
+      "chemical symbols"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Heating a gas in a rigid sealed container generally causes its pressure to",
+    "options": [
+      "increase",
+      "decrease to zero",
+      "become unrelated to temperature",
+      "remain zero"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which option is correct? heating a gas in a rigid sealed container generally causes its pressure to",
+    "options": [
+      "increase",
+      "remain zero",
+      "become unrelated to temperature",
+      "decrease to zero"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Select the best answer: Heating a gas in a rigid sealed container generally causes its pressure to",
+    "options": [
+      "become unrelated to temperature",
+      "decrease to zero",
+      "remain zero",
+      "increase"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "At absolute zero, the Kelvin temperature is",
+    "options": [
+      "0 K",
+      "100 K",
+      "273 K",
+      "−273 K"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which option is correct? at absolute zero, the Kelvin temperature is",
+    "options": [
+      "−273 K",
+      "0 K",
+      "273 K",
+      "100 K"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Select the best answer: At absolute zero, the Kelvin temperature is",
+    "options": [
+      "273 K",
+      "100 K",
+      "0 K",
+      "−273 K"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which process changes a liquid into a solid?",
+    "options": [
+      "Melting",
       "Freezing",
+      "Boiling",
       "Sublimation"
     ],
     "answer": "B"
   },
   {
-    "question": "When a solid is heated, its particles generally",
+    "question": "Which option is correct? which process changes a liquid into a solid?",
     "options": [
-      "become larger",
-      "move more rapidly about their fixed positions",
-      "lose all attractive forces",
-      "change into atoms immediately"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which statement about particles in a gas is correct?",
-    "options": [
-      "They are closely packed and vibrate about fixed positions",
-      "They have no kinetic energy",
-      "They are widely separated and move randomly",
-      "They are arranged in a regular pattern"
+      "Boiling",
+      "Sublimation",
+      "Freezing",
+      "Melting"
     ],
     "answer": "C"
   },
   {
-    "question": "A gas is compressed at constant temperature. Which of the following occurs?",
+    "question": "Select the best answer: Which process changes a liquid into a solid?",
     "options": [
-      "The average kinetic energy of its particles increases",
-      "The particles become smaller",
-      "The frequency of collisions with the container walls increases",
-      "The number of particles decreases"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which process provides evidence that particles possess kinetic energy even when no external force is applied?",
-    "options": [
-      "Diffusion",
-      "Filtration",
-      "Decantation",
-      "Crystallization"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A liquid boils when its vapour pressure becomes equal to",
-    "options": [
-      "zero",
-      "the vapour pressure of the surroundings",
-      "the external atmospheric pressure",
-      "the pressure inside the liquid molecules"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which statement best explains why gases are much more compressible than liquids?",
-    "options": [
-      "Gas particles are much lighter than liquid particles",
-      "Gas particles have much greater spaces between them",
-      "Gas particles have no mass",
-      "Liquid particles do not move"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A gas has a volume of 500 cm³ at 20°C. If it is heated to 40°C at constant pressure, its volume will be approximately",
-    "options": [
-      "525 cm³",
-      "534 cm³",
-      "550 cm³",
-      "600 cm³"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which method is most suitable for separating ethanol from water?",
-    "options": [
-      "Filtration",
-      "Simple distillation",
-      "Fractional distillation",
-      "Decantation"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which method is most suitable for obtaining pure water from seawater?",
-    "options": [
-      "Filtration",
-      "Distillation",
-      "Chromatography",
-      "Sublimation"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A mixture contains iron filings and sulfur powder. Which method can be used to separate the iron from the sulfur?",
-    "options": [
-      "Filtration",
-      "Use of a magnet",
-      "Distillation",
-      "Crystallization"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which method is best for separating coloured substances in ink?",
-    "options": [
-      "Chromatography",
-      "Filtration",
-      "Decantation",
-      "Evaporation"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A mixture contains sand and sodium chloride. Which sequence will best separate and recover both substances?",
-    "options": [
-      "Add water, filter, then evaporate the filtrate",
-      "Filter, then add water to the residue",
-      "Distil the mixture directly",
-      "Use a separating funnel, then filter"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which property is mainly responsible for the separation of components during fractional distillation?",
-    "options": [
-      "Difference in density",
-      "Difference in melting points",
-      "Difference in boiling points",
-      "Difference in particle size"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which apparatus is most appropriate for separating kerosene and water?",
-    "options": [
-      "Burette",
-      "Separating funnel",
-      "Condenser",
-      "Evaporating dish"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A student wants to obtain pure copper(II) sulfate crystals from its aqueous solution. Which process is most appropriate?",
-    "options": [
-      "Filtration only",
-      "Evaporation to dryness",
-      "Crystallization",
-      "Decantation"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "During paper chromatography, a substance travels 6 cm while the solvent front travels 10 cm. What is its Rf value?",
-    "options": [
-      "0.4",
-      "0.6",
-      "1.6",
-      "6.0"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which method is most suitable for separating an insoluble solid from a liquid?",
-    "options": [
-      "Filtration",
-      "Fractional distillation",
-      "Chromatography",
+      "Freezing",
+      "Boiling",
+      "Melting",
       "Sublimation"
     ],
     "answer": "A"
   },
   {
-    "question": "A mixture contains ammonium chloride, sand and sodium chloride. Which property of ammonium chloride can be used first to separate it from the mixture?",
+    "question": "The random movement of tiny particles suspended in a fluid is called",
     "options": [
-      "It is magnetic",
-      "It sublimes",
-      "It is insoluble in water",
-      "It has a higher density"
+      "electrolysis",
+      "crystallisation",
+      "Brownian motion",
+      "neutralisation"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which option is correct? the random movement of tiny particles suspended in a fluid is called",
+    "options": [
+      "crystallisation",
+      "Brownian motion",
+      "electrolysis",
+      "neutralisation"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Select the best answer: The random movement of tiny particles suspended in a fluid is called",
+    "options": [
+      "crystallisation",
+      "Brownian motion",
+      "electrolysis",
+      "neutralisation"
     ],
     "answer": "B"
   }

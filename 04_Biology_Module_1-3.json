@@ -1,505 +1,602 @@
 [
   {
-    "question": "Which feature most directly enables a tapeworm to survive in the intestine of its host?",
+    "question": "Aerobic respiration releases energy by breaking down glucose in the presence of",
     "options": [
-      "A well-developed digestive tract",
-      "Absence of a digestive tract and absorption through the body surface",
-      "Photosynthetic tissues",
-      "A closed circulatory system"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "In the life cycle of Plasmodium, the definitive host is the",
-    "options": [
-      "human",
-      "female Anopheles mosquito",
-      "male Anopheles mosquito",
-      "freshwater snail"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A parasite that requires two different host species to complete its life cycle is described as having",
-    "options": [
-      "a direct life cycle",
-      "an indirect life cycle",
-      "a free-living cycle",
-      "an autotrophic cycle"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which adaptation is most associated with endoparasites?",
-    "options": [
-      "Development of chlorophyll",
-      "Structures for firm attachment to host tissues",
-      "Large wings for flight",
-      "Thick waxy cuticle for desert survival"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "The organism that carries a pathogen from one host to another is called a",
-    "options": [
-      "reservoir",
-      "vector",
-      "definitive host",
-      "saprophyte"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which relationship is correctly matched?",
-    "options": [
-      "Tapeworm—mutualism",
-      "Plasmodium—parasitism",
-      "Lichen fungus—predation",
-      "Mistletoe—commensalism"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Why can excessive reproduction be advantageous to many parasites?",
-    "options": [
-      "It guarantees every offspring will mature",
-      "It compensates for high mortality during transmission",
-      "It makes the host immune",
-      "It prevents mutation"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A parasite living on the external surface of a host is classified as a(n)",
-    "options": [
-      "endoparasite",
-      "ectoparasite",
-      "autotroph",
-      "decomposer"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which measure most directly interrupts transmission of intestinal worm infections?",
-    "options": [
-      "Using treated mosquito nets",
-      "Improving sanitation and proper disposal of faeces",
-      "Increasing blood transfusion",
-      "Reducing sunlight exposure"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A parasite loses its digestive system but develops a greatly increased absorptive surface. This is best interpreted as",
-    "options": [
-      "an adaptation to obtain nutrients directly from the host",
-      "evidence that it has become autotrophic",
-      "evidence that it no longer needs food",
-      "an adaptation for producing oxygen"
+      "oxygen",
+      "chlorophyll",
+      "nitrogen",
+      "carbon monoxide"
     ],
     "answer": "A"
   },
   {
-    "question": "Which statement about host specificity is most accurate?",
+    "question": "Which option is correct? aerobic respiration releases energy by breaking down glucose in the presence of",
     "options": [
-      "All parasites infect every animal equally",
-      "Some parasites are restricted to particular host species because of physiological compatibility",
-      "Parasites never depend on host physiology",
-      "Host specificity occurs only in plants"
+      "nitrogen",
+      "oxygen",
+      "carbon monoxide",
+      "chlorophyll"
     ],
     "answer": "B"
   },
   {
-    "question": "Which condition would most likely increase the prevalence of schistosomiasis?",
+    "question": "Select the best answer: Aerobic respiration releases energy by breaking down glucose in the presence of",
     "options": [
-      "Elimination of snail intermediate hosts",
-      "Frequent contact with infested freshwater",
-      "Improved sewage disposal",
-      "Use of safe drinking water"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A host in which a parasite reaches sexual maturity is generally called the",
-    "options": [
-      "intermediate host",
-      "definitive host",
-      "vector only",
-      "reservoir only"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which is NOT generally an advantage of parasitism to the parasite?",
-    "options": [
-      "A relatively stable food source",
-      "Reduced need to search for food",
-      "Guaranteed absence of host immune response",
-      "Protection within the host environment"
+      "carbon monoxide",
+      "nitrogen",
+      "oxygen",
+      "chlorophyll"
     ],
     "answer": "C"
   },
   {
-    "question": "A farmer notices that a parasite population falls sharply after livestock are treated, but returns when untreated animals are introduced. The best inference is that",
+    "question": "The main site of aerobic respiration in a eukaryotic cell is the",
     "options": [
-      "the parasite is completely independent of hosts",
-      "untreated animals can maintain and reintroduce the parasite population",
-      "treatment converts parasites into bacteria",
-      "the parasite reproduces only in soil"
-    ],
-    "answer": "B"
-  },
-
-  {
-    "question": "Which nutrient is primarily responsible for growth and repair of worn-out tissues?",
-    "options": [
-      "Carbohydrate",
-      "Protein",
-      "Vitamin",
-      "Water"
+      "nucleus",
+      "mitochondrion",
+      "ribosome",
+      "vacuole"
     ],
     "answer": "B"
   },
   {
-    "question": "A person who consumes very little vitamin C over a prolonged period is most likely to suffer from",
+    "question": "Which option is correct? the main site of aerobic respiration in a eukaryotic cell is the",
     "options": [
-      "Rickets",
-      "Scurvy",
-      "Night blindness",
-      "Beriberi"
+      "mitochondrion",
+      "nucleus",
+      "ribosome",
+      "vacuole"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Select the best answer: The main site of aerobic respiration in a eukaryotic cell is the",
+    "options": [
+      "nucleus",
+      "mitochondrion",
+      "vacuole",
+      "ribosome"
     ],
     "answer": "B"
   },
   {
-    "question": "Which food test gives a blue-black colour when starch is present?",
+    "question": "The first stage of respiration, glycolysis, occurs in the",
     "options": [
-      "Biuret test",
-      "Benedict's test",
-      "Iodine test",
-      "Emulsion test"
+      "nucleus",
+      "chloroplast",
+      "mitochondrial matrix only",
+      "cytoplasm"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which option is correct? the first stage of respiration, glycolysis, occurs in the",
+    "options": [
+      "chloroplast",
+      "mitochondrial matrix only",
+      "nucleus",
+      "cytoplasm"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Select the best answer: The first stage of respiration, glycolysis, occurs in the",
+    "options": [
+      "nucleus",
+      "cytoplasm",
+      "chloroplast",
+      "mitochondrial matrix only"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The end products of aerobic respiration are",
+    "options": [
+      "lactic acid only",
+      "glucose and oxygen",
+      "ethanol and oxygen",
+      "carbon dioxide, water and energy"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which option is correct? the end products of aerobic respiration are",
+    "options": [
+      "lactic acid only",
+      "ethanol and oxygen",
+      "carbon dioxide, water and energy",
+      "glucose and oxygen"
     ],
     "answer": "C"
   },
   {
-    "question": "Which enzyme begins the digestion of starch in the mouth?",
+    "question": "Select the best answer: The end products of aerobic respiration are",
     "options": [
-      "Pepsin",
-      "Amylase",
-      "Lipase",
-      "Trypsin"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Bile assists digestion mainly by",
-    "options": [
-      "converting protein into amino acids",
-      "emulsifying fats and providing an alkaline medium",
-      "converting starch directly into glucose",
-      "digesting cellulose"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A deficiency of iron in the diet is most directly associated with",
-    "options": [
-      "Anaemia",
-      "Goitre",
-      "Scurvy",
-      "Kwashiorkor"
+      "carbon dioxide, water and energy",
+      "lactic acid only",
+      "ethanol and oxygen",
+      "glucose and oxygen"
     ],
     "answer": "A"
   },
   {
-    "question": "Which part of the alimentary canal is the major site of absorption of digested food?",
+    "question": "Anaerobic respiration in yeast produces ethanol and",
     "options": [
-      "Stomach",
-      "Small intestine",
-      "Large intestine",
-      "Oesophagus"
+      "carbon dioxide",
+      "starch",
+      "oxygen",
+      "urea"
     ],
-    "answer": "B"
+    "answer": "A"
   },
   {
-    "question": "The numerous villi in the small intestine are important because they",
+    "question": "Which option is correct? anaerobic respiration in yeast produces ethanol and",
     "options": [
-      "produce bile",
-      "increase the surface area for absorption",
-      "prevent digestion",
-      "store undigested food"
+      "urea",
+      "starch",
+      "oxygen",
+      "carbon dioxide"
     ],
-    "answer": "B"
+    "answer": "D"
   },
   {
-    "question": "Which enzyme is mainly responsible for the digestion of fats?",
+    "question": "Select the best answer: Anaerobic respiration in yeast produces ethanol and",
     "options": [
-      "Amylase",
-      "Lipase",
-      "Pepsin",
-      "Maltase"
+      "urea",
+      "starch",
+      "oxygen",
+      "carbon dioxide"
     ],
-    "answer": "B"
+    "answer": "D"
   },
   {
-    "question": "A balanced diet is best described as a diet that",
+    "question": "In human muscles, anaerobic respiration may produce",
     "options": [
-      "contains only carbohydrates and proteins",
-      "contains all essential nutrients in appropriate proportions",
-      "contains mostly fats",
-      "contains the same quantity of every nutrient"
+      "ethanol",
+      "bile",
+      "chlorophyll",
+      "lactic acid"
     ],
-    "answer": "B"
+    "answer": "D"
   },
   {
-    "question": "Which vitamin is particularly important for normal blood clotting?",
+    "question": "Which option is correct? in human muscles, anaerobic respiration may produce",
     "options": [
-      "Vitamin A",
-      "Vitamin C",
-      "Vitamin K",
-      "Vitamin D"
+      "ethanol",
+      "chlorophyll",
+      "bile",
+      "lactic acid"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Select the best answer: In human muscles, anaerobic respiration may produce",
+    "options": [
+      "ethanol",
+      "bile",
+      "chlorophyll",
+      "lactic acid"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The energy currency of the cell is",
+    "options": [
+      "RNA",
+      "haemoglobin",
+      "ATP",
+      "DNA"
     ],
     "answer": "C"
   },
   {
-    "question": "A child has swollen legs, poor growth and a diet severely deficient in protein. The condition is most likely",
+    "question": "Which option is correct? the energy currency of the cell is",
     "options": [
-      "Marasmus",
-      "Kwashiorkor",
-      "Rickets",
-      "Scurvy"
+      "DNA",
+      "haemoglobin",
+      "RNA",
+      "ATP"
     ],
-    "answer": "B"
-  },
-
-  {
-    "question": "Which organelle is primarily responsible for aerobic respiration in a cell?",
-    "options": [
-      "Ribosome",
-      "Mitochondrion",
-      "Golgi apparatus",
-      "Lysosome"
-    ],
-    "answer": "B"
+    "answer": "D"
   },
   {
-    "question": "The selectively permeable structure surrounding the cytoplasm of a cell is the",
+    "question": "Select the best answer: The energy currency of the cell is",
     "options": [
-      "cell wall",
-      "cell membrane",
-      "nuclear membrane",
-      "tonoplast"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which organelle is directly involved in protein synthesis?",
-    "options": [
-      "Ribosome",
-      "Vacuole",
-      "Chloroplast",
-      "Centriole"
+      "ATP",
+      "DNA",
+      "RNA",
+      "haemoglobin"
     ],
     "answer": "A"
   },
   {
-    "question": "The main function of the nucleus is to",
+    "question": "The gas used in aerobic respiration is",
     "options": [
-      "produce energy",
-      "control cell activities and contain genetic material",
-      "digest worn-out organelles",
-      "store starch"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which structure is present in a typical plant cell but absent in a typical animal cell?",
-    "options": [
-      "Cell membrane",
-      "Cytoplasm",
-      "Cellulose cell wall",
-      "Mitochondrion"
+      "carbon dioxide",
+      "nitrogen",
+      "oxygen",
+      "hydrogen"
     ],
     "answer": "C"
   },
   {
-    "question": "A plant cell placed in a concentrated salt solution loses water and its cytoplasm pulls away from the cell wall. This process is called",
+    "question": "Which option is correct? the gas used in aerobic respiration is",
     "options": [
-      "Turgidity",
-      "Plasmolysis",
-      "Diffusion",
-      "Active transport"
+      "hydrogen",
+      "oxygen",
+      "nitrogen",
+      "carbon dioxide"
     ],
     "answer": "B"
   },
   {
-    "question": "Which organelle modifies, sorts and packages proteins for transport?",
+    "question": "Select the best answer: The gas used in aerobic respiration is",
     "options": [
-      "Golgi apparatus",
-      "Ribosome",
-      "Mitochondrion",
-      "Chloroplast"
+      "nitrogen",
+      "hydrogen",
+      "carbon dioxide",
+      "oxygen"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The gas released during aerobic respiration is",
+    "options": [
+      "oxygen",
+      "carbon dioxide",
+      "nitrogen",
+      "hydrogen"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which option is correct? the gas released during aerobic respiration is",
+    "options": [
+      "oxygen",
+      "hydrogen",
+      "nitrogen",
+      "carbon dioxide"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Select the best answer: The gas released during aerobic respiration is",
+    "options": [
+      "hydrogen",
+      "oxygen",
+      "nitrogen",
+      "carbon dioxide"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which blood component transports most oxygen?",
+    "options": [
+      "Platelets",
+      "White blood cells",
+      "Plasma proteins only",
+      "Red blood cells"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which option is correct? which blood component transports most oxygen?",
+    "options": [
+      "Red blood cells",
+      "Platelets",
+      "White blood cells",
+      "Plasma proteins only"
     ],
     "answer": "A"
   },
   {
-    "question": "Lysosomes are particularly important because they contain enzymes that",
+    "question": "Select the best answer: Which blood component transports most oxygen?",
     "options": [
-      "carry out photosynthesis",
-      "digest cellular waste and worn-out structures",
-      "synthesize glucose",
-      "produce chromosomes"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which structure controls movement of substances into and out of the cell?",
-    "options": [
-      "Cell membrane",
-      "Nucleolus",
-      "Ribosome",
-      "Cell wall"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A plant cell is placed in distilled water. What is most likely to happen?",
-    "options": [
-      "It becomes plasmolysed",
-      "It gains water and becomes turgid",
-      "It loses all its solutes",
-      "Its cell wall dissolves"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which organelle contains chlorophyll and is the main site of photosynthesis?",
-    "options": [
-      "Mitochondrion",
-      "Chloroplast",
-      "Ribosome",
-      "Golgi apparatus"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which statement correctly compares a plant cell with an animal cell?",
-    "options": [
-      "Animal cells possess chloroplasts while plant cells do not",
-      "Plant cells generally possess a cellulose cell wall and chloroplasts",
-      "Only animal cells contain mitochondria",
-      "Only plant cells possess cell membranes"
-    ],
-    "answer": "B"
-  },
-
-  {
-    "question": "Which characteristic is most useful in distinguishing living organisms from non-living things?",
-    "options": [
-      "They occupy space",
-      "They carry out life processes",
-      "They have a definite colour",
-      "They possess a fixed shape"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which sequence correctly represents the taxonomic hierarchy from the broadest to the most specific?",
-    "options": [
-      "Kingdom, Phylum, Class, Order, Family, Genus, Species",
-      "Species, Genus, Family, Order, Class, Phylum, Kingdom",
-      "Kingdom, Class, Phylum, Family, Order, Genus, Species",
-      "Phylum, Kingdom, Class, Order, Species, Family, Genus"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Organisms belonging to the same species must be capable of",
-    "options": [
-      "living in exactly the same habitat",
-      "producing fertile offspring under natural conditions",
-      "having identical body sizes",
-      "eating the same food"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which group contains organisms that are generally unicellular, microscopic and lack a true nucleus?",
-    "options": [
-      "Fungi",
-      "Prokaryotes",
-      "Plants",
-      "Animals"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which characteristic is most typical of fungi?",
-    "options": [
-      "They manufacture food using chlorophyll",
-      "They obtain nutrients by absorption",
-      "They have no cell walls",
-      "They are all motile"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which feature distinguishes mammals from other vertebrates?",
-    "options": [
-      "Presence of a backbone",
-      "Presence of lungs",
-      "Presence of mammary glands",
-      "Presence of a closed circulatory system"
+      "White blood cells",
+      "Platelets",
+      "Red blood cells",
+      "Plasma proteins only"
     ],
     "answer": "C"
   },
   {
-    "question": "Which of the following is an example of an arthropod?",
+    "question": "The respiratory quotient is the ratio of carbon dioxide produced to",
     "options": [
+      "ATP used",
+      "water absorbed",
+      "glucose stored",
+      "oxygen consumed"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which option is correct? the respiratory quotient is the ratio of carbon dioxide produced to",
+    "options": [
+      "ATP used",
+      "water absorbed",
+      "glucose stored",
+      "oxygen consumed"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Select the best answer: The respiratory quotient is the ratio of carbon dioxide produced to",
+    "options": [
+      "glucose stored",
+      "oxygen consumed",
+      "water absorbed",
+      "ATP used"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Complete oxidation of glucose yields more energy than anaerobic respiration because it",
+    "options": [
+      "produces no waste",
+      "uses no enzymes",
+      "breaks down glucose more completely",
+      "occurs without glucose"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which option is correct? complete oxidation of glucose yields more energy than anaerobic respiration because it",
+    "options": [
+      "breaks down glucose more completely",
+      "produces no waste",
+      "uses no enzymes",
+      "occurs without glucose"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Select the best answer: Complete oxidation of glucose yields more energy than anaerobic respiration because it",
+    "options": [
+      "occurs without glucose",
+      "breaks down glucose more completely",
+      "uses no enzymes",
+      "produces no waste"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The equation for aerobic respiration includes glucose and oxygen producing carbon dioxide, water and",
+    "options": [
+      "protein",
+      "nitrogen",
+      "chlorophyll",
+      "energy"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which option is correct? the equation for aerobic respiration includes glucose and oxygen producing carbon dioxide, water and",
+    "options": [
+      "energy",
+      "nitrogen",
+      "protein",
+      "chlorophyll"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Select the best answer: The equation for aerobic respiration includes glucose and oxygen producing carbon dioxide, water and",
+    "options": [
+      "protein",
+      "chlorophyll",
+      "energy",
+      "nitrogen"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A lack of oxygen during vigorous exercise may cause increased production of",
+    "options": [
+      "bile salts",
+      "ethanol in muscle cells",
+      "lactic acid",
+      "starch"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which option is correct? a lack of oxygen during vigorous exercise may cause increased production of",
+    "options": [
+      "lactic acid",
+      "starch",
+      "bile salts",
+      "ethanol in muscle cells"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Select the best answer: A lack of oxygen during vigorous exercise may cause increased production of",
+    "options": [
+      "lactic acid",
+      "bile salts",
+      "ethanol in muscle cells",
+      "starch"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The folds of the inner mitochondrial membrane are called",
+    "options": [
+      "alveoli",
+      "grana",
+      "villi",
+      "cristae"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which option is correct? the folds of the inner mitochondrial membrane are called",
+    "options": [
+      "villi",
+      "alveoli",
+      "grana",
+      "cristae"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Select the best answer: The folds of the inner mitochondrial membrane are called",
+    "options": [
+      "alveoli",
+      "cristae",
+      "villi",
+      "grana"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The breakdown of food to release usable energy is called",
+    "options": [
+      "respiration",
+      "transpiration",
+      "excretion",
+      "photosynthesis"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which option is correct? the breakdown of food to release usable energy is called",
+    "options": [
+      "transpiration",
+      "excretion",
+      "respiration",
+      "photosynthesis"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Select the best answer: The breakdown of food to release usable energy is called",
+    "options": [
+      "photosynthesis",
+      "transpiration",
+      "respiration",
+      "excretion"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which organism commonly carries out alcoholic fermentation?",
+    "options": [
+      "Yeast",
+      "Fern",
       "Earthworm",
-      "Grasshopper",
-      "Snail",
-      "Tilapia"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A major characteristic of insects is the presence of",
-    "options": [
-      "two pairs of legs",
-      "three pairs of jointed legs",
-      "four pairs of wings in all cases",
-      "a vertebral column"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which feature is characteristic of flowering plants?",
-    "options": [
-      "Production of seeds enclosed within fruits",
-      "Absence of vascular tissues",
-      "Dependence entirely on spores",
-      "Absence of reproductive structures"
+      "Moss"
     ],
     "answer": "A"
   },
   {
-    "question": "Which of the following organisms belongs to the phylum Mollusca?",
+    "question": "Which option is correct? which organism commonly carries out alcoholic fermentation?",
     "options": [
-      "Earthworm",
-      "Snail",
-      "Grasshopper",
-      "Starfish"
+      "Yeast",
+      "Moss",
+      "Fern",
+      "Earthworm"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Select the best answer: Which organism commonly carries out alcoholic fermentation?",
+    "options": [
+      "Yeast",
+      "Moss",
+      "Fern",
+      "Earthworm"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Energy released in respiration is used for",
+    "options": [
+      "growth, movement and active transport",
+      "only changing eye colour",
+      "stopping metabolism",
+      "making sunlight"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which option is correct? energy released in respiration is used for",
+    "options": [
+      "growth, movement and active transport",
+      "stopping metabolism",
+      "only changing eye colour",
+      "making sunlight"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Select the best answer: Energy released in respiration is used for",
+    "options": [
+      "stopping metabolism",
+      "making sunlight",
+      "growth, movement and active transport",
+      "only changing eye colour"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Respiration differs from breathing because respiration is a",
+    "options": [
+      "movement of air only",
+      "physical exchange of air only",
+      "chemical process in cells",
+      "movement of the rib cage only"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which option is correct? respiration differs from breathing because respiration is a",
+    "options": [
+      "movement of the rib cage only",
+      "physical exchange of air only",
+      "chemical process in cells",
+      "movement of air only"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Select the best answer: Respiration differs from breathing because respiration is a",
+    "options": [
+      "chemical process in cells",
+      "movement of air only",
+      "physical exchange of air only",
+      "movement of the rib cage only"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Enzymes involved in respiration function best at",
+    "options": [
+      "zero temperature only",
+      "any temperature without limit",
+      "all pH values equally",
+      "suitable optimum conditions"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which option is correct? enzymes involved in respiration function best at",
+    "options": [
+      "zero temperature only",
+      "suitable optimum conditions",
+      "all pH values equally",
+      "any temperature without limit"
     ],
     "answer": "B"
   },
   {
-    "question": "Why is scientific classification important?",
+    "question": "Select the best answer: Enzymes involved in respiration function best at",
     "options": [
-      "It makes all organisms identical",
-      "It provides an organized way of identifying and studying relationships among organisms",
-      "It prevents organisms from evolving",
-      "It eliminates variation within species"
+      "any temperature without limit",
+      "all pH values equally",
+      "suitable optimum conditions",
+      "zero temperature only"
     ],
-    "answer": "B"
+    "answer": "C"
   }
 ]

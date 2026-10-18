@@ -1,506 +1,602 @@
 [
   {
-    "question": "The authority of a state to make and enforce laws within its territory without being legally subject to another state is most closely related to",
+    "question": "The executive arm of government is primarily responsible for",
     "options": [
-      "sovereignty",
-      "legitimacy",
-      "franchise",
-      "federalism"
+      "implementing laws and policies",
+      "making all judicial decisions",
+      "interpreting laws",
+      "conducting private businesses"
     ],
     "answer": "A"
   },
   {
-    "question": "A government may be legitimate even when citizens disagree with particular policies because legitimacy primarily concerns",
+    "question": "Which option is correct? the executive arm of government is primarily responsible for",
     "options": [
-      "acceptance of the right to rule under recognized procedures",
-      "agreement with every government decision",
-      "military strength alone",
-      "the size of the population"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which situation best illustrates separation of powers?",
-    "options": [
-      "One institution makes, executes and interprets every law",
-      "Legislative, executive and judicial powers are distributed among different organs",
-      "Traditional rulers appoint all judges",
-      "The military controls elections"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "The primary purpose of checks and balances is to",
-    "options": [
-      "allow one arm to dominate the others",
-      "prevent abuse of power by enabling institutions to restrain one another",
-      "abolish the constitution",
-      "replace elections with appointments"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "In a federation, powers are constitutionally divided between",
-    "options": [
-      "the legislature and judiciary only",
-      "central and component governments",
-      "political parties and pressure groups",
-      "traditional rulers and citizens"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A constitution that is difficult to amend through a special procedure is described as",
-    "options": [
-      "flexible",
-      "rigid",
-      "unitary",
-      "unwritten"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Rule of law is weakened most directly when",
-    "options": [
-      "government officials are also subject to law",
-      "laws are applied selectively to favour powerful persons",
-      "courts interpret legislation",
-      "citizens know their legal rights"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A parliamentary system differs from a presidential system chiefly because in a parliamentary system",
-    "options": [
-      "the executive is normally drawn from and accountable to the legislature",
-      "the judiciary controls cabinet appointments",
-      "there is no legislature",
-      "the head of government must be a monarch"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Universal adult suffrage means",
-    "options": [
-      "only educated adults may vote",
-      "all adult citizens meeting legal requirements have the right to vote",
-      "every resident regardless of citizenship must vote",
-      "only taxpayers may vote"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Judicial review is the power of courts to",
-    "options": [
-      "conduct elections",
-      "examine the legality or constitutionality of governmental actions",
-      "appoint ministers",
-      "write party manifestoes"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A state differs from a government because a state",
-    "options": [
-      "is temporary while government is permanent",
-      "is the enduring political entity, while governments may change",
-      "has no territory",
-      "cannot possess sovereignty"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which is NOT an essential element of a state?",
-    "options": [
-      "Population",
-      "Defined territory",
-      "Sovereign government",
-      "A single political party"
+      "conducting private businesses",
+      "making all judicial decisions",
+      "interpreting laws",
+      "implementing laws and policies"
     ],
     "answer": "D"
   },
   {
-    "question": "When citizens remove an elected government through constitutionally provided elections, this demonstrates",
+    "question": "Select the best answer: The executive arm of government is primarily responsible for",
     "options": [
-      "political accountability",
-      "military dictatorship",
-      "judicial supremacy",
-      "absolute monarchy"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A constitution is described as the supreme law because",
-    "options": [
-      "ordinary laws and governmental actions must conform to it",
-      "only judges may read it",
-      "it cannot ever be amended",
-      "it applies only to citizens"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A government that derives authority through periodic competitive elections is most directly demonstrating",
-    "options": [
-      "democratic government",
-      "absolute monarchy",
-      "military rule",
-      "theocracy"
-    ],
-    "answer": "A"
-  },
-
-  {
-    "question": "Power differs from authority because authority is power that is",
-    "options": [
-      "always exercised by the military",
-      "recognized as legitimate",
-      "based entirely on wealth",
-      "exercised without rules"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A person's ability to influence government decisions because of wealth, social position or connections is an example of",
-    "options": [
-      "political influence",
-      "sovereignty",
-      "franchise",
-      "citizenship"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Political socialization refers to the process through which individuals",
-    "options": [
-      "acquire political values and attitudes",
-      "become members of the civil service",
-      "register businesses",
-      "obtain citizenship automatically"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which of the following is an example of political participation?",
-    "options": [
-      "Voting in an election",
-      "Buying imported goods",
-      "Changing one's occupation",
-      "Moving to another town"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Political culture is best described as the",
-    "options": [
-      "pattern of political attitudes and beliefs held by members of a society",
-      "written constitution of a country",
-      "number of political parties in a country",
-      "method used to count votes"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A nation is best distinguished from a state by the fact that a nation is primarily based on",
-    "options": [
-      "a shared sense of identity and belonging",
-      "a defined territory and sovereign government only",
-      "a written constitution",
-      "a judicial system"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A government has coercive power when it",
-    "options": [
-      "uses legally authorized force to secure compliance",
-      "depends only on public opinion",
-      "allows every citizen to ignore laws",
-      "transfers all authority to traditional rulers"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which situation best demonstrates political apathy?",
-    "options": [
-      "A citizen campaigns for a candidate",
-      "A citizen refuses to participate in political activities despite having the opportunity",
-      "A citizen attends a political rally",
-      "A citizen votes during an election"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A government gains legitimacy mainly when its authority is",
-    "options": [
-      "accepted as rightful by the people",
-      "supported by force alone",
-      "based on the size of its army",
-      "exercised secretly"
-    ],
-    "answer": "A"
-  },
-
-  {
-    "question": "Citizenship acquired because a person is born to citizens of a country is generally known as citizenship by",
-    "options": [
-      "registration",
-      "birth",
-      "naturalization",
-      "renunciation"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Naturalization is a method of acquiring citizenship by",
-    "options": [
-      "being born in any country automatically",
-      "meeting legal conditions after residing in a country",
-      "winning an election",
-      "joining a political party"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which of the following is a fundamental human right?",
-    "options": [
-      "Right to break any law",
-      "Right to personal liberty",
-      "Right to avoid taxation",
-      "Right to control public property"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "The right to freedom of expression means that citizens may",
-    "options": [
-      "express opinions subject to lawful limitations",
-      "publish anything without any legal responsibility",
-      "insult anyone without consequences",
-      "ignore court orders"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which of the following is a duty of a responsible citizen?",
-    "options": [
-      "Destroying public property",
-      "Obeying lawful authority",
-      "Refusing to pay legitimate taxes",
-      "Preventing others from voting"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Citizenship may be renounced when a citizen",
-    "options": [
-      "voluntarily gives up citizenship according to the law",
-      "votes against the government",
-      "criticizes a public official",
-      "changes occupation"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A citizen's right to vote and contest elections is most closely associated with",
-    "options": [
-      "political rights",
-      "economic rights",
-      "property rights",
-      "social privileges"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The right to a fair hearing is important because it helps to",
-    "options": [
-      "protect individuals against arbitrary decisions",
-      "prevent courts from hearing cases",
-      "give government unlimited power",
-      "remove the need for evidence"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "When a citizen enjoys rights but deliberately refuses to perform civic duties, the most appropriate description is",
-    "options": [
-      "responsible citizenship",
-      "irresponsible citizenship",
-      "political socialization",
-      "constitutionalism"
-    ],
-    "answer": "B"
-  },
-
-  {
-    "question": "The rule of law requires that",
-    "options": [
-      "government officials are above the law",
-      "all persons are subject to the law",
-      "only judges must obey the law",
-      "laws apply only during elections"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Equality before the law means that",
-    "options": [
-      "every person receives identical punishment regardless of circumstances",
-      "people are subject to the same legal principles without unlawful discrimination",
-      "only wealthy citizens can seek justice",
-      "public officials cannot be prosecuted"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A written constitution is one that is",
-    "options": [
-      "contained mainly in a formal written document or documents",
-      "never amended",
-      "always flexible",
-      "based entirely on customs"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "One important function of a constitution is to",
-    "options": [
-      "define and limit governmental powers",
-      "abolish all political parties",
-      "prevent citizens from voting",
-      "remove the judiciary"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Constitutionalism is primarily concerned with",
-    "options": [
-      "unlimited governmental authority",
-      "government being exercised according to constitutional limits",
-      "rule by military decree",
-      "abolition of fundamental rights"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "The principle of separation of powers is intended mainly to",
-    "options": [
-      "concentrate authority in one person",
-      "prevent excessive concentration of governmental power",
-      "abolish the legislature",
-      "make the judiciary subordinate to political parties"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "If a law passed by the legislature conflicts with the constitution, a court exercising judicial review may",
-    "options": [
-      "declare the law unconstitutional",
-      "automatically rewrite the constitution",
-      "dissolve the electorate",
-      "appoint a new legislature"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A flexible constitution is one that",
-    "options": [
-      "can be amended through procedures similar to those used for ordinary laws",
-      "cannot be changed under any circumstances",
-      "must always be unwritten",
-      "gives unlimited power to the judiciary"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which principle prevents a public officer from exercising powers that have not been legally granted?",
-    "options": [
-      "Rule of law",
-      "Majority rule",
-      "Political apathy",
-      "Collective ownership"
-    ],
-    "answer": "A"
-  },
-
-  {
-    "question": "Democracy is best defined as government in which",
-    "options": [
-      "political power is ultimately derived from the people",
-      "the military controls all political institutions",
-      "one person rules without restrictions",
-      "judges make all political decisions"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Representative democracy operates mainly through",
-    "options": [
-      "elected representatives",
-      "hereditary rulers only",
-      "military commanders",
-      "appointed traditional chiefs"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The principle of majority rule in a democracy must normally be accompanied by",
-    "options": [
-      "protection of minority rights",
-      "abolition of opposition parties",
-      "suspension of elections",
-      "unlimited executive power"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A free and fair election requires",
-    "options": [
-      "equal opportunity for voters to make genuine choices",
-      "government selection of all candidates",
-      "restriction of voting to supporters of the ruling party",
-      "absence of independent electoral institutions"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which is most likely to weaken democratic government?",
-    "options": [
-      "An independent judiciary",
-      "Free and fair elections",
-      "Suppression of political opposition",
-      "Freedom of the press"
+      "making all judicial decisions",
+      "interpreting laws",
+      "implementing laws and policies",
+      "conducting private businesses"
     ],
     "answer": "C"
   },
   {
-    "question": "Accountability in democratic government means that public officials should",
+    "question": "At the federal level in Nigeria, the President is the head of the",
     "options": [
-      "explain and justify their actions and be answerable for them",
-      "exercise power without scrutiny",
-      "avoid public criticism",
-      "remain in office permanently"
+      "executive",
+      "legislature",
+      "judiciary",
+      "civil service union"
     ],
     "answer": "A"
   },
   {
-    "question": "Which condition most strengthens democratic consolidation?",
+    "question": "Which option is correct? at the federal level in Nigeria, the President is the head of the",
     "options": [
-      "Respect for constitutional procedures",
-      "Political violence",
-      "Suppression of opposition",
-      "Electoral fraud"
+      "executive",
+      "legislature",
+      "judiciary",
+      "civil service union"
     ],
     "answer": "A"
   },
   {
-    "question": "An independent press contributes to democracy mainly by",
+    "question": "Select the best answer: At the federal level in Nigeria, the President is the head of the",
     "options": [
-      "providing information and scrutinizing those in power",
-      "replacing the judiciary",
-      "appointing elected officials",
-      "making laws directly"
+      "civil service union",
+      "executive",
+      "legislature",
+      "judiciary"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The chief function of a minister is to",
+    "options": [
+      "write the constitution alone",
+      "preside over every court",
+      "assist in administering a ministry",
+      "conduct all elections"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which option is correct? the chief function of a minister is to",
+    "options": [
+      "conduct all elections",
+      "write the constitution alone",
+      "preside over every court",
+      "assist in administering a ministry"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Select the best answer: The chief function of a minister is to",
+    "options": [
+      "write the constitution alone",
+      "assist in administering a ministry",
+      "preside over every court",
+      "conduct all elections"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A cabinet is generally made up of",
+    "options": [
+      "judges only",
+      "members of the opposition only",
+      "senior ministers or secretaries advising the chief executive",
+      "traditional rulers only"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which option is correct? a cabinet is generally made up of",
+    "options": [
+      "traditional rulers only",
+      "judges only",
+      "senior ministers or secretaries advising the chief executive",
+      "members of the opposition only"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Select the best answer: A cabinet is generally made up of",
+    "options": [
+      "traditional rulers only",
+      "judges only",
+      "members of the opposition only",
+      "senior ministers or secretaries advising the chief executive"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The civil service supports the executive by",
+    "options": [
+      "declaring laws unconstitutional",
+      "electing the president",
+      "replacing the legislature",
+      "implementing government decisions and providing continuity"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which option is correct? the civil service supports the executive by",
+    "options": [
+      "declaring laws unconstitutional",
+      "implementing government decisions and providing continuity",
+      "replacing the legislature",
+      "electing the president"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Select the best answer: The civil service supports the executive by",
+    "options": [
+      "electing the president",
+      "replacing the legislature",
+      "declaring laws unconstitutional",
+      "implementing government decisions and providing continuity"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The power to appoint ministers is usually vested in the",
+    "options": [
+      "chief executive, subject to constitutional rules",
+      "chief justice alone",
+      "local market association",
+      "electoral commission alone"
     ],
     "answer": "A"
+  },
+  {
+    "question": "Which option is correct? the power to appoint ministers is usually vested in the",
+    "options": [
+      "local market association",
+      "electoral commission alone",
+      "chief justice alone",
+      "chief executive, subject to constitutional rules"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Select the best answer: The power to appoint ministers is usually vested in the",
+    "options": [
+      "chief executive, subject to constitutional rules",
+      "chief justice alone",
+      "local market association",
+      "electoral commission alone"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "An executive order is an instruction issued by",
+    "options": [
+      "a private citizen to the courts",
+      "a trade union to judges",
+      "a voter to parliament",
+      "an executive authority within its lawful powers"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which option is correct? an executive order is an instruction issued by",
+    "options": [
+      "an executive authority within its lawful powers",
+      "a trade union to judges",
+      "a voter to parliament",
+      "a private citizen to the courts"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Select the best answer: An executive order is an instruction issued by",
+    "options": [
+      "a trade union to judges",
+      "an executive authority within its lawful powers",
+      "a voter to parliament",
+      "a private citizen to the courts"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Collective ministerial responsibility means ministers should",
+    "options": [
+      "ignore all cabinet decisions",
+      "serve as judges",
+      "publicly support agreed cabinet decisions or resign",
+      "avoid answering to parliament"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which option is correct? collective ministerial responsibility means ministers should",
+    "options": [
+      "serve as judges",
+      "ignore all cabinet decisions",
+      "publicly support agreed cabinet decisions or resign",
+      "avoid answering to parliament"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Select the best answer: Collective ministerial responsibility means ministers should",
+    "options": [
+      "serve as judges",
+      "ignore all cabinet decisions",
+      "avoid answering to parliament",
+      "publicly support agreed cabinet decisions or resign"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "In a presidential system, the president is usually",
+    "options": [
+      "the leader of every court",
+      "the speaker of parliament",
+      "only the chief judge",
+      "both head of state and head of government"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which option is correct? in a presidential system, the president is usually",
+    "options": [
+      "the leader of every court",
+      "both head of state and head of government",
+      "only the chief judge",
+      "the speaker of parliament"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Select the best answer: In a presidential system, the president is usually",
+    "options": [
+      "both head of state and head of government",
+      "the leader of every court",
+      "the speaker of parliament",
+      "only the chief judge"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "In a parliamentary system, the prime minister usually depends on",
+    "options": [
+      "the central bank alone",
+      "the army alone",
+      "the support of a legislative majority",
+      "the approval of every judge for each policy"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which option is correct? in a parliamentary system, the prime minister usually depends on",
+    "options": [
+      "the central bank alone",
+      "the approval of every judge for each policy",
+      "the army alone",
+      "the support of a legislative majority"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Select the best answer: In a parliamentary system, the prime minister usually depends on",
+    "options": [
+      "the army alone",
+      "the support of a legislative majority",
+      "the central bank alone",
+      "the approval of every judge for each policy"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The executive may be checked by the legislature through",
+    "options": [
+      "oversight and budget scrutiny",
+      "abolishing all courts",
+      "controlling the weather",
+      "appointing every private employer"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which option is correct? the executive may be checked by the legislature through",
+    "options": [
+      "abolishing all courts",
+      "oversight and budget scrutiny",
+      "appointing every private employer",
+      "controlling the weather"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Select the best answer: The executive may be checked by the legislature through",
+    "options": [
+      "abolishing all courts",
+      "oversight and budget scrutiny",
+      "appointing every private employer",
+      "controlling the weather"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The veto is a power that may allow an executive to",
+    "options": [
+      "cancel all elections permanently",
+      "amend any court judgment",
+      "sentence every accused person",
+      "reject or return a bill for reconsideration"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which option is correct? the veto is a power that may allow an executive to",
+    "options": [
+      "reject or return a bill for reconsideration",
+      "sentence every accused person",
+      "cancel all elections permanently",
+      "amend any court judgment"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Select the best answer: The veto is a power that may allow an executive to",
+    "options": [
+      "reject or return a bill for reconsideration",
+      "cancel all elections permanently",
+      "sentence every accused person",
+      "amend any court judgment"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The main role of a governor in a state government is to",
+    "options": [
+      "head the state executive",
+      "lead the Supreme Court",
+      "register all voters personally",
+      "preside over the National Assembly"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which option is correct? the main role of a governor in a state government is to",
+    "options": [
+      "lead the Supreme Court",
+      "preside over the National Assembly",
+      "register all voters personally",
+      "head the state executive"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Select the best answer: The main role of a governor in a state government is to",
+    "options": [
+      "head the state executive",
+      "preside over the National Assembly",
+      "register all voters personally",
+      "lead the Supreme Court"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The head of a local government executive in Nigeria is commonly the",
+    "options": [
+      "inspector-general of police",
+      "chief justice",
+      "chairman",
+      "senate president"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which option is correct? the head of a local government executive in Nigeria is commonly the",
+    "options": [
+      "chief justice",
+      "inspector-general of police",
+      "chairman",
+      "senate president"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Select the best answer: The head of a local government executive in Nigeria is commonly the",
+    "options": [
+      "senate president",
+      "chairman",
+      "chief justice",
+      "inspector-general of police"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The executive is accountable to the people through mechanisms such as",
+    "options": [
+      "secret hereditary succession only",
+      "unlimited immunity from law",
+      "elections and lawful oversight",
+      "private ownership of courts"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which option is correct? the executive is accountable to the people through mechanisms such as",
+    "options": [
+      "secret hereditary succession only",
+      "elections and lawful oversight",
+      "unlimited immunity from law",
+      "private ownership of courts"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Select the best answer: The executive is accountable to the people through mechanisms such as",
+    "options": [
+      "secret hereditary succession only",
+      "unlimited immunity from law",
+      "private ownership of courts",
+      "elections and lawful oversight"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A caretaker executive arrangement is generally intended to",
+    "options": [
+      "prevent all public services",
+      "manage affairs temporarily until a lawful successor takes over",
+      "replace the constitution permanently",
+      "abolish public administration"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which option is correct? a caretaker executive arrangement is generally intended to",
+    "options": [
+      "replace the constitution permanently",
+      "manage affairs temporarily until a lawful successor takes over",
+      "prevent all public services",
+      "abolish public administration"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Select the best answer: A caretaker executive arrangement is generally intended to",
+    "options": [
+      "prevent all public services",
+      "abolish public administration",
+      "replace the constitution permanently",
+      "manage affairs temporarily until a lawful successor takes over"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The attorney-general commonly advises government on",
+    "options": [
+      "crop prices only",
+      "weather forecasting",
+      "legal matters",
+      "school sports"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which option is correct? the attorney-general commonly advises government on",
+    "options": [
+      "legal matters",
+      "school sports",
+      "weather forecasting",
+      "crop prices only"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Select the best answer: The attorney-general commonly advises government on",
+    "options": [
+      "school sports",
+      "crop prices only",
+      "legal matters",
+      "weather forecasting"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A public policy is put into effect mainly by the",
+    "options": [
+      "executive and public administration",
+      "private media only",
+      "judiciary alone",
+      "electorate individually"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which option is correct? a public policy is put into effect mainly by the",
+    "options": [
+      "private media only",
+      "electorate individually",
+      "judiciary alone",
+      "executive and public administration"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Select the best answer: A public policy is put into effect mainly by the",
+    "options": [
+      "private media only",
+      "electorate individually",
+      "executive and public administration",
+      "judiciary alone"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "The executive's budget proposal is commonly submitted to",
+    "options": [
+      "foreign businesses for approval",
+      "the police station for trial",
+      "the legislature for consideration",
+      "the Supreme Court for election"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which option is correct? the executive's budget proposal is commonly submitted to",
+    "options": [
+      "the Supreme Court for election",
+      "foreign businesses for approval",
+      "the police station for trial",
+      "the legislature for consideration"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Select the best answer: The executive's budget proposal is commonly submitted to",
+    "options": [
+      "the legislature for consideration",
+      "the Supreme Court for election",
+      "the police station for trial",
+      "foreign businesses for approval"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Separation of powers prevents the executive from",
+    "options": [
+      "concentrating all government powers in one arm",
+      "implementing any lawful policy",
+      "appointing any official under law",
+      "providing public services"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which option is correct? separation of powers prevents the executive from",
+    "options": [
+      "implementing any lawful policy",
+      "providing public services",
+      "appointing any official under law",
+      "concentrating all government powers in one arm"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Select the best answer: Separation of powers prevents the executive from",
+    "options": [
+      "appointing any official under law",
+      "implementing any lawful policy",
+      "concentrating all government powers in one arm",
+      "providing public services"
+    ],
+    "answer": "C"
   }
 ]

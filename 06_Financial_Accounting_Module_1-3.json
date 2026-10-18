@@ -1,483 +1,602 @@
 [
   {
-    "question": "Which aid to trade primarily facilitates the movement of goods from producer to consumer?",
+    "question": "The cash book records",
     "options": [
-      "Banking",
-      "Transport",
-      "Insurance",
-      "Advertising"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A wholesaler breaks bulk mainly because retailers generally",
-    "options": [
-      "prefer to buy smaller quantities than manufacturers produce",
-      "cannot sell branded goods",
-      "must manufacture the goods themselves",
-      "provide insurance to producers"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A trader buys goods on credit and later pays through a bank transfer. Which pair of aids to trade is most directly involved?",
-    "options": [
-      "Warehousing and advertising",
-      "Banking and credit",
-      "Transport and insurance",
-      "Communication and packaging"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which activity is most clearly foreign trade?",
-    "options": [
-      "A Lagos retailer buying from a Kano wholesaler",
-      "A Nigerian firm importing machinery from Germany",
-      "A farmer selling maize at a local market",
-      "A manufacturer selling to a nearby retailer"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A document issued by a carrier acknowledging receipt of goods for transport by sea is the",
-    "options": [
-      "bill of lading",
-      "cheque",
-      "invoice",
-      "credit note"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The major commercial advantage of warehousing is that it",
-    "options": [
-      "eliminates all risks of theft",
-      "bridges the time gap between production and consumption",
-      "removes the need for transport",
-      "guarantees higher prices"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which function of advertising is most directly concerned with introducing an unknown product to potential buyers?",
-    "options": [
-      "Informative function",
-      "Protective function",
-      "Accounting function",
-      "Insurance function"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A retailer insured against fire suffers a covered fire loss. The principle that requires compensation to reflect the actual loss is",
-    "options": [
-      "utmost good faith",
-      "indemnity",
-      "subrogation",
-      "contribution"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which trade term indicates that the seller bears responsibility for delivering goods to the named destination, subject to the agreed terms?",
-    "options": [
-      "Free on board only",
-      "Delivered terms",
-      "Cash discount",
-      "Trade discount"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A commercial agent differs from a wholesaler mainly because the agent generally",
-    "options": [
-      "takes ownership of the goods before resale",
-      "acts on behalf of another party without necessarily taking ownership",
-      "manufactures the goods",
-      "always sells only to final consumers"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which is an example of visible export?",
-    "options": [
-      "A Nigerian company receives payment for consultancy abroad",
-      "Nigeria exports cocoa beans",
-      "A Nigerian tourist buys a foreign airline ticket",
-      "A foreign investor buys Nigerian shares"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A letter of credit is particularly useful in international trade because it",
-    "options": [
-      "eliminates all transport costs",
-      "provides assurance of payment subject to stated conditions",
-      "replaces customs authorities",
-      "guarantees that goods cannot be damaged"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which combination best represents aids to trade rather than branches of production?",
-    "options": [
-      "Banking, insurance and transport",
-      "Mining, farming and fishing",
-      "Manufacturing, construction and mining",
-      "Agriculture, forestry and fishing"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A retailer receives goods that are damaged and returns them to the supplier. The document commonly issued by the supplier to record the reduction in the customer's account is a",
-    "options": [
-      "debit note",
-      "credit note",
-      "statement of account",
-      "pro-forma invoice"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which factor most directly explains the need for communication as an aid to trade?",
-    "options": [
-      "Goods cannot exist without messages",
-      "Buyers and sellers need information to coordinate commercial decisions",
-      "Communication physically transports goods",
-      "Communication removes all business risk"
-    ],
-    "answer": "B"
-  },
-
-  {
-    "question": "Commerce is best described as the",
-    "options": [
-      "production of goods only",
-      "exchange and distribution of goods and services together with activities that facilitate trade",
-      "consumption of goods by households",
-      "manufacturing of finished products only"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which of the following is NOT a function of commerce?",
-    "options": [
-      "Facilitating exchange",
-      "Moving goods to consumers",
-      "Providing finance for trade",
-      "Growing crops"
+      "employees' attendance",
+      "credit sales only",
+      "non-current assets only",
+      "cash and bank transactions"
     ],
     "answer": "D"
   },
   {
-    "question": "A person who buys goods mainly for personal use is classified as a",
+    "question": "A bank reconciliation statement explains differences between the",
     "options": [
-      "wholesaler",
-      "retailer",
-      "consumer",
-      "broker"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which activity belongs directly to trade?",
-    "options": [
-      "Mining iron ore",
-      "Buying and selling goods",
-      "Manufacturing cement",
-      "Growing rice"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Home trade takes place",
-    "options": [
-      "only between two continents",
-      "within the boundaries of a country",
-      "only through seaports",
-      "only between manufacturers"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A trader who buys goods in large quantities from producers and sells them in smaller quantities to retailers is a",
-    "options": [
-      "consumer",
-      "wholesaler",
-      "broker",
-      "manufacturer"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which channel of distribution is the shortest?",
-    "options": [
-      "Producer → Wholesaler → Retailer → Consumer",
-      "Producer → Agent → Wholesaler → Retailer → Consumer",
-      "Producer → Consumer",
-      "Producer → Retailer → Consumer"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "One major disadvantage of a long channel of distribution is that it may",
-    "options": [
-      "reduce the number of middlemen",
-      "increase the final price of goods",
-      "eliminate transportation",
-      "make goods available immediately"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which type of retailer normally sells goods directly to final consumers in very small quantities?",
-    "options": [
-      "Wholesaler",
-      "Retailer",
-      "Manufacturer",
-      "Importer"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A broker is mainly an intermediary who",
-    "options": [
-      "takes ownership of goods permanently",
-      "brings buyers and sellers together for a commission",
-      "manufactures goods for retailers",
-      "provides transport free of charge"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which of the following is a characteristic of a sole proprietorship?",
-    "options": [
-      "It must have at least seven owners",
-      "Ownership and control are usually concentrated in one person",
-      "It is owned by shareholders",
-      "It must be managed by a board of directors"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "The greatest advantage of sole proprietorship is generally",
-    "options": [
-      "limited liability",
-      "ease of decision-making",
-      "perpetual succession",
-      "large capital base"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A major disadvantage of sole proprietorship is",
-    "options": [
-      "quick decision-making",
-      "personal attention to customers",
-      "limited access to large amounts of capital",
-      "simple formation"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "In a partnership, the document containing the terms agreed upon by the partners is called the",
-    "options": [
-      "memorandum of association",
-      "articles of association",
-      "partnership agreement",
-      "prospectus"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which business form has a separate legal personality from its owners?",
-    "options": [
-      "Sole proprietorship",
-      "Partnership",
-      "Registered company",
-      "Family business"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "The liability of shareholders in a company limited by shares is generally limited to",
-    "options": [
-      "all the company's debts",
-      "the amount unpaid on their shares",
-      "their personal assets",
-      "the company's annual profit"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which feature distinguishes a public limited company from a private limited company?",
-    "options": [
-      "A public company can generally offer its shares to the public",
-      "A public company has no shareholders",
-      "A private company must be owned by the government",
-      "A public company cannot employ workers"
+      "cash book and bank statement balances",
+      "capital and drawings",
+      "trial balance and income statement",
+      "sales and purchases ledgers"
     ],
     "answer": "A"
   },
   {
-    "question": "A cooperative society is primarily formed to",
+    "question": "An unpresented cheque is a cheque that has been",
     "options": [
-      "promote the common economic interests of its members",
-      "eliminate all forms of trade",
-      "operate only for government officials",
-      "prevent members from sharing profits"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which source of capital is most directly associated with the issue of shares by a company?",
-    "options": [
-      "Share capital",
-      "Trade credit",
-      "Bank overdraft",
-      "Hire purchase"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A business owned by two or more persons who agree to share profits is most likely a",
-    "options": [
-      "sole proprietorship",
-      "partnership",
-      "cooperative only",
-      "public corporation"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which of the following is NOT a factor that normally determines the choice of form of business ownership?",
-    "options": [
-      "Amount of capital required",
-      "Degree of liability",
-      "Size and nature of the business",
-      "Colour of the owner's clothing"
+      "dishonoured by the payee",
+      "cancelled before issue",
+      "received and banked immediately",
+      "issued but not yet presented to the bank"
     ],
     "answer": "D"
   },
   {
-    "question": "Occupation refers to the",
+    "question": "A deposit not yet credited by the bank is usually added to the",
     "options": [
-      "amount of money a person earns",
-      "regular activity through which a person earns a living",
-      "number of businesses in a country",
-      "total amount of goods produced"
+      "purchases account",
+      "bank statement balance",
+      "cash book balance",
+      "sales account"
     ],
     "answer": "B"
   },
   {
-    "question": "Which of the following is classified as an extractive occupation?",
+    "question": "Bank charges shown on the bank statement but not in the cash book should be",
     "options": [
-      "Teaching",
-      "Mining",
-      "Banking",
-      "Retailing"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A farmer growing cocoa is engaged primarily in",
-    "options": [
-      "primary production",
-      "secondary production",
-      "tertiary production",
-      "commercial banking"
+      "entered in the cash book",
+      "added to sales",
+      "ignored permanently",
+      "recorded as capital"
     ],
     "answer": "A"
   },
   {
-    "question": "Manufacturing belongs to secondary production because it",
+    "question": "A cheque received and entered in the cash book but dishonoured by the bank should be",
     "options": [
-      "extracts raw materials directly from nature",
-      "converts raw materials into finished or semi-finished goods",
-      "provides only personal services",
-      "involves only buying and selling"
+      "added to cash sales",
+      "ignored",
+      "treated as a fixed asset",
+      "deducted from the bank column of the cash book"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The discount allowed column of a three-column cash book records",
+    "options": [
+      "discounts given to customers",
+      "cash purchases only",
+      "bank loans",
+      "discounts received from suppliers"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A contra entry in a cash book records a transfer between",
+    "options": [
+      "capital and drawings only",
+      "cash and bank columns",
+      "sales and purchases accounts",
+      "debtors and creditors"
     ],
     "answer": "B"
   },
   {
-    "question": "Which of the following is an example of tertiary production?",
+    "question": "A favourable bank balance in the cash book is normally a",
     "options": [
-      "Fishing",
-      "Mining",
-      "Banking",
-      "Crop farming"
+      "credit balance",
+      "debit balance",
+      "suspense balance",
+      "nil balance"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A bank overdraft is generally represented by a",
+    "options": [
+      "credit balance in the bank column of the cash book",
+      "debit balance in the bank column",
+      "credit balance in purchases",
+      "debit balance in sales"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The main purpose of petty cash is to pay for",
+    "options": [
+      "large factory machinery",
+      "small routine expenses",
+      "purchase of land",
+      "issue of shares"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Under the imprest system, petty cash is restored to",
+    "options": [
+      "double the original float",
+      "the amount of the original float",
+      "the value of sales",
+      "zero permanently"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "An error of omission occurs when a transaction is",
+    "options": [
+      "entered with equal debit and credit",
+      "recorded twice",
+      "completely left out of the books",
+      "posted to the wrong account but correct side"
     ],
     "answer": "C"
   },
   {
-    "question": "The four basic factors of production are",
+    "question": "An error of commission occurs when an amount is posted to",
     "options": [
-      "land, labour, capital and entrepreneur",
-      "money, machines, markets and managers",
-      "land, money, transport and labour",
-      "capital, banking, insurance and labour"
+      "the correct account and side",
+      "both sides of the same account",
+      "no account at all",
+      "the wrong account of the same class"
     ],
-    "answer": "A"
+    "answer": "D"
   },
   {
-    "question": "The reward for the use of land as a factor of production is",
+    "question": "An error of principle occurs when a transaction violates",
     "options": [
-      "wage",
-      "interest",
-      "rent",
-      "profit"
+      "the use of a cash book",
+      "the date sequence only",
+      "the distinction between capital and revenue items",
+      "the arithmetical total only"
     ],
     "answer": "C"
   },
   {
-    "question": "The reward for labour is",
+    "question": "A suspense account may be opened when",
     "options": [
-      "Rent",
-      "Wages",
-      "Interest",
-      "Profit"
+      "a new asset is purchased",
+      "cash sales increase",
+      "all accounts are closed correctly",
+      "the trial balance totals disagree"
     ],
-    "answer": "B"
+    "answer": "D"
   },
   {
-    "question": "The factor of production that organizes and combines the other factors while bearing business risk is the",
+    "question": "A complete omission of a transaction does not affect the trial balance because",
     "options": [
-      "labourer",
-      "entrepreneur",
-      "consumer",
-      "wholesaler"
+      "only the debit is recorded",
+      "only the credit is recorded",
+      "both debit and credit entries are missing",
+      "the transaction is recorded twice"
     ],
-    "answer": "B"
+    "answer": "C"
   },
   {
-    "question": "Which of the following is an example of direct service production?",
+    "question": "Posting a debit entry to the wrong debit account is an error of",
     "options": [
-      "A tailor making clothes",
-      "A teacher providing lessons",
-      "A miner extracting coal",
-      "A farmer producing maize"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "An increase in the efficiency of workers resulting from training is most likely to increase",
-    "options": [
-      "labour productivity",
-      "land area",
-      "population density",
-      "the number of natural resources"
+      "commission",
+      "principle",
+      "original entry",
+      "complete reversal"
     ],
     "answer": "A"
   },
   {
-    "question": "Which statement best distinguishes production from consumption?",
+    "question": "An error that cancels another error is called a",
     "options": [
-      "Production creates or adds utility, while consumption uses goods and services to satisfy wants",
-      "Production always involves buying, while consumption always involves selling",
-      "Production is only agricultural, while consumption is only industrial",
-      "Production and consumption mean exactly the same thing"
+      "principle error",
+      "transposition only",
+      "compensating error",
+      "casting error"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A suspense account should be closed when",
+    "options": [
+      "the errors causing the difference are corrected",
+      "the cash book is balanced daily",
+      "the business changes its name",
+      "all customers pay cash"
     ],
     "answer": "A"
+  },
+  {
+    "question": "A transposition error may occur when",
+    "options": [
+      "a transaction is omitted entirely",
+      "a correct figure is posted correctly",
+      "digits are reversed, such as 54 entered as 45",
+      "cash is transferred to bank"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A trial balance may still agree despite an error of",
+    "options": [
+      "principle",
+      "one-sided posting",
+      "unequal debit and credit totals",
+      "a missing debit only"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The correction of an error usually requires",
+    "options": [
+      "changing every transaction",
+      "ignoring the difference",
+      "a journal entry or appropriate ledger adjustment",
+      "destroying the ledger"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "An original-entry error occurs when",
+    "options": [
+      "a bank statement arrives late",
+      "the correct amount is posted once",
+      "an asset is depreciated",
+      "the wrong amount is entered in both accounts"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Depreciation is the systematic allocation of a tangible non-current asset's",
+    "options": [
+      "depreciable amount over its useful life",
+      "market value as income",
+      "purchase cost to drawings",
+      "sales revenue to liabilities"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The straight-line method charges",
+    "options": [
+      "a constantly increasing amount each year",
+      "an equal depreciation amount each year",
+      "depreciation only when sold",
+      "no depreciation"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Annual straight-line depreciation equals cost less residual value divided by",
+    "options": [
+      "current liabilities",
+      "capital employed",
+      "annual sales",
+      "useful life"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A machine costs ₦100,000, has residual value ₦10,000 and useful life 5 years. Annual straight-line depreciation is",
+    "options": [
+      "₦18,000",
+      "₦20,000",
+      "₦10,000",
+      "₦22,000"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The reducing-balance method calculates depreciation on the asset's",
+    "options": [
+      "residual value only",
+      "carrying amount at the start of the period",
+      "original cost only every year",
+      "sales revenue"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Accumulated depreciation is shown as a deduction from",
+    "options": [
+      "current sales",
+      "share capital",
+      "the asset's cost in the statement of financial position",
+      "trade receivables"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A provision for doubtful debts recognises expected losses on",
+    "options": [
+      "trade receivables",
+      "trade payables",
+      "share capital",
+      "inventory purchases"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "An increase in the allowance for doubtful debts is generally treated as",
+    "options": [
+      "a cash receipt",
+      "a capital contribution",
+      "income",
+      "an expense"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Residual value is the estimated amount obtainable from disposal of an asset at the end of its",
+    "options": [
+      "first month",
+      "useful life",
+      "purchase date",
+      "accounting year only"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Depreciation is charged even when the market value of an asset",
+    "options": [
+      "is never considered",
+      "is equal to cash",
+      "has increased",
+      "is zero in every case"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A provision differs from a reserve because a provision is generally",
+    "options": [
+      "charged as an expense for a known liability or expected loss",
+      "cash kept in a drawer",
+      "an appropriation of profit only",
+      "always share capital"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The carrying amount of an asset is its cost less",
+    "options": [
+      "trade payables",
+      "cash discounts",
+      "accumulated depreciation and impairment where applicable",
+      "annual revenue"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "The trading account is prepared to determine",
+    "options": [
+      "net cash flow only",
+      "capital introduced",
+      "bank balance only",
+      "gross profit or gross loss"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Net profit is generally calculated by deducting expenses from",
+    "options": [
+      "gross profit plus other income",
+      "current assets",
+      "capital",
+      "sales alone without costs"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Closing inventory is normally shown in the statement of financial position as a",
+    "options": [
+      "current asset",
+      "current liability",
+      "capital expense",
+      "non-current liability"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Carriage inward is usually included in the cost of",
+    "options": [
+      "capital",
+      "purchases",
+      "office equipment",
+      "sales returns"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Carriage outward is normally treated as a",
+    "options": [
+      "selling and distribution expense",
+      "direct purchase cost",
+      "current liability",
+      "non-current asset"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Bad debts written off are recorded as an",
+    "options": [
+      "expense",
+      "capital contribution",
+      "sales return",
+      "asset"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The income statement is prepared to determine the profit or loss for",
+    "options": [
+      "an accounting period",
+      "the whole life of a business only",
+      "the date of incorporation only",
+      "one bank transaction"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "An accrued expense is an expense that has been",
+    "options": [
+      "written off as a bad debt",
+      "incurred but not yet paid",
+      "paid in advance",
+      "received in cash"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A prepaid expense is shown as a",
+    "options": [
+      "capital reserve",
+      "current asset",
+      "current liability",
+      "non-current liability"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Depreciation in final accounts is recorded as an expense and deducted from",
+    "options": [
+      "the related asset's carrying amount",
+      "sales revenue directly as a liability",
+      "capital introduced",
+      "trade payables"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Drawings by the owner are deducted from",
+    "options": [
+      "trade payables",
+      "sales",
+      "purchases",
+      "capital"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The statement of financial position shows assets, liabilities and",
+    "options": [
+      "gross profit for a period only",
+      "equity at a particular date",
+      "units produced",
+      "cash sales only"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Gross profit is calculated as net sales less",
+    "options": [
+      "current liabilities",
+      "administrative expenses only",
+      "capital",
+      "cost of goods sold"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Cost of goods sold is opening inventory plus net purchases and carriage inward less",
+    "options": [
+      "closing inventory",
+      "bank charges",
+      "drawings",
+      "sales returns"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Net sales equal sales less",
+    "options": [
+      "opening inventory",
+      "sales returns",
+      "carriage inward",
+      "purchases returns"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Working capital is current assets less",
+    "options": [
+      "non-current assets",
+      "gross profit",
+      "capital",
+      "current liabilities"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A current ratio is calculated as",
+    "options": [
+      "gross profit divided by capital",
+      "sales divided by inventory",
+      "current assets divided by current liabilities",
+      "current liabilities divided by sales"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A business has current assets of ₦60,000 and current liabilities of ₦30,000. Its current ratio is",
+    "options": [
+      "1:1",
+      "2:1",
+      "1:2",
+      "3:1"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Inventory is normally classified as a",
+    "options": [
+      "non-current liability",
+      "current asset",
+      "capital expense",
+      "long-term loan"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Trade payables are amounts owed by the business to",
+    "options": [
+      "suppliers",
+      "customers who owe the business",
+      "owners as drawings",
+      "employees only"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Trade receivables are amounts owed to the business by",
+    "options": [
+      "suppliers",
+      "the tax authority only",
+      "the owner as capital",
+      "customers"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A liquidity ratio helps assess the ability to meet",
+    "options": [
+      "short-term obligations",
+      "dividend policy only",
+      "sales targets only",
+      "long-term expansion only"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A statement of financial position is prepared",
+    "options": [
+      "as at a particular date",
+      "only for a future date",
+      "for each sale individually",
+      "only when a business closes"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "If closing inventory is overstated, gross profit for the period will generally be",
+    "options": [
+      "equal to zero",
+      "understated",
+      "overstated",
+      "unchanged in all cases"
+    ],
+    "answer": "C"
   }
 ]

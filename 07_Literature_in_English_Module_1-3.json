@@ -149,7 +149,6 @@
     ],
     "answer": "A"
   },
-
   {
     "question": "A prose narrative told by a character who participates in the events is most commonly written from which point of view?",
     "options": [
@@ -250,7 +249,6 @@
     ],
     "answer": "A"
   },
-
   {
     "question": "In Once Upon an Elephant, the use of animals to represent human political and social behaviour is an example of",
     "options": [
@@ -311,7 +309,6 @@
     ],
     "answer": "B"
   },
-
   {
     "question": "In The Marriage of Anansewa, Ananse is best understood as a modern version of the traditional",
     "options": [
@@ -372,7 +369,6 @@
     ],
     "answer": "A"
   },
-
   {
     "question": "In Path of Lucas: The Journey He Endured, the narrative is framed around Lucas speaking to his",
     "options": [
@@ -432,5 +428,175 @@
       "grammatical markers"
     ],
     "answer": "A"
+  },
+  {
+    "question": "A recurring object or image that represents an idea beyond itself is a",
+    "options": [
+      "rhyme",
+      "setting",
+      "plot",
+      "symbol"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The time and place in which a literary work occurs form its",
+    "options": [
+      "setting",
+      "theme",
+      "diction",
+      "metre"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The central message or insight of a literary work is its",
+    "options": [
+      "stage direction",
+      "rhyme scheme",
+      "theme",
+      "stanza"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A comparison using 'like' or 'as' is a",
+    "options": [
+      "metaphor",
+      "pun",
+      "simile",
+      "irony"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A direct comparison that does not use 'like' or 'as' is a",
+    "options": [
+      "onomatopoeia",
+      "alliteration",
+      "metaphor",
+      "simile"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "The repetition of initial consonant sounds is",
+    "options": [
+      "hyperbole",
+      "alliteration",
+      "euphemism",
+      "assonance"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "An exaggerated statement for emphasis is",
+    "options": [
+      "metonymy",
+      "understatement",
+      "paradox",
+      "hyperbole"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A character who opposes the protagonist is the",
+    "options": [
+      "antagonist",
+      "narrator",
+      "chorus",
+      "confidant"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The main character in a story is commonly called the",
+    "options": [
+      "antagonist",
+      "audience",
+      "critic",
+      "protagonist"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A poem of fourteen lines is traditionally called a",
+    "options": [
+      "ballad",
+      "elegy",
+      "ode",
+      "sonnet"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A poem that mourns a death or loss is an",
+    "options": [
+      "elegy",
+      "epic",
+      "satire",
+      "limerick"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The arrangement of stressed and unstressed syllables in poetry is",
+    "options": [
+      "setting",
+      "metre",
+      "plot",
+      "prose"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A speech by a character alone on stage revealing thoughts is a",
+    "options": [
+      "soliloquy",
+      "chorus",
+      "dialogue",
+      "aside"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A hint about an event that will happen later is",
+    "options": [
+      "flashback",
+      "parody",
+      "allusion",
+      "foreshadowing"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A return to an earlier event in a narrative is a",
+    "options": [
+      "climax",
+      "foreshadowing",
+      "resolution",
+      "flashback"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The sequence of events in a literary work is its",
+    "options": [
+      "diction",
+      "genre",
+      "plot",
+      "tone"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "The attitude conveyed by a writer toward a subject is",
+    "options": [
+      "rhyme",
+      "setting",
+      "tone",
+      "stage property"
+    ],
+    "answer": "C"
   }
 ]

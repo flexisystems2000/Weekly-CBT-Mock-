@@ -148,5 +148,455 @@
       "Ignoring discrimination"
     ],
     "answer": "B"
+  },
+  {
+    "question": "The constitution is important because it",
+    "options": [
+      "belongs only to one political party",
+      "sets out the basic rules and structure of government",
+      "replaces every ordinary law automatically",
+      "prevents all civic duties"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The rule of law means that",
+    "options": [
+      "everyone is subject to the law",
+      "leaders are above the law",
+      "only poor people obey laws",
+      "courts cannot review actions"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A fundamental human right is a right that",
+    "options": [
+      "belongs only to public officials",
+      "is granted only to wealthy citizens",
+      "can never be discussed publicly",
+      "belongs to people by virtue of being human and is protected by law"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The right to vote in an election is an example of a",
+    "options": [
+      "economic sanction",
+      "political right",
+      "traditional title",
+      "private contract"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A responsible citizen should",
+    "options": [
+      "spread false information deliberately",
+      "refuse every civic obligation",
+      "obey lawful rules and respect the rights of others",
+      "destroy public property"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "The purpose of an election is to allow citizens to",
+    "options": [
+      "choose representatives or leaders",
+      "abolish the constitution",
+      "avoid public participation",
+      "appoint judges in every case"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A secret ballot helps protect voters from",
+    "options": [
+      "intimidation and undue influence",
+      "all political disagreement",
+      "paying taxes",
+      "learning about candidates"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Corruption includes",
+    "options": [
+      "accountable leadership",
+      "fair competition",
+      "using public office for private gain",
+      "transparent public service"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A whistle-blower is someone who",
+    "options": [
+      "reports suspected wrongdoing through appropriate channels",
+      "hides all evidence of fraud",
+      "prevents public audits",
+      "issues court judgments"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Public property should be protected because it",
+    "options": [
+      "belongs to no one",
+      "has no economic value",
+      "can be taken for private use",
+      "belongs to or serves the public"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A peaceful protest is a form of",
+    "options": [
+      "electoral fraud",
+      "tax evasion",
+      "violent conflict",
+      "civic participation"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Tolerance means",
+    "options": [
+      "rejecting every minority group",
+      "avoiding all discussion",
+      "respecting differences while allowing others their rights",
+      "forcing everyone to agree"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "National integration aims to",
+    "options": [
+      "encourage discrimination",
+      "abolish cultural identities",
+      "promote unity among diverse groups",
+      "deny equal citizenship"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A pressure group seeks to",
+    "options": [
+      "replace every election",
+      "take over all courts",
+      "influence public policy on particular interests",
+      "issue currency"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "The separation of powers divides government functions among",
+    "options": [
+      "political parties only",
+      "local traders",
+      "families, schools and markets",
+      "the executive, legislature and judiciary"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The judiciary is mainly responsible for",
+    "options": [
+      "making all budgets alone",
+      "interpreting laws and administering justice",
+      "implementing every policy",
+      "conducting all trade"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The legislature is mainly responsible for",
+    "options": [
+      "making laws",
+      "trying all criminal cases",
+      "implementing all ministries' programmes",
+      "appointing every voter"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A free press supports democracy by",
+    "options": [
+      "making court rulings",
+      "replacing elections",
+      "preventing public debate",
+      "informing citizens and scrutinising those in power"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The main purpose of taxation is to",
+    "options": [
+      "punish every business",
+      "prevent public infrastructure",
+      "replace all private income",
+      "raise revenue for public services and government functions"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "An example of a civic duty is",
+    "options": [
+      "damaging a public facility",
+      "bribing an official",
+      "selling a vote",
+      "paying legally required taxes"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Human trafficking violates human rights because it",
+    "options": [
+      "promotes free consent",
+      "exploits and controls people for others' benefit",
+      "ensures equal opportunity",
+      "protects dignity"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Drug abuse can harm society by",
+    "options": [
+      "guaranteeing academic success",
+      "improving every decision",
+      "eliminating crime",
+      "damaging health and contributing to social problems"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A community development project is most effective when residents",
+    "options": [
+      "damage completed facilities",
+      "refuse all cooperation",
+      "are excluded from decisions",
+      "participate in planning and implementation"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A credible leader should demonstrate",
+    "options": [
+      "intolerance and dishonesty",
+      "abuse of office",
+      "integrity and accountability",
+      "nepotism and secrecy"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Democracy is strengthened when citizens",
+    "options": [
+      "participate peacefully and hold leaders accountable",
+      "ignore constitutional rights",
+      "avoid all public issues",
+      "support violence"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A petition is used to",
+    "options": [
+      "record only cash payments",
+      "formally request action or express a concern",
+      "replace a court sentence",
+      "cancel every law automatically"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The national flag is a symbol of",
+    "options": [
+      "national identity and unity",
+      "commercial ownership",
+      "a political party only",
+      "one person's private property"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A census helps government to",
+    "options": [
+      "replace the electoral process",
+      "decide every court case",
+      "measure only school grades",
+      "obtain population data for planning"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The purpose of civic education is to",
+    "options": [
+      "promote corruption",
+      "develop informed and responsible citizens",
+      "prevent public participation",
+      "teach citizens to ignore laws"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A conflict is best resolved peacefully through",
+    "options": [
+      "spreading rumours",
+      "threats and retaliation",
+      "destroying property",
+      "dialogue, mediation and fair procedures"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Gender equality means",
+    "options": [
+      "equal rights, responsibilities and opportunities regardless of gender",
+      "one gender has all rights",
+      "opportunities depend only on stereotypes",
+      "education is limited to one group"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A child’s right to education means children should have",
+    "options": [
+      "no access to school",
+      "only unpaid work",
+      "access to learning opportunities",
+      "no protection from exploitation"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Environmental responsibility includes",
+    "options": [
+      "burning waste anywhere",
+      "disposing of waste properly",
+      "dumping refuse in drains",
+      "polluting water sources"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A public budget shows the government's planned",
+    "options": [
+      "private family income only",
+      "court verdicts",
+      "revenue and expenditure",
+      "weather forecasts"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Accountability requires public officials to",
+    "options": [
+      "refuse lawful scrutiny",
+      "avoid every audit",
+      "hide public records unlawfully",
+      "explain and take responsibility for their actions"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A citizen can help prevent electoral malpractice by",
+    "options": [
+      "buying votes",
+      "destroying ballot materials",
+      "intimidating voters",
+      "reporting irregularities to the proper authorities"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The purpose of community service is to",
+    "options": [
+      "seek private gain only",
+      "avoid cooperation",
+      "damage public facilities",
+      "contribute to community welfare"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A law-abiding citizen should resolve disputes through",
+    "options": [
+      "mob action",
+      "lawful and peaceful channels",
+      "threats",
+      "retaliation"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The right to freedom of expression is subject to",
+    "options": [
+      "the wishes of one political party",
+      "lawful limits that protect others' rights and public safety",
+      "permission from every private citizen",
+      "no responsibility at all"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A public servant should treat citizens",
+    "options": [
+      "only if bribed",
+      "fairly and impartially",
+      "according to family connections",
+      "differently based on wealth"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The main role of the electoral commission is to",
+    "options": [
+      "control the judiciary",
+      "run every private business",
+      "organise and supervise elections according to law",
+      "interpret all criminal laws"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A population census is different from an election because a census",
+    "options": [
+      "forms a cabinet",
+      "chooses political leaders",
+      "counts and gathers information about people",
+      "determines court sentences"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Civic responsibility includes staying informed about",
+    "options": [
+      "unverified claims alone",
+      "only celebrity gossip",
+      "public issues and government decisions",
+      "private rumours"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A peaceful transfer of power helps to",
+    "options": [
+      "prevent accountability",
+      "maintain political stability",
+      "end the constitution",
+      "encourage unconstitutional rule"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "An ombudsman or public complaints body helps citizens by",
+    "options": [
+      "investigating complaints about maladministration",
+      "conducting private sales",
+      "making all laws",
+      "replacing all elections"
+    ],
+    "answer": "A"
   }
 ]

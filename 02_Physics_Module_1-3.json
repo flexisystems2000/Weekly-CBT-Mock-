@@ -1,262 +1,602 @@
 [
   {
-    "question": "A body of mass 5 kg is acted upon by a resultant force of 20 N. What is its acceleration?",
-    "options": ["2 m/s²", "4 m/s²", "5 m/s²", "10 m/s²"],
-    "answer": "B"
-  },
-  {
-    "question": "A force of 30 N acts on a body of mass 6 kg initially at rest. What velocity will the body attain after 4 s?",
-    "options": ["5 m/s", "10 m/s", "20 m/s", "24 m/s"],
-    "answer": "C"
-  },
-  {
-    "question": "A car of mass 1000 kg moving at 20 m/s is brought to rest in 5 s. What is the average retarding force?",
-    "options": ["2,000 N", "4,000 N", "5,000 N", "20,000 N"],
-    "answer": "B"
-  },
-  {
-    "question": "A 4 kg object moving at 6 m/s collides with a stationary 2 kg object. If they move together after collision, what is their common velocity?",
-    "options": ["2 m/s", "3 m/s", "4 m/s", "6 m/s"],
-    "answer": "C"
-  },
-  {
-    "question": "A ball of mass 0.5 kg moving at 12 m/s is brought to rest by a force acting for 0.2 s. What is the magnitude of the average force?",
-    "options": ["15 N", "20 N", "30 N", "60 N"],
-    "answer": "C"
-  },
-  {
-    "question": "A 10 kg object is pulled horizontally by a force of 50 N. If the frictional force opposing the motion is 20 N, what is its acceleration?",
-    "options": ["2 m/s²", "3 m/s²", "5 m/s²", "7 m/s²"],
-    "answer": "B"
-  },
-  {
-    "question": "Two forces of 6 N and 8 N act at right angles to each other. What is the magnitude of their resultant?",
-    "options": ["2 N", "10 N", "14 N", "48 N"],
-    "answer": "B"
-  },
-  {
-    "question": "A 2 kg body has a momentum of 18 kg m/s. What is its velocity?",
-    "options": ["6 m/s", "9 m/s", "16 m/s", "36 m/s"],
-    "answer": "B"
-  },
-  {
-    "question": "A 0.2 kg ball moving at 15 m/s strikes a wall and rebounds at 10 m/s in the opposite direction. What is the magnitude of the change in momentum?",
-    "options": ["1 kg m/s", "2 kg m/s", "5 kg m/s", "25 kg m/s"],
-    "answer": "B"
-  },
-  {
-    "question": "A gun of mass 5 kg fires a bullet of mass 0.02 kg at 400 m/s. What is the recoil velocity of the gun?",
-    "options": ["0.8 m/s", "1.6 m/s", "2.0 m/s", "8.0 m/s"],
-    "answer": "B"
-  },
-  {
-    "question": "A 2 kg body is acted upon by two opposite forces of 15 N and 9 N. What is its acceleration?",
-    "options": ["2 m/s²", "3 m/s²", "5 m/s²", "12 m/s²"],
-    "answer": "A"
-  },
-  {
-    "question": "A 2 kg body moving at 5 m/s collides with a 3 kg body moving in the same direction at 2 m/s. If they move together after collision, their common velocity is",
-    "options": ["2.8 m/s", "3.0 m/s", "3.2 m/s", "4.0 m/s"],
-    "answer": "C"
-  },
-  {
-    "question": "A force of 40 N acts on a body for 0.5 s. What impulse is delivered to the body?",
-    "options": ["8 Ns", "20 Ns", "40 Ns", "80 Ns"],
-    "answer": "B"
-  },
-  {
-    "question": "A 60 kg person stands on a weighing scale inside a lift accelerating upward at 2 m/s². Taking g = 10 m/s², what reading will the scale give?",
-    "options": ["480 N", "600 N", "720 N", "840 N"],
-    "answer": "C"
-  },
-  {
-    "question": "A block is pulled along a horizontal surface by a constant force. If the resultant force on the block is zero, the block must be",
+    "question": "Which of the following is a scalar quantity?",
     "options": [
-      "at rest only",
-      "moving with increasing speed",
-      "moving with constant velocity or at rest",
-      "moving with decreasing speed"
+      "Velocity",
+      "Displacement",
+      "Force",
+      "Mass"
     ],
-    "answer": "C"
-  },
-  {
-    "question": "A 5 kg object is moving with an acceleration of 3 m/s². If a frictional force of 4 N acts against its motion, what applied force is required?",
-    "options": ["11 N", "15 N", "19 N", "20 N"],
-    "answer": "C"
-  },
-  {
-    "question": "A 2 kg body is moving at 10 m/s and a constant force brings it to rest in 4 s. What is the magnitude of the force?",
-    "options": ["2.5 N", "5 N", "10 N", "20 N"],
-    "answer": "B"
-  },
-  {
-    "question": "A particle of mass 3 kg has a velocity of 4 m/s east. A force changes its velocity to 6 m/s east in 2 s. What is the force acting on it?",
-    "options": ["2 N east", "3 N east", "6 N east", "9 N east"],
-    "answer": "B"
-  },
-  {
-    "question": "A car travels 120 km in 2 hours and then 80 km in 1 hour. What is its average speed for the entire journey?",
-    "options": ["60 km/h", "66.7 km/h", "70 km/h", "100 km/h"],
-    "answer": "B"
-  },
-  {
-    "question": "A body starts from rest and accelerates uniformly at 4 m/s² for 5 s. What distance does it cover?",
-    "options": ["20 m", "40 m", "50 m", "100 m"],
-    "answer": "C"
-  },
-  {
-    "question": "A car moving at 10 m/s accelerates uniformly at 2 m/s² for 6 s. What is its final velocity?",
-    "options": ["12 m/s", "18 m/s", "20 m/s", "22 m/s"],
     "answer": "D"
   },
   {
-    "question": "A stone is dropped from rest and falls freely for 3 s. Taking g = 10 m/s², what speed does it attain?",
-    "options": ["10 m/s", "20 m/s", "30 m/s", "45 m/s"],
+    "question": "Which option is correct? which of the following is a scalar quantity?",
+    "options": [
+      "Force",
+      "Displacement",
+      "Mass",
+      "Velocity"
+    ],
     "answer": "C"
   },
   {
-    "question": "A ball is thrown vertically upward with a velocity of 30 m/s. Taking g = 10 m/s², what maximum height does it reach?",
-    "options": ["30 m", "45 m", "60 m", "90 m"],
-    "answer": "B"
-  },
-  {
-    "question": "A body moving with uniform acceleration changes its velocity from 5 m/s to 25 m/s in 4 s. What is its acceleration?",
-    "options": ["4 m/s²", "5 m/s²", "6 m/s²", "7.5 m/s²"],
-    "answer": "B"
-  },
-  {
-    "question": "A car moving at 20 m/s is uniformly decelerated at 4 m/s². How long does it take to stop?",
-    "options": ["4 s", "5 s", "6 s", "8 s"],
-    "answer": "B"
-  },
-  {
-    "question": "A particle starts from rest and travels 72 m in 6 s under uniform acceleration. What is its acceleration?",
-    "options": ["2 m/s²", "4 m/s²", "6 m/s²", "8 m/s²"],
-    "answer": "B"
-  },
-  {
-    "question": "A cyclist travels at 12 m/s and reduces his speed uniformly to 4 m/s in 4 s. What distance does he cover during this time?",
-    "options": ["16 m", "24 m", "32 m", "48 m"],
+    "question": "Select the best answer: Which of the following is a scalar quantity?",
+    "options": [
+      "Velocity",
+      "Force",
+      "Mass",
+      "Displacement"
+    ],
     "answer": "C"
   },
   {
-    "question": "A body moves with a constant velocity of 15 m/s for 8 s. What is its displacement?",
-    "options": ["23 m", "100 m", "120 m", "135 m"],
-    "answer": "C"
+    "question": "Which of the following is a vector quantity?",
+    "options": [
+      "Acceleration",
+      "Temperature",
+      "Energy",
+      "Time"
+    ],
+    "answer": "A"
   },
   {
-    "question": "A car accelerates from 10 m/s to 30 m/s while covering 200 m. What is its acceleration?",
-    "options": ["1 m/s²", "2 m/s²", "3 m/s²", "4 m/s²"],
+    "question": "Which option is correct? which of the following is a vector quantity?",
+    "options": [
+      "Energy",
+      "Acceleration",
+      "Time",
+      "Temperature"
+    ],
     "answer": "B"
   },
   {
-    "question": "A stone is thrown vertically upward at 20 m/s. At what time will it return to the point from which it was thrown? Take g = 10 m/s².",
-    "options": ["2 s", "3 s", "4 s", "5 s"],
+    "question": "Select the best answer: Which of the following is a vector quantity?",
+    "options": [
+      "Time",
+      "Temperature",
+      "Acceleration",
+      "Energy"
+    ],
     "answer": "C"
   },
   {
-    "question": "Two cars travel in opposite directions at 20 m/s and 15 m/s respectively. What is their relative speed?",
-    "options": ["5 m/s", "15 m/s", "20 m/s", "35 m/s"],
+    "question": "A quantity described by magnitude and direction is a",
+    "options": [
+      "scalar",
+      "unit",
+      "vector",
+      "constant"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which option is correct? a quantity described by magnitude and direction is a",
+    "options": [
+      "constant",
+      "scalar",
+      "unit",
+      "vector"
+    ],
     "answer": "D"
   },
   {
-    "question": "A train moving at 25 m/s takes 10 s to reduce its speed to 5 m/s uniformly. How far does it travel during the 10 s?",
-    "options": ["100 m", "150 m", "200 m", "250 m"],
-    "answer": "C"
+    "question": "Select the best answer: A quantity described by magnitude and direction is a",
+    "options": [
+      "vector",
+      "constant",
+      "scalar",
+      "unit"
+    ],
+    "answer": "A"
   },
   {
-    "question": "A velocity-time graph for a body is a horizontal straight line above the time axis. This indicates that the body is",
+    "question": "The SI unit of displacement is the",
     "options": [
-      "at rest",
-      "moving with constant velocity",
-      "moving with constant acceleration",
-      "moving with decreasing velocity"
+      "metre per second",
+      "metre",
+      "newton",
+      "joule"
     ],
     "answer": "B"
   },
   {
-    "question": "A body moves from rest with an acceleration of 5 m/s². What is its velocity after covering 40 m?",
-    "options": ["10 m/s", "15 m/s", "20 m/s", "25 m/s"],
-    "answer": "C"
-  },
-  {
-    "question": "A force of 12 N acts on a body of mass 3 kg initially moving at 4 m/s. If the force acts in the direction of motion for 5 s, what is the final velocity?",
-    "options": ["12 m/s", "20 m/s", "24 m/s", "28 m/s"],
-    "answer": "B"
-  },
-  {
-    "question": "A 4 kg body moving at 8 m/s collides head-on with a 2 kg body moving at 3 m/s in the opposite direction. If they stick together, what is their velocity after collision?",
+    "question": "Which option is correct? the SI unit of displacement is the",
     "options": [
-      "2.3 m/s in the original direction of the 4 kg body",
-      "3.0 m/s in the original direction of the 4 kg body",
-      "4.3 m/s in the original direction of the 4 kg body",
-      "5.0 m/s in the original direction of the 4 kg body"
+      "newton",
+      "metre per second",
+      "joule",
+      "metre"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Select the best answer: The SI unit of displacement is the",
+    "options": [
+      "metre per second",
+      "joule",
+      "metre",
+      "newton"
     ],
     "answer": "C"
   },
   {
-    "question": "A 10 kg box is pulled along a rough horizontal surface by a horizontal force of 50 N. If it accelerates at 3 m/s², what is the frictional force?",
-    "options": ["10 N", "20 N", "30 N", "50 N"],
-    "answer": "B"
-  },
-  {
-    "question": "A 2 kg object is acted upon by forces of 10 N east and 6 N west. What is the acceleration of the object?",
-    "options": ["2 m/s² east", "3 m/s² east", "4 m/s² east", "8 m/s² east"],
+    "question": "Which instrument can measure the magnitude of a force?",
+    "options": [
+      "thermometer",
+      "measuring cylinder",
+      "spring balance",
+      "stopwatch"
+    ],
     "answer": "C"
   },
   {
-    "question": "A force acting on a body changes its momentum from 12 kg m/s to 30 kg m/s in 3 s. What is the average force?",
-    "options": ["4 N", "6 N", "8 N", "14 N"],
+    "question": "Which option is correct? which instrument can measure the magnitude of a force?",
+    "options": [
+      "thermometer",
+      "spring balance",
+      "measuring cylinder",
+      "stopwatch"
+    ],
     "answer": "B"
   },
   {
-    "question": "A 0.1 kg ball strikes a wall at 20 m/s and rebounds at 15 m/s. If the collision lasts 0.05 s, what is the magnitude of the average force exerted on the ball?",
-    "options": ["50 N", "60 N", "70 N", "80 N"],
+    "question": "Select the best answer: Which instrument can measure the magnitude of a force?",
+    "options": [
+      "measuring cylinder",
+      "spring balance",
+      "stopwatch",
+      "thermometer"
+    ],
     "answer": "B"
   },
   {
-    "question": "A body is projected vertically upward with a speed of 40 m/s. Taking g = 10 m/s², what is its velocity after 3 s?",
-    "options": ["10 m/s upward", "10 m/s downward", "30 m/s upward", "30 m/s downward"],
+    "question": "Two perpendicular vectors have magnitudes 3 N and 4 N. Find their resultant magnitude.",
+    "options": [
+      "1 N",
+      "12 N",
+      "7 N",
+      "5 N"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which option is correct? two perpendicular vectors have magnitudes 3 N and 4 N. Find their resultant magnitude.",
+    "options": [
+      "7 N",
+      "12 N",
+      "1 N",
+      "5 N"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Select the best answer: Two perpendicular vectors have magnitudes 3 N and 4 N. Find their resultant magnitude.",
+    "options": [
+      "7 N",
+      "1 N",
+      "12 N",
+      "5 N"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Two forces of 6 N and 8 N act in the same direction. Their resultant is",
+    "options": [
+      "14 N",
+      "48 N",
+      "2 N",
+      "10 N"
+    ],
     "answer": "A"
   },
   {
-    "question": "A car starts from rest and accelerates uniformly at 3 m/s² for 8 s. What distance does it cover during the final 2 seconds?",
-    "options": ["33 m", "39 m", "42 m", "45 m"],
+    "question": "Which option is correct? two forces of 6 N and 8 N act in the same direction. Their resultant is",
+    "options": [
+      "48 N",
+      "14 N",
+      "10 N",
+      "2 N"
+    ],
     "answer": "B"
   },
   {
-    "question": "A body moving at 30 m/s is brought to rest uniformly after travelling 75 m. What is its acceleration?",
-    "options": ["−4 m/s²", "−6 m/s²", "−8 m/s²", "−10 m/s²"],
+    "question": "Select the best answer: Two forces of 6 N and 8 N act in the same direction. Their resultant is",
+    "options": [
+      "48 N",
+      "14 N",
+      "10 N",
+      "2 N"
+    ],
     "answer": "B"
   },
   {
-    "question": "A particle travels 20 m during the first 2 s and 60 m during the next 2 s under uniform acceleration. What is its acceleration?",
-    "options": ["5 m/s²", "8 m/s²", "10 m/s²", "15 m/s²"],
-    "answer": "C"
-  },
-  {
-    "question": "A vehicle moving at 18 m/s accelerates uniformly to 30 m/s in 6 s. How far does it travel during this interval?",
-    "options": ["108 m", "120 m", "144 m", "180 m"],
-    "answer": "C"
-  },
-  {
-    "question": "A stone is dropped from the top of a tower and reaches the ground after 4 s. Taking g = 10 m/s², what is the height of the tower?",
-    "options": ["40 m", "60 m", "80 m", "100 m"],
-    "answer": "C"
-  },
-  {
-    "question": "A cyclist moving at 12 m/s sees an obstacle 30 m ahead and applies the brakes. If the cyclist decelerates uniformly at 2 m/s², what is the stopping distance?",
-    "options": ["24 m", "30 m", "36 m", "48 m"],
-    "answer": "B"
-  },
-  {
-    "question": "A body travels half of a journey at 20 m/s and the other half at 30 m/s. What is its average speed for the whole journey?",
-    "options": ["24 m/s", "25 m/s", "26 m/s", "27 m/s"],
+    "question": "Two forces of 9 N and 4 N act in opposite directions. Their resultant magnitude is",
+    "options": [
+      "5 N",
+      "36 N",
+      "13 N",
+      "√97 N"
+    ],
     "answer": "A"
   },
   {
-    "question": "A particle moves with an initial velocity of 6 m/s and an acceleration of 2 m/s². How far does it travel in the fifth second?",
-    "options": ["13 m", "15 m", "17 m", "19 m"],
+    "question": "Which option is correct? two forces of 9 N and 4 N act in opposite directions. Their resultant magnitude is",
+    "options": [
+      "5 N",
+      "√97 N",
+      "13 N",
+      "36 N"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Select the best answer: Two forces of 9 N and 4 N act in opposite directions. Their resultant magnitude is",
+    "options": [
+      "36 N",
+      "√97 N",
+      "5 N",
+      "13 N"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A displacement of 3 m east followed by 4 m north gives a resultant displacement of",
+    "options": [
+      "12 m",
+      "1 m",
+      "5 m",
+      "7 m"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which option is correct? a displacement of 3 m east followed by 4 m north gives a resultant displacement of",
+    "options": [
+      "7 m",
+      "12 m",
+      "5 m",
+      "1 m"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Select the best answer: A displacement of 3 m east followed by 4 m north gives a resultant displacement of",
+    "options": [
+      "7 m",
+      "5 m",
+      "1 m",
+      "12 m"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The horizontal and vertical components of a vector are 6 and 8 units. Its magnitude is",
+    "options": [
+      "14 units",
+      "48 units",
+      "2 units",
+      "10 units"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which option is correct? the horizontal and vertical components of a vector are 6 and 8 units. Its magnitude is",
+    "options": [
+      "48 units",
+      "2 units",
+      "10 units",
+      "14 units"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Select the best answer: The horizontal and vertical components of a vector are 6 and 8 units. Its magnitude is",
+    "options": [
+      "2 units",
+      "10 units",
+      "48 units",
+      "14 units"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A vector's component along the x-axis is found using",
+    "options": [
+      "V/θ",
+      "V cos θ",
+      "V tan θ",
+      "V sin θ"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which option is correct? a vector's component along the x-axis is found using",
+    "options": [
+      "V/θ",
+      "V tan θ",
+      "V sin θ",
+      "V cos θ"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Select the best answer: A vector's component along the x-axis is found using",
+    "options": [
+      "V/θ",
+      "V sin θ",
+      "V cos θ",
+      "V tan θ"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A vector's component along the y-axis is found using",
+    "options": [
+      "V sin θ",
+      "V cot θ",
+      "V+θ",
+      "V cos θ"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which option is correct? a vector's component along the y-axis is found using",
+    "options": [
+      "V sin θ",
+      "V+θ",
+      "V cot θ",
+      "V cos θ"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Select the best answer: A vector's component along the y-axis is found using",
+    "options": [
+      "V cot θ",
+      "V sin θ",
+      "V cos θ",
+      "V+θ"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which pair contains only scalar quantities?",
+    "options": [
+      "Displacement and acceleration",
+      "Momentum and weight",
+      "Velocity and force",
+      "Speed and distance"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which option is correct? which pair contains only scalar quantities?",
+    "options": [
+      "Velocity and force",
+      "Momentum and weight",
+      "Displacement and acceleration",
+      "Speed and distance"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Select the best answer: Which pair contains only scalar quantities?",
+    "options": [
+      "Momentum and weight",
+      "Velocity and force",
+      "Speed and distance",
+      "Displacement and acceleration"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which pair contains only vector quantities?",
+    "options": [
+      "Speed and energy",
+      "Mass and time",
+      "Distance and temperature",
+      "Momentum and force"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which option is correct? which pair contains only vector quantities?",
+    "options": [
+      "Distance and temperature",
+      "Mass and time",
+      "Momentum and force",
+      "Speed and energy"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Select the best answer: Which pair contains only vector quantities?",
+    "options": [
+      "Mass and time",
+      "Momentum and force",
+      "Distance and temperature",
+      "Speed and energy"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "If a vector has zero magnitude, it is called the",
+    "options": [
+      "unit vector",
+      "zero vector",
+      "resultant vector",
+      "position vector"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which option is correct? if a vector has zero magnitude, it is called the",
+    "options": [
+      "position vector",
+      "zero vector",
+      "resultant vector",
+      "unit vector"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Select the best answer: If a vector has zero magnitude, it is called the",
+    "options": [
+      "unit vector",
+      "resultant vector",
+      "position vector",
+      "zero vector"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A unit vector has a magnitude of",
+    "options": [
+      "depends on direction",
+      "1",
+      "0",
+      "10"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which option is correct? a unit vector has a magnitude of",
+    "options": [
+      "depends on direction",
+      "0",
+      "1",
+      "10"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Select the best answer: A unit vector has a magnitude of",
+    "options": [
+      "10",
+      "1",
+      "0",
+      "depends on direction"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The resultant of two equal and opposite vectors is",
+    "options": [
+      "the sum of their magnitudes",
+      "twice either vector",
+      "their product",
+      "zero"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which option is correct? the resultant of two equal and opposite vectors is",
+    "options": [
+      "twice either vector",
+      "the sum of their magnitudes",
+      "zero",
+      "their product"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Select the best answer: The resultant of two equal and opposite vectors is",
+    "options": [
+      "the sum of their magnitudes",
+      "twice either vector",
+      "zero",
+      "their product"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "A person walks 10 m north and then 10 m south. The total distance is",
+    "options": [
+      "20 m",
+      "5 m",
+      "10 m",
+      "0 m"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which option is correct? a person walks 10 m north and then 10 m south. The total distance is",
+    "options": [
+      "0 m",
+      "20 m",
+      "10 m",
+      "5 m"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Select the best answer: A person walks 10 m north and then 10 m south. The total distance is",
+    "options": [
+      "0 m",
+      "10 m",
+      "5 m",
+      "20 m"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "For the same journey, the final displacement is",
+    "options": [
+      "10 m north",
+      "10 m south",
+      "20 m",
+      "0 m"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which option is correct? for the same journey, the final displacement is",
+    "options": [
+      "20 m",
+      "10 m north",
+      "0 m",
+      "10 m south"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Select the best answer: For the same journey, the final displacement is",
+    "options": [
+      "10 m south",
+      "0 m",
+      "20 m",
+      "10 m north"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The direction of a vector is commonly specified relative to a",
+    "options": [
+      "mass",
+      "temperature scale",
+      "reference axis",
+      "unit of time"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which option is correct? the direction of a vector is commonly specified relative to a",
+    "options": [
+      "temperature scale",
+      "unit of time",
+      "mass",
+      "reference axis"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Select the best answer: The direction of a vector is commonly specified relative to a",
+    "options": [
+      "temperature scale",
+      "unit of time",
+      "reference axis",
+      "mass"
+    ],
     "answer": "C"
   }
 ]

@@ -149,7 +149,6 @@
     ],
     "answer": "B"
   },
-
   {
     "question": "According to the Gospel accounts, John the Baptist's major role was to",
     "options": [
@@ -250,7 +249,6 @@
     ],
     "answer": "A"
   },
-
   {
     "question": "One major lesson from David's rise to kingship is that leadership should be based primarily on",
     "options": [
@@ -341,7 +339,6 @@
     ],
     "answer": "A"
   },
-
   {
     "question": "Biblical wisdom literature generally encourages people to",
     "options": [
@@ -411,5 +408,195 @@
       "justice has no connection with faith"
     ],
     "answer": "A"
+  },
+  {
+    "question": "According to Genesis, God created human beings in His",
+    "options": [
+      "kingdom",
+      "temple",
+      "language",
+      "image"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The sign of God's covenant with Noah after the flood was the",
+    "options": [
+      "pillar of fire",
+      "stone tablets",
+      "burning bush",
+      "rainbow"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Abraham demonstrated faith by being willing to",
+    "options": [
+      "obey God's command",
+      "refuse every instruction",
+      "worship idols",
+      "abandon all responsibility"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Joseph interpreted Pharaoh's dreams as predicting",
+    "options": [
+      "seven years of plenty followed by seven years of famine",
+      "the exodus from Egypt",
+      "the fall of Jericho",
+      "a forty-day flood"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Moses received the Ten Commandments on",
+    "options": [
+      "Mount Carmel",
+      "Mount Tabor",
+      "Mount Sinai",
+      "Mount Zion"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "The Passover commemorates the Israelites'",
+    "options": [
+      "crossing of the Jordan under Joshua",
+      "building of the temple",
+      "deliverance from Egypt",
+      "return from Babylon only"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "David defeated Goliath using a",
+    "options": [
+      "spear and shield",
+      "sling and a stone",
+      "bow and arrow",
+      "sword and chariot"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Solomon was especially renowned for his",
+    "options": [
+      "leading the exodus",
+      "strength as a warrior",
+      "building the ark",
+      "wisdom"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The prophet who confronted the prophets of Baal on Mount Carmel was",
+    "options": [
+      "Jeremiah",
+      "Elijah",
+      "Hosea",
+      "Amos"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Jonah was sent to preach to the people of",
+    "options": [
+      "Nineveh",
+      "Rome",
+      "Jerusalem only",
+      "Bethlehem"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "In the New Testament, the Beatitudes are found in the",
+    "options": [
+      "Sermon on the Mount",
+      "parable of the sower only",
+      "account of Pentecost",
+      "book of Revelation only"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Jesus taught that the greatest commandments concern love for God and",
+    "options": [
+      "political power",
+      "ritual without compassion",
+      "wealth and status",
+      "one's neighbour"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The parable of the Good Samaritan teaches the importance of",
+    "options": [
+      "seeking public praise",
+      "valuing status over mercy",
+      "showing compassion across social boundaries",
+      "avoiding strangers in need"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Peter denied Jesus",
+    "options": [
+      "once",
+      "seven times",
+      "three times",
+      "twice"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Judas identified Jesus to the arresting party with a",
+    "options": [
+      "scroll",
+      "kiss",
+      "ring",
+      "lamp"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The event at Pentecost is associated with the coming of the",
+    "options": [
+      "Holy Spirit",
+      "manna",
+      "flood",
+      "burning bush"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Paul's conversion took place on the road to",
+    "options": [
+      "Jericho",
+      "Damascus",
+      "Bethlehem",
+      "Emmaus"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The fruit of the Spirit includes love, joy and",
+    "options": [
+      "peace",
+      "revenge",
+      "jealousy",
+      "greed"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The biblical teaching on forgiveness encourages believers to",
+    "options": [
+      "value resentment",
+      "ignore every form of wrongdoing",
+      "forgive others sincerely",
+      "seek revenge at every opportunity"
+    ],
+    "answer": "C"
   }
 ]

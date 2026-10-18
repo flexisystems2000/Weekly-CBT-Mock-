@@ -70,7 +70,6 @@
     ],
     "answer": "C"
   },
-
   {
     "id": 6,
     "type": "passage_question",
@@ -142,7 +141,6 @@
     ],
     "answer": "C"
   },
-
   {
     "id": 11,
     "type": "passage_question",
@@ -214,7 +212,6 @@
     ],
     "answer": "C"
   },
-
   {
     "id": 16,
     "type": "passage_question",
@@ -286,7 +283,6 @@
     ],
     "answer": "B"
   },
-
   {
     "id": 21,
     "type": "cloze",
@@ -407,7 +403,6 @@
     ],
     "answer": "A"
   },
-
   {
     "id": 31,
     "type": "parts_of_speech",
@@ -468,7 +463,6 @@
     ],
     "answer": "B"
   },
-
   {
     "id": 36,
     "type": "lexis",
@@ -529,7 +523,6 @@
     ],
     "answer": "C"
   },
-
   {
     "id": 41,
     "type": "nouns_pronouns_determiners",
@@ -590,7 +583,6 @@
     ],
     "answer": "A"
   },
-
   {
     "id": 46,
     "type": "lexis",
@@ -648,6 +640,126 @@
       "Clear",
       "Secretive",
       "Honest"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 51,
+    "type": "prepositions_conjunctions",
+    "question": "Choose the correct preposition: The principal congratulated Ada ___ her excellent result.",
+    "options": [
+      "on",
+      "at",
+      "with",
+      "for"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 52,
+    "type": "prepositions_conjunctions",
+    "question": "Choose the correct preposition: The students arrived ___ school before eight o'clock.",
+    "options": [
+      "at",
+      "in",
+      "to",
+      "on"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 53,
+    "type": "prepositions_conjunctions",
+    "question": "Choose the correct preposition: Musa has been absent ___ Monday.",
+    "options": [
+      "from",
+      "by",
+      "since",
+      "for"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 54,
+    "type": "prepositions_conjunctions",
+    "question": "Choose the correct preposition: The book belongs ___ my sister.",
+    "options": [
+      "at",
+      "with",
+      "to",
+      "for"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 55,
+    "type": "prepositions_conjunctions",
+    "question": "Choose the correct conjunction: I studied hard, ___ I passed the examination.",
+    "options": [
+      "unless",
+      "so",
+      "because of",
+      "although"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 56,
+    "type": "prepositions_conjunctions",
+    "question": "Choose the correct conjunction: You will not succeed ___ you work consistently.",
+    "options": [
+      "unless",
+      "so",
+      "because",
+      "while"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 57,
+    "type": "prepositions_conjunctions",
+    "question": "Choose the correct conjunction: ___ it was raining, the match continued.",
+    "options": [
+      "Although",
+      "Because",
+      "Therefore",
+      "Unless"
+    ],
+    "answer": "A"
+  },
+  {
+    "id": 58,
+    "type": "prepositions_conjunctions",
+    "question": "Choose the correct conjunction: Neither Chika ___ Bisi attended the meeting.",
+    "options": [
+      "but",
+      "or",
+      "nor",
+      "and"
+    ],
+    "answer": "C"
+  },
+  {
+    "id": 59,
+    "type": "prepositions_conjunctions",
+    "question": "Choose the correct preposition: The teacher divided the class ___ four groups.",
+    "options": [
+      "among",
+      "into",
+      "between",
+      "by"
+    ],
+    "answer": "B"
+  },
+  {
+    "id": 60,
+    "type": "prepositions_conjunctions",
+    "question": "Choose the correct conjunction: We waited ___ the bus finally arrived.",
+    "options": [
+      "whereas",
+      "unless",
+      "until",
+      "although"
     ],
     "answer": "C"
   }

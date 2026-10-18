@@ -1,483 +1,602 @@
 [
   {
-    "question": "Which aid to trade primarily facilitates the movement of goods from producer to consumer?",
+    "question": "Communication in commerce is the process of",
     "options": [
-      "Banking",
-      "Transport",
-      "Insurance",
-      "Advertising"
+      "transporting goods only",
+      "producing raw materials",
+      "exchanging information in business",
+      "storing money"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which option is correct? communication in commerce is the process of",
+    "options": [
+      "transporting goods only",
+      "exchanging information in business",
+      "producing raw materials",
+      "storing money"
     ],
     "answer": "B"
   },
   {
-    "question": "A wholesaler breaks bulk mainly because retailers generally",
+    "question": "Select the best answer: Communication in commerce is the process of",
     "options": [
-      "prefer to buy smaller quantities than manufacturers produce",
-      "cannot sell branded goods",
-      "must manufacture the goods themselves",
-      "provide insurance to producers"
+      "transporting goods only",
+      "storing money",
+      "exchanging information in business",
+      "producing raw materials"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which is an example of written business communication?",
+    "options": [
+      "Business letter",
+      "Oral announcement",
+      "Telephone call",
+      "Face-to-face conversation"
     ],
     "answer": "A"
   },
   {
-    "question": "A trader buys goods on credit and later pays through a bank transfer. Which pair of aids to trade is most directly involved?",
+    "question": "Which option is correct? which is an example of written business communication?",
     "options": [
-      "Warehousing and advertising",
-      "Banking and credit",
-      "Transport and insurance",
-      "Communication and packaging"
+      "Face-to-face conversation",
+      "Business letter",
+      "Telephone call",
+      "Oral announcement"
     ],
     "answer": "B"
   },
   {
-    "question": "Which activity is most clearly foreign trade?",
+    "question": "Select the best answer: Which is an example of written business communication?",
     "options": [
-      "A Lagos retailer buying from a Kano wholesaler",
-      "A Nigerian firm importing machinery from Germany",
-      "A farmer selling maize at a local market",
-      "A manufacturer selling to a nearby retailer"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A document issued by a carrier acknowledging receipt of goods for transport by sea is the",
-    "options": [
-      "bill of lading",
-      "cheque",
-      "invoice",
-      "credit note"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The major commercial advantage of warehousing is that it",
-    "options": [
-      "eliminates all risks of theft",
-      "bridges the time gap between production and consumption",
-      "removes the need for transport",
-      "guarantees higher prices"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which function of advertising is most directly concerned with introducing an unknown product to potential buyers?",
-    "options": [
-      "Informative function",
-      "Protective function",
-      "Accounting function",
-      "Insurance function"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A retailer insured against fire suffers a covered fire loss. The principle that requires compensation to reflect the actual loss is",
-    "options": [
-      "utmost good faith",
-      "indemnity",
-      "subrogation",
-      "contribution"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which trade term indicates that the seller bears responsibility for delivering goods to the named destination, subject to the agreed terms?",
-    "options": [
-      "Free on board only",
-      "Delivered terms",
-      "Cash discount",
-      "Trade discount"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A commercial agent differs from a wholesaler mainly because the agent generally",
-    "options": [
-      "takes ownership of the goods before resale",
-      "acts on behalf of another party without necessarily taking ownership",
-      "manufactures the goods",
-      "always sells only to final consumers"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which is an example of visible export?",
-    "options": [
-      "A Nigerian company receives payment for consultancy abroad",
-      "Nigeria exports cocoa beans",
-      "A Nigerian tourist buys a foreign airline ticket",
-      "A foreign investor buys Nigerian shares"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A letter of credit is particularly useful in international trade because it",
-    "options": [
-      "eliminates all transport costs",
-      "provides assurance of payment subject to stated conditions",
-      "replaces customs authorities",
-      "guarantees that goods cannot be damaged"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which combination best represents aids to trade rather than branches of production?",
-    "options": [
-      "Banking, insurance and transport",
-      "Mining, farming and fishing",
-      "Manufacturing, construction and mining",
-      "Agriculture, forestry and fishing"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A retailer receives goods that are damaged and returns them to the supplier. The document commonly issued by the supplier to record the reduction in the customer's account is a",
-    "options": [
-      "debit note",
-      "credit note",
-      "statement of account",
-      "pro-forma invoice"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which factor most directly explains the need for communication as an aid to trade?",
-    "options": [
-      "Goods cannot exist without messages",
-      "Buyers and sellers need information to coordinate commercial decisions",
-      "Communication physically transports goods",
-      "Communication removes all business risk"
-    ],
-    "answer": "B"
-  },
-
-  {
-    "question": "Commerce is best described as the",
-    "options": [
-      "production of goods only",
-      "exchange and distribution of goods and services together with activities that facilitate trade",
-      "consumption of goods by households",
-      "manufacturing of finished products only"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which of the following is NOT a function of commerce?",
-    "options": [
-      "Facilitating exchange",
-      "Moving goods to consumers",
-      "Providing finance for trade",
-      "Growing crops"
+      "Oral announcement",
+      "Face-to-face conversation",
+      "Telephone call",
+      "Business letter"
     ],
     "answer": "D"
   },
   {
-    "question": "A person who buys goods mainly for personal use is classified as a",
+    "question": "Which is an example of oral communication?",
     "options": [
-      "wholesaler",
-      "retailer",
-      "consumer",
-      "broker"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which activity belongs directly to trade?",
-    "options": [
-      "Mining iron ore",
-      "Buying and selling goods",
-      "Manufacturing cement",
-      "Growing rice"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Home trade takes place",
-    "options": [
-      "only between two continents",
-      "within the boundaries of a country",
-      "only through seaports",
-      "only between manufacturers"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A trader who buys goods in large quantities from producers and sells them in smaller quantities to retailers is a",
-    "options": [
-      "consumer",
-      "wholesaler",
-      "broker",
-      "manufacturer"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which channel of distribution is the shortest?",
-    "options": [
-      "Producer → Wholesaler → Retailer → Consumer",
-      "Producer → Agent → Wholesaler → Retailer → Consumer",
-      "Producer → Consumer",
-      "Producer → Retailer → Consumer"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "One major disadvantage of a long channel of distribution is that it may",
-    "options": [
-      "reduce the number of middlemen",
-      "increase the final price of goods",
-      "eliminate transportation",
-      "make goods available immediately"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which type of retailer normally sells goods directly to final consumers in very small quantities?",
-    "options": [
-      "Wholesaler",
-      "Retailer",
-      "Manufacturer",
-      "Importer"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A broker is mainly an intermediary who",
-    "options": [
-      "takes ownership of goods permanently",
-      "brings buyers and sellers together for a commission",
-      "manufactures goods for retailers",
-      "provides transport free of charge"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which of the following is a characteristic of a sole proprietorship?",
-    "options": [
-      "It must have at least seven owners",
-      "Ownership and control are usually concentrated in one person",
-      "It is owned by shareholders",
-      "It must be managed by a board of directors"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "The greatest advantage of sole proprietorship is generally",
-    "options": [
-      "limited liability",
-      "ease of decision-making",
-      "perpetual succession",
-      "large capital base"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A major disadvantage of sole proprietorship is",
-    "options": [
-      "quick decision-making",
-      "personal attention to customers",
-      "limited access to large amounts of capital",
-      "simple formation"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "In a partnership, the document containing the terms agreed upon by the partners is called the",
-    "options": [
-      "memorandum of association",
-      "articles of association",
-      "partnership agreement",
-      "prospectus"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Which business form has a separate legal personality from its owners?",
-    "options": [
-      "Sole proprietorship",
-      "Partnership",
-      "Registered company",
-      "Family business"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "The liability of shareholders in a company limited by shares is generally limited to",
-    "options": [
-      "all the company's debts",
-      "the amount unpaid on their shares",
-      "their personal assets",
-      "the company's annual profit"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which feature distinguishes a public limited company from a private limited company?",
-    "options": [
-      "A public company can generally offer its shares to the public",
-      "A public company has no shareholders",
-      "A private company must be owned by the government",
-      "A public company cannot employ workers"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A cooperative society is primarily formed to",
-    "options": [
-      "promote the common economic interests of its members",
-      "eliminate all forms of trade",
-      "operate only for government officials",
-      "prevent members from sharing profits"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which source of capital is most directly associated with the issue of shares by a company?",
-    "options": [
-      "Share capital",
-      "Trade credit",
-      "Bank overdraft",
-      "Hire purchase"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A business owned by two or more persons who agree to share profits is most likely a",
-    "options": [
-      "sole proprietorship",
-      "partnership",
-      "cooperative only",
-      "public corporation"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which of the following is NOT a factor that normally determines the choice of form of business ownership?",
-    "options": [
-      "Amount of capital required",
-      "Degree of liability",
-      "Size and nature of the business",
-      "Colour of the owner's clothing"
+      "Memo",
+      "Invoice",
+      "Circular letter",
+      "Telephone conversation"
     ],
     "answer": "D"
   },
   {
-    "question": "Occupation refers to the",
+    "question": "Which option is correct? which is an example of oral communication?",
     "options": [
-      "amount of money a person earns",
-      "regular activity through which a person earns a living",
-      "number of businesses in a country",
-      "total amount of goods produced"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which of the following is classified as an extractive occupation?",
-    "options": [
-      "Teaching",
-      "Mining",
-      "Banking",
-      "Retailing"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A farmer growing cocoa is engaged primarily in",
-    "options": [
-      "primary production",
-      "secondary production",
-      "tertiary production",
-      "commercial banking"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Manufacturing belongs to secondary production because it",
-    "options": [
-      "extracts raw materials directly from nature",
-      "converts raw materials into finished or semi-finished goods",
-      "provides only personal services",
-      "involves only buying and selling"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which of the following is an example of tertiary production?",
-    "options": [
-      "Fishing",
-      "Mining",
-      "Banking",
-      "Crop farming"
+      "Invoice",
+      "Memo",
+      "Telephone conversation",
+      "Circular letter"
     ],
     "answer": "C"
   },
   {
-    "question": "The four basic factors of production are",
+    "question": "Select the best answer: Which is an example of oral communication?",
     "options": [
-      "land, labour, capital and entrepreneur",
-      "money, machines, markets and managers",
-      "land, money, transport and labour",
-      "capital, banking, insurance and labour"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The reward for the use of land as a factor of production is",
-    "options": [
-      "wage",
-      "interest",
-      "rent",
-      "profit"
+      "Memo",
+      "Circular letter",
+      "Telephone conversation",
+      "Invoice"
     ],
     "answer": "C"
   },
   {
-    "question": "The reward for labour is",
+    "question": "A memorandum is mainly used for communication",
     "options": [
-      "Rent",
-      "Wages",
-      "Interest",
-      "Profit"
+      "between countries only",
+      "with no written record",
+      "only with customers abroad",
+      "within an organisation"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which option is correct? a memorandum is mainly used for communication",
+    "options": [
+      "between countries only",
+      "within an organisation",
+      "with no written record",
+      "only with customers abroad"
     ],
     "answer": "B"
   },
   {
-    "question": "The factor of production that organizes and combines the other factors while bearing business risk is the",
+    "question": "Select the best answer: A memorandum is mainly used for communication",
     "options": [
-      "labourer",
-      "entrepreneur",
-      "consumer",
-      "wholesaler"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Which of the following is an example of direct service production?",
-    "options": [
-      "A tailor making clothes",
-      "A teacher providing lessons",
-      "A miner extracting coal",
-      "A farmer producing maize"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "An increase in the efficiency of workers resulting from training is most likely to increase",
-    "options": [
-      "labour productivity",
-      "land area",
-      "population density",
-      "the number of natural resources"
+      "within an organisation",
+      "with no written record",
+      "between countries only",
+      "only with customers abroad"
     ],
     "answer": "A"
   },
   {
-    "question": "Which statement best distinguishes production from consumption?",
+    "question": "A report is usually prepared to",
     "options": [
-      "Production creates or adds utility, while consumption uses goods and services to satisfy wants",
-      "Production always involves buying, while consumption always involves selling",
-      "Production is only agricultural, while consumption is only industrial",
-      "Production and consumption mean exactly the same thing"
+      "present findings and information",
+      "replace all accounting records",
+      "insure property",
+      "transport goods"
     ],
     "answer": "A"
+  },
+  {
+    "question": "Which option is correct? a report is usually prepared to",
+    "options": [
+      "replace all accounting records",
+      "present findings and information",
+      "insure property",
+      "transport goods"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Select the best answer: A report is usually prepared to",
+    "options": [
+      "replace all accounting records",
+      "transport goods",
+      "insure property",
+      "present findings and information"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The main purpose of an invoice is to",
+    "options": [
+      "advertise a vacancy",
+      "request payment and show details of a sale",
+      "appoint a director",
+      "record attendance"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which option is correct? the main purpose of an invoice is to",
+    "options": [
+      "appoint a director",
+      "record attendance",
+      "request payment and show details of a sale",
+      "advertise a vacancy"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Select the best answer: The main purpose of an invoice is to",
+    "options": [
+      "advertise a vacancy",
+      "record attendance",
+      "appoint a director",
+      "request payment and show details of a sale"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A receipt provides evidence that",
+    "options": [
+      "payment has been made",
+      "a meeting is postponed",
+      "goods are insured",
+      "a company is registered"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which option is correct? a receipt provides evidence that",
+    "options": [
+      "goods are insured",
+      "a company is registered",
+      "payment has been made",
+      "a meeting is postponed"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Select the best answer: A receipt provides evidence that",
+    "options": [
+      "payment has been made",
+      "goods are insured",
+      "a company is registered",
+      "a meeting is postponed"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A circular is useful when a message must be sent to",
+    "options": [
+      "one person secretly",
+      "only a bank teller",
+      "many people at once",
+      "no recipient"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which option is correct? a circular is useful when a message must be sent to",
+    "options": [
+      "one person secretly",
+      "many people at once",
+      "no recipient",
+      "only a bank teller"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Select the best answer: A circular is useful when a message must be sent to",
+    "options": [
+      "one person secretly",
+      "only a bank teller",
+      "many people at once",
+      "no recipient"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which is a barrier to effective communication?",
+    "options": [
+      "Clear wording",
+      "Noise and unclear language",
+      "Active listening",
+      "Feedback"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which option is correct? which is a barrier to effective communication?",
+    "options": [
+      "Feedback",
+      "Clear wording",
+      "Active listening",
+      "Noise and unclear language"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Select the best answer: Which is a barrier to effective communication?",
+    "options": [
+      "Noise and unclear language",
+      "Feedback",
+      "Active listening",
+      "Clear wording"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Feedback helps the sender to know whether the message was",
+    "options": [
+      "insured",
+      "printed in colour",
+      "understood",
+      "delivered by rail"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which option is correct? feedback helps the sender to know whether the message was",
+    "options": [
+      "understood",
+      "printed in colour",
+      "delivered by rail",
+      "insured"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Select the best answer: Feedback helps the sender to know whether the message was",
+    "options": [
+      "understood",
+      "printed in colour",
+      "delivered by rail",
+      "insured"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The fastest common means of long-distance electronic communication is",
+    "options": [
+      "handwritten memo",
+      "ordinary post",
+      "email or instant messaging",
+      "printed catalogue"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which option is correct? the fastest common means of long-distance electronic communication is",
+    "options": [
+      "email or instant messaging",
+      "handwritten memo",
+      "ordinary post",
+      "printed catalogue"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Select the best answer: The fastest common means of long-distance electronic communication is",
+    "options": [
+      "handwritten memo",
+      "printed catalogue",
+      "email or instant messaging",
+      "ordinary post"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Confidential business information should be sent through",
+    "options": [
+      "an open group without permission",
+      "an appropriate secure channel",
+      "an unverified recipient",
+      "any public noticeboard"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which option is correct? confidential business information should be sent through",
+    "options": [
+      "any public noticeboard",
+      "an appropriate secure channel",
+      "an open group without permission",
+      "an unverified recipient"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Select the best answer: Confidential business information should be sent through",
+    "options": [
+      "an appropriate secure channel",
+      "an unverified recipient",
+      "an open group without permission",
+      "any public noticeboard"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A telephone message should include the caller's name, contact and",
+    "options": [
+      "unconfirmed prices",
+      "personal guesses",
+      "clear details of the message",
+      "unrelated gossip"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which option is correct? a telephone message should include the caller's name, contact and",
+    "options": [
+      "unrelated gossip",
+      "personal guesses",
+      "clear details of the message",
+      "unconfirmed prices"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Select the best answer: A telephone message should include the caller's name, contact and",
+    "options": [
+      "clear details of the message",
+      "unconfirmed prices",
+      "personal guesses",
+      "unrelated gossip"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "An agenda lists the",
+    "options": [
+      "money owed by every customer",
+      "items to be discussed at a meeting",
+      "staff salaries only",
+      "goods in a warehouse"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which option is correct? an agenda lists the",
+    "options": [
+      "items to be discussed at a meeting",
+      "goods in a warehouse",
+      "staff salaries only",
+      "money owed by every customer"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Select the best answer: An agenda lists the",
+    "options": [
+      "items to be discussed at a meeting",
+      "goods in a warehouse",
+      "money owed by every customer",
+      "staff salaries only"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Minutes of a meeting record",
+    "options": [
+      "only the venue colour",
+      "private messages",
+      "future rumours",
+      "the proceedings and decisions"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which option is correct? minutes of a meeting record",
+    "options": [
+      "the proceedings and decisions",
+      "private messages",
+      "future rumours",
+      "only the venue colour"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Select the best answer: Minutes of a meeting record",
+    "options": [
+      "only the venue colour",
+      "private messages",
+      "future rumours",
+      "the proceedings and decisions"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which communication is non-verbal?",
+    "options": [
+      "Email",
+      "Facial expression",
+      "Letter",
+      "Memo"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which option is correct? which communication is non-verbal?",
+    "options": [
+      "Facial expression",
+      "Memo",
+      "Email",
+      "Letter"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Select the best answer: Which communication is non-verbal?",
+    "options": [
+      "Facial expression",
+      "Letter",
+      "Email",
+      "Memo"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A notice is commonly used to",
+    "options": [
+      "calculate depreciation",
+      "record only cash sales",
+      "transport products",
+      "give information to a group"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which option is correct? a notice is commonly used to",
+    "options": [
+      "give information to a group",
+      "calculate depreciation",
+      "transport products",
+      "record only cash sales"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Select the best answer: A notice is commonly used to",
+    "options": [
+      "record only cash sales",
+      "calculate depreciation",
+      "give information to a group",
+      "transport products"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "The best language for a formal business letter is",
+    "options": [
+      "unrelated to the purpose",
+      "clear, polite and concise",
+      "overly casual and slang-filled",
+      "ambiguous and insulting"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which option is correct? the best language for a formal business letter is",
+    "options": [
+      "ambiguous and insulting",
+      "clear, polite and concise",
+      "unrelated to the purpose",
+      "overly casual and slang-filled"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Select the best answer: The best language for a formal business letter is",
+    "options": [
+      "ambiguous and insulting",
+      "overly casual and slang-filled",
+      "clear, polite and concise",
+      "unrelated to the purpose"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "An organisation chart communicates",
+    "options": [
+      "customer complaints only",
+      "stock prices",
+      "daily weather only",
+      "lines of authority and reporting"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which option is correct? an organisation chart communicates",
+    "options": [
+      "lines of authority and reporting",
+      "customer complaints only",
+      "stock prices",
+      "daily weather only"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Select the best answer: An organisation chart communicates",
+    "options": [
+      "lines of authority and reporting",
+      "stock prices",
+      "daily weather only",
+      "customer complaints only"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A communication channel is",
+    "options": [
+      "the sender's age",
+      "the message's grammar alone",
+      "the medium through which a message passes",
+      "the product price"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which option is correct? a communication channel is",
+    "options": [
+      "the sender's age",
+      "the medium through which a message passes",
+      "the product price",
+      "the message's grammar alone"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Select the best answer: A communication channel is",
+    "options": [
+      "the sender's age",
+      "the product price",
+      "the medium through which a message passes",
+      "the message's grammar alone"
+    ],
+    "answer": "C"
   }
 ]

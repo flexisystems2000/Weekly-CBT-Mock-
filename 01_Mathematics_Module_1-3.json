@@ -1,502 +1,602 @@
 [
   {
-    "question": "In a class of 48 students, 29 offer Mathematics, 25 offer Physics, and 7 offer neither. How many offer both subjects?",
+    "question": "Find the 8th term of the arithmetic sequence with first term 2 and common difference 3.",
     "options": [
-      "6",
+      "20",
+      "26",
       "13",
-      "16",
       "23"
     ],
-    "answer": "B"
-  },
-  {
-    "question": "If U has 60 elements, n(A)=34, n(B)=29 and n(A∩B)=12, what is n((A∪B)')?",
-    "options": [
-      "9",
-      "11",
-      "17",
-      "19"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Let A={x∈Z: -2≤x≤5} and B={x∈Z: x is even}. What is n(A∩B)?",
-    "options": [
-      "3",
-      "4",
-      "5",
-      "6"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "If n(A∪B)=41, n(A)=24 and n(B)=27, then n(A∩B) is",
-    "options": [
-      "8",
-      "10",
-      "12",
-      "14"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "In a survey, 40 students like tea, 35 like coffee and 18 like both. If every student likes at least one, the class size is",
-    "options": [
-      "53",
-      "57",
-      "63",
-      "75"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "If A⊂B and n(B)=17 while n(A)=9, how many elements are in B\\A?",
-    "options": [
-      "8",
-      "9",
-      "17",
-      "26"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which statement is always true for sets A and B?",
-    "options": [
-      "A∪B=A∩B",
-      "A\\B=B\\A",
-      "A∩(A∪B)=A",
-      "(A∪B)'=A'∪B'"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "If U={1,2,...,12}, A is the set of multiples of 2 and B the set of multiples of 3, how many elements belong to A∪B but not A∩B?",
-    "options": [
-      "5",
-      "6",
-      "7",
-      "8"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A set has 5 elements. How many proper subsets does it have?",
-    "options": [
-      "15",
-      "16",
-      "30",
-      "31"
-    ],
     "answer": "D"
   },
   {
-    "question": "If A={1,2,3,4}, B={3,4,5,6}, and C={4,5,6,7}, what is (A∪B)∩C?",
+    "question": "Find the sum of the first 5 terms of an arithmetic progression with first term 2 and common difference 3.",
     "options": [
-      "{3,4}",
-      "{4,5,6}",
-      "{5,6,7}",
-      "{4,6}"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "In a group of 80 candidates, 45 passed English, 50 passed Mathematics and 10 failed both. How many passed both?",
-    "options": [
-      "15",
-      "25",
-      "35",
-      "40"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "If n(P(A))=32, where P(A) denotes the power set of A, then n(A) is",
-    "options": [
-      "4",
-      "5",
-      "16",
+      "14",
+      "47",
+      "40",
       "32"
     ],
-    "answer": "B"
-  },
-  {
-    "question": "For sets A and B, if A∩B=∅, which conclusion is necessarily correct?",
-    "options": [
-      "A∪B=∅",
-      "A=B",
-      "A and B are disjoint",
-      "A⊂B"
-    ],
     "answer": "C"
   },
   {
-    "question": "If n(A)=x, n(B)=2x, and n(A∩B)=x/2, while n(A∪B)=30, find x.",
+    "question": "In an arithmetic progression, the 3rd term is 8 and the 6th term is 17. Find the common difference.",
     "options": [
-      "10",
-      "12",
-      "15",
-      "20"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A universal set contains 100 elements. If n(A')=62, n(B')=55 and n(A'∩B')=30, find n(A∪B).",
-    "options": [
-      "68",
-      "70",
-      "75",
-      "78"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Simplify √48 − √27 + √12.",
-    "options": [
-      "√3",
-      "2√3",
-      "3√3",
-      "4√3"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "If log₁₀2=0.3010 and log₁₀3=0.4771, evaluate log₁₀72 correct to 3 decimal places.",
-    "options": [
-      "1.856",
-      "1.857",
-      "1.858",
-      "1.859"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Solve log₂(x−1)+log₂(x+3)=3.",
-    "options": [
-      "−1",
-      "3",
-      "−1+2√3",
-      "1+2√3"
+      "4",
+      "5",
+      "2",
+      "3"
     ],
     "answer": "D"
   },
   {
-    "question": "Express (√5−√2)² in the form a+b√10.",
+    "question": "Which is the 5th term of the arithmetic sequence 2, 5, 8, ...?",
     "options": [
-      "7−2√10",
-      "7+2√10",
-      "3−2√10",
-      "3+2√10"
+      "17",
+      "11",
+      "14",
+      "None of the above"
     ],
-    "answer": "A"
+    "answer": "C"
   },
   {
-    "question": "If log₃(x+4)−log₃(x−2)=1, find x.",
+    "question": "Find the 8th term of the arithmetic sequence with first term 5 and common difference 4.",
     "options": [
-      "4",
-      "5",
-      "6",
-      "7"
+      "37",
+      "29",
+      "27",
+      "33"
     ],
-    "answer": "B"
+    "answer": "D"
   },
   {
-    "question": "Rationalize the denominator of 3/(√7−√2).",
+    "question": "Find the sum of the first 5 terms of an arithmetic progression with first term 5 and common difference 4.",
     "options": [
-      "(√7+√2)/5",
-      "3(√7+√2)/5",
-      "(√7+√2)/3",
-      "3(√7−√2)/5"
+      "55",
+      "21",
+      "75",
+      "65"
     ],
-    "answer": "B"
+    "answer": "D"
   },
   {
-    "question": "If logₐ2=p and logₐ5=q, express logₐ40 in terms of p and q.",
-    "options": [
-      "2p+q",
-      "3p+q",
-      "2p+2q",
-      "p+2q"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Simplify √75 ÷ √3 − √12.",
-    "options": [
-      "5−2√3",
-      "2√3−5",
-      "5+2√3",
-      "2√3+5"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Solve 2ˣ × 4ˣ⁺¹ = 8ˣ⁻¹.",
-    "options": [
-      "No real solution",
-      "−3",
-      "1",
-      "3"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "For positive a and b, simplify √(a²b)/√(ab³).",
-    "options": [
-      "√a/b",
-      "√b/a",
-      "a/b",
-      "b/a"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Evaluate log₂16 + log₃27 − log₅25.",
+    "question": "In an arithmetic progression, the 3rd term is 13 and the 6th term is 25. Find the common difference.",
     "options": [
       "3",
-      "4",
       "5",
+      "4",
       "6"
     ],
     "answer": "C"
   },
   {
-    "question": "If log₁₀x=2.4314 and log₁₀y=1.8732, find log₁₀(x/y) correct to 4 decimal places.",
+    "question": "Which is the 5th term of the arithmetic sequence 5, 9, 13, ...?",
     "options": [
-      "0.5582",
-      "0.5581",
-      "0.5580",
-      "0.5579"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "In a class of 50 students, 28 study Biology, 32 study Chemistry and 12 study neither. How many study both subjects?",
-    "options": [
-      "10",
-      "18",
-      "22",
-      "28"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "If A and B are subsets of U such that n(U)=40, n(A)=22, n(B)=18 and n(A∪B)=30, find n(A'∩B').",
-    "options": [
-      "8",
-      "10",
-      "12",
-      "14"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Given p: x is even and q: x is divisible by 3, which is the negation of p∧q?",
-    "options": [
-      "x is odd or x is not divisible by 3",
-      "x is odd and x is not divisible by 3",
-      "x is even or x is divisible by 3",
-      "x is even and x is not divisible by 3"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "If A={1,2,3,4,5}, B={2,4,6,8} and C={3,6,9}, find n[(A∪B)∩C].",
-    "options": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "The statement 'If it rains, then the ground is wet' is logically equivalent to",
-    "options": [
-      "If the ground is wet, then it rains",
-      "If the ground is not wet, then it does not rain",
-      "If it does not rain, then the ground is not wet",
-      "It rains and the ground is wet"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "If n(A)=15, n(B)=12 and n(A∩B)=5, what is n(A∪B)' if n(U)=40?",
-    "options": [
-      "18",
-      "20",
-      "22",
-      "25"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Which of the following is a tautology?",
-    "options": [
-      "p∨~p",
-      "p∧~p",
-      "p→~p",
-      "~p→p"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "In a survey of 100 people, 65 like football, 48 like basketball and 30 like both. How many like neither?",
-    "options": [
-      "13",
-      "17",
-      "22",
-      "27"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "If p→q is false, which of the following must be true?",
-    "options": [
-      "p is true and q is false",
-      "p is false and q is true",
-      "Both p and q are false",
-      "Both p and q are true"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Let U={1,2,3,4,5,6,7,8}, A={2,4,6,8}, B={1,2,3,4}. Find (A∩B)'.",
-    "options": [
-      "{1,3,5,6,7,8}",
-      "{5,6,7,8}",
-      "{1,3,5,7}",
-      "{1,3,5,6,7}"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "If ~(p∨q) is true, then",
-    "options": [
-      "Both p and q are false",
-      "p is true and q is false",
-      "p is false and q is true",
-      "Both p and q are true"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "If A,B,C are sets with n(U)=60, n(A)=30, n(B)=25, n(C)=20, n(A∩B)=10, n(A∩C)=8, n(B∩C)=7 and n(A∩B∩C)=3, find the number of elements in exactly one of A,B,C.",
-    "options": [
-      "30",
-      "32",
-      "34",
-      "36"
+      "25",
+      "None of the above",
+      "21",
+      "17"
     ],
     "answer": "C"
   },
   {
-    "question": "A class has 70 students. 42 study Mathematics, 36 study Physics and 8 study neither. How many study exactly one of the two subjects?",
+    "question": "Find the 8th term of the arithmetic sequence with first term 7 and common difference 2.",
     "options": [
-      "42",
-      "46",
-      "50",
-      "54"
+      "21",
+      "19",
+      "23",
+      "None of the above"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Find the sum of the first 5 terms of an arithmetic progression with first term 7 and common difference 2.",
+    "options": [
+      "60",
+      "15",
+      "55",
+      "50"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "In an arithmetic progression, the 3rd term is 11 and the 6th term is 17. Find the common difference.",
+    "options": [
+      "1",
+      "3",
+      "4",
+      "2"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which is the 5th term of the arithmetic sequence 7, 9, 11, ...?",
+    "options": [
+      "17",
+      "13",
+      "None of the above",
+      "15"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Find the 8th term of the arithmetic sequence with first term 12 and common difference -2.",
+    "options": [
+      "-17",
+      "-4",
+      "-2",
+      "0"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Find the sum of the first 5 terms of an arithmetic progression with first term 12 and common difference -2.",
+    "options": [
+      "35",
+      "4",
+      "45",
+      "40"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "In an arithmetic progression, the 3rd term is 8 and the 6th term is 2. Find the common difference.",
+    "options": [
+      "-2",
+      "-1",
+      "4",
+      "-3"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which is the 5th term of the arithmetic sequence 12, 10, 8, ...?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "None of the above"
     ],
     "answer": "B"
   },
   {
-    "question": "Simplify (2x−3y)²−(2x+3y)².",
+    "question": "Find the 8th term of the arithmetic sequence with first term 3 and common difference 5.",
     "options": [
-      "−24xy",
-      "24xy",
-      "−12xy",
-      "12xy"
+      "43",
+      "22",
+      "33",
+      "38"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Find the sum of the first 5 terms of an arithmetic progression with first term 3 and common difference 5.",
+    "options": [
+      "52",
+      "23",
+      "65",
+      "77"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "In an arithmetic progression, the 3rd term is 13 and the 6th term is 28. Find the common difference.",
+    "options": [
+      "7",
+      "4",
+      "6",
+      "5"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which is the 5th term of the arithmetic sequence 3, 8, 13, ...?",
+    "options": [
+      "23",
+      "28",
+      "18",
+      "None of the above"
     ],
     "answer": "A"
   },
   {
-    "question": "Factorize completely: 2x³−18x.",
+    "question": "Find the 8th term of the arithmetic sequence with first term 20 and common difference -3.",
     "options": [
-      "2x(x−3)(x+3)",
-      "2x(x²−9)",
-      "2(x−3)(x+3)",
-      "x(x−3)(x+3)"
+      "-1",
+      "2",
+      "-53",
+      "-4"
     ],
     "answer": "A"
   },
   {
-    "question": "If (x+2)/(x−1) − (x−1)/(x+2)=3, find x.",
+    "question": "Find the sum of the first 5 terms of an arithmetic progression with first term 20 and common difference -3.",
     "options": [
-      "(1−√13)/2",
-      "(1+√13)/2",
-      "2+√13",
+      "70",
+      "8",
+      "62",
+      "77"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "In an arithmetic progression, the 3rd term is 14 and the 6th term is 5. Find the common difference.",
+    "options": [
+      "-2",
+      "5",
+      "-4",
+      "-3"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which is the 5th term of the arithmetic sequence 20, 17, 14, ...?",
+    "options": [
+      "11",
+      "5",
+      "8",
+      "None of the above"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Find the 8th term of the arithmetic sequence with first term 1 and common difference 6.",
+    "options": [
+      "37",
+      "43",
+      "49",
+      "13"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Find the sum of the first 5 terms of an arithmetic progression with first term 1 and common difference 6.",
+    "options": [
+      "50",
+      "25",
+      "65",
+      "80"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "In an arithmetic progression, the 3rd term is 13 and the 6th term is 31. Find the common difference.",
+    "options": [
+      "8",
+      "5",
+      "7",
+      "6"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which is the 5th term of the arithmetic sequence 1, 7, 13, ...?",
+    "options": [
+      "31",
+      "None of the above",
+      "25",
+      "19"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Find the 8th term of the arithmetic sequence with first term 9 and common difference 3.",
+    "options": [
+      "34",
+      "33",
+      "30",
+      "27"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Find the sum of the first 5 terms of an arithmetic progression with first term 9 and common difference 3.",
+    "options": [
+      "75",
+      "67",
+      "82",
+      "21"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "In an arithmetic progression, the 3rd term is 15 and the 6th term is 24. Find the common difference.",
+    "options": [
+      "2",
+      "3",
+      "5",
       "4"
     ],
     "answer": "B"
   },
   {
-    "question": "If 3x−2y=7 and x+y=4, find 2x−y.",
+    "question": "Which is the 5th term of the arithmetic sequence 9, 12, 15, ...?",
     "options": [
-      "5",
-      "6",
+      "21",
+      "24",
+      "18",
+      "None of the above"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Find the 8th term of the arithmetic sequence with first term 15 and common difference -4.",
+    "options": [
+      "-13",
+      "-17",
+      "-9",
+      "-53"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Find the sum of the first 5 terms of an arithmetic progression with first term 15 and common difference -4.",
+    "options": [
+      "45",
+      "-1",
+      "35",
+      "25"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "In an arithmetic progression, the 3rd term is 7 and the 6th term is -5. Find the common difference.",
+    "options": [
+      "-3",
+      "-5",
+      "-4",
+      "6"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which is the 5th term of the arithmetic sequence 15, 11, 7, ...?",
+    "options": [
+      "-5",
+      "3",
+      "None of the above",
+      "-1"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Find the 8th term of the arithmetic sequence with first term 4 and common difference 7.",
+    "options": [
+      "60",
+      "53",
+      "46",
+      "35"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Find the sum of the first 5 terms of an arithmetic progression with first term 4 and common difference 7.",
+    "options": [
+      "90",
+      "107",
+      "72",
+      "32"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "In an arithmetic progression, the 3rd term is 18 and the 6th term is 39. Find the common difference.",
+    "options": [
+      "8",
       "7",
+      "9",
+      "6"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which is the 5th term of the arithmetic sequence 4, 11, 18, ...?",
+    "options": [
+      "39",
+      "None of the above",
+      "25",
+      "32"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Find the 5th term of the geometric progression with first term 2 and common ratio 2.",
+    "options": [
+      "10",
+      "16",
+      "32",
+      "64"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Find the sum of the first 4 terms of the geometric progression 2, 4, 8, ... .",
+    "options": [
+      "16",
+      "14",
+      "30",
+      "34"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "The first term of a geometric progression is 2 and its common ratio is 2. What is the 3rd term?",
+    "options": [
+      "6",
+      "4",
+      "16",
       "8"
     ],
-    "answer": "A"
+    "answer": "D"
   },
   {
-    "question": "Resolve into partial fractions: (5x−1)/[(x−1)(x+2)].",
+    "question": "Which number comes next in the geometric sequence 2, 4, 8, 16, ...?",
     "options": [
-      "4/[3(x−1)] + 11/[3(x+2)]",
-      "11/[3(x−1)] + 4/[3(x+2)]",
-      "4/(x−1) + 11/(x+2)",
-      "11/(x−1) + 4/(x+2)"
+      "14",
+      "32",
+      "18",
+      "17"
     ],
-    "answer": "A"
+    "answer": "B"
   },
   {
-    "question": "If a+b=5 and ab=6, find a²+b².",
+    "question": "Find the 5th term of the geometric progression with first term 3 and common ratio 2.",
+    "options": [
+      "24",
+      "48",
+      "11",
+      "96"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Find the sum of the first 4 terms of the geometric progression 3, 6, 12, ... .",
+    "options": [
+      "24",
+      "45",
+      "51",
+      "21"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The first term of a geometric progression is 3 and its common ratio is 2. What is the 3rd term?",
+    "options": [
+      "7",
+      "6",
+      "24",
+      "12"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which number comes next in the geometric sequence 3, 6, 12, 24, ...?",
+    "options": [
+      "25",
+      "26",
+      "48",
+      "22"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Find the 5th term of the geometric progression with first term 1 and common ratio 3.",
     "options": [
       "13",
-      "19",
-      "25",
-      "37"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Simplify (x²−4)/(x²−x−2) ÷ (x+2)/(x−1), for x≠−2,1,2.",
-    "options": [
-      "(x−1)/(x+1)",
-      "(x+1)/(x−1)",
-      "(x−2)/(x+1)",
-      "(x+2)/(x−1)"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "If x+1/x=5, find x²+1/x².",
-    "options": [
-      "21",
-      "23",
-      "25",
-      "27"
+      "81",
+      "27",
+      "243"
     ],
     "answer": "B"
   },
   {
-    "question": "If x−y=4 and xy=5, find x²+y².",
+    "question": "Find the sum of the first 4 terms of the geometric progression 1, 3, 9, ... .",
     "options": [
-      "21",
-      "26",
-      "31",
+      "13",
+      "27",
+      "41",
+      "40"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The first term of a geometric progression is 1 and its common ratio is 3. What is the 3rd term?",
+    "options": [
+      "7",
+      "3",
+      "27",
+      "9"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Which number comes next in the geometric sequence 1, 3, 9, 27, ...?",
+    "options": [
+      "28",
+      "24",
+      "30",
+      "81"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Find the 5th term of the geometric progression with first term 5 and common ratio 2.",
+    "options": [
+      "80",
+      "13",
+      "160",
+      "40"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Find the sum of the first 4 terms of the geometric progression 5, 10, 20, ... .",
+    "options": [
+      "75",
+      "40",
+      "85",
+      "35"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The first term of a geometric progression is 5 and its common ratio is 2. What is the 3rd term?",
+    "options": [
+      "9",
+      "20",
+      "40",
+      "10"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which number comes next in the geometric sequence 5, 10, 20, 40, ...?",
+    "options": [
+      "80",
+      "38",
+      "41",
+      "42"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Find the 5th term of the geometric progression with first term 4 and common ratio 3.",
+    "options": [
+      "324",
+      "108",
+      "972",
+      "16"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Find the sum of the first 4 terms of the geometric progression 4, 12, 36, ... .",
+    "options": [
+      "52",
+      "108",
+      "164",
+      "160"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The first term of a geometric progression is 4 and its common ratio is 3. What is the 3rd term?",
+    "options": [
+      "108",
+      "10",
+      "12",
       "36"
     ],
-    "answer": "B"
+    "answer": "D"
   },
   {
-    "question": "The coefficient of x² in the expansion of (2x−3)³ is",
+    "question": "Which number comes next in the geometric sequence 4, 12, 36, 108, ...?",
     "options": [
-      "−36",
-      "36",
-      "−54",
-      "54"
+      "105",
+      "324",
+      "111",
+      "109"
     ],
-    "answer": "A"
+    "answer": "B"
   }
 ]
