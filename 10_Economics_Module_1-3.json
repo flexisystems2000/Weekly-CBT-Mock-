@@ -1,601 +1,601 @@
 [
   {
-    "question": "An economy records GDP at market prices of ₦84 trillion, depreciation of ₦6 trillion and indirect taxes less subsidies of ₦4 trillion. Net national income at factor cost, assuming net factor income from abroad is zero, is",
+    "question": "A fall in the price of a commodity causes consumers to buy more of it, ceteris paribus. This is best described as",
     "options": [
-      "₦94 trillion",
-      "₦78 trillion",
-      "₦82 trillion",
-      "₦74 trillion"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Nominal GDP rises by 12% while the GDP deflator rises by 8%. The approximate real GDP growth rate is",
-    "options": [
-      "4.0% exactly",
-      "20.0%",
-      "about 3.7%",
-      "8.0%"
+      "an increase in demand",
+      "an extension in demand",
+      "an increase in quantity demanded",
+      "a shift in the demand curve"
     ],
     "answer": "C"
   },
   {
-    "question": "If national income is ₦500 billion, consumption is ₦360 billion and government expenditure is ₦80 billion, with no foreign trade or depreciation, planned investment equals",
+    "question": "Which change would most likely shift the demand curve for a normal good to the right?",
     "options": [
-      "₦420 billion",
-      "₦140 billion",
-      "₦220 billion",
-      "₦60 billion"
+      "A fall in consumer income",
+      "A rise in consumer income",
+      "A rise in its own price",
+      "An increase in quantity supplied"
     ],
-    "answer": "D"
+    "answer": "B"
   },
   {
-    "question": "A country’s GDP is ₦900 billion and net factor income from abroad is −₦25 billion. Its GNP is",
+    "question": "If tea and coffee are substitutes, a substantial rise in the price of coffee is likely to",
     "options": [
-      "₦925 billion",
-      "₦900 billion",
-      "₦875 billion",
-      "₦25 billion"
+      "reduce demand for tea",
+      "increase demand for tea",
+      "reduce supply of tea",
+      "leave tea demand necessarily unchanged"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "If cars and petrol are complements, a sharp increase in petrol prices is likely, other things equal, to",
+    "options": [
+      "increase demand for cars",
+      "decrease demand for cars",
+      "increase supply of cars automatically",
+      "cause a movement up the demand curve for cars only"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A demand schedule shows quantity demanded falling from 100 units to 70 units as price rises from ₦20 to ₦30. This relationship illustrates",
+    "options": [
+      "the law of demand",
+      "the law of supply",
+      "perfectly elastic demand",
+      "a rightward demand shift"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which would cause a movement along a demand curve rather than a shift?",
+    "options": [
+      "Change in income",
+      "Change in taste",
+      "Change in the good's own price",
+      "Change in population"
     ],
     "answer": "C"
   },
   {
-    "question": "If the marginal propensity to consume is 0.8, the simple Keynesian multiplier is",
+    "question": "For a normal good, which combination would most likely reduce demand?",
     "options": [
-      "0.2",
-      "5",
-      "1.25",
+      "Higher income and favourable tastes",
+      "Lower income and unfavourable tastes",
+      "Lower price and larger population",
+      "Higher price of a substitute"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "If the price of a good rises by 10% and quantity demanded falls by only 2%, demand is",
+    "options": [
+      "elastic",
+      "inelastic",
+      "unitary elastic",
+      "perfectly elastic"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A consumer's demand for a luxury car falls after income falls, while demand for a basic staple rises. The luxury car is most likely",
+    "options": [
+      "an inferior good",
+      "a normal/luxury good",
+      "a public good",
+      "a free good"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A rightward shift in demand with supply unchanged will generally cause equilibrium",
+    "options": [
+      "price and quantity to fall",
+      "price to rise and quantity to rise",
+      "price to fall and quantity to rise",
+      "quantity to remain fixed"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which factor is least likely to determine demand for a particular commodity?",
+    "options": [
+      "Consumer income",
+      "Prices of related goods",
+      "Taste and preference",
+      "The firm's production technology"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "If demand is perfectly inelastic, a change in price causes",
+    "options": [
+      "a proportionate change in quantity demanded",
+      "no change in quantity demanded",
+      "an infinite change in quantity demanded",
+      "a shift in demand"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "When the expected future price of a commodity rises, current demand may increase because consumers",
+    "options": [
+      "postpone all purchases",
+      "buy now before the expected price rise",
+      "become unable to buy",
+      "reduce their income"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A fall in the price of a substitute is likely to reduce demand for the original good because",
+    "options": [
+      "the substitute becomes relatively more attractive",
+      "the original good becomes cheaper",
+      "supply of the original good disappears",
+      "income necessarily rises"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "If a demand curve is represented by Qd=80−2P, what is quantity demanded when P=25?",
+    "options": [
+      "25",
+      "30",
+      "40",
+      "55"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "In a capitalist economic system, the allocation of resources is influenced mainly by",
+    "options": [
+      "government planning alone",
+      "the price mechanism and market forces",
+      "traditional rulers",
+      "military authorities"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A major feature of a socialist economic system is",
+    "options": [
+      "private ownership of virtually all productive resources",
+      "central planning and substantial state ownership",
+      "complete absence of government intervention",
+      "profit being the only economic objective"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A mixed economy combines",
+    "options": [
+      "only traditional production methods",
+      "elements of private enterprise and government participation",
+      "only state ownership",
+      "only subsistence production"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The basic economic problem exists because resources are",
+    "options": [
+      "unlimited while wants are limited",
+      "scarce relative to unlimited human wants",
+      "equally distributed among everyone",
+      "available without cost"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Opportunity cost is best described as the",
+    "options": [
+      "money price of every commodity",
+      "value of the next best alternative forgone",
+      "total cost of producing a commodity",
+      "amount spent on advertising"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A government decides to use a piece of land for a hospital instead of a shopping complex. The opportunity cost is",
+    "options": [
+      "the cost of constructing the hospital",
+      "the shopping complex forgone",
+      "the workers employed at the hospital",
+      "the government's tax revenue"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Under a traditional economic system, economic decisions are influenced strongly by",
+    "options": [
+      "customs and traditions",
+      "stock market prices",
+      "international banks",
+      "computer algorithms"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "One major advantage of the price mechanism is that it",
+    "options": [
+      "eliminates scarcity",
+      "provides signals that help coordinate buyers and sellers",
+      "guarantees equal income",
+      "prevents competition"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "If the supply of a commodity decreases while demand remains unchanged, equilibrium price will generally",
+    "options": [
+      "fall",
+      "rise",
+      "remain permanently unchanged",
+      "become zero"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "An improvement in production technology will normally cause the supply curve to",
+    "options": [
+      "shift to the left",
+      "shift to the right",
+      "become vertical",
+      "disappear"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A price ceiling fixed below the equilibrium price is likely to create",
+    "options": [
+      "a surplus",
+      "a shortage",
+      "an increase in equilibrium price",
+      "perfect competition"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A price floor fixed above the equilibrium price is likely to create",
+    "options": [
+      "a shortage",
+      "a surplus",
+      "zero supply",
+      "a fall in production costs"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "If both demand and supply increase simultaneously, the equilibrium quantity will generally",
+    "options": [
+      "increase",
+      "decrease",
+      "necessarily remain unchanged",
+      "always become zero"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The point at which quantity demanded equals quantity supplied is known as",
+    "options": [
+      "the shortage point",
+      "equilibrium",
+      "the price ceiling",
+      "the production frontier"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The law of supply states that, ceteris paribus, quantity supplied tends to",
+    "options": [
+      "fall when price rises",
+      "rise when price rises",
+      "remain constant regardless of price",
+      "fall when production costs fall"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Utility in economics refers to the",
+    "options": [
+      "usefulness or satisfaction obtained from consuming a commodity",
+      "monetary cost of production",
+      "quantity supplied by producers",
+      "amount of tax paid by consumers"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Marginal utility is the",
+    "options": [
+      "total satisfaction from all units consumed",
+      "additional satisfaction obtained from consuming one more unit",
+      "average price of a commodity",
+      "total expenditure on a commodity"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The law of diminishing marginal utility states that as successive units of a commodity are consumed",
+    "options": [
+      "total utility must immediately fall",
+      "marginal utility eventually decreases",
+      "price must increase",
+      "income must decrease"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A consumer is in equilibrium when",
+    "options": [
+      "all income is necessarily saved",
+      "the consumer obtains maximum satisfaction from available income and prices",
+      "the consumer buys only one commodity",
+      "marginal utility is always zero"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "If the price of a commodity falls while the consumer's income remains unchanged, the consumer's purchasing power",
+    "options": [
+      "increases",
+      "decreases",
+      "becomes zero",
+      "must remain unchanged"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A consumer spends ₦100 on a commodity and obtains 50 units of satisfaction. If spending rises to ₦150 and total satisfaction becomes 70 units, the additional satisfaction from the extra ₦50 is",
+    "options": [
+      "10 units",
+      "20 units",
+      "50 units",
+      "70 units"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "When total utility is increasing at a decreasing rate, marginal utility is",
+    "options": [
+      "positive but falling",
+      "negative and rising",
+      "zero throughout",
+      "constant and negative"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Production is best described as the",
+    "options": [
+      "creation or addition of utility",
+      "consumption of all available goods",
+      "exchange of currency only",
+      "destruction of resources"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which of the following is a factor of production?",
+    "options": [
+      "Advertising",
+      "Land",
+      "Demand",
+      "Price"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The reward for entrepreneurship is",
+    "options": [
+      "rent",
+      "wages",
+      "interest",
+      "profit"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "The law of diminishing returns applies when",
+    "options": [
+      "all factors are increased equally",
+      "more units of a variable factor are added to fixed factors in the short run",
+      "technology continuously improves",
+      "all factors are fixed"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "If total product increases from 100 units to 130 units when one additional worker is employed, the marginal product of that worker is",
+    "options": [
+      "30 units",
+      "100 units",
+      "130 units",
+      "230 units"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Division of labour can increase productivity mainly because workers",
+    "options": [
+      "perform specialized tasks and become more efficient",
+      "avoid all forms of training",
+      "produce without capital",
+      "eliminate scarcity"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "If the price of a good rises by 20% and quantity demanded falls by 40%, the price elasticity of demand is",
+    "options": [
+      "0.5",
+      "1",
+      "2",
+      "4"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "If price elasticity of demand is greater than one, demand is described as",
+    "options": [
+      "inelastic",
+      "unitary elastic",
+      "elastic",
+      "perfectly inelastic"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "When demand is unitary elastic, a percentage change in price produces",
+    "options": [
+      "a smaller percentage change in quantity demanded",
+      "an equal percentage change in quantity demanded",
+      "no change in quantity demanded",
+      "an infinite change in quantity demanded"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Demand for salt is likely to be relatively inelastic because",
+    "options": [
+      "salt has many perfect substitutes",
+      "it takes a small proportion of most consumers' income and is a necessity",
+      "consumers can easily stop using it",
+      "its price changes every hour"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "If the price of a commodity increases from ₦50 to ₦60 while quantity demanded falls from 100 units to 80 units, using the simple percentage method, the price elasticity of demand is approximately",
+    "options": [
+      "0.5",
+      "1",
+      "2",
       "4"
     ],
     "answer": "B"
   },
   {
-    "question": "An autonomous investment increase of ₦12 billion occurs where MPC = 0.75. In the simple model, equilibrium income increases by",
+    "question": "A perfectly elastic demand curve is represented by a",
     "options": [
-      "₦9 billion",
-      "₦48 billion",
-      "₦16 billion",
-      "₦3 billion"
+      "vertical line",
+      "horizontal line",
+      "positively sloping line",
+      "curved line with no intercept"
     ],
     "answer": "B"
   },
   {
-    "question": "A country counts the value of flour and bread separately even though the flour is used to make the bread. This causes GDP to be overstated through",
+    "question": "A perfectly inelastic demand curve is represented by a",
     "options": [
-      "double counting of intermediate goods",
-      "transfer payments",
-      "omission of depreciation",
-      "underestimation of exports"
+      "horizontal line",
+      "vertical line",
+      "downward-sloping curve",
+      "U-shaped curve"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "If a firm's total revenue rises when it increases price, demand over that range is likely to be",
+    "options": [
+      "elastic",
+      "inelastic",
+      "perfectly elastic",
+      "unitary elastic"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "GDP at market prices is ₦900bn, depreciation ₦70bn, net factor income from abroad −₦20bn and indirect taxes less subsidies ₦60bn. NNP at factor cost is",
+    "options": [
+      "₦750bn",
+      "₦770bn",
+      "₦810bn",
+      "₦850bn"
     ],
     "answer": "A"
   },
   {
-    "question": "Which item is excluded from current national output when measured by the expenditure method?",
+    "question": "Nominal national income rises from ₦500bn to ₦600bn while the price index rises from 100 to 120. Real income at base-year prices in the later year is",
     "options": [
-      "household expenditure on new clothing",
-      "exported manufactured goods",
-      "unemployment benefit paid by government",
-      "newly produced machinery"
+      "₦480bn",
+      "₦500bn",
+      "₦600bn",
+      "₦720bn"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "If MPC is 0.8 and autonomous investment rises by ₦25m, the simple Keynesian model predicts equilibrium income to rise by",
+    "options": [
+      "₦20m",
+      "₦25m",
+      "₦100m",
+      "₦125m"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A country’s GDP is ₦1,200bn, net factor income from abroad is ₦40bn and depreciation is ₦90bn. GNP is",
+    "options": [
+      "₦1,070bn",
+      "₦1,110bn",
+      "₦1,240bn",
+      "₦1,330bn"
     ],
     "answer": "C"
   },
   {
-    "question": "If nominal national income is ₦660 billion and the price index is 110 (base year 100), real national income is",
+    "question": "Which transaction is excluded from current GDP to avoid double counting?",
     "options": [
-      "₦660 billion",
-      "₦600 billion",
-      "₦550 billion",
-      "₦726 billion"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A rise in GDP caused entirely by higher prices, with unchanged quantities produced, indicates that",
-    "options": [
-      "nominal GDP rises while real GDP is unchanged",
-      "national output has doubled",
-      "real GDP must rise by the same percentage",
-      "the GDP deflator has fallen"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A country’s net domestic product is ₦720 billion and depreciation is ₦45 billion. GDP is",
-    "options": [
-      "₦675 billion",
-      "₦720 billion",
-      "₦765 billion",
-      "₦16 billion"
+      "Sale of newly produced bread",
+      "A teacher’s current salary",
+      "Sale of a used car between households",
+      "Newly constructed housing"
     ],
     "answer": "C"
   },
   {
-    "question": "The income approach estimates national income by summing",
+    "question": "If the labour force is 20 million and 1.6 million are unemployed, the unemployment rate is",
     "options": [
-      "all cash transfers between households",
-      "the value of every intermediate transaction",
-      "only government tax receipts",
-      "factor incomes earned from production"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "A rise in unpaid household work may improve welfare but is often absent from measured GDP because it is",
-    "options": [
-      "necessarily illegal",
-      "not exchanged through a recorded market transaction",
-      "included as exports",
-      "always an intermediate input"
+      "6%",
+      "8%",
+      "10%",
+      "12.5%"
     ],
     "answer": "B"
   },
   {
-    "question": "If savings equal ₦90 billion at income ₦600 billion, the average propensity to save is",
+    "question": "A fall in real GDP per capita despite rising total GDP most plausibly means",
     "options": [
-      "0.60",
-      "0.15",
-      "6.67",
-      "510"
+      "population grew faster than real output",
+      "prices fell to zero",
+      "exports equal imports",
+      "the labour force disappeared"
     ],
-    "answer": "B"
+    "answer": "A"
   },
   {
-    "question": "If MPC is 0.6 and lump-sum taxes are ignored, the marginal propensity to save is",
+    "question": "An economy has C=100+0.75Y and planned investment of 200. Equilibrium income is",
     "options": [
-      "2.5",
-      "0.6",
-      "1.6",
-      "0.4"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Nominal national output is ₦100 billion and the price index (base year 100) is 100. Real output in base-year prices is",
-    "options": [
-      "₦80 billion",
-      "₦100 billion",
-      "₦100 billion",
-      "₦100 billion"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Nominal national output is ₦116 billion and the price index (base year 100) is 105. Real output in base-year prices is",
-    "options": [
-      "₦116 billion",
-      "₦90 billion",
-      "₦122 billion",
-      "₦110 billion"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Nominal national output is ₦132 billion and the price index (base year 100) is 110. Real output in base-year prices is",
-    "options": [
-      "₦132 billion",
-      "₦145 billion",
-      "₦120 billion",
-      "₦100 billion"
+      "300",
+      "400",
+      "1,000",
+      "1,200"
     ],
     "answer": "C"
   },
   {
-    "question": "Nominal national output is ₦150 billion and the price index (base year 100) is 115. Real output in base-year prices is",
+    "question": "If the CPI rises from 160 to 184 in one year, the inflation rate is",
     "options": [
-      "₦172 billion",
-      "₦110 billion",
-      "₦150 billion",
-      "₦130 billion"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Nominal national output is ₦168 billion and the price index (base year 100) is 120. Real output in base-year prices is",
-    "options": [
-      "₦168 billion",
-      "₦140 billion",
-      "₦120 billion",
-      "₦202 billion"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Nominal national output is ₦150 billion and the price index (base year 100) is 100. Real output in base-year prices is",
-    "options": [
-      "₦130 billion",
-      "₦150 billion",
-      "₦150 billion",
-      "₦150 billion"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Nominal national output is ₦168 billion and the price index (base year 100) is 105. Real output in base-year prices is",
-    "options": [
-      "₦160 billion",
-      "₦168 billion",
-      "₦176 billion",
-      "₦140 billion"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Nominal national output is ₦187 billion and the price index (base year 100) is 110. Real output in base-year prices is",
-    "options": [
-      "₦150 billion",
-      "₦187 billion",
-      "₦170 billion",
-      "₦206 billion"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Nominal national output is ₦207 billion and the price index (base year 100) is 115. Real output in base-year prices is",
-    "options": [
-      "₦180 billion",
-      "₦160 billion",
-      "₦207 billion",
-      "₦238 billion"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Nominal national output is ₦120 billion and the price index (base year 100) is 120. Real output in base-year prices is",
-    "options": [
-      "₦80 billion",
-      "₦100 billion",
-      "₦144 billion",
-      "₦120 billion"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Nominal national output is ₦110 billion and the price index (base year 100) is 100. Real output in base-year prices is",
-    "options": [
-      "₦110 billion",
-      "₦90 billion",
-      "₦110 billion",
-      "₦110 billion"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Nominal national output is ₦126 billion and the price index (base year 100) is 105. Real output in base-year prices is",
-    "options": [
-      "₦126 billion",
-      "₦132 billion",
-      "₦120 billion",
-      "₦100 billion"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Nominal national output is ₦143 billion and the price index (base year 100) is 110. Real output in base-year prices is",
-    "options": [
-      "₦157 billion",
-      "₦143 billion",
-      "₦110 billion",
-      "₦130 billion"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Nominal national output is ₦161 billion and the price index (base year 100) is 115. Real output in base-year prices is",
-    "options": [
-      "₦120 billion",
-      "₦161 billion",
-      "₦185 billion",
-      "₦140 billion"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Nominal national output is ₦180 billion and the price index (base year 100) is 120. Real output in base-year prices is",
-    "options": [
-      "₦150 billion",
-      "₦180 billion",
-      "₦130 billion",
-      "₦216 billion"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Nominal national output is ₦160 billion and the price index (base year 100) is 100. Real output in base-year prices is",
-    "options": [
-      "₦160 billion",
-      "₦160 billion",
-      "₦140 billion",
-      "₦160 billion"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Nominal national output is ₦178 billion and the price index (base year 100) is 105. Real output in base-year prices is",
-    "options": [
-      "₦187 billion",
-      "₦178 billion",
-      "₦170 billion",
-      "₦150 billion"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Nominal national output is ₦198 billion and the price index (base year 100) is 110. Real output in base-year prices is",
-    "options": [
-      "₦198 billion",
-      "₦160 billion",
-      "₦218 billion",
-      "₦180 billion"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Nominal national output is ₦115 billion and the price index (base year 100) is 115. Real output in base-year prices is",
-    "options": [
-      "₦100 billion",
-      "₦80 billion",
-      "₦115 billion",
-      "₦132 billion"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Nominal national output is ₦132 billion and the price index (base year 100) is 120. Real output in base-year prices is",
-    "options": [
-      "₦110 billion",
-      "₦132 billion",
-      "₦158 billion",
-      "₦90 billion"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Nominal national output is ₦120 billion and the price index (base year 100) is 100. Real output in base-year prices is",
-    "options": [
-      "₦120 billion",
-      "₦100 billion",
-      "₦120 billion",
-      "₦120 billion"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Nominal national output is ₦136 billion and the price index (base year 100) is 105. Real output in base-year prices is",
-    "options": [
-      "₦136 billion",
-      "₦130 billion",
-      "₦110 billion",
-      "₦143 billion"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Nominal national output is ₦154 billion and the price index (base year 100) is 110. Real output in base-year prices is",
-    "options": [
-      "₦120 billion",
-      "₦154 billion",
-      "₦169 billion",
-      "₦140 billion"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Nominal national output is ₦172 billion and the price index (base year 100) is 115. Real output in base-year prices is",
-    "options": [
-      "₦172 billion",
-      "₦130 billion",
-      "₦198 billion",
-      "₦150 billion"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Nominal national output is ₦192 billion and the price index (base year 100) is 120. Real output in base-year prices is",
-    "options": [
-      "₦140 billion",
-      "₦160 billion",
-      "₦230 billion",
-      "₦192 billion"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Nominal national output is ₦170 billion and the price index (base year 100) is 100. Real output in base-year prices is",
-    "options": [
-      "₦170 billion",
-      "₦170 billion",
-      "₦150 billion",
-      "₦170 billion"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Nominal national output is ₦189 billion and the price index (base year 100) is 105. Real output in base-year prices is",
-    "options": [
-      "₦189 billion",
-      "₦180 billion",
-      "₦198 billion",
-      "₦160 billion"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Nominal national output is ₦110 billion and the price index (base year 100) is 110. Real output in base-year prices is",
-    "options": [
-      "₦110 billion",
-      "₦121 billion",
-      "₦80 billion",
-      "₦100 billion"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Nominal national output is ₦126 billion and the price index (base year 100) is 115. Real output in base-year prices is",
-    "options": [
-      "₦126 billion",
-      "₦110 billion",
-      "₦145 billion",
-      "₦90 billion"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Nominal national output is ₦144 billion and the price index (base year 100) is 120. Real output in base-year prices is",
-    "options": [
-      "₦144 billion",
-      "₦120 billion",
-      "₦173 billion",
-      "₦100 billion"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Nominal national output is ₦130 billion and the price index (base year 100) is 100. Real output in base-year prices is",
-    "options": [
-      "₦110 billion",
-      "₦130 billion",
-      "₦130 billion",
-      "₦130 billion"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Nominal national output is ₦147 billion and the price index (base year 100) is 105. Real output in base-year prices is",
-    "options": [
-      "₦140 billion",
-      "₦120 billion",
-      "₦147 billion",
-      "₦154 billion"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Nominal national output is ₦165 billion and the price index (base year 100) is 110. Real output in base-year prices is",
-    "options": [
-      "₦182 billion",
-      "₦150 billion",
-      "₦165 billion",
-      "₦130 billion"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Nominal national output is ₦184 billion and the price index (base year 100) is 115. Real output in base-year prices is",
-    "options": [
-      "₦212 billion",
-      "₦184 billion",
-      "₦140 billion",
-      "₦160 billion"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Nominal national output is ₦204 billion and the price index (base year 100) is 120. Real output in base-year prices is",
-    "options": [
-      "₦150 billion",
-      "₦245 billion",
-      "₦170 billion",
-      "₦204 billion"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Nominal national output is ₦180 billion and the price index (base year 100) is 100. Real output in base-year prices is",
-    "options": [
-      "₦180 billion",
-      "₦180 billion",
-      "₦160 billion",
-      "₦180 billion"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Nominal national output is ₦105 billion and the price index (base year 100) is 105. Real output in base-year prices is",
-    "options": [
-      "₦80 billion",
-      "₦105 billion",
-      "₦100 billion",
-      "₦110 billion"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Nominal national output is ₦121 billion and the price index (base year 100) is 110. Real output in base-year prices is",
-    "options": [
-      "₦121 billion",
-      "₦133 billion",
-      "₦90 billion",
-      "₦110 billion"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Nominal national output is ₦138 billion and the price index (base year 100) is 115. Real output in base-year prices is",
-    "options": [
-      "₦100 billion",
-      "₦120 billion",
-      "₦159 billion",
-      "₦138 billion"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Nominal national output is ₦156 billion and the price index (base year 100) is 120. Real output in base-year prices is",
-    "options": [
-      "₦130 billion",
-      "₦187 billion",
-      "₦110 billion",
-      "₦156 billion"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Nominal national output is ₦140 billion and the price index (base year 100) is 100. Real output in base-year prices is",
-    "options": [
-      "₦120 billion",
-      "₦140 billion",
-      "₦140 billion",
-      "₦140 billion"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Nominal national output is ₦158 billion and the price index (base year 100) is 105. Real output in base-year prices is",
-    "options": [
-      "₦166 billion",
-      "₦130 billion",
-      "₦150 billion",
-      "₦158 billion"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Nominal national output is ₦176 billion and the price index (base year 100) is 110. Real output in base-year prices is",
-    "options": [
-      "₦176 billion",
-      "₦160 billion",
-      "₦194 billion",
-      "₦140 billion"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Nominal national output is ₦196 billion and the price index (base year 100) is 115. Real output in base-year prices is",
-    "options": [
-      "₦225 billion",
-      "₦150 billion",
-      "₦196 billion",
-      "₦170 billion"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Nominal national output is ₦216 billion and the price index (base year 100) is 120. Real output in base-year prices is",
-    "options": [
-      "₦259 billion",
-      "₦160 billion",
-      "₦180 billion",
-      "₦216 billion"
+      "10%",
+      "12.5%",
+      "15%",
+      "24%"
     ],
     "answer": "C"
   }

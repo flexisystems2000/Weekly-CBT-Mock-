@@ -1,602 +1,614 @@
 [
   {
-    "question": "Cash book bank balance is ₦84,000 debit. Unpresented cheques are ₦12,500 and lodgements not yet credited are ₦9,000. The adjusted bank statement balance is",
+    "question": "Which aid to trade primarily facilitates the movement of goods from producer to consumer?",
     "options": [
-      "₦105,500",
-      "₦62,500",
-      "₦80,500",
-      "₦87,500"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Bank statement shows ₦53,200 credit; unpresented cheques ₦7,800; lodgements not credited ₦11,400. The cash-book balance before adjustments is",
-    "options": [
-      "₦37,600",
-      "₦72,400",
-      "₦49,600",
-      "₦56,800"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "A bank charges ₦1,250 not yet entered in the cash book. The immediate cash-book adjustment is to",
-    "options": [
-      "credit bank column by ₦1,250",
-      "debit purchases by ₦1,250",
-      "credit sales by ₦1,250",
-      "debit bank column by ₦1,250"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A cheque for ₦18,600 received from a customer is dishonoured after being entered in the cash book. The correcting entry is to",
-    "options": [
-      "debit sales and credit purchases",
-      "debit the customer and credit bank",
-      "debit cash and credit capital",
-      "debit bank and credit the customer"
+      "Banking",
+      "Transport",
+      "Insurance",
+      "Advertising"
     ],
     "answer": "B"
   },
   {
-    "question": "Cash book balance ₦42,000 debit; bank charges ₦1,000 and direct customer deposit ₦6,500 are unrecorded. Adjusted cash book balance is",
+    "question": "A wholesaler breaks bulk mainly because retailers generally",
     "options": [
-      "₦35,500 debit",
-      "₦49,500 credit",
-      "₦43,000 debit",
-      "₦47,500 debit"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "A cheque of ₦9,400 was recorded in the cash book as ₦4,900. The correction requires",
-    "options": [
-      "debiting the supplier by ₦4,900",
-      "crediting cash by ₦9,400",
-      "crediting bank by ₦4,500",
-      "debiting bank by ₦4,500"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "The purpose of a bank reconciliation statement is primarily to",
-    "options": [
-      "explain differences between cash-book and bank-statement balances",
-      "replace the ledger control accounts",
-      "calculate gross profit",
-      "prove that every cash transaction is profitable"
+      "prefer to buy smaller quantities than manufacturers produce",
+      "cannot sell branded goods",
+      "must manufacture the goods themselves",
+      "provide insurance to producers"
     ],
     "answer": "A"
   },
   {
-    "question": "A standing order of ₦2,000 appears on the bank statement but not in the cash book. The cash-book adjustment is",
+    "question": "A trader buys goods on credit and later pays through a bank transfer. Which pair of aids to trade is most directly involved?",
     "options": [
-      "credit bank ₦2,000 and debit the relevant expense",
-      "debit sales ₦2,000 and credit capital",
-      "debit bank ₦2,000 and credit expense",
-      "no entry is required ever"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "The bank statement balance is overdraft ₦15,000. Cheques issued but not presented total ₦8,000. Ignoring other items, the balance after those cheques clear will be",
-    "options": [
-      "credit ₦23,000",
-      "credit ₦7,000",
-      "overdraft ₦7,000",
-      "overdraft ₦23,000"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "A receipt of ₦6,250 was entered on the wrong side of the cash book. The correcting effect on the bank balance is",
-    "options": [
-      "decrease it by ₦6,250",
-      "increase it by ₦6,250",
-      "no change",
-      "increase it by ₦12,500"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "A bank statement balance of ₦96,000 includes an unpresented cheque of ₦14,000 and uncredited lodgement of ₦10,000. The corresponding cash-book balance is",
-    "options": [
-      "₦92,000",
-      "₦120,000",
-      "₦100,000",
-      "₦72,000"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A debit balance in the cash-book bank column normally represents",
-    "options": [
-      "capital employed",
-      "an overdraft",
-      "money at bank",
-      "trade receivables"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "A trial balance has debit totals ₦438,000 and credit totals ₦421,000. The suspense account opened to balance it has a",
-    "options": [
-      "debit balance of ₦17,000",
-      "debit balance of ₦421,000",
-      "credit balance of ₦17,000",
-      "credit balance of ₦859,000"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "A purchase of ₦8,600 was completely omitted from the books. The error is",
-    "options": [
-      "an error of commission always disclosed by the trial balance",
-      "an error of omission not disclosed by the trial balance",
-      "an error of original entry",
-      "a compensating error"
+      "Warehousing and advertising",
+      "Banking and credit",
+      "Transport and insurance",
+      "Communication and packaging"
     ],
     "answer": "B"
   },
   {
-    "question": "Sales returns of ₦3,400 were posted to the debit of sales account. The correcting journal is",
+    "question": "Which activity is most clearly foreign trade?",
     "options": [
-      "debit sales returns ₦3,400; credit sales ₦3,400",
-      "debit sales ₦6,800; credit suspense ₦6,800",
-      "debit cash ₦3,400; credit sales returns ₦3,400",
-      "debit sales returns ₦3,400; debit sales ₦3,400"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A payment of ₦7,200 to a supplier was debited to the supplier account. To correct it, the account requires",
-    "options": [
-      "credit supplier ₦7,200",
-      "debit supplier ₦14,400",
-      "no entry",
-      "credit supplier ₦14,400"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "A machine bought for ₦50,000 was debited to purchases. This is",
-    "options": [
-      "an error of principle",
-      "an error of omission",
-      "an error of complete reversal",
-      "a compensating error"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A transposition error makes an amount ₦5,430 appear as ₦5,340. The difference affecting the trial balance is",
-    "options": [
-      "₦90",
-      "₦180",
-      "₦9",
-      "₦5,385"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A suspense account is cleared when",
-    "options": [
-      "all errors causing the trial-balance difference have been corrected",
-      "cash is deposited at the bank",
-      "closing inventory is counted",
-      "the business makes a profit"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Rent paid ₦12,000 was correctly credited to cash but debited to rates. The error is",
-    "options": [
-      "a complete reversal",
-      "an error of omission",
-      "an error that necessarily creates suspense",
-      "an error of commission not affecting trial-balance agreement"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "A credit sale of ₦9,500 was entered correctly in sales but posted to the customer as ₦5,900. The customer account needs",
-    "options": [
-      "no correction",
-      "a debit of ₦15,400",
-      "a further debit of ₦3,600",
-      "a further credit of ₦3,600"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "An error causes debits to be understated by ₦4,000 while credits are correct. To balance the trial balance, suspense is initially credited by",
-    "options": [
-      "₦0",
-      "₦2,000",
-      "₦8,000",
-      "₦4,000"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "A credit purchase of ₦2,700 was posted to the supplier account as ₦7,200. The supplier balance is overstated by",
-    "options": [
-      "₦9,900",
-      "₦4,500",
-      "₦2,700",
-      "₦7,200"
+      "A Lagos retailer buying from a Kano wholesaler",
+      "A Nigerian firm importing machinery from Germany",
+      "A farmer selling maize at a local market",
+      "A manufacturer selling to a nearby retailer"
     ],
     "answer": "B"
   },
   {
-    "question": "Which error is most likely to leave the trial balance agreeing?",
+    "question": "A document issued by a carrier acknowledging receipt of goods for transport by sea is the",
     "options": [
-      "a one-sided posting omitted entirely",
-      "a ledger total added incorrectly on one side",
-      "a debit entry posted as a credit entry only",
-      "a transaction entered in the wrong expense account on the correct side"
+      "bill of lading",
+      "cheque",
+      "invoice",
+      "credit note"
     ],
-    "answer": "D"
+    "answer": "A"
   },
   {
-    "question": "Equipment cost ₦480,000, residual value ₦30,000 and useful life 5 years. Annual straight-line depreciation is",
+    "question": "The major commercial advantage of warehousing is that it",
     "options": [
-      "₦96,000",
-      "₦75,000",
-      "₦102,000",
-      "₦90,000"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "A machine costing ₦200,000 is depreciated at 20% reducing balance. Its book value after two years is",
-    "options": [
-      "₦120,000",
-      "₦128,000",
-      "₦80,000",
-      "₦160,000"
+      "eliminates all risks of theft",
+      "bridges the time gap between production and consumption",
+      "removes the need for transport",
+      "guarantees higher prices"
     ],
     "answer": "B"
   },
   {
-    "question": "An asset cost ₦360,000 with accumulated depreciation ₦225,000 is sold for ₦120,000. The result is",
+    "question": "Which function of advertising is most directly concerned with introducing an unknown product to potential buyers?",
     "options": [
-      "loss of ₦105,000",
-      "profit of ₦15,000",
-      "loss of ₦15,000",
-      "profit of ₦120,000"
+      "Informative function",
+      "Protective function",
+      "Accounting function",
+      "Insurance function"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A retailer insured against fire suffers a covered fire loss. The principle that requires compensation to reflect the actual loss is",
+    "options": [
+      "utmost good faith",
+      "indemnity",
+      "subrogation",
+      "contribution"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which trade term indicates that the seller bears responsibility for delivering goods to the named destination, subject to the agreed terms?",
+    "options": [
+      "Free on board only",
+      "Delivered terms",
+      "Cash discount",
+      "Trade discount"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A commercial agent differs from a wholesaler mainly because the agent generally",
+    "options": [
+      "takes ownership of the goods before resale",
+      "acts on behalf of another party without necessarily taking ownership",
+      "manufactures the goods",
+      "always sells only to final consumers"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which is an example of visible export?",
+    "options": [
+      "A Nigerian company receives payment for consultancy abroad",
+      "Nigeria exports cocoa beans",
+      "A Nigerian tourist buys a foreign airline ticket",
+      "A foreign investor buys Nigerian shares"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A letter of credit is particularly useful in international trade because it",
+    "options": [
+      "eliminates all transport costs",
+      "provides assurance of payment subject to stated conditions",
+      "replaces customs authorities",
+      "guarantees that goods cannot be damaged"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which combination best represents aids to trade rather than branches of production?",
+    "options": [
+      "Banking, insurance and transport",
+      "Mining, farming and fishing",
+      "Manufacturing, construction and mining",
+      "Agriculture, forestry and fishing"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A retailer receives goods that are damaged and returns them to the supplier. The document commonly issued by the supplier to record the reduction in the customer's account is a",
+    "options": [
+      "debit note",
+      "credit note",
+      "statement of account",
+      "pro-forma invoice"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which factor most directly explains the need for communication as an aid to trade?",
+    "options": [
+      "Goods cannot exist without messages",
+      "Buyers and sellers need information to coordinate commercial decisions",
+      "Communication physically transports goods",
+      "Communication removes all business risk"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Commerce is best described as the",
+    "options": [
+      "production of goods only",
+      "exchange and distribution of goods and services together with activities that facilitate trade",
+      "consumption of goods by households",
+      "manufacturing of finished products only"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which of the following is NOT a function of commerce?",
+    "options": [
+      "Facilitating exchange",
+      "Moving goods to consumers",
+      "Providing finance for trade",
+      "Growing crops"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "A person who buys goods mainly for personal use is classified as a",
+    "options": [
+      "wholesaler",
+      "retailer",
+      "consumer",
+      "broker"
     ],
     "answer": "C"
   },
   {
-    "question": "Allowance for doubtful debts is increased from ₦8,000 to ₦11,500. The income statement charge is",
+    "question": "Which activity belongs directly to trade?",
     "options": [
-      "₦3,500",
-      "₦11,500",
-      "₦8,000",
-      "₦19,500"
+      "Mining iron ore",
+      "Buying and selling goods",
+      "Manufacturing cement",
+      "Growing rice"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Home trade takes place",
+    "options": [
+      "only between two continents",
+      "within the boundaries of a country",
+      "only through seaports",
+      "only between manufacturers"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A trader who buys goods in large quantities from producers and sells them in smaller quantities to retailers is a",
+    "options": [
+      "consumer",
+      "wholesaler",
+      "broker",
+      "manufacturer"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which channel of distribution is the shortest?",
+    "options": [
+      "Producer → Wholesaler → Retailer → Consumer",
+      "Producer → Agent → Wholesaler → Retailer → Consumer",
+      "Producer → Consumer",
+      "Producer → Retailer → Consumer"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "One major disadvantage of a long channel of distribution is that it may",
+    "options": [
+      "reduce the number of middlemen",
+      "increase the final price of goods",
+      "eliminate transportation",
+      "make goods available immediately"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which type of retailer normally sells goods directly to final consumers in very small quantities?",
+    "options": [
+      "Wholesaler",
+      "Retailer",
+      "Manufacturer",
+      "Importer"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A broker is mainly an intermediary who",
+    "options": [
+      "takes ownership of goods permanently",
+      "brings buyers and sellers together for a commission",
+      "manufactures goods for retailers",
+      "provides transport free of charge"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which of the following is a characteristic of a sole proprietorship?",
+    "options": [
+      "It must have at least seven owners",
+      "Ownership and control are usually concentrated in one person",
+      "It is owned by shareholders",
+      "It must be managed by a board of directors"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The greatest advantage of sole proprietorship is generally",
+    "options": [
+      "limited liability",
+      "ease of decision-making",
+      "perpetual succession",
+      "large capital base"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A major disadvantage of sole proprietorship is",
+    "options": [
+      "quick decision-making",
+      "personal attention to customers",
+      "limited access to large amounts of capital",
+      "simple formation"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "In a partnership, the document containing the terms agreed upon by the partners is called the",
+    "options": [
+      "memorandum of association",
+      "articles of association",
+      "partnership agreement",
+      "prospectus"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "Which business form has a separate legal personality from its owners?",
+    "options": [
+      "Sole proprietorship",
+      "Partnership",
+      "Registered company",
+      "Family business"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "The liability of shareholders in a company limited by shares is generally limited to",
+    "options": [
+      "all the company's debts",
+      "the amount unpaid on their shares",
+      "their personal assets",
+      "the company's annual profit"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which feature distinguishes a public limited company from a private limited company?",
+    "options": [
+      "A public company can generally offer its shares to the public",
+      "A public company has no shareholders",
+      "A private company must be owned by the government",
+      "A public company cannot employ workers"
     ],
     "answer": "A"
   },
   {
-    "question": "Receivables are ₦150,000 and the allowance is 4%. The required allowance is",
+    "question": "A cooperative society is primarily formed to",
     "options": [
-      "₦6,000",
-      "₦37,500",
-      "₦144,000",
-      "₦4,000"
+      "promote the common economic interests of its members",
+      "eliminate all forms of trade",
+      "operate only for government officials",
+      "prevent members from sharing profits"
     ],
     "answer": "A"
   },
   {
-    "question": "A vehicle cost ₦600,000 and depreciation is 15% straight line on cost. Depreciation for three full years is",
+    "question": "Which source of capital is most directly associated with the issue of shares by a company?",
     "options": [
+      "Share capital",
+      "Trade credit",
+      "Bank overdraft",
+      "Hire purchase"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A business owned by two or more persons who agree to share profits is most likely a",
+    "options": [
+      "sole proprietorship",
+      "partnership",
+      "cooperative only",
+      "public corporation"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which of the following is NOT a factor that normally determines the choice of form of business ownership?",
+    "options": [
+      "Amount of capital required",
+      "Degree of liability",
+      "Size and nature of the business",
+      "Colour of the owner's clothing"
+    ],
+    "answer": "D"
+  },
+  {
+    "question": "Occupation refers to the",
+    "options": [
+      "amount of money a person earns",
+      "regular activity through which a person earns a living",
+      "number of businesses in a country",
+      "total amount of goods produced"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which of the following is classified as an extractive occupation?",
+    "options": [
+      "Teaching",
+      "Mining",
+      "Banking",
+      "Retailing"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A farmer growing cocoa is engaged primarily in",
+    "options": [
+      "primary production",
+      "secondary production",
+      "tertiary production",
+      "commercial banking"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Manufacturing belongs to secondary production because it",
+    "options": [
+      "extracts raw materials directly from nature",
+      "converts raw materials into finished or semi-finished goods",
+      "provides only personal services",
+      "involves only buying and selling"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which of the following is an example of tertiary production?",
+    "options": [
+      "Fishing",
+      "Mining",
+      "Banking",
+      "Crop farming"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "The four basic factors of production are",
+    "options": [
+      "land, labour, capital and entrepreneur",
+      "money, machines, markets and managers",
+      "land, money, transport and labour",
+      "capital, banking, insurance and labour"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The reward for the use of land as a factor of production is",
+    "options": [
+      "wage",
+      "interest",
+      "rent",
+      "profit"
+    ],
+    "answer": "C"
+  },
+  {
+    "question": "The reward for labour is",
+    "options": [
+      "Rent",
+      "Wages",
+      "Interest",
+      "Profit"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The factor of production that organizes and combines the other factors while bearing business risk is the",
+    "options": [
+      "labourer",
+      "entrepreneur",
+      "consumer",
+      "wholesaler"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which of the following is an example of direct service production?",
+    "options": [
+      "A tailor making clothes",
+      "A teacher providing lessons",
+      "A miner extracting coal",
+      "A farmer producing maize"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "An increase in the efficiency of workers resulting from training is most likely to increase",
+    "options": [
+      "labour productivity",
+      "land area",
+      "population density",
+      "the number of natural resources"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which statement best distinguishes production from consumption?",
+    "options": [
+      "Production creates or adds utility, while consumption uses goods and services to satisfy wants",
+      "Production always involves buying, while consumption always involves selling",
+      "Production is only agricultural, while consumption is only industrial",
+      "Production and consumption mean exactly the same thing"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A cash book shows a debit bank balance of ₦185,000. Unpresented cheques are ₦32,000 and deposits not yet credited are ₦47,000. What balance should appear on the bank statement, assuming no other differences?",
+    "options": [
+      "₦170,000 debit",
+      "₦200,000 credit",
+      "₦200,000 debit",
+      "₦264,000 credit"
+    ],
+    "answer": "B",
+    "topic": "Cash book and reconciliation"
+  },
+  {
+    "question": "A trial balance has credits exceeding debits by ₦18,400. The difference is placed in suspense. A purchase of ₦9,200 was debited correctly but omitted from the supplier account. Which suspense correction is needed?",
+    "options": [
+      "Debit suspense ₦9,200",
+      "Credit suspense ₦9,200",
+      "Debit purchases ₦18,400",
+      "Credit purchases ₦9,200"
+    ],
+    "answer": "A",
+    "topic": "Errors and suspense"
+  },
+  {
+    "question": "Equipment costs ₦600,000, residual value ₦60,000 and useful life 6 years. Annual straight-line depreciation is",
+    "options": [
+      "₦60,000",
       "₦90,000",
-      "₦510,000",
-      "₦153,000",
-      "₦270,000"
+      "₦100,000",
+      "₦110,000"
     ],
-    "answer": "D"
+    "answer": "B",
+    "topic": "Depreciation and provisions"
   },
   {
-    "question": "An asset with carrying amount ₦75,000 is sold for ₦82,000. The disposal produces",
+    "question": "A machine costing ₦500,000 is depreciated at 20% reducing balance. What is its book value after two years?",
     "options": [
-      "profit of ₦7,000",
-      "loss of ₦75,000",
-      "loss of ₦7,000",
-      "profit of ₦82,000"
+      "₦300,000",
+      "₦320,000",
+      "₦ ro320,000",
+      "₦400,000"
     ],
-    "answer": "A"
+    "answer": "B",
+    "topic": "Final accounts"
   },
   {
-    "question": "A provision differs from a reserve because a provision is generally",
+    "question": "Closing inventory is understated by ₦25,000. The immediate effect is that gross profit is",
     "options": [
-      "an appropriation of profit only after profit is calculated",
-      "charged in arriving at profit for a known liability or diminution in asset value",
-      "the owner’s personal asset",
-      "always distributable as dividend"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A machine costing ₦240,000 is depreciated at 10% reducing balance. Book value after one year is",
-    "options": [
-      "₦24,000",
-      "₦216,000",
-      "₦264,000",
-      "₦200,000"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A business writes off an irrecoverable debt of ₦2,400. The entry includes",
-    "options": [
-      "debit receivables and credit sales",
-      "debit capital and credit cash",
-      "debit irrecoverable debts expense and credit receivables",
-      "debit bank and credit allowance"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "An asset cost ₦90,000 and accumulated depreciation is ₦54,000. If sold for ₦31,000, the disposal result is",
-    "options": [
-      "profit ₦5,000",
-      "loss ₦31,000",
-      "profit ₦31,000",
-      "loss ₦5,000"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Depreciation is charged mainly to",
-    "options": [
-      "measure market value every day",
-      "accumulate cash for immediate replacement",
-      "eliminate all maintenance costs",
-      "allocate the depreciable amount over useful life"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Opening inventory ₦45,000, purchases ₦280,000, carriage inward ₦12,000 and closing inventory ₦51,000. Cost of goods sold is",
-    "options": [
-      "₦298,000",
-      "₦274,000",
-      "₦337,000",
-      "₦286,000"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Gross profit is ₦180,000 and sales are ₦600,000. Gross profit margin is",
-    "options": [
-      "70%",
-      "25%",
-      "40%",
-      "30%"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Net profit is ₦72,000 after charging rent ₦18,000 and wages ₦30,000. Profit before these expenses was",
-    "options": [
-      "₦42,000",
-      "₦120,000",
-      "₦84,000",
-      "₦102,000"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "Closing inventory is overstated by ₦10,000. The immediate effect is that gross profit is",
-    "options": [
-      "understated by ₦10,000",
-      "overstated by ₦20,000",
-      "unaffected",
-      "overstated by ₦10,000"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Rent paid ₦24,000 includes ₦6,000 prepaid. The expense in the income statement is",
-    "options": [
-      "₦30,000",
-      "₦6,000",
-      "₦18,000",
-      "₦24,000"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Wages owing at year end are ₦4,500. The adjustment should",
-    "options": [
-      "increase assets by ₦4,500",
-      "reduce expenses and liabilities by ₦4,500",
-      "increase expenses and current liabilities by ₦4,500",
-      "reduce capital directly only"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "Sales ₦720,000, sales returns ₦20,000, opening inventory ₦70,000, purchases ₦350,000, purchase returns ₦15,000, closing inventory ₦85,000. Gross profit is",
-    "options": [
-      "₦380,000",
-      "₦365,000",
-      "₦345,000",
-      "₦295,000"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "An accrued electricity bill at year end is treated as",
-    "options": [
-      "an expense and a current liability",
-      "drawings and a reserve",
-      "income and a current asset",
-      "capital and a non-current asset"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "Bad debts recovered that were previously written off are generally treated as",
-    "options": [
-      "a non-current asset",
-      "additional capital introduced",
-      "income in the current period",
-      "a reduction of sales returns"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "A business has net profit ₦96,000 and sales ₦800,000. Net profit margin is",
-    "options": [
-      "20%",
-      "8.33%",
-      "88%",
-      "12%"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Goods withdrawn by owner for personal use should be",
-    "options": [
-      "treated as wages expense",
-      "added to sales and credited to capital",
-      "ignored in final accounts",
-      "deducted from purchases and debited to drawings"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "If closing inventory is omitted entirely, profit for the period will generally be",
-    "options": [
-      "understated",
+      "overstated by ₦25,000",
+      "understated by ₦25,000",
       "unchanged",
-      "overstated",
-      "equal to cash balance"
+      "understated by ₦50,000"
     ],
-    "answer": "A"
+    "answer": "B",
+    "topic": "Trading and financial position"
   },
   {
-    "question": "Current assets ₦240,000 and current liabilities ₦120,000. Current ratio is",
+    "question": "Net sales are ₦1,200,000, opening inventory ₦140,000, purchases ₦720,000, carriage inward ₦30,000 and closing inventory ₦190,000. Gross profit is",
     "options": [
-      "0.5:1",
-      "2:1",
-      "3:1",
-      "120:1"
+      "₦450,000",
+      "₦500,000",
+      "₦530,000",
+      "₦690,000"
     ],
-    "answer": "B"
+    "answer": "C",
+    "topic": "Cash book and reconciliation"
   },
   {
-    "question": "Current assets ₦180,000 include inventory ₦60,000; current liabilities are ₦80,000. Quick ratio is",
+    "question": "A debtor owing ₦80,000 is declared insolvent and 25% is expected to be recovered. The bad debt written off is",
     "options": [
-      "3:1",
-      "0.75:1",
-      "1.5:1",
-      "2.25:1"
+      "₦20,000",
+      "₦40,000",
+      "₦60,000",
+      "₦80,000"
     ],
-    "answer": "C"
+    "answer": "C",
+    "topic": "Errors and suspense"
   },
   {
-    "question": "Total assets ₦900,000 and external liabilities ₦340,000. Owner’s equity is",
+    "question": "Trade receivables are ₦400,000. Existing allowance is ₦12,000; the required allowance is 5% of receivables. The income statement charge is",
     "options": [
-      "₦340,000",
-      "₦560,000",
-      "₦1,240,000",
-      "₦900,000"
+      "₦8,000",
+      "₦12,000",
+      "₦20,000",
+      "₦32,000"
     ],
-    "answer": "B"
+    "answer": "A",
+    "topic": "Depreciation and provisions"
   },
   {
-    "question": "A business has sales ₦500,000 and cost of sales ₦325,000. Gross profit is",
+    "question": "A bank statement shows ₦94,000 overdraft. Unpresented cheques total ₦16,000 and deposits not credited total ₦28,000. The adjusted cash-book balance before other errors is",
     "options": [
-      "65%",
-      "₦825,000",
-      "₦325,000",
-      "₦175,000"
+      "₦82,000 overdraft",
+      "₦110,000 overdraft",
+      "₦6,000 favourable",
+      "₦138,000 favourable"
     ],
-    "answer": "D"
+    "answer": "A",
+    "topic": "Final accounts"
   },
   {
-    "question": "Inventory turnover is commonly calculated as",
+    "question": "A credit sale of ₦45,000 was entered in the sales account as ₦54,000 but the customer account was correct. The correcting entry is",
     "options": [
-      "current assets divided by liabilities",
-      "sales divided by capital",
-      "net profit divided by sales",
-      "cost of sales divided by average inventory"
+      "Dr Sales ₦9,000; Cr Suspense ₦9,000",
+      "Dr Sales ₦9,000; Cr Debtor ₦9,000",
+      "Dr Debtor ₦9,000; Cr Sales ₦9,000",
+      "Dr Suspense ₦9,000; Cr Sales ₦9,000"
     ],
-    "answer": "D"
+    "answer": "A",
+    "topic": "Trading and financial position"
   },
   {
-    "question": "A debt-equity ratio rises sharply while profit is stable. This most directly suggests",
+    "question": "Revenue is ₦950,000, cost of sales ₦570,000 and operating expenses ₦210,000. Net profit margin on sales is approximately",
     "options": [
-      "lower gearing",
-      "elimination of interest obligations",
-      "improved liquidity in every case",
-      "greater reliance on debt financing and higher financial risk"
+      "18.0%",
+      "22.1%",
+      "40.0%",
+      "60.0%"
     ],
-    "answer": "D"
+    "answer": "A",
+    "topic": "Cash book and reconciliation"
   },
   {
-    "question": "A statement of financial position reports",
+    "question": "A business buys equipment for ₦240,000, pays ₦8,000 carriage and ₦12,000 installation. The depreciable cost before residual value is",
     "options": [
-      "budgeted sales for next year",
-      "cash receipts only",
-      "income and expenses over a period only",
-      "assets, liabilities and equity at a specific date"
+      "₦220,000",
+      "₦240,000",
+      "₦248,000",
+      "₦260,000"
     ],
-    "answer": "D"
-  },
-  {
-    "question": "Inventory is purchased on credit. The immediate effect is",
-    "options": [
-      "inventory decreases and receivables increase",
-      "cash and capital increase",
-      "profit automatically increases by purchase value",
-      "inventory and trade payables increase"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "If working capital is negative, the business has",
-    "options": [
-      "current assets exceeding current liabilities",
-      "current liabilities exceeding current assets",
-      "no non-current assets",
-      "no owner’s equity"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A business earns gross profit ₦150,000 on sales ₦500,000. Mark-up on cost, if cost of sales is ₦350,000, is approximately",
-    "options": [
-      "30%",
-      "15%",
-      "70%",
-      "42.86%"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "Owner introduces cash ₦50,000. The accounting equation changes because",
-    "options": [
-      "equity falls and cash rises",
-      "assets rise and liabilities fall",
-      "assets and equity both increase by ₦50,000",
-      "liabilities and expenses both increase"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "A current ratio improves from 1.2:1 to 2:1 but inventory forms most current assets. The conclusion should be that",
-    "options": [
-      "profit margin has doubled",
-      "liquidity may still be weak if inventory cannot be converted quickly",
-      "all debts have been paid",
-      "the firm must be solvent in every respect"
-    ],
-    "answer": "B"
+    "answer": "D",
+    "topic": "Errors and suspense"
   }
 ]

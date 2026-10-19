@@ -538,38 +538,38 @@
   {
     "id": 42,
     "type": "nouns_pronouns_determiners",
-    "question": "The committee postponed the vote _____ a quorum had not been reached.",
+    "question": "Choose the correct pronoun: 'The girls completed the assignment by _______.'",
     "options": [
-      "whereas",
-      "although",
-      "unless",
-      "because"
-    ],
-    "answer": "D"
-  },
-  {
-    "id": 43,
-    "type": "nouns_pronouns_determiners",
-    "question": "Hardly had the principal entered the hall _____ the candidates became silent.",
-    "options": [
-      "when",
-      "than",
-      "while",
-      "then"
+      "themselves",
+      "theirselves",
+      "themself",
+      "theirself"
     ],
     "answer": "A"
   },
   {
+    "id": 43,
+    "type": "nouns_pronouns_determiners",
+    "question": "Choose the correct determiner: 'There isn't _______ water left in the tank.'",
+    "options": [
+      "many",
+      "much",
+      "few",
+      "several"
+    ],
+    "answer": "B"
+  },
+  {
     "id": 44,
     "type": "nouns_pronouns_determiners",
-    "question": "The witness insisted _____ having seen the vehicle before the incident.",
+    "question": "Choose the correct option: 'Each of the candidates must bring _______ identification card.'",
     "options": [
-      "at",
-      "for",
-      "on",
-      "with"
+      "their",
+      "his or her",
+      "our",
+      "your"
     ],
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 45,
@@ -610,14 +610,14 @@
   {
     "id": 48,
     "type": "nouns_pronouns_determiners",
-    "question": "Neither the coach nor the players _____ willing to accept the revised schedule.",
+    "question": "Choose the correct option: 'I have read _______ books you recommended.'",
     "options": [
-      "is",
-      "were",
-      "has been",
-      "was"
+      "all the",
+      "much",
+      "any of",
+      "a little"
     ],
-    "answer": "B"
+    "answer": "A"
   },
   {
     "id": 49,
@@ -645,122 +645,122 @@
   },
   {
     "id": 51,
-    "type": "prepositions_conjunctions",
-    "question": "The proposal was rejected, not because it was expensive, _____ because it lacked supporting evidence.",
+    "type": "sentence_completion",
+    "question": "Choose the correct option: The committee divided the funds ___ the three departments.",
     "options": [
-      "so",
-      "but",
-      "or",
-      "and"
+      "between",
+      "among",
+      "beside",
+      "within"
     ],
     "answer": "B"
   },
   {
     "id": 52,
-    "type": "prepositions_conjunctions",
-    "question": "The students complied _____ the instructions despite disagreeing with the decision.",
+    "type": "lexis",
+    "question": "The witness insisted ___ telling the whole truth despite the pressure.",
     "options": [
-      "with",
-      "by",
+      "at",
+      "on",
       "for",
-      "to"
-    ],
-    "answer": "A"
-  },
-  {
-    "id": 53,
-    "type": "prepositions_conjunctions",
-    "question": "No sooner had the rain stopped _____ the match resumed.",
-    "options": [
-      "when",
-      "than",
-      "while",
-      "then"
+      "with"
     ],
     "answer": "B"
   },
   {
-    "id": 54,
-    "type": "prepositions_conjunctions",
-    "question": "The manager is responsible _____ ensuring that all reports are submitted on time.",
+    "id": 53,
+    "type": "sentence_completion",
+    "question": "Neither the principal nor the teachers ___ willing to postpone the examination.",
     "options": [
-      "with",
-      "of",
-      "for",
-      "to"
+      "was",
+      "is",
+      "were",
+      "has been"
     ],
     "answer": "C"
+  },
+  {
+    "id": 54,
+    "type": "sentence_completion",
+    "question": "The proposal was rejected, ___ it had been carefully researched.",
+    "options": [
+      "although",
+      "because of",
+      "despite of",
+      "unless of"
+    ],
+    "answer": "A"
   },
   {
     "id": 55,
-    "type": "prepositions_conjunctions",
-    "question": "The candidate performed well _____ having had little time to prepare.",
+    "type": "lexis",
+    "question": "She is proficient ___ analysing complex literary texts.",
     "options": [
-      "whereas",
-      "because",
-      "unless",
-      "despite"
+      "at",
+      "in",
+      "on",
+      "with"
     ],
-    "answer": "D"
+    "answer": "B"
   },
   {
     "id": 56,
-    "type": "prepositions_conjunctions",
-    "question": "The lecturer spoke slowly _____ everyone could take accurate notes.",
-    "options": [
-      "whereas",
-      "in spite of",
-      "so that",
-      "unless"
-    ],
-    "answer": "C"
-  },
-  {
-    "id": 57,
-    "type": "prepositions_conjunctions",
-    "question": "The team succeeded _____ the obstacles it encountered during the project.",
+    "type": "lexis",
+    "question": "The candidate succeeded ___ persistent practice and careful review.",
     "options": [
       "because",
-      "in spite of",
-      "unless",
+      "owing to",
+      "despite of",
       "whereas"
     ],
     "answer": "B"
   },
   {
-    "id": 58,
-    "type": "prepositions_conjunctions",
-    "question": "The application will be considered _____ all required documents are submitted.",
+    "id": 57,
+    "type": "sentence_completion",
+    "question": "Choose the sentence with correct preposition use.",
     "options": [
-      "although",
-      "whereas",
-      "provided that",
-      "despite"
+      "He congratulated me for my success.",
+      "He congratulated me on my success.",
+      "He congratulated me at my success.",
+      "He congratulated me with my success."
     ],
-    "answer": "C"
+    "answer": "B"
+  },
+  {
+    "id": 58,
+    "type": "sentence_completion",
+    "question": "The report was concise ___ it addressed every major concern.",
+    "options": [
+      "yet",
+      "unless",
+      "because of",
+      "whereas of"
+    ],
+    "answer": "A"
   },
   {
     "id": 59,
-    "type": "prepositions_conjunctions",
-    "question": "She is not only an excellent researcher _____ also a careful editor.",
+    "type": "sentence_completion",
+    "question": "No sooner had the meeting begun ___ the power supply failed.",
     "options": [
-      "and",
-      "or",
-      "but",
-      "so"
+      "when",
+      "than",
+      "then",
+      "while"
     ],
-    "answer": "C"
+    "answer": "B"
   },
   {
     "id": 60,
-    "type": "prepositions_conjunctions",
-    "question": "The report must be submitted today, _____ the director has granted an extension.",
+    "type": "lexis",
+    "question": "The manager is responsible ___ ensuring that the accounts are accurate.",
     "options": [
-      "because",
-      "whereas",
-      "since",
-      "unless"
+      "to",
+      "for",
+      "with",
+      "at"
     ],
-    "answer": "D"
+    "answer": "B"
   }
 ]

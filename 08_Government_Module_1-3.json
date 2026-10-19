@@ -1,602 +1,602 @@
 [
   {
-    "question": "A president refuses to implement a law validly passed by the legislature. Which principle is most directly threatened?",
+    "question": "The authority of a state to make and enforce laws within its territory without being legally subject to another state is most closely related to",
     "options": [
-      "rule of law and constitutional responsibility",
-      "federal character alone",
-      "judicial independence alone",
-      "collective ownership of the press"
+      "sovereignty",
+      "legitimacy",
+      "franchise",
+      "federalism"
     ],
     "answer": "A"
   },
   {
-    "question": "A minister is removed after failing to carry out an approved policy. This best illustrates",
+    "question": "A government may be legitimate even when citizens disagree with particular policies because legitimacy primarily concerns",
     "options": [
-      "the separation of the civil service from government",
-      "judicial review by citizens",
-      "legislative immunity for ministers",
-      "political responsibility of the executive"
+      "acceptance of the right to rule under recognized procedures",
+      "agreement with every government decision",
+      "military strength alone",
+      "the size of the population"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which situation best illustrates separation of powers?",
+    "options": [
+      "One institution makes, executes and interprets every law",
+      "Legislative, executive and judicial powers are distributed among different organs",
+      "Traditional rulers appoint all judges",
+      "The military controls elections"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The primary purpose of checks and balances is to",
+    "options": [
+      "allow one arm to dominate the others",
+      "prevent abuse of power by enabling institutions to restrain one another",
+      "abolish the constitution",
+      "replace elections with appointments"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "In a federation, powers are constitutionally divided between",
+    "options": [
+      "the legislature and judiciary only",
+      "central and component governments",
+      "political parties and pressure groups",
+      "traditional rulers and citizens"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A constitution that is difficult to amend through a special procedure is described as",
+    "options": [
+      "flexible",
+      "rigid",
+      "unitary",
+      "unwritten"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Rule of law is weakened most directly when",
+    "options": [
+      "government officials are also subject to law",
+      "laws are applied selectively to favour powerful persons",
+      "courts interpret legislation",
+      "citizens know their legal rights"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A parliamentary system differs from a presidential system chiefly because in a parliamentary system",
+    "options": [
+      "the executive is normally drawn from and accountable to the legislature",
+      "the judiciary controls cabinet appointments",
+      "there is no legislature",
+      "the head of government must be a monarch"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Universal adult suffrage means",
+    "options": [
+      "only educated adults may vote",
+      "all adult citizens meeting legal requirements have the right to vote",
+      "every resident regardless of citizenship must vote",
+      "only taxpayers may vote"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Judicial review is the power of courts to",
+    "options": [
+      "conduct elections",
+      "examine the legality or constitutionality of governmental actions",
+      "appoint ministers",
+      "write party manifestoes"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A state differs from a government because a state",
+    "options": [
+      "is temporary while government is permanent",
+      "is the enduring political entity, while governments may change",
+      "has no territory",
+      "cannot possess sovereignty"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which is NOT an essential element of a state?",
+    "options": [
+      "Population",
+      "Defined territory",
+      "Sovereign government",
+      "A single political party"
     ],
     "answer": "D"
   },
   {
-    "question": "The legislature questions a minister about expenditure in the ministry. This is an example of",
+    "question": "When citizens remove an elected government through constitutionally provided elections, this demonstrates",
     "options": [
-      "legislative oversight of the executive",
-      "local government autonomy",
-      "executive appointment of judges",
-      "judicial legislation"
+      "political accountability",
+      "military dictatorship",
+      "judicial supremacy",
+      "absolute monarchy"
     ],
     "answer": "A"
   },
   {
-    "question": "A head of state performs ceremonial duties while a prime minister directs government policy. This arrangement is most consistent with",
+    "question": "A constitution is described as the supreme law because",
     "options": [
-      "a directorial system without an executive",
-      "an absolute monarchy in which no cabinet exists",
-      "a parliamentary system with a ceremonial head of state",
-      "a military government"
+      "ordinary laws and governmental actions must conform to it",
+      "only judges may read it",
+      "it cannot ever be amended",
+      "it applies only to citizens"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A government that derives authority through periodic competitive elections is most directly demonstrating",
+    "options": [
+      "democratic government",
+      "absolute monarchy",
+      "military rule",
+      "theocracy"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Power differs from authority because authority is power that is",
+    "options": [
+      "always exercised by the military",
+      "recognized as legitimate",
+      "based entirely on wealth",
+      "exercised without rules"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A person's ability to influence government decisions because of wealth, social position or connections is an example of",
+    "options": [
+      "political influence",
+      "sovereignty",
+      "franchise",
+      "citizenship"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Political socialization refers to the process through which individuals",
+    "options": [
+      "acquire political values and attitudes",
+      "become members of the civil service",
+      "register businesses",
+      "obtain citizenship automatically"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which of the following is an example of political participation?",
+    "options": [
+      "Voting in an election",
+      "Buying imported goods",
+      "Changing one's occupation",
+      "Moving to another town"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Political culture is best described as the",
+    "options": [
+      "pattern of political attitudes and beliefs held by members of a society",
+      "written constitution of a country",
+      "number of political parties in a country",
+      "method used to count votes"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A nation is best distinguished from a state by the fact that a nation is primarily based on",
+    "options": [
+      "a shared sense of identity and belonging",
+      "a defined territory and sovereign government only",
+      "a written constitution",
+      "a judicial system"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A government has coercive power when it",
+    "options": [
+      "uses legally authorized force to secure compliance",
+      "depends only on public opinion",
+      "allows every citizen to ignore laws",
+      "transfers all authority to traditional rulers"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which situation best demonstrates political apathy?",
+    "options": [
+      "A citizen campaigns for a candidate",
+      "A citizen refuses to participate in political activities despite having the opportunity",
+      "A citizen attends a political rally",
+      "A citizen votes during an election"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A government gains legitimacy mainly when its authority is",
+    "options": [
+      "accepted as rightful by the people",
+      "supported by force alone",
+      "based on the size of its army",
+      "exercised secretly"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Citizenship acquired because a person is born to citizens of a country is generally known as citizenship by",
+    "options": [
+      "registration",
+      "birth",
+      "naturalization",
+      "renunciation"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Naturalization is a method of acquiring citizenship by",
+    "options": [
+      "being born in any country automatically",
+      "meeting legal conditions after residing in a country",
+      "winning an election",
+      "joining a political party"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Which of the following is a fundamental human right?",
+    "options": [
+      "Right to break any law",
+      "Right to personal liberty",
+      "Right to avoid taxation",
+      "Right to control public property"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The right to freedom of expression means that citizens may",
+    "options": [
+      "express opinions subject to lawful limitations",
+      "publish anything without any legal responsibility",
+      "insult anyone without consequences",
+      "ignore court orders"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which of the following is a duty of a responsible citizen?",
+    "options": [
+      "Destroying public property",
+      "Obeying lawful authority",
+      "Refusing to pay legitimate taxes",
+      "Preventing others from voting"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Citizenship may be renounced when a citizen",
+    "options": [
+      "voluntarily gives up citizenship according to the law",
+      "votes against the government",
+      "criticizes a public official",
+      "changes occupation"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A citizen's right to vote and contest elections is most closely associated with",
+    "options": [
+      "political rights",
+      "economic rights",
+      "property rights",
+      "social privileges"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The right to a fair hearing is important because it helps to",
+    "options": [
+      "protect individuals against arbitrary decisions",
+      "prevent courts from hearing cases",
+      "give government unlimited power",
+      "remove the need for evidence"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "When a citizen enjoys rights but deliberately refuses to perform civic duties, the most appropriate description is",
+    "options": [
+      "responsible citizenship",
+      "irresponsible citizenship",
+      "political socialization",
+      "constitutionalism"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The rule of law requires that",
+    "options": [
+      "government officials are above the law",
+      "all persons are subject to the law",
+      "only judges must obey the law",
+      "laws apply only during elections"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "Equality before the law means that",
+    "options": [
+      "every person receives identical punishment regardless of circumstances",
+      "people are subject to the same legal principles without unlawful discrimination",
+      "only wealthy citizens can seek justice",
+      "public officials cannot be prosecuted"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A written constitution is one that is",
+    "options": [
+      "contained mainly in a formal written document or documents",
+      "never amended",
+      "always flexible",
+      "based entirely on customs"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "One important function of a constitution is to",
+    "options": [
+      "define and limit governmental powers",
+      "abolish all political parties",
+      "prevent citizens from voting",
+      "remove the judiciary"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Constitutionalism is primarily concerned with",
+    "options": [
+      "unlimited governmental authority",
+      "government being exercised according to constitutional limits",
+      "rule by military decree",
+      "abolition of fundamental rights"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "The principle of separation of powers is intended mainly to",
+    "options": [
+      "concentrate authority in one person",
+      "prevent excessive concentration of governmental power",
+      "abolish the legislature",
+      "make the judiciary subordinate to political parties"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "If a law passed by the legislature conflicts with the constitution, a court exercising judicial review may",
+    "options": [
+      "declare the law unconstitutional",
+      "automatically rewrite the constitution",
+      "dissolve the electorate",
+      "appoint a new legislature"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A flexible constitution is one that",
+    "options": [
+      "can be amended through procedures similar to those used for ordinary laws",
+      "cannot be changed under any circumstances",
+      "must always be unwritten",
+      "gives unlimited power to the judiciary"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which principle prevents a public officer from exercising powers that have not been legally granted?",
+    "options": [
+      "Rule of law",
+      "Majority rule",
+      "Political apathy",
+      "Collective ownership"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Democracy is best defined as government in which",
+    "options": [
+      "political power is ultimately derived from the people",
+      "the military controls all political institutions",
+      "one person rules without restrictions",
+      "judges make all political decisions"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Representative democracy operates mainly through",
+    "options": [
+      "elected representatives",
+      "hereditary rulers only",
+      "military commanders",
+      "appointed traditional chiefs"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The principle of majority rule in a democracy must normally be accompanied by",
+    "options": [
+      "protection of minority rights",
+      "abolition of opposition parties",
+      "suspension of elections",
+      "unlimited executive power"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "A free and fair election requires",
+    "options": [
+      "equal opportunity for voters to make genuine choices",
+      "government selection of all candidates",
+      "restriction of voting to supporters of the ruling party",
+      "absence of independent electoral institutions"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "Which is most likely to weaken democratic government?",
+    "options": [
+      "An independent judiciary",
+      "Free and fair elections",
+      "Suppression of political opposition",
+      "Freedom of the press"
     ],
     "answer": "C"
   },
   {
-    "question": "A president appoints a minister, subject to legislative confirmation. The confirmation requirement is designed chiefly to",
+    "question": "Accountability in democratic government means that public officials should",
     "options": [
-      "abolish ministerial responsibility",
-      "transfer judicial power to the cabinet",
-      "make the legislature implement policy",
-      "check executive appointment power"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "A civil servant remains in office after a change of elected government and serves the new administration impartially. This demonstrates",
-    "options": [
-      "the civil service’s power to veto elections",
-      "partisan control of every public post",
-      "political neutrality and permanence of the civil service",
-      "judicial supremacy over ministries"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "The executive issues an order that contradicts the constitution. A court invalidates it. This illustrates",
-    "options": [
-      "executive supremacy over the constitution",
-      "judicial review as a check on executive power",
-      "legislative control of court judgments",
-      "the absence of separation of powers"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "In a presidential system, the president is elected independently of the legislature. One likely consequence is",
-    "options": [
-      "a separate electoral mandate for the executive",
-      "the abolition of impeachment",
-      "automatic fusion of cabinet and parliament",
-      "the prime minister’s compulsory resignation"
+      "explain and justify their actions and be answerable for them",
+      "exercise power without scrutiny",
+      "avoid public criticism",
+      "remain in office permanently"
     ],
     "answer": "A"
   },
   {
-    "question": "A governor uses emergency powers indefinitely without legislative or judicial scrutiny. The main danger is",
+    "question": "Which condition most strengthens democratic consolidation?",
     "options": [
-      "stronger checks and balances",
-      "automatic decentralisation",
-      "greater accountability by definition",
-      "executive arbitrariness and concentration of power"
+      "Respect for constitutional procedures",
+      "Political violence",
+      "Suppression of opposition",
+      "Electoral fraud"
     ],
-    "answer": "D"
+    "answer": "A"
   },
   {
-    "question": "The cabinet collectively resigns after losing a confidence vote. This is characteristic of",
+    "question": "An independent press contributes to democracy mainly by",
     "options": [
-      "a confederation without a government",
-      "a one-party military command",
-      "a strict presidential system",
-      "a parliamentary system"
+      "providing information and scrutinizing those in power",
+      "replacing the judiciary",
+      "appointing elected officials",
+      "making laws directly"
     ],
-    "answer": "D"
+    "answer": "A"
   },
   {
-    "question": "Which function is normally performed by the executive rather than the legislature or judiciary?",
+    "question": "A president refuses to implement a court judgment because the legislature supports the refusal. Which principle is most directly threatened?",
     "options": [
-      "interpreting the constitution in a court case",
-      "formulating and implementing public policy",
-      "determining guilt in criminal trials",
-      "enacting statutes as the primary law-making body"
+      "Judicial independence and rule of law",
+      "Universal adult suffrage",
+      "Federal character only",
+      "Collective responsibility of cabinet"
+    ],
+    "answer": "A"
+  },
+  {
+    "question": "The legislature investigates executive spending and demands records from ministries. This is primarily a mechanism of",
+    "options": [
+      "judicial review",
+      "legislative oversight",
+      "civil disobedience",
+      "party nomination"
     ],
     "answer": "B"
   },
   {
-    "question": "An executive agency makes regulations under authority delegated by an enabling Act. These regulations are",
+    "question": "In a presidential system, a minister is removed by the president without a parliamentary vote. This most clearly reflects",
     "options": [
-      "judicial precedents",
-      "subsidiary legislation",
-      "constitutional amendments automatically",
-      "private contracts"
+      "fusion of executive and legislature",
+      "separation of powers",
+      "collective responsibility to parliament",
+      "hereditary succession"
     ],
     "answer": "B"
   },
   {
-    "question": "The president is impeached for serious constitutional misconduct through a prescribed process. This mechanism chiefly aims to",
+    "question": "A head of state appoints a cabinet, but appointments require legislative confirmation. This arrangement chiefly promotes",
     "options": [
-      "replace elections with appointments",
-      "make the executive immune from prosecution",
-      "allow courts to enact budgets",
-      "hold the executive accountable under the constitution"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "A minister gives policy direction while career officials provide technical advice and administer programmes. This reflects the distinction between",
-    "options": [
-      "local and traditional authorities",
-      "judiciary and electorate",
-      "public and private ownership",
-      "political executive and permanent civil service"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "A president vetoes a bill, and the legislature can override the veto by the required majority. This is an example of",
-    "options": [
+      "unlimited executive discretion",
       "checks and balances",
-      "judicial independence from all law",
-      "absolute executive supremacy",
-      "the abolition of legislative power"
+      "one-party rule",
+      "judicial supremacy over elections"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "An executive order conflicts with a valid statute passed by the legislature. In a constitutional system, the order should generally be",
+    "options": [
+      "automatically superior",
+      "subordinate to the statute",
+      "enforced only by the military",
+      "treated as a constitutional amendment"
+    ],
+    "answer": "B"
+  },
+  {
+    "question": "A minister resigns after a department fails, although the minister did not personally commit the error. This is most consistent with",
+    "options": [
+      "individual ministerial responsibility",
+      "judicial immunity",
+      "federal supremacy",
+      "direct democracy"
     ],
     "answer": "A"
   },
   {
-    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 1)",
+    "question": "The executive controls appointments, budgets and security agencies without effective scrutiny. The most likely institutional risk is",
     "options": [
-      "courts to appoint ministers",
-      "the executive to dissolve the constitution",
-      "financial scrutiny of executive priorities",
-      "civil servants to elect the president"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 2)",
-    "options": [
-      "judicial law-making",
-      "transparency and accountability",
-      "federal secession",
-      "secrecy and arbitrariness"
+      "stronger accountability",
+      "concentration of power",
+      "automatic judicial independence",
+      "expanded local autonomy"
     ],
     "answer": "B"
   },
   {
-    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 3)",
+    "question": "A legislature removes a president through a constitutionally defined process for serious misconduct. This is an example of",
     "options": [
-      "the separation of powers in favour of courts only",
-      "impartial public administration and legality",
-      "the principle of delegated legislation",
-      "universal adult suffrage"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 4)",
-    "options": [
-      "civil servants to elect the president",
-      "courts to appoint ministers",
-      "financial scrutiny of executive priorities",
-      "the executive to dissolve the constitution"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 5)",
-    "options": [
-      "transparency and accountability",
-      "judicial law-making",
-      "secrecy and arbitrariness",
-      "federal secession"
+      "impeachment",
+      "a vote of confidence in a parliamentary cabinet",
+      "judicial precedent",
+      "a referendum"
     ],
     "answer": "A"
   },
   {
-    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 6)",
+    "question": "A ceremonial president signs bills but policy is directed by a prime minister accountable to parliament. This is typical of",
     "options": [
-      "the separation of powers in favour of courts only",
-      "the principle of delegated legislation",
-      "impartial public administration and legality",
-      "universal adult suffrage"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 7)",
-    "options": [
-      "courts to appoint ministers",
-      "the executive to dissolve the constitution",
-      "civil servants to elect the president",
-      "financial scrutiny of executive priorities"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 8)",
-    "options": [
-      "secrecy and arbitrariness",
-      "judicial law-making",
-      "federal secession",
-      "transparency and accountability"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 9)",
-    "options": [
-      "the separation of powers in favour of courts only",
-      "the principle of delegated legislation",
-      "impartial public administration and legality",
-      "universal adult suffrage"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 10)",
-    "options": [
-      "the executive to dissolve the constitution",
-      "civil servants to elect the president",
-      "financial scrutiny of executive priorities",
-      "courts to appoint ministers"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 11)",
-    "options": [
-      "federal secession",
-      "transparency and accountability",
-      "secrecy and arbitrariness",
-      "judicial law-making"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 12)",
-    "options": [
-      "universal adult suffrage",
-      "the separation of powers in favour of courts only",
-      "impartial public administration and legality",
-      "the principle of delegated legislation"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 13)",
-    "options": [
-      "the executive to dissolve the constitution",
-      "financial scrutiny of executive priorities",
-      "courts to appoint ministers",
-      "civil servants to elect the president"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 14)",
-    "options": [
-      "federal secession",
-      "secrecy and arbitrariness",
-      "transparency and accountability",
-      "judicial law-making"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 15)",
-    "options": [
-      "impartial public administration and legality",
-      "the principle of delegated legislation",
-      "universal adult suffrage",
-      "the separation of powers in favour of courts only"
+      "a parliamentary system with a ceremonial head of state",
+      "an absolute monarchy only",
+      "a pure presidential system",
+      "military government"
     ],
     "answer": "A"
   },
   {
-    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 16)",
+    "question": "A court invalidates an executive action for exceeding constitutional authority. The court is exercising",
     "options": [
-      "civil servants to elect the president",
-      "the executive to dissolve the constitution",
-      "financial scrutiny of executive priorities",
-      "courts to appoint ministers"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 17)",
-    "options": [
-      "secrecy and arbitrariness",
-      "federal secession",
-      "transparency and accountability",
-      "judicial law-making"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 18)",
-    "options": [
-      "the principle of delegated legislation",
-      "impartial public administration and legality",
-      "the separation of powers in favour of courts only",
-      "universal adult suffrage"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 19)",
-    "options": [
-      "the executive to dissolve the constitution",
-      "civil servants to elect the president",
-      "courts to appoint ministers",
-      "financial scrutiny of executive priorities"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 20)",
-    "options": [
-      "judicial law-making",
-      "federal secession",
-      "secrecy and arbitrariness",
-      "transparency and accountability"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 21)",
-    "options": [
-      "the principle of delegated legislation",
-      "universal adult suffrage",
-      "impartial public administration and legality",
-      "the separation of powers in favour of courts only"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 22)",
-    "options": [
-      "financial scrutiny of executive priorities",
-      "civil servants to elect the president",
-      "the executive to dissolve the constitution",
-      "courts to appoint ministers"
+      "judicial review",
+      "delegated legislation",
+      "executive privilege",
+      "party discipline"
     ],
     "answer": "A"
-  },
-  {
-    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 23)",
-    "options": [
-      "judicial law-making",
-      "federal secession",
-      "transparency and accountability",
-      "secrecy and arbitrariness"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 24)",
-    "options": [
-      "the principle of delegated legislation",
-      "universal adult suffrage",
-      "impartial public administration and legality",
-      "the separation of powers in favour of courts only"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 25)",
-    "options": [
-      "civil servants to elect the president",
-      "financial scrutiny of executive priorities",
-      "courts to appoint ministers",
-      "the executive to dissolve the constitution"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 26)",
-    "options": [
-      "secrecy and arbitrariness",
-      "federal secession",
-      "transparency and accountability",
-      "judicial law-making"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 27)",
-    "options": [
-      "impartial public administration and legality",
-      "the principle of delegated legislation",
-      "universal adult suffrage",
-      "the separation of powers in favour of courts only"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 28)",
-    "options": [
-      "civil servants to elect the president",
-      "courts to appoint ministers",
-      "financial scrutiny of executive priorities",
-      "the executive to dissolve the constitution"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 29)",
-    "options": [
-      "judicial law-making",
-      "federal secession",
-      "transparency and accountability",
-      "secrecy and arbitrariness"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 30)",
-    "options": [
-      "the separation of powers in favour of courts only",
-      "impartial public administration and legality",
-      "universal adult suffrage",
-      "the principle of delegated legislation"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 31)",
-    "options": [
-      "civil servants to elect the president",
-      "courts to appoint ministers",
-      "financial scrutiny of executive priorities",
-      "the executive to dissolve the constitution"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 32)",
-    "options": [
-      "secrecy and arbitrariness",
-      "federal secession",
-      "transparency and accountability",
-      "judicial law-making"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 33)",
-    "options": [
-      "universal adult suffrage",
-      "the principle of delegated legislation",
-      "impartial public administration and legality",
-      "the separation of powers in favour of courts only"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 34)",
-    "options": [
-      "civil servants to elect the president",
-      "courts to appoint ministers",
-      "the executive to dissolve the constitution",
-      "financial scrutiny of executive priorities"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 35)",
-    "options": [
-      "secrecy and arbitrariness",
-      "transparency and accountability",
-      "federal secession",
-      "judicial law-making"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 36)",
-    "options": [
-      "universal adult suffrage",
-      "the principle of delegated legislation",
-      "the separation of powers in favour of courts only",
-      "impartial public administration and legality"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 37)",
-    "options": [
-      "financial scrutiny of executive priorities",
-      "courts to appoint ministers",
-      "the executive to dissolve the constitution",
-      "civil servants to elect the president"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 38)",
-    "options": [
-      "federal secession",
-      "secrecy and arbitrariness",
-      "judicial law-making",
-      "transparency and accountability"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 39)",
-    "options": [
-      "the separation of powers in favour of courts only",
-      "impartial public administration and legality",
-      "universal adult suffrage",
-      "the principle of delegated legislation"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 40)",
-    "options": [
-      "civil servants to elect the president",
-      "courts to appoint ministers",
-      "the executive to dissolve the constitution",
-      "financial scrutiny of executive priorities"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 41)",
-    "options": [
-      "judicial law-making",
-      "federal secession",
-      "secrecy and arbitrariness",
-      "transparency and accountability"
-    ],
-    "answer": "D"
-  },
-  {
-    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 42)",
-    "options": [
-      "universal adult suffrage",
-      "impartial public administration and legality",
-      "the principle of delegated legislation",
-      "the separation of powers in favour of courts only"
-    ],
-    "answer": "B"
-  },
-  {
-    "question": "When the executive submits a budget for legislative approval, the arrangement primarily enables (scenario 43)",
-    "options": [
-      "the executive to dissolve the constitution",
-      "courts to appoint ministers",
-      "financial scrutiny of executive priorities",
-      "civil servants to elect the president"
-    ],
-    "answer": "C"
-  },
-  {
-    "question": "A minister is required to answer parliamentary questions about a failed programme. This improves (scenario 44)",
-    "options": [
-      "transparency and accountability",
-      "secrecy and arbitrariness",
-      "judicial law-making",
-      "federal secession"
-    ],
-    "answer": "A"
-  },
-  {
-    "question": "An executive appoints officials solely for party loyalty despite statutory merit rules. This undermines (scenario 45)",
-    "options": [
-      "the principle of delegated legislation",
-      "impartial public administration and legality",
-      "universal adult suffrage",
-      "the separation of powers in favour of courts only"
-    ],
-    "answer": "B"
   }
 ]
